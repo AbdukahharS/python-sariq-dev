@@ -1,4 +1,4 @@
-# 💻 DASTURLASH ASOSLARI
+# 💻 DASTURLASH ASOSLARII
 
 {% embed url="<https://youtu.be/ZqFjXM8k-PY>" %}
 
