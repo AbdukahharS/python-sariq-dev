@@ -2,7 +2,7 @@
 
 {% embed url="<https://youtu.be/ZqFjXM8k-PY>" %}
 
-## MAQSADIMIZA
+## MAQSADIMIZ
 
 Darsimizning asl maqsadi tinglovchilarga dasturlash asoslarini va eng muhimi turli muammolarga yechim bo'luvchi dasturlar yozishni o'rgatish.&#x20;
 
