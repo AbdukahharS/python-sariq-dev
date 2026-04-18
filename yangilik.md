@@ -1,4 +1,4 @@
-# YANGILIK!
+# YANGILIK!!
 
 Saytimiz ilk bor e'lon qilinganidan so'ng ko'p o'zgartirishlar kiritildi. Shunday o'zgatirishlardan biri bu - dasrsiligmizning barcha bo'limlar maxsus Jupyter notebook standartida qayta yozildi.
 
