@@ -11,7 +11,8 @@
       "type": "page",
       "file": "howto.md",
       "title": "👀 DARSLARNI QANDAY O'ZLASHTIRAMIZ",
-      "slug": "howto"
+      "slug": "howto",
+      "description": "Darslarga qanday yondoshamiz?"
     },
     {
       "type": "page",
