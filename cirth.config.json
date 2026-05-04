@@ -43,7 +43,8 @@
           "type": "page",
           "file": "ilk-qadamlar/03-print.md",
           "title": "#03 PRINT(), SINTEKS VA ARIFMETIK AMALLAR",
-          "slug": "03-print"
+          "slug": "03-print",
+          "description": "print() funktsiyasi, Python sintaksi va arifmetik amallar"
         }
       ]
     },
