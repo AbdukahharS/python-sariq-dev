@@ -1,10 +1,10 @@
 # #37 KLASSNI TEKSHIRISH
 
-{% embed url="<https://www.youtube.com/watch?v=vsxJPRLXpgI>" %}
+<Embed url="https://www.youtube.com/watch?v=vsxJPRLXpgI" />
 
 ## KIRISH
 
-Avvalgi darsimizda funksiyalarni tekshiruvchi testlar yozishni o'rgandik. Ushbu mavzuda esa klasslarni test qilishni o'rganamiz. Klass to'g'ri bo'lsa, undan yaratilgan obyektlar ham to'g'ri ishlaydi.&#x20;
+Avvalgi darsimizda funksiyalarni tekshiruvchi testlar yozishni o'rgandik. Ushbu mavzuda esa klasslarni test qilishni o'rganamiz. Klass to'g'ri bo'lsa, undan yaratilgan obyektlar ham to'g'ri ishlaydi.
 
 Keling boshlanishiga biror klass yaratamiz:
 
@@ -41,12 +41,12 @@ class Car:
 
 Yuqoridagi klassimiz avtomobil haqida ma'lumotlarni saqlaydi. Klassimizning e'tibor qaratishimiz kerak bo'lgan jihatlari:
 
-* `km` va `price` (narh) argumentlariga standart qiymat berilgan
-* km parametri inkapsulasiyalangan (`self.__km`)
-* Avtomobil narhini `set_price()` metodi yordamida yangilash mumkin
-* `add_km()` metodi faqat musbat qiymat qabul qiladi. Agar manfiy qiymat uzatilsa `raise` operatori yordamida `ValueError` xatosini qaytaradi
-* `get_info()` metodidan qaytadigan qiymat avtomobil narhi bor yoki yo'qligiga qarab turli ko'rinishda bo'lishi mumkin
-* Avtomobil kilometrajini ko'rish uchun `get_km()` metodiga murojat qilamiz.
+- `km` va `price` (narh) argumentlariga standart qiymat berilgan
+- km parametri inkapsulasiyalangan (`self.__km`)
+- Avtomobil narhini `set_price()` metodi yordamida yangilash mumkin
+- `add_km()` metodi faqat musbat qiymat qabul qiladi. Agar manfiy qiymat uzatilsa `raise` operatori yordamida `ValueError` xatosini qaytaradi
+- `get_info()` metodidan qaytadigan qiymat avtomobil narhi bor yoki yo'qligiga qarab turli ko'rinishda bo'lishi mumkin
+- Avtomobil kilometrajini ko'rish uchun `get_km()` metodiga murojat qilamiz.
 
 ## XUSUSIYATLARNI TEKSHIRISH
 
@@ -85,7 +85,7 @@ Ran 1 test in 0.001s
 OK
 ```
 
-Testimizni tahlil qilamiz. Dastaval biz obyektimiz to'g'ri yaratilayotganini tekshrish uchun `avto1` obyektini 3 ta prametr bilan yaratib oldik (`make, model, year`) va  bu xususiyatlar bo'sh emasligini  `assertIsNotNone()` metodi bilan tekshirdik.&#x20;
+Testimizni tahlil qilamiz. Dastaval biz obyektimiz to'g'ri yaratilayotganini tekshrish uchun `avto1` obyektini 3 ta prametr bilan yaratib oldik (`make, model, year`) va  bu xususiyatlar bo'sh emasligini  `assertIsNotNone()` metodi bilan tekshirdik.
 
 `avto1` obyektini yaratishda uning narhini ko'rsatmadik, demak bu xususiyat standart qiymat (`None`) ga teng bo'lishi kerak. Buni tekshirish uchun esa `assertIsNone()` metodiga murojat qildik. Vanihoyat, avtomobil kilometraji `0` ga teng ekanligini `assertEquals()` metodi yordamida test qildik.
 
@@ -93,9 +93,9 @@ Test so'ngida biz yana bir obyekt yaratdik (`avto2`) va bu safar avtomobil narhi
 
 Testlarni yozishni davom etamiz. Navbat obyektga tegishli turli metodlarga.
 
-{% hint style="danger" %}
+:::danger
 **Test dasturlarni alohida faylga yozishni unutmang.**
-{% endhint %}
+:::
 
 ## `setUp()` METODI
 
@@ -242,10 +242,9 @@ OK
 
 ## AMALIYOT
 
-* [30-darsimizda](https://python.sariq.dev/oop/30-vorislik-polimorfizm) `Shaxs` va `Talaba` klasslarini yaratgan edik. Shu ikki klassning xususiyatlari va metodlarini tekshiruvchi test dasturlar yozing.&#x20;
-* Ikki klass uchun yagona test yoza olasizmi? (`isInstance()` funksiyasini eslang)
+- [30-darsimizda](https://python.sariq.dev/oop/30-vorislik-polimorfizm) `Shaxs` va `Talaba` klasslarini yaratgan edik. Shu ikki klassning xususiyatlari va metodlarini tekshiruvchi test dasturlar yozing.
+- Ikki klass uchun yagona test yoza olasizmi? (`isInstance()` funksiyasini eslang)
 
 ## KODLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

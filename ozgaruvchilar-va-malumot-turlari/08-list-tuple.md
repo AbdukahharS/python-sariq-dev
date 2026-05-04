@@ -1,6 +1,6 @@
 # #08 RO'YXATLAR BILAN ISHLASH
 
-{% embed url="<https://www.youtube.com/watch?v=019Dzhf0rB0>" %}
+<Embed url="https://www.youtube.com/watch?v=019Dzhf0rB0" />
 
 ## RO'YXATNI TARTIBLASH
 
@@ -16,9 +16,9 @@ Natija: `['audi', 'bmw', 'general motors', 'mercedes benz', 'tesla', 'volvo']`
 
 Kurib turibsiz, yuqoridagi ro'yxatimiz alifbo bo'yicha tartiblandi.
 
-{% hint style="danger" %}
+:::danger
 **Diqqat!** Tartiblashda katta harflar kichik harflardan avval kelishini hisobga oling. Agar matndagi so'zlarning bosh harfi katta-kichik aralash yozilgan bo'lsa, ularni bir ko'rinishga keltirib olish maqsadga muvofiq bo'ladi.
-{% endhint %}
+:::
 
 ```python
 cars = ['Bmw','mercedes benz', 'volvo', 'gm', 'tesla', 'audi']
@@ -30,7 +30,7 @@ Natija: `['Bmw', 'audi', 'gm', 'mercedes benz', 'tesla', 'volvo']`
 
 Yuqoridagi misolda 'Bmw' elementi katta harf bilan boshlangani uchun ro'yxatning boshidan joy oldi.
 
-Ro'yxatni teskari tartibda saqlash uchun `.sort()` metodi ichida `reverse=True` argumentini ham kiritamiz.&#x20;
+Ro'yxatni teskari tartibda saqlash uchun `.sort()` metodi ichida `reverse=True` argumentini ham kiritamiz.
 
 ```python
 cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
@@ -115,9 +115,9 @@ Natija: `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
 
 Yuqoridagi misolda `range(0,10)` funktsiyasi `0` dan `9` gacha sonlar ketma-ketligini shakllantirdi, `list(range(0,9))` esa bu ketma-ketlikni ro'yxatga aylantirdi.
 
-{% hint style="danger" %}
+:::danger
 **Diqqat!** E'tibor qiling **`range()`** funktsiyasi ikkinchi indeksdan bitta avval to'xtaydi.
-{% endhint %}
+:::
 
 **`range()`** yordamida qadamni ham berishimiz mumkin:
 
@@ -130,13 +130,13 @@ print("Toq sonlar: ", toq_sonlar)
 
 Natija:
 
-`Juft sonlar: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]`&#x20;
+`Juft sonlar: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]`
 
 `Toq sonlar: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]`
 
-{% hint style="info" %}
+:::info
 Agar sonlar ketma-ketligi 0 dan boshlansa, `range()` funktsiyasida yakuniy indeksni ko'rsatish kifoya. Misol uchun `range(0,10)` emas `range(10)` deb yozsak ham bo'laveradi.
-{% endhint %}
+:::
 
 ## SONLI RO'YXAT USTIDA SODDA AMALLAR
 
@@ -164,9 +164,9 @@ print(my_cars)
 
 Natija: `['bmw', 'mercedes benz', 'volvo']`
 
-{% hint style="danger" %}
+:::danger
 **Diqqat!** Python 2-indeksdan bitta avval to'xtaydi. Yuqoridagi misolda ham 0,1,2-elementlar ajratib olindi.
-{% endhint %}
+:::
 
 Bu usul bilan ro'yxatning istalgan joyidan bo'lishimiz mumkin:
 
@@ -185,7 +185,7 @@ print(cars[2:]) # 2-elementdan boshlab ro'yxat oxirigacha kesib oladi
 
 Natija:
 
-`['bmw', 'mercedes benz', 'volvo', 'general motors']`&#x20;
+`['bmw', 'mercedes benz', 'volvo', 'general motors']`
 
 `['volvo', 'general motors', 'tesla', 'audi']`
 
@@ -204,15 +204,15 @@ print("Bu sonlar2 ro'yxati:", sonlar2)
 
 Natija:
 
-`Bu sonlar ro'yxati: [1, 2, 3, 4, 5, 6, 7]`&#x20;
+`Bu sonlar ro'yxati: [1, 2, 3, 4, 5, 6, 7]`
 
 `Bu sonlar2 ro'yxati: [1, 2, 3, 4, 5, 6, 7]`
 
-Natija biz kutgandek chiqdimi? Yo'q. Biz 6 va 7 sonlarini `sonlar2` degan ro'yxatga qo'shgan edik, lekin bu ikki son `sonlar` degan asl ro'yxatga ham qo'shilib qoldi.&#x20;
+Natija biz kutgandek chiqdimi? Yo'q. Biz 6 va 7 sonlarini `sonlar2` degan ro'yxatga qo'shgan edik, lekin bu ikki son `sonlar` degan asl ro'yxatga ham qo'shilib qoldi.
 
 Demak yuqorida biz `sonlar2=sonlar` deb yozgan komandamiz yangi ro'yxat yaratish o'rniga, ikkala o'zgaruvchini ham bitta ro'yxatga bog'lab (yo'naltirib) qo'ydi. Biz `sonlar` yoki `sonlar2` ustida bajargan amallarimiz aslida bitta ro'yxat ustida bajarilyapti.
 
-![Ikki o'zgaruvchi, bir ro'yxat](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMJGzmHuPgjikKMOl0R%2F-MMJv_JeF1G7uIfp5RRc%2Fimage.png?alt=media\&token=6f5d1db7-57d6-4ef3-983d-5fe640b44435)
+![Ikki o'zgaruvchi, bir ro'yxat](../cirth-assets/cf87e910-0a08-44e4-bffe-3bb56814ba3c.png)
 
 Unda, qanday qilib ro'yxatdan nusxa olamiz? Buning uchun yuoqirdagi ka'bi ro'yxatni kesish usulidan foydalanamiz. Faqatgina, kvadrat qavs ichida ikkala indeksni ham ko'rsatmasdan, bo'sh qoldiramiz:
 
@@ -227,7 +227,7 @@ print("Bu sonlar2 ro'yxati:", sonlar2)
 
 Natija:
 
-`Bu sonlar ro'yxati: [1, 2, 3, 4, 5]`&#x20;
+`Bu sonlar ro'yxati: [1, 2, 3, 4, 5]`
 
 `Bu sonlar2 ro'yxati: [1, 2, 3, 4, 5, 6, 7]`
 
@@ -253,9 +253,9 @@ print(toys[2:5])
 
 Natija:
 
-`bus`&#x20;
+`bus`
 
-`lizard`&#x20;
+`lizard`
 
 `('bear', 'dino', 'snake')`
 
@@ -287,29 +287,26 @@ Natija: `('car', 'mcqueen', 'dino', 'snake', 'lizard', 'dragon')`
 
 ## AMALIYOT
 
-* O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni konsolga chiqaring
-* Ro'yxatning uzunligini konsolga chiqaring
-* `sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
-* `sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring
-* Asl ro'yxatni qaytadan konsolga chiqaring
-* `reverse()` metodi yordamida ro'yxatni ortidan boshlab chiqaring
-* `sort()` metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
-* `120` dan `1200` gacha bo'lgan juft sonlar ro'yxatini tuzing
-* Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring
-* Ro'yxatdagi eng katta va eng kichik son o'rtasidagi ayirmani hisoblang va konsolga chiqaring
-* Ro'yxatdagi elementlar sonini hisoblang
-* Ro'yxatning boshidan, o'rtasidan va oxiridan 20 ta qiymatni konsolga chiqaring
-* `taomlar` degan ro'yxat yarating va ichiga istalgan 5ta taomni kiriting
-* `nonushta` degan yangi ro'yxatga `taomlar`dan nusxa oling
-* Yangi ro'yxatda faqat nonushtaga yeyiladigan taomlarni qoldiring, va qo'shimcha 2 ta taom qo'shing
-* Ikkala ro'yxatni ham (`taomlar` va `nonushta`) konsolga chiqaring
-* Yuqoridagi nonushta ro'yxatini o'zgarmas ro'yxatga aylantiring va `nonushta[0] = "qaymoq va non"` deb qiymat berib ko'ring.
+- O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni konsolga chiqaring
+- Ro'yxatning uzunligini konsolga chiqaring
+- `sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
+- `sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring
+- Asl ro'yxatni qaytadan konsolga chiqaring
+- `reverse()` metodi yordamida ro'yxatni ortidan boshlab chiqaring
+- `sort()` metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
+- `120` dan `1200` gacha bo'lgan juft sonlar ro'yxatini tuzing
+- Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring
+- Ro'yxatdagi eng katta va eng kichik son o'rtasidagi ayirmani hisoblang va konsolga chiqaring
+- Ro'yxatdagi elementlar sonini hisoblang
+- Ro'yxatning boshidan, o'rtasidan va oxiridan 20 ta qiymatni konsolga chiqaring
+- `taomlar` degan ro'yxat yarating va ichiga istalgan 5ta taomni kiriting
+- `nonushta` degan yangi ro'yxatga `taomlar`dan nusxa oling
+- Yangi ro'yxatda faqat nonushtaga yeyiladigan taomlarni qoldiring, va qo'shimcha 2 ta taom qo'shing
+- Ikkala ro'yxatni ham (`taomlar` va `nonushta`) konsolga chiqaring
+- Yuqoridagi nonushta ro'yxatini o'zgarmas ro'yxatga aylantiring va `nonushta[0] = "qaymoq va non"` deb qiymat berib ko'ring.
 
 ## JAVOBLAR
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-08-dars#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-08-dars#main.py" />
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMTQIUdUN_Mpbv0mYwi%2F-MMTSsaeS5qXDN6H6Cz7%2Fjavoblar-08-dars.zip?alt=media&token=0f0ca2e1-8d03-409d-b3ab-e9e85401100d>" %}
-\#08-dars javoblari
-{% endfile %}
-
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMTQIUdUN_Mpbv0mYwi%2F-MMTSsaeS5qXDN6H6Cz7%2Fjavoblar-08-dars.zip?alt=media&token=0f0ca2e1-8d03-409d-b3ab-e9e85401100d" size="1 KB" />

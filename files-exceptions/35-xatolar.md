@@ -1,18 +1,18 @@
 # #35 XATOLAR BILAN ISHLASH
 
-{% embed url="<https://youtu.be/xgXGCaMX_sY>" %}
+<Embed url="https://youtu.be/xgXGCaMX_sY" />
 
 ## EXCEPTIONS
 
-Avvalgi darslarimizning birida biz "**Run time error"** xatoliklari bilan tanishgan edik. Bunday xatolar dastur bajarish jarayonida kelib chiqadi va dasturning ishlashini to'xtatadi. Sintaks xatolikdan farqli ravishda Python bunday xatolarni dasturni bajarishdan avval aniqlay olmaydi.&#x20;
+Avvalgi darslarimizning birida biz "**Run time error"** xatoliklari bilan tanishgan edik. Bunday xatolar dastur bajarish jarayonida kelib chiqadi va dasturning ishlashini to'xtatadi. Sintaks xatolikdan farqli ravishda Python bunday xatolarni dasturni bajarishdan avval aniqlay olmaydi.
 
-Ushbu darsimizda qanday qilib mana shunday xatoliklarni jilovlashni o'rganamiz. Maqsadimiz xatolik yuz berganda dastur to'xtab qolishining oldini olish. Gap shundaki, dastur davomida xato yuz berganda Python maxsus *exception* (istisno) obyektini yaratadi. Agar bu obyekt "tutib" olinmasa, dastur bajarilishdan to'xtaydi.&#x20;
+Ushbu darsimizda qanday qilib mana shunday xatoliklarni jilovlashni o'rganamiz. Maqsadimiz xatolik yuz berganda dastur to'xtab qolishining oldini olish. Gap shundaki, dastur davomida xato yuz berganda Python maxsus _exception_ (istisno) obyektini yaratadi. Agar bu obyekt "tutib" olinmasa, dastur bajarilishdan to'xtaydi.
 
 ## `try-except`
 
-Istisno obyektlarni tutib olish uchun Pythonda maxsus `try-except` operatorlari bor. Bu operatorlar quyidagicha ishlaydi, `try` operatori badanida bajarish kerak bo'lgan kod yoziladi, `except` operatori badanida esa xatolik yuz berganda bajarilishi kerak bo'lgan kod yoziladi. Ya'ni dasturimiz to'xtab qolmasdan bajarilaveradi.&#x20;
+Istisno obyektlarni tutib olish uchun Pythonda maxsus `try-except` operatorlari bor. Bu operatorlar quyidagicha ishlaydi, `try` operatori badanida bajarish kerak bo'lgan kod yoziladi, `except` operatori badanida esa xatolik yuz berganda bajarilishi kerak bo'lgan kod yoziladi. Ya'ni dasturimiz to'xtab qolmasdan bajarilaveradi.
 
-Tushunarli bo'lishi uchun quyidagi misolni ko'ramiz.&#x20;
+Tushunarli bo'lishi uchun quyidagi misolni ko'ramiz.
 
 ```python
 yosh = input("Yoshingizni kiriting: ")
@@ -22,7 +22,7 @@ print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
 Yuqoridagi misolning 1-qatorida biz foydalanuvchidan yoshini kiritishni so'rayabmiz. Navbatdagi qatorda esa foydalanuvchi kiritgan qiymatni int() yordamida butun songa o'tkazayapmiz. Agar foydalanuvchi yoshini kiritganda, butun emas, o'nlik son kiritsa bu `ValueError` xatoligiga olib keladi, va dastur bajarilishdan to'xtaydi.
 
-![Dastur natijasi](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTn6sF98w1K5TCCrSv7%2F-MToJzk0cla80_3mUgXY%2Fimage.png?alt=media\&token=80ba2bfe-f2b5-45e4-88fe-ca4366737873)
+![Dastur natijasi](../cirth-assets/f3306fbc-1790-4118-b379-3202db561286.png)
 
 Keling, yuqoridagi kodni `try-except` yordamida yozamiz:
 
@@ -39,13 +39,13 @@ print("Dastur Tugadi!")
 
 Bu yerda ham dastavval foydalanuvchi yoshini so'radik. `int()` finksiyasini esa `try` badani ichida yozdik, agar foydalanuvchi to'gri qiymat kiritgan bo'lsa kodimiz foydalanuvchi tug'ilgan yilini hisoblab ko'rsatadi, exception (istisno) yuz berganda esa `"Butun son kiritmadingiz"` xabarini konsolga chiqaradi. Lekin dastur bajarilishdan to'xtamaydi, va try-except blokidan keyingi qatorlar ham bajarilaveradi (`print("Dastur Tugadi!")`). Buni quyidagi natijadan ham ko'rishimiz mumkin:
 
-![Dastur natijasi](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTn6sF98w1K5TCCrSv7%2F-MTovaC4ncm2ri6sGgMF%2Fimage.png?alt=media\&token=7a0f98f8-8360-4064-8fb7-647bcb39e4d2)
+![Dastur natijasi](../cirth-assets/7715d8df-cb32-428b-b464-be7a270df135.png)
 
 `try-except` operatorining afzalliklaridan biri, foydalanuvchiga tushunarsiz xatolar o'rniga, o'zimiz istagan, tushunarliroq matnni ko'rsatishimiz mumkin. Shuningdek, kompleks tizimlarda arzimagan xatoni deb dasturimiz to'xtab qolmaydi.
 
 ## `try-except-else`
 
-Yuqoridagi kodimizda biz try moduli ichida xato qaytarishi mumkin bo'lgan ifodani ham (`tyil = int(tyil)`), xato qaytmaganda bajarilishi kerak bo'lgan ifodani ham (`print(f"Siz {2021-tyil} yoshdasiz")` ) birdan yozib ketayapmiz. Aslida, bunday qilishimiz to'g'ri emas.&#x20;
+Yuqoridagi kodimizda biz try moduli ichida xato qaytarishi mumkin bo'lgan ifodani ham (`tyil = int(tyil)`), xato qaytmaganda bajarilishi kerak bo'lgan ifodani ham (`print(f"Siz {2021-tyil} yoshdasiz")` ) birdan yozib ketayapmiz. Aslida, bunday qilishimiz to'g'ri emas.
 
 To'g'ri usuli, bu avval xatoga tekshirish va xato yuz bermaganda bajariladigan ifodani alohida, `else` blokida yozish:
 
@@ -124,7 +124,7 @@ Natija: `Bunday kalit mavjud emas`
 
 ### `FileNotFoundError`
 
-Avvalgi darsimizda fayllar bilan ishlashni o'rgangan edik. Fayllarni biz o'qish (`open(filename,'r')`) yoki yozish (`open(filename,'w')`) uchun ochishimiz mumkin. Agar faylga ma'lumot yozish uchun ochishda, mavjud bo'lmagan faylga murojat qilsak, Python yangi fayl yaratadi. Lekin, faylni o'qish uchun ochishda fayl nomini xato yozsak, yoki mavjud bo'lmagan faylni ochmoqchi bo'lsak `FileNotFoundError` (fayl topilmadi) xatoligi yuzaga keladi.&#x20;
+Avvalgi darsimizda fayllar bilan ishlashni o'rgangan edik. Fayllarni biz o'qish (`open(filename,'r')`) yoki yozish (`open(filename,'w')`) uchun ochishimiz mumkin. Agar faylga ma'lumot yozish uchun ochishda, mavjud bo'lmagan faylga murojat qilsak, Python yangi fayl yaratadi. Lekin, faylni o'qish uchun ochishda fayl nomini xato yozsak, yoki mavjud bo'lmagan faylni ochmoqchi bo'lsak `FileNotFoundError` (fayl topilmadi) xatoligi yuzaga keladi.
 
 ```python
 filename = "data.txt" # bunday fayl mavjud emas
@@ -184,9 +184,9 @@ for filename in files:
         # fayl ustida turli amallar 
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTovvKo_aAaC0O_mAhB%2F-MTp6A2yKuk-nqoBO5xC%2Fimage.png?alt=media\&token=19fa3c97-1390-4ca3-bdc6-dbfad8cc046a)
+![Natija](../cirth-assets/7c1f3c23-6580-405e-bcee-2576497906b5.png)
 
-Hech qanday ma'lumot ko'rsatmay, dasturni davom etish uchun `pass` operatoridan foydalanamiz. Odatda `pass` operatoridan funksiyalar yoki operatorlarning badanini "to'ldirib" ketish uchun ishlatiladi. Ya'ni, agar biz `except` operatorini yozsagu, uning badanida hech narsa bajarilishini istmasak, `pass` operatorini ishlatamiz.&#x20;
+Hech qanday ma'lumot ko'rsatmay, dasturni davom etish uchun `pass` operatoridan foydalanamiz. Odatda `pass` operatoridan funksiyalar yoki operatorlarning badanini "to'ldirib" ketish uchun ishlatiladi. Ya'ni, agar biz `except` operatorini yozsagu, uning badanida hech narsa bajarilishini istmasak, `pass` operatorini ishlatamiz.
 
 ```python
 import json
@@ -217,11 +217,10 @@ while True:
 print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTovvKo_aAaC0O_mAhB%2F-MTpBs9TZBvsYXCqC0c3%2Fimage.png?alt=media\&token=fe6fedd4-2243-4939-9df7-0afcdd2fcf04)
+![Natija](../cirth-assets/28d41ec0-87d5-4291-a67d-3f8d310d02f6.png)
 
 Albatta yuqordagi usul barcha xatolar uchun ishlamaydi. Shunday xatolar bo'lishi mumkinki, biz ularni oldindan ko'ra olmasligimiz yoki, oldindan to'g'rila olmasligimiz, yoki xato foydalanuvchiga bog'liq bo'lmasligi mumkin. Shunday holatlarda, `try-except` operatorlari bizning xaloskorimiz bo'ladi.
 
 ## KODLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

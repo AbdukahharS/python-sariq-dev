@@ -1,6 +1,6 @@
 # #34 JSON
 
-{% embed url="<https://www.youtube.com/watch?v=e04nahLcJR8>" %}
+<Embed url="https://www.youtube.com/watch?v=e04nahLcJR8" />
 
 ## JSON NIMA?
 
@@ -8,7 +8,7 @@ JSON (**J**ava**S**cript **O**bject **N**otation) bugungi kunda ma'lumotlarni sa
 
 Aksar holatlarda dastur va server orasidagi maʻlumotlar aynan JSON koʻrinishida uzatiladi. Quyidagi rasmda Wikipedia sahifasidan olingan maʻlumot ham JSON formatida berilgan:
 
-![JSON](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTGK5piVNDB4rE0t4fd%2F-MTUQjqW0iyFOjcrXIe4%2Fimage.png?alt=media\&token=c63edbe6-f836-4d82-99bb-777cb4d10aea)
+![JSON](../cirth-assets/580df82c-8327-4354-9c20-ec492b02fc56.png)
 
 Yuqoridagi misolda maʻlumotlar Pythondagi lug'atlar kabi kalit soʻz va qiymat koʻrinishida saqlangan. Lekin, JSON yordamida biz nafaqat lug'at, balki boshqa turdagi ma'lumotlarni ham saqlashimiz mumkin. Bunda Pythondagi ma'lumot turlari, quyidagi jadval asosida, JavaScript ma'lumot turlariga konvertasiya qilinadi:
 
@@ -26,18 +26,18 @@ Yuqoridagi misolda maʻlumotlar Pythondagi lug'atlar kabi kalit soʻz va qiymat 
 
 Demak, dasturimiz davomida maʻlumotlarni JSON ko'rinishida saqlashimiz, internet orqali boshqa foydalanuvchilarga, dasturlarga yoki serverga yuborishimiz, JSON fayllarni Pythonda ochib, unga ishlov berishimiz va turli amallar bajarishimiz mumkin.
 
-{% hint style="info" %}
+:::info
 JSON o'zgaruvchilar, tarkibidan qat'iy nazar matn ko'rinishida saqlanadi.
-{% endhint %}
+:::
 
 ## PYTHONDAN JSONGA
 
-JSON maʻlumotlar va fayllar bilan ishlash uchun Pythonda maxsus `json` moduli bor. Demak, dasturimiz boshida biz bu modulni yuklab olishimiz kerak boʻladi (`import json`).&#x20;
+JSON maʻlumotlar va fayllar bilan ishlash uchun Pythonda maxsus `json` moduli bor. Demak, dasturimiz boshida biz bu modulni yuklab olishimiz kerak boʻladi (`import json`).
 
-Ma'lumotlarni JSON matniga o'tkazish uchun ikki funksiyadan foydalanamiz:&#x20;
+Ma'lumotlarni JSON matniga o'tkazish uchun ikki funksiyadan foydalanamiz:
 
-* `json.dumps(x)` — berilgan `x` o'zgaruvchini JSON matniga o'zgartiradi
-* `json.dump(x,fayl)` — berilgan `x` o'zgaruvchini JSON ga o'zgartirib, ko'rsatilgan `fayl`ga saqlaydi.
+- `json.dumps(x)` — berilgan `x` o'zgaruvchini JSON matniga o'zgartiradi
+- `json.dump(x,fayl)` — berilgan `x` o'zgaruvchini JSON ga o'zgartirib, ko'rsatilgan `fayl`ga saqlaydi.
 
 ### `json.dumps()`
 
@@ -64,7 +64,7 @@ print(type(sonlar_json))
 
 Natija: `str`
 
-Yuqoridagi aytganimizdek, ko'p holatlarda JSON ma'lumotlar lug'at ko'rinishda uzatiladi.&#x20;
+Yuqoridagi aytganimizdek, ko'p holatlarda JSON ma'lumotlar lug'at ko'rinishda uzatiladi.
 
 ```python
 bemor = {
@@ -124,7 +124,7 @@ Natija:
 
 Ko'rib turganingizdek, natija o'qishga qulay ko'rinishda chiqdi.
 
-Mavzu boshida, JSON ichidagi ma'lumotlar JavaScript ma'lumot turlariga konvertasiya qilinadi dedik. Buni yuqoridagi misolda ham ko'rishimiz mumkin (`farzandlar`, `oila`, `allergiya` kalitlari qiymatini asl lug'at bilan solishtiring).&#x20;
+Mavzu boshida, JSON ichidagi ma'lumotlar JavaScript ma'lumot turlariga konvertasiya qilinadi dedik. Buni yuqoridagi misolda ham ko'rishimiz mumkin (`farzandlar`, `oila`, `allergiya` kalitlari qiymatini asl lug'at bilan solishtiring).
 
 ### `json.dump()`
 
@@ -149,9 +149,9 @@ with open('bemor.json','w') as f:
 
 JSON fayl tarkibini istalgan matn muharrirda ochib ko'rishimiz mumkin:
 
-![JSON fayl tarkibi](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTGK5piVNDB4rE0t4fd%2F-MTVC0ye33r6EJWPPle8%2Fimage.png?alt=media\&token=77858200-babc-472d-8edc-7277e6caae58)
+![JSON fayl tarkibi](../cirth-assets/3d9d1cec-e2bd-4de2-aa4d-750021895d89.png)
 
-## &#x20;JSONDAN PYTHONGA
+## JSONDAN PYTHONGA
 
 JSON formatidagi ma'lumotlarni Pythondagi ma'lumot turiga keltirish uchun `json.loads()` yoki `json.load()` funksiyalaridan foydalanamiz. Yuqoridagi ka'bi, `json.loads()` funksiyasi to'g'ridan-to'g'ri JSON matn bilan ishlasa, `json.load()` funksiyasi JSON fayllarni o'qish uchun ishlatiladi.
 
@@ -173,7 +173,7 @@ E'tibor qiling, `oila` va `allergiya` kalitlarining qiymati qaytadan Python ma'l
 
 ### `json.load()`
 
-Bu funksiya JSON fayllarning tarkibini Pythonga yuklab olish uchun ishlatiladi.&#x20;
+Bu funksiya JSON fayllarning tarkibini Pythonga yuklab olish uchun ishlatiladi.
 
 ```python
 filename = 'bemor.json'
@@ -189,7 +189,7 @@ Natija: `<class 'dict'>`
 
 Ko'pincha internet orqali JSON fayllarni qabul qilganimizda ma'lumotlar bir necha qavatli lug'at ko'rinishida bo'ladi. JSON matnidan aynan o'zimizga kerakli ma'lumotni ajratib olish uchun lug'atni biroz tahlil qilish, uning kalitlari va qiymatlarini topish talab qilinishi mumkin. Bu ayniqsa juda uzun JSON fayllarga tegishli. Shuning uchun JSON bilan samarali ishlash uchun [lug'atlar bilan ishlashni](https://python.sariq.dev/dictionary/15-dictionary-sets) yana bir bor takrorlab oling.
 
-Quyidagi misolda Google Maps hizmati qaytargan JSON matni lug'at ko'rinishida berilgan. Bu Toshkent shahridagi Olmazor tumanining Geografik manzili.&#x20;
+Quyidagi misolda Google Maps hizmati qaytargan JSON matni lug'at ko'rinishida berilgan. Bu Toshkent shahridagi Olmazor tumanining Geografik manzili.
 
 ```python
 {
@@ -287,22 +287,19 @@ Natija: `41.3645355,69.2281531`
 
 Koordinatalarni Google Mapsga kiritib ko'ramiz va quyidagi natijani olamiz.
 
-![Olmazor tumani](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTVIIFylrAPKvIQemxb%2F-MTVfoMHazBweHlY7Nfm%2Fimage.png?alt=media\&token=add820af-41ab-46eb-b030-ef6ca353c871)
+![Olmazor tumani](../cirth-assets/4c483e21-44fa-4f34-9654-d7deaae08243.png)
 
 ## AMALIYOT
 
-* Ushbu o'zgaruvchini JSON ko'rinishida saqlang va JSON matnini konsolga chiqaring: `data = {"Model" : "Malibu", "Rang" : "Qora", "Yil":2020, "Narh":40000}`
-* &#x20;Ushbu JSON matnni ko'chirib oling, va talabaning ismi va familiyasini  konsolga chiqaring: `talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""`&#x20;
-* Yuqoridagi ikki o'zgaruvchini alohida JSON fayllarga saqlang.
-* Quyidagi JSON faylni yuklab oling. Faylda 3 ta talabaning ism va familiyasi saqlangan. Ularning har birini alohida qatordan `"Ism Familiya, n-kurs, Fakultet talabasi"` ko'rinishida konsolga chiqaring.
+- Ushbu o'zgaruvchini JSON ko'rinishida saqlang va JSON matnini konsolga chiqaring: `data = {"Model" : "Malibu", "Rang" : "Qora", "Yil":2020, "Narh":40000}`
+- Ushbu JSON matnni ko'chirib oling, va talabaning ismi va familiyasini  konsolga chiqaring: `talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""`
+- Yuqoridagi ikki o'zgaruvchini alohida JSON fayllarga saqlang.
+- Quyidagi JSON faylni yuklab oling. Faylda 3 ta talabaning ism va familiyasi saqlangan. Ularning har birini alohida qatordan `"Ism Familiya, n-kurs, Fakultet talabasi"` ko'rinishida konsolga chiqaring.
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTVgdRJ9ZPHuoEl9qq7%2F-MTW0XsEsSxHFQphbPiH%2Fstudents.json?alt=media&token=dc85518c-4e8b-40f9-aab3-2191c3d1cf8e>" %}
-students.json
-{% endfile %}
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTVgdRJ9ZPHuoEl9qq7%2F-MTW0XsEsSxHFQphbPiH%2Fstudents.json?alt=media&token=dc85518c-4e8b-40f9-aab3-2191c3d1cf8e" />
 
-* Quyidagi bog'lamaga kirsangiz, Wikipediadagi Python dasturlash tili haqidagi maqolani JSON ko'rinishida ko'rishingiz mumkin. Brauzerda chiqqan ma'lumotni JSON ko'rinishida saqlang (brauzerda Ctrl+S tugmasini bosib). Faylni Pythonda oching va konsolga maqolaning sarlavhasi (title) va qisqa matnini (extract) chiqaring: <https://uz.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=Python>
+- Quyidagi bog'lamaga kirsangiz, Wikipediadagi Python dasturlash tili haqidagi maqolani JSON ko'rinishida ko'rishingiz mumkin. Brauzerda chiqqan ma'lumotni JSON ko'rinishida saqlang (brauzerda Ctrl+S tugmasini bosib). Faylni Pythonda oching va konsolga maqolaning sarlavhasi (title) va qisqa matnini (extract) chiqaring: [https://uz.wikipedia.org/w/api.php?format=json\&action=query\&prop=extracts\&exintro\&explaintext\&redirects=1\&titles=Python](https://uz.wikipedia.org/w/api.php?format=json\&action=query\&prop=extracts\&exintro\&explaintext\&redirects=1\&titles=Python)
 
 ## JAVOBLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

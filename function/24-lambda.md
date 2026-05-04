@@ -1,10 +1,10 @@
 # #24 FUNKSIYALAR. SON'GSO'Z.
 
-{% embed url="<https://www.youtube.com/watch?v=-Q_Uz9uzfhw&feature=youtu.be>" %}
+<Embed url="https://www.youtube.com/watch?v=-Q_Uz9uzfhw&feature=youtu.be" />
 
 ## `lambda` YOHUD NOMSIZ FUNKSIYA
 
-Pythonning o'ziga xos xususiyatlaridan biri, nomsiz vaqtinchalik funksiyalar yaratish imkoniyati. Bunday funksiyalarni yaratishda `def` operatori o'rniga `lambda` operatori ishlatilgani uchun ham `lambda` funskiyalar deb ataladi.&#x20;
+Pythonning o'ziga xos xususiyatlaridan biri, nomsiz vaqtinchalik funksiyalar yaratish imkoniyati. Bunday funksiyalarni yaratishda `def` operatori o'rniga `lambda` operatori ishlatilgani uchun ham `lambda` funskiyalar deb ataladi.
 
 Nomsiz funksiyalar quyidagicha yaratiladi:
 
@@ -14,7 +14,7 @@ lambda argument:ifoda
 
 Lambda funksiyalari istalgan miqdordagi argumentlarga ega bo'lishi mumkin, ammo funksiya badanida faqat bitta ifoda mavjud bo'ladi. Ifoda bajariladi va qaytariladi (`return` operatori shart emas).
 
-Nomsiz funksiyalar biror ifodani tezda hisoblab olishda qulay. Misol uchun quyidgai lambda funksiya ikkita argument qabul qiladi ( $$pi, r$$ ), va aylana uzunligini qaytaradi:&#x20;
+Nomsiz funksiyalar biror ifodani tezda hisoblab olishda qulay. Misol uchun quyidgai lambda funksiya ikkita argument qabul qiladi ( $$pi, r$$ ), va aylana uzunligini qaytaradi:
 
 ```python
 import math
@@ -33,7 +33,7 @@ product = lambda x, y : x ** y
 print(product(3, 2))
 ```
 
-&#x20;Shu yerda so'rashingiz mumkin, nima uchun lambda nomsiz deb ataladi, ahir unga hozirgina nomi bilan murojat qildikku?
+Shu yerda so'rashingiz mumkin, nima uchun lambda nomsiz deb ataladi, ahir unga hozirgina nomi bilan murojat qildikku?
 
 Gap shundaki, lambda finksiyalarning asl mohiyati boshqa funskiyalar bilan birga ishlaganda ko'rinadi. Keling, tushunarli bo'lishi uchun oddiyroq misol ko'ramiz.
 
@@ -63,11 +63,11 @@ sonlar = list(range(11)) # 0 dan 10 gacha sonlar ro'yxati
 ildizlar = list(map(sqrt,sonlar))
 ```
 
-Yuqoridagi misolda avval 0 dan 10 gacha `sonlar` ro'yxatini tuzib oldik, keyin esa `map` funksiyasiga ro'yxat va `sqrt` funksiyasini uzatib, ro'yxatdagi barcha sonlarning ildizini hisoblab oldik.&#x20;
+Yuqoridagi misolda avval 0 dan 10 gacha `sonlar` ro'yxatini tuzib oldik, keyin esa `map` funksiyasiga ro'yxat va `sqrt` funksiyasini uzatib, ro'yxatdagi barcha sonlarning ildizini hisoblab oldik.
 
-{% hint style="info" %}
+:::info
 map() funksiyasi map obyekt qaytargani sababli, qaytgan obyektni ro'yxatga o'tkazib olish uchun list() funksiyasidan foyydalandik.
-{% endhint %}
+:::
 
 Yana bir misol ko'ramiz:
 
@@ -131,8 +131,8 @@ Bu funksiya ham argument sifatida ro'yxat va boshqa funskiyani qabul qilib oladi
 Keling bunga ham bir misol ko'ramiz: tasodifiy sonlar ro'yxatidan juft sonalrni ajratib oluvchi dastur yozamiz. Dasturimiz 3 qismdan iborat:
 
 1. Avvalo, `random` modulidagi `sample()` funksiyasi yordamida 0-99 oralig'idagi 10 ta tasodifiy sonlar ro'yxatini tuzib oldik
-2. Berilgan son juft (True) yoki juft emas (False) ekanligini qaytaruvchi funksiya yozdik
-3. filter() fuksiyasiga yangi yaratgan juftmi funksiyasi va tasodifiy sonlar ro'yxatini uzatib, yangi juft\_sonlar ro'yxatini shakllantridik
+1. Berilgan son juft (True) yoki juft emas (False) ekanligini qaytaruvchi funksiya yozdik
+1. filter() fuksiyasiga yangi yaratgan juftmi funksiyasi va tasodifiy sonlar ro'yxatini uzatib, yangi juft\_sonlar ro'yxatini shakllantridik
 
 ```python
 import random as r
@@ -148,7 +148,7 @@ print(sonlar)
 print(juft_sonlar)
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MPytUbVHvS4Qzu12kOa%2F-MQ020rdWjjd9tDL3auG%2Fimage.png?alt=media\&token=2fd89264-e0ca-4038-a79c-97537cbcd25f)
+![Natija](../cirth-assets/f1043f7f-9c22-4dc2-9bb5-159befef7a75.png)
 
 Keling endi shu dasturni lambda yordamida yozamiz:
 
@@ -162,7 +162,7 @@ print(sonlar)
 print(juft_sonlar)
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MPypddvsth9j89cfLRN%2F-MPyt8XfHFKBn1wsIolv%2Fimage.png?alt=media\&token=3b1f8853-54c9-4aa2-9e03-ce84cd128f77)
+![Natija](../cirth-assets/80f5c6da-7707-46f3-97e3-e137fe05d64a.png)
 
 Kurib turganingizdek, lambda funksiya yordamida dastur bir muncha qisqaroq chiqadi. Agar `juftmi` funksiyasi kelajakda shart bo'lmasa, alohida funksiya yaratib o'tirmasdan, bir marttalik lambda funksiyasidan foydalangan afzal.
 
@@ -180,7 +180,7 @@ print(mevalar_b)
 Quyidagi dastur esa `mevalar` ro'yxatidan nomi 5 yoki undan kam harfdan iborat mevalarni saralab oladi.
 
 ```python
-mevalar2 = list(filter(lambda meva:len(meva)<=5, mevalar))
+mevalar2 = list(filter(lambda meva:len(meva)&lt;=5, mevalar))
 print(mevalar2)
 ```
 
@@ -194,9 +194,8 @@ list(filter(lambda meva:(meva.startswith('a') and meva.endswith('r')), mevalar))
 
 ## SO'NGSO'Z
 
-Ushbu darsimiz bilan biz dasturlash asoslarining katta bir qismiga yakun yasadik, navbat Object Oriented Programming va boshqa katta mavzularga. Lekin, bu mavzularga o'tishdan avval, keyingi darslarimizni bir nechta sodda loyihalar qilishga bag'ishlaymiz.&#x20;
+Ushbu darsimiz bilan biz dasturlash asoslarining katta bir qismiga yakun yasadik, navbat Object Oriented Programming va boshqa katta mavzularga. Lekin, bu mavzularga o'tishdan avval, keyingi darslarimizni bir nechta sodda loyihalar qilishga bag'ishlaymiz.
 
 E'tiboringiz uchun rahmat!
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

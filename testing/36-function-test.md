@@ -1,12 +1,12 @@
 # # 36 FUNKSIYANI TEKSHIRISH
 
-{% embed url="<https://youtu.be/GgAs_VhWucY>" %}
+<Embed url="https://youtu.be/GgAs_VhWucY" />
 
 ## KIRISH
 
-Dastur davomida yangi funksiya yoki klass yozar ekanmiz, ularni to'g'ri ishlashini ham tekshirishimiz tabiiy. Kodni tekshirish, kelajakda dasturimiz xato ishlashining oldini oladi. Odatda, funksiya va klasslarni tekshirish uchun alohida test dasturlar yozishimiz mumkin. Bunday dasturlar funksiyaga turli parametrlar orqali murojat qilib, undan qaytgan qiymatlar to'g'ri yoki xato ekanini tekshiradi.&#x20;
+Dastur davomida yangi funksiya yoki klass yozar ekanmiz, ularni to'g'ri ishlashini ham tekshirishimiz tabiiy. Kodni tekshirish, kelajakda dasturimiz xato ishlashining oldini oladi. Odatda, funksiya va klasslarni tekshirish uchun alohida test dasturlar yozishimiz mumkin. Bunday dasturlar funksiyaga turli parametrlar orqali murojat qilib, undan qaytgan qiymatlar to'g'ri yoki xato ekanini tekshiradi.
 
-Pythonda bu jarayonni osonlashtirish uchun maxsus `unittest` moduli mavjud. `unittest` yordamida alohida funksiya, obyekt yoki butun boshli modulni ham tekshirshimiz mumkin. Lekin, tavsiya qilingan usuli bu testni dastavval kichik qismlardan boshlab, kengaytirib borish.&#x20;
+Pythonda bu jarayonni osonlashtirish uchun maxsus `unittest` moduli mavjud. `unittest` yordamida alohida funksiya, obyekt yoki butun boshli modulni ham tekshirshimiz mumkin. Lekin, tavsiya qilingan usuli bu testni dastavval kichik qismlardan boshlab, kengaytirib borish.
 
 ## FUNKSIYANI TEKSHIRISH
 
@@ -42,12 +42,12 @@ unittest.main()
 
 Dasturni tahlil qilamiz:
 
-* Dastavval unittest modulini chaqiramiz (`import unittest`)
-* Keyingi qatorda `name.py` modulimizdan tekshirmoqchi bo'lgan funksiyamizni ham yuklab olamiz (`get_full_name`).
-* 4-qatorda test klassini yaratamiz, bu klass`unittest.TestCase` klassidan meros oladi. Bu klass berilgan parametrlar uchun funksiyadan qaytgan qiymatlarni tekshirishga mo'ljallangan. Klassimizga o'zimiz istagan, tushunarli nom beramiz (`NameTest`).&#x20;
-* Klassimiz ichida `test_toliq_ism` metodini yaratdik. Bu metod `get_full_name` funksiyasidan qaytgan qiymatni biz avvaldan bergan qiymatga teng yoki yo'q ekanini tekshiradi. Buning uchun esa maxsus `.assertEqual()` metodidan foydalandik. E'tibor bering, test medotlarning nomi har doim `test` so'zi bilan boshlanishi kerak.
-* `assertEqual()` metodi ikki qiymat qabul qiladi va ularning teng ekanligini tekshiradi (assert ingliz tilidan tasdiqlash deb tarjima qilinadi). Agar `get_full_name('alijon','valiyev')` funksiyamiz to'g'ri ishlasa, funksiyadan `'Alijon Valiyev'` qiymati qaytishi kerak. `assertEqual()` metodi aynan shuni tekshirishga mo'ljallangan.
-* So'nggi qatorda unittest klassinini chaqiramiz, bu esa o'z navbatida biz yuqorida yozgan testni chaqiradi.&#x20;
+- Dastavval unittest modulini chaqiramiz (`import unittest`)
+- Keyingi qatorda `name.py` modulimizdan tekshirmoqchi bo'lgan funksiyamizni ham yuklab olamiz (`get_full_name`).
+- 4-qatorda test klassini yaratamiz, bu klass`unittest.TestCase` klassidan meros oladi. Bu klass berilgan parametrlar uchun funksiyadan qaytgan qiymatlarni tekshirishga mo'ljallangan. Klassimizga o'zimiz istagan, tushunarli nom beramiz (`NameTest`).
+- Klassimiz ichida `test_toliq_ism` metodini yaratdik. Bu metod `get_full_name` funksiyasidan qaytgan qiymatni biz avvaldan bergan qiymatga teng yoki yo'q ekanini tekshiradi. Buning uchun esa maxsus `.assertEqual()` metodidan foydalandik. E'tibor bering, test medotlarning nomi har doim `test` so'zi bilan boshlanishi kerak.
+- `assertEqual()` metodi ikki qiymat qabul qiladi va ularning teng ekanligini tekshiradi (assert ingliz tilidan tasdiqlash deb tarjima qilinadi). Agar `get_full_name('alijon','valiyev')` funksiyamiz to'g'ri ishlasa, funksiyadan `'Alijon Valiyev'` qiymati qaytishi kerak. `assertEqual()` metodi aynan shuni tekshirishga mo'ljallangan.
+- So'nggi qatorda unittest klassinini chaqiramiz, bu esa o'z navbatida biz yuqorida yozgan testni chaqiradi.
 
 `name_test.py` dasturimizni bajaramiz va quyidagi natijani olamiz:
 
@@ -69,7 +69,7 @@ def get_full_name(ism, familiya, otasi=''):
         return f"{ism} {familiya}".title()
 ```
 
-Bu safar funksiyamiz otasining ismini ham qabul qiladi, lekin bu argument ixtiyoriy.&#x20;
+Bu safar funksiyamiz otasining ismini ham qabul qiladi, lekin bu argument ixtiyoriy.
 
 Testimizga ham o'zgartirish kiritamiz. Bu safar ikki hil ism uchun ikkita alohida test bajaramiz:
 
@@ -165,14 +165,14 @@ OK
 
 ## MANTIQIY QIYMATLARNI TEKSHIRISH
 
-Agar funksiya mantiqiy qiymat qaytarsa, bunday funksiyalarni `assertTrue()` va `assertFalse()` metodlari yordamida tekshirishimiz mumkin.&#x20;
+Agar funksiya mantiqiy qiymat qaytarsa, bunday funksiyalarni `assertTrue()` va `assertFalse()` metodlari yordamida tekshirishimiz mumkin.
 
 Quyidagi funksiyamiz kiritilgan son tub yoki yo'q ekanini tekshiradi:
 
 ```python
 def tubSonmi(n):
     if n==2 or n==3: return True
-    if n%2==0 or n<2: return False
+    if n%2==0 or n&lt;2: return False
     for i in range(3, int(n**0.5)+1, 2):   # faqat toq sonlarni tekshiramiz
         if n%i==0:
             return False   
@@ -223,12 +223,11 @@ Test davomida `tubSonmi()` funksiyasini bir nechta tub (`7, 193, 547`) va tub bo
 
 Quyidagi funksiyalarni yarating, va **ularning har biri uchun test dasturlarini yozing**:
 
-* Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya
-* Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya
-* Berilgan sonlar ro'yxatidan juft sonlarni ajratib oluvchi funksiya
-* Berilgan son [Fibonachchi ketma-ketligida](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d) uchraydimi (`True`) yoki yo'q (`False`) qaytaruvchi funksiya yozing.
+- Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya
+- Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya
+- Berilgan sonlar ro'yxatidan juft sonlarni ajratib oluvchi funksiya
+- Berilgan son [Fibonachchi ketma-ketligida](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d) uchraydimi (`True`) yoki yo'q (`False`) qaytaruvchi funksiya yozing.
 
 ## KODLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

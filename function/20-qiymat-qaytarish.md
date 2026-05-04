@@ -1,6 +1,6 @@
 # #20 QIYMAT QAYTARUVCHI FUNKSIYA
 
-{% embed url="<https://www.youtube.com/watch?v=VqEWbr1erXc>" %}
+<Embed url="https://www.youtube.com/watch?v=VqEWbr1erXc" />
 
 Avvalgi darsimizda yaratgan barcha funksiyalarimiz konsolga ma'lumot chiqarayotgan edi. Aslida, aksar holatlarda bu g'ayritabiiy. Sababi, dasturchi sifatida biz konsolga chiqqan ma'lumotdan unumli foydalana olmaymiz. Konsoldagi qiymatni o'zgaruvchiga yuklab, undan kelajakda foydalanib ham bo'lmaydi. Mana shunday holatlarda, funksiyadan unumli foydalanish uchun undan biror qiymatni qaytarish maqsadga muvofiq bo'ladi.
 
@@ -34,15 +34,15 @@ Natija: `Darsga kelmagan talabalar: Olim Hakimov va Hakim Olimov`
 
 Demak, qiymat qaytaradigan funksiyaning afzalligi shundaki, biz bu qiymatlardan keyin ham bemalol foydalanishimiz mumkin.
 
-{% hint style="danger" %}
+:::danger
 Funksiya ichidagi o'zgaruvchilar **mahalliy** yoki **ichki o'zgaruvchilar** deyiladi (**local variables**). Ichki o'zgaruvchilar faqatgina funksiya ichida mavjud bo'ladi, ularga tashqaridan murojat qilib bo'lmaydi. Shuning uchun ham funksiya o'zgaruvchi emas **qiymat qaytaradi**.
-{% endhint %}
+:::
 
 ## IXTIYORIY ARGUMENTLAR
 
 Avvalgi darsizmida funksiyalarga standart parametr berishni ko'rgan edik. Huddi shu usul bilan, ba'zi argumentlarni ixtiyoriy qilishimiz mumkin. Ya'ni funksiya ishlashi uchun bu agrumentarni kiritish majburiy emas, ixtiyoriy bo'ladi.
 
-Keling avvalgi funksiyamizni o'zgartiramiz va unga yana bitta otasiningismi degan paramter qo'shamiz, lekin bu parametr ixtiyoriy bo'ladi. Buning uchun funksiya yaratishda `otasining_ismi=''` deb yozib ketamiz.&#x20;
+Keling avvalgi funksiyamizni o'zgartiramiz va unga yana bitta otasiningismi degan paramter qo'shamiz, lekin bu parametr ixtiyoriy bo'ladi. Buning uchun funksiya yaratishda `otasining_ismi=''` deb yozib ketamiz.
 
 ```python
 def toliq_ism_yasa(ism, familiya, otasining_ismi=''):
@@ -79,7 +79,7 @@ def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
     return avto
 ```
 
-E'tibor bering, `narhi` nomli parametrga `None` standart qiymatini berib ketdik. `None` Pythonda *mavjud emas* ma'nosini beradi, va `if` yordamida tekshirganda `False` mantiqiy qiymatini qaytardi.&#x20;
+E'tibor bering, `narhi` nomli parametrga `None` standart qiymatini berib ketdik. `None` Pythonda _mavjud emas_ ma'nosini beradi, va `if` yordamida tekshirganda `False` mantiqiy qiymatini qaytardi.
 
 Quyidagi kodni tahlil qilishni sizga vazifa sifatida qoldiramiz:
 
@@ -96,7 +96,7 @@ for avto in avtolar:
     print(f"{avto['rang']} {avto['model']}. Narhi: {narh}")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOjuItcBpFmCGyxWywh%2F-MOjwsyc1e2r56i_F8Gj%2Fimage.png?alt=media\&token=15bd3ea9-6c96-41ce-90a5-3916299117d4)
+![Natija](../cirth-assets/dd672fea-51b1-4bcf-9309-cf6852817621.png)
 
 ## FUNKSIYADAN RO'YXAT QAYTARAMIZ
 
@@ -118,7 +118,7 @@ print(oraliq(0,10))
 print(oraliq(10,21))
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOjxFRTKxjbvykDu_pc%2F-MOnkLJ7o3J38myB3bCi%2Fimage.png?alt=media\&token=d2e2fc25-ed98-4af6-b1f3-b24460f47624)
+![Natija](../cirth-assets/8e9f67ca-a0d3-4256-b6be-2731c5dd6528.png)
 
 Yuqoridagi funksiyaga uchinchi, `qadam` deb nomlangan ixtiyoriy parameterni qo'sha olasizmi?
 
@@ -156,18 +156,17 @@ while True:
 
 Yuqoridagi funksiyani Pythonda bajarib kor'ing. Ro'yxatga bir necha qiymatlar qo'shing. Natijalarni konsolga chiroyli qilib chiqaring:
 
-![Kutilgan natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOnrlAcYvpKXhN6YKaN%2F-MOoe4xJU0EpNNTpn5Dq%2Fimage.png?alt=media\&token=cd599b13-a8db-412c-a0af-eaeda560a79e)
+![Kutilgan natija](../cirth-assets/ecb8772e-7bdb-4b83-9d71-6996c01b3a79.png)
 
 ## AMALIYOT
 
 1. Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida qaytaruvchi funksiya yozing. Lug'atda foydalanuvchu yoshi ham bo'lsin. Ba'zi argumentlarni kiritishni ixtiyoriy qiling (masalan, tel.raqam, el.manzil)
-2. Yuqoridagi funksiyani `while` yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring.
-3. Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
-4. Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
-5. Berilgan oraliqdagi [tub sonlar ](https://uz.wikipedia.org/wiki/Tub_sonlar_ro%CA%BByxati)ro'yxatini qaytaruvchi funksiya yozing (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
-6. Foydalanuvchidan son qabul qilib, shu son miqdoricha [Fibonachchi ketma-ketligidagi ](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d)sonlar ro'yxatni qaytaruvchi funksiya yozing.  ***Ta’rif***: *Har bir hadi o’zidan oldingi ikkita hadning yig’indisiga teng bo’lgan ketma-ketlik Fibonachchi ketma-ketligi deyiladi. Bunda boshlang’ish had ko’pincha 1 deb olinadi.*  `1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...`
+1. Yuqoridagi funksiyani `while` yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring.
+1. Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
+1. Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
+1. Berilgan oraliqdagi [tub sonlar ](https://uz.wikipedia.org/wiki/Tub_sonlar_ro%CA%BByxati)ro'yxatini qaytaruvchi funksiya yozing (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
+1. Foydalanuvchidan son qabul qilib, shu son miqdoricha [Fibonachchi ketma-ketligidagi ](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d)sonlar ro'yxatni qaytaruvchi funksiya yozing.  _**Ta’rif**_: _Har bir hadi o’zidan oldingi ikkita hadning yig’indisiga teng bo’lgan ketma-ketlik Fibonachchi ketma-ketligi deyiladi. Bunda boshlang’ish had ko’pincha 1 deb olinadi._  `1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...`
 
 ## JAVOBLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

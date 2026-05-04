@@ -1,22 +1,22 @@
 # #14 LUG'AT BILAN TANISHUV
 
-{% embed url="<https://youtu.be/s2SsA2_64o4>" %}
+<Embed url="https://youtu.be/s2SsA2_64o4" />
 
 Ushbu darsda yangi ma'lumot turi, Lug'at (Dictionary) bilan tanishamiz. Dars davomida lug'at yaratish, unga ma'lumot qo'shish, lug'atning ichida ro'yxat yoki aksincha ro'yxatning ichida lug'at saqlash ka'bi mavuzlar bilan tanishamiz.
 
-Lug'at, ma'lumotlarni bizga tushunarliroq ko'rinishda saqlash imkonini beradi. Misol uchun biz biror avtomobilga oid lug'at yaratishimiz va lug'atda shu avtoga tegishli barcha ma'lumotlarni saqlashmiz mumkin (nomi, rangi, yili, motori, narhi va hokazo).&#x20;
+Lug'at, ma'lumotlarni bizga tushunarliroq ko'rinishda saqlash imkonini beradi. Misol uchun biz biror avtomobilga oid lug'at yaratishimiz va lug'atda shu avtoga tegishli barcha ma'lumotlarni saqlashmiz mumkin (nomi, rangi, yili, motori, narhi va hokazo).
 
 ## LUG'AT (DICTIONARY) NIMA?
 
 Keling, nima uchun bu ma'lumot turi lug'at (dictionary) deyilishini tushunish uchun, oddiy lu'gatga qaraymiz. Odatda, lug'atdagi ma'umotlar ikki qismdan iborat bo'ladi: kalit so'z va izoh (yoki tarjima).
 
-![Izholi Lug'at (savodxon.uz) / English-Uzbek Dictionary (SmartBox) dasturlari](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNY5oOeVDfAVOZeUU2m%2F-MNaJDYQQBk0tbr92K29%2Fimage.png?alt=media\&token=929419ac-5a0b-4adb-ba19-b987f60b1e85)
+![Izholi Lug'at (savodxon.uz) / English-Uzbek Dictionary (SmartBox) dasturlari](../cirth-assets/d37ca4aa-823f-4833-b772-b397cb89c8d4.png)
 
-Xuddi oddiy lug'atlardagi ka'bi Python lug'atidagi ma'lumotlar ham ikki qismdan iborat bo'ladi: kalit so'z va qiymat (ingliz tilida *key-value pair* yoki *kalit so'z-qiymat juftligi* deyiladi).
+Xuddi oddiy lug'atlardagi ka'bi Python lug'atidagi ma'lumotlar ham ikki qismdan iborat bo'ladi: kalit so'z va qiymat (ingliz tilida _key-value pair_ yoki _kalit so'z-qiymat juftligi_ deyiladi).
 
-{% hint style="info" %}
+:::info
 Dasturlashda ko'p ishlatiladigan atamalarni ingliz tilida yodlab qolish juda muhim! Bu sizga kelajakda yangi ma'lumotlar izlashda, xatolar usitda ishlashda va umuman ish faoliyatingizda ko'p asqotadi. Shuing uchun variable, integer, float, string, list, tuple, dictionary, function, loop, va boshqa so'zlarni yaxshilab o'zlashtirib oling.
-{% endhint %}
+:::
 
 Keling, sodda lug'at yaratamiz:
 
@@ -24,11 +24,11 @@ Keling, sodda lug'at yaratamiz:
 car_0 = {'model':'ferrari','rang':'qizil'}
 ```
 
-Yuqorida `car_0` degan lug'at yaratdik. Lu'gatda 2 ta ma'lumot bor: mashinaning modeli (ferrari) va rangi (qizil). Bu yerda `'model'` va `'rang'` kalit so'zlar, `'ferrari'` va `'qizil'` esa mos keluvchi kalit so'zlarning qiymatlari. Kalit so'z va qiymat orasi ikki nuqta (`:`) bilan, lug'atdagi har bir juftlik esa vergul (`,`) bilan ajratilgan.&#x20;
+Yuqorida `car_0` degan lug'at yaratdik. Lu'gatda 2 ta ma'lumot bor: mashinaning modeli (ferrari) va rangi (qizil). Bu yerda `'model'` va `'rang'` kalit so'zlar, `'ferrari'` va `'qizil'` esa mos keluvchi kalit so'zlarning qiymatlari. Kalit so'z va qiymat orasi ikki nuqta (`:`) bilan, lug'atdagi har bir juftlik esa vergul (`,`) bilan ajratilgan.
 
 ## LUG'AT BILAN ISHLASH
 
-Demak, Pytonda lug'at *kalit so'z-qiymat* juftliklarining yi'ginidisi ekan. Lug'atdagi biror qiymatni ko'rish uchun unga kalit so'z orqali murojat qilamiz:
+Demak, Pytonda lug'at _kalit so'z-qiymat_ juftliklarining yi'ginidisi ekan. Lug'atdagi biror qiymatni ko'rish uchun unga kalit so'z orqali murojat qilamiz:
 
 ```python
 car_0 = {'model':'ferrari','rang':'qizil'}
@@ -89,15 +89,15 @@ print(talaba_1)
 print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 ```
 
-Natija:&#x20;
+Natija:
 
 `{'ism': 'qobil rasulov', 'kurs': 3, 'yosh': 20}`
 
 `Talaba Qobil Rasulov 3-kurs`
 
-{% hint style="info" %}
+:::info
 Lug'atga kalit so'zlar qanday ketma-ketlikda kiritilsa, shu ketma-ketlik saqlanib qoladi.
-{% endhint %}
+:::
 
 ### QIYMATNI O'ZGARTIRISH
 
@@ -123,7 +123,7 @@ print(talaba_0)
 
 Natija:
 
-`{'ism': 'murod olimov', 'yosh': 20, 't_yil': 2000}`&#x20;
+`{'ism': 'murod olimov', 'yosh': 20, 't_yil': 2000}`
 
 `{'ism': 'murod olimov', 't_yil': 2000}`
 
@@ -142,9 +142,9 @@ telefonlar = {
 
 Demak, lug'atni qatorga bo'lib yozish uchun katta qavs ochamiz, yangi qatordan joy tashlab, birinchi klit so'z va qiymatni kiritamiz, qator oxirida vergul qo'yib, yangi qatordan keyingi juftlikni yozamiz va hokazo. Oxirgi juftlikdan so'ng vergul qo'ymasdan qator tashlab, katta qavsni yopamiz.
 
-{% hint style="info" %}
-Lug'atlarning ishlatilish doirasi juda keng va sizning yondoshuvingizga bog'liq xolos. Yuqoridagi lug'atga ham e'tibor qilsangiz, biz bir narsa (shaxs, avto) haqida ko'p ma'lumotlarni emas,  ko'pchilik haqida bir hil ma'lumotlarni saqladik.&#x20;
-{% endhint %}
+:::info
+Lug'atlarning ishlatilish doirasi juda keng va sizning yondoshuvingizga bog'liq xolos. Yuqoridagi lug'atga ham e'tibor qilsangiz, biz bir narsa (shaxs, avto) haqida ko'p ma'lumotlarni emas,  ko'pchilik haqida bir hil ma'lumotlarni saqladik.
+:::
 
 ### `get()` METODI
 
@@ -180,9 +180,9 @@ print(phone)
 
 Natija: `Bunday ism mavjud emas`
 
-{% hint style="info" %}
+:::info
 Agar `.get()` metodida ikkinchi argumentni tashlab ketsangiz, va kalit mavjud bo'lmasa `.get()` metodi `None` degan qiymatni qaytaradi. `None` - qiymat mavjud emas degan ma'noni beradi.
-{% endhint %}
+:::
 
 ```python
 phone = telefonlar.get('hasan')
@@ -193,22 +193,21 @@ Natija: `None`
 
 ## AMALIYOT
 
-* otam (onam, akam, ukam, va hokazo) degan lug'at yarating va lug'atga shu inson haqida kamida 3 ta m'alumot kiriting (ismi, tu'gilgan yili, shahri, manzili va hokazo). Lug'atdagi ma'lumotni matn shaklida konsolga chiqaring :`Otamning ismi Mavlutdin, 1954-yilda, Samarqand viloyatida tug'ilgan`
-* Oila a'zolaringizning sevimli taomlari lug'atini tuzing. Lug'atda kamida 5 ta ism-taom jufltigi bo'lsin. Kamida uch kishining sevimli taomini konsolga chiqaring: `Alining sevimli taomi osh`
-* Python izohli lu'gati tuzing: Lug'atga shu kunga qadar o'rgangan 10 ta so'z (atamani) kiriting (masalan integer, float, string, if, else va hokazo) va har birining qisqacha tarjimasini yozing.
-* Foydalanuvchidan biror so'z kiritishni so'rang va so'zning tarjimasini yuqoridagi lug'atdan chiqarib bering. Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" degan xabarni chiqaring.
+- otam (onam, akam, ukam, va hokazo) degan lug'at yarating va lug'atga shu inson haqida kamida 3 ta m'alumot kiriting (ismi, tu'gilgan yili, shahri, manzili va hokazo). Lug'atdagi ma'lumotni matn shaklida konsolga chiqaring :`Otamning ismi Mavlutdin, 1954-yilda, Samarqand viloyatida tug'ilgan`
+- Oila a'zolaringizning sevimli taomlari lug'atini tuzing. Lug'atda kamida 5 ta ism-taom jufltigi bo'lsin. Kamida uch kishining sevimli taomini konsolga chiqaring: `Alining sevimli taomi osh`
+- Python izohli lu'gati tuzing: Lug'atga shu kunga qadar o'rgangan 10 ta so'z (atamani) kiriting (masalan integer, float, string, if, else va hokazo) va har birining qisqacha tarjimasini yozing.
+- Foydalanuvchidan biror so'z kiritishni so'rang va so'zning tarjimasini yuqoridagi lug'atdan chiqarib bering. Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" degan xabarni chiqaring.
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNbmL_qPg9E-vJhJKPg%2F-MNbnkUZgJ8dcfyFdjlZ%2Fimage.png?alt=media\&token=14287659-de89-4c9b-a09d-c54d5c84b351)
+![](../cirth-assets/14a025fa-0aa1-4e65-ad8e-e2e72225f8f8.png)
 
-* Yuqoridagi vazifani `if-else` yordamida qiling va natijani ham foydalanuvchiga tushunarli ko'rinishda chiqaring.
+- Yuqoridagi vazifani `if-else` yordamida qiling va natijani ham foydalanuvchiga tushunarli ko'rinishda chiqaring.
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNbmL_qPg9E-vJhJKPg%2F-MNbofpMEB7oOR-awK4e%2Fimage.png?alt=media\&token=17aea12c-66e6-4862-8250-65a2c0bf10c0)
+![](../cirth-assets/d9186e15-2308-4b97-8f85-6e6c006a4364.png)
 
 ## JAVOBLAR
 
 Javoblar bizning [GitHub](https://github.com/anvarnarz/python-darslar) sahifamizda hamda quyidagi [Repl.it](https://repl.it/@anvarbek/javoblar-14-dars#main.py) portalida mavjud.
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-14-dars#main.py>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-14-dars#main.py" />

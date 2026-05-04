@@ -2,7 +2,7 @@
 
 Dasturlash davomida turli sonlar bilan ishlash tabiiy hol. Pythonda sonlarning bir necha turlari bor. Keling ular bilan yaqindan tanishaylik.
 
-{% embed url="<https://www.youtube.com/watch?v=_1eGzQpAtC8>" %}
+<Embed url="https://www.youtube.com/watch?v=_1eGzQpAtC8" />
 
 ## INTEGERS — BUTUN SONLAR
 
@@ -17,9 +17,9 @@ print(c)
 
 Natija: `-10`
 
-{% hint style="info" %}
+:::info
 Python - operatorlar orasidagi bo'shliqlarni inobatga olmaydi. O'qishga qulay bo'lishi uchun yuqoridagi kabi (bo'shliqlar bilan) yozishingiz mumkin.
-{% endhint %}
+:::
 
 ```python
 # Kvadratning yuzini hisoblaymiz
@@ -32,7 +32,7 @@ Natija: `400`
 
 ## FLOATS — O'NLIK SONLAR
 
-Pythonda o'nlik sonlar **floating point numbers** yoki qisqa qilib **floats** deyiladi. "*Floating point numbers*" atamasini o'zbek tiliga "*suzuvchi nuqtali sonlar*" deb tarjima qilish mumkin. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun *"floating"* *(suzuvchi)* deyiladi.
+Pythonda o'nlik sonlar **floating point numbers** yoki qisqa qilib **floats** deyiladi. "_Floating point numbers_" atamasini o'zbek tiliga "_suzuvchi nuqtali sonlar_" deb tarjima qilish mumkin. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun _"floating"_ _(suzuvchi)_ deyiladi.
 
 ```python
 pi = 3.14159 # o'nlik son (float)
@@ -45,7 +45,7 @@ Natija: `Aylana uzunligi 4.712384999999999 ga teng.`
 
 ## BUTUN SONDAN O'NLIK SONGA
 
-Avval aytganimizdek ikki butun sonni bo'lish (`/`) natijasida o'nlik son hosil bo'ladi (natija butun bo'lsa ham).&#x20;
+Avval aytganimizdek ikki butun sonni bo'lish (`/`) natijasida o'nlik son hosil bo'ladi (natija butun bo'lsa ham).
 
 ```python
 a = -20
@@ -93,7 +93,7 @@ Natija: `Yer kurrasida 7594000000 ga yaqin odam yashaydi`
 
 ## KONSTANTA
 
-Aksar dasturlash tillarida konstant qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun$$\pi$$ ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (*ogohlantirish sifatida*). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
+Aksar dasturlash tillarida konstant qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun$$\pi$$ ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (_ogohlantirish sifatida_). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
 
 ```python
 PI = 3.14159
@@ -123,15 +123,15 @@ print(xabar)
 
 Natija: **`TypeError: can only concatenate str (not "int") to str`**
 
-Afsuski, kutilgan natija o'rniga xatolik chiqdi. Agar xatoni ingliz tilidan tarjima qilsak, matn (str) va son (int) ni jamlab bo'lmaydi degan ma'no chiqadi.&#x20;
+Afsuski, kutilgan natija o'rniga xatolik chiqdi. Agar xatoni ingliz tilidan tarjima qilsak, matn (str) va son (int) ni jamlab bo'lmaydi degan ma'no chiqadi.
 
-Demak Pythonda matn (string) va son (int, float) turidagi o'zgaruvchilarni jamlab bo'lmas ekan. Xo'sh, bunga yechim bormi? **Albatta**.&#x20;
+Demak Pythonda matn (string) va son (int, float) turidagi o'zgaruvchilarni jamlab bo'lmas ekan. Xo'sh, bunga yechim bormi? **Albatta**.
 
-Pythonda bir turdagi o'zgaruvchini boshqa turga o'tkazish mumkin, bu ingliz tilida ***typecasting*** detiladi. Buning uchun Pythonda mahsus funktsiyalar bor, keling ular bilan tanishamiz:
+Pythonda bir turdagi o'zgaruvchini boshqa turga o'tkazish mumkin, bu ingliz tilida _**typecasting**_ detiladi. Buning uchun Pythonda mahsus funktsiyalar bor, keling ular bilan tanishamiz:
 
-* `str()`— int yoki float turidagi sonlarni matnga o'zgartiradi.
-* `int()`— matn yoki float ko'rinishidagi qiymatlarni butun songa o'zgartiradi. Bunda matn butun son ko'rinishida bo'lishi kerak.
-* `float()`— matn yoki int ko'rinishidagi qiymatlarni o'nlik songa o'zgartiradi.
+- `str()`— int yoki float turidagi sonlarni matnga o'zgartiradi.
+- `int()`— matn yoki float ko'rinishidagi qiymatlarni butun songa o'zgartiradi. Bunda matn butun son ko'rinishida bo'lishi kerak.
+- `float()`— matn yoki int ko'rinishidagi qiymatlarni o'nlik songa o'zgartiradi.
 
 Demak, yuqoridagi kod to'g'ri ishlashi uchun 3-qatorni quyidagicha o'zgartiramiz:
 
@@ -144,9 +144,9 @@ print(xabar)
 
 Natija: `Jobir 36 yoshda`
 
-{% hint style="danger" %}
+:::danger
 `str(yosh)` kodi `yosh` degan o'zgaruvchining qiymatini matn ko'rinishida ko'rsatdi xolos. Asl o'zgaruvchining qiymati sonligicha qoladi. `int()` va `float()`ham huddi shunday ishlaydi.
-{% endhint %}
+:::
 
 ## O'ZGARUVCHI TURINI TEKSHIRISH
 
@@ -159,7 +159,7 @@ print(type(ism))  # ism degan o'zgaruvchining turini konsolga chiqaramiz
 print(type(yosh)) # ismyosh degan o'zgaruvchining turini konsolga chiqaramiz
 ```
 
-Natija:&#x20;
+Natija:
 
 `<class 'str'>`
 
@@ -180,7 +180,7 @@ yosh = 2020 - t_yil #
 print("Siz " + yosh + " yoshda ekansiz")
 ```
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLlNypIunyr4AW0df3A%2F-MLlO3YahEjv90pUVBMt%2Fimage.png?alt=media\&token=cab76abe-4792-4223-a790-14c0600f5276)
+![](../cirth-assets/cc1bb3d9-395a-42e6-9d5f-9daaa776fca5.png)
 
 Natija: **`TypeError: unsupported operand type(s) for -: 'int' and 'str'`**
 
@@ -188,7 +188,7 @@ Kutilgan natija o'rniga xatolik. Lekin xato qayerda? Dastur tug'ilgan yilimni so
 
 Gap shundaki, `input()` funktsiyasi har qanday kiritilgan qiymatni matn (string) ko'rinishida qabul qiladi (garchi biz son kiritgan bo'lsak ham). Keling, konsolda `t_yil` degan o'zgaruvchining turini tekshirib ko'ramiz.
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLlNypIunyr4AW0df3A%2F-MLlPEmNc-bRsDfbd3Ib%2Fimage.png?alt=media\&token=71fa7c8b-b820-4f5c-9805-c77631d98613)
+![](../cirth-assets/8f3802c0-349b-4957-ad6a-e451e79bd955.png)
 
 Ko'rib turganingizdek `t_yil` o'zgaruvchisi saqlayotgan qiymat `str` ya'ni matn ekan. Kodimizning 2 va 6-qatorlarini o'zgartiramiz:
 
@@ -201,9 +201,9 @@ yosh = 2020 - t_yil #
 print("Siz " + str(yosh) + " yoshda ekansiz")
 ```
 
-Natija:&#x20;
+Natija:
 
-`Tug'ilgan yilingizni kiriting: 1983`&#x20;
+`Tug'ilgan yilingizni kiriting: 1983`
 
 `Siz 37 yoshda ekansiz`
 
@@ -224,21 +224,20 @@ print("Siz " + str(yosh) + " yoshda ekansiz")
 
 Quyidagi dasturlarning har birini alohida fayl ko'rinishida yozing va bajaring:
 
-* Foydalanuvchi kiritgan sonning kvadrati va kubini konsolga chiqaruvchi dastur
+- Foydalanuvchi kiritgan sonning kvadrati va kubini konsolga chiqaruvchi dastur
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLounVATri6iU10sCuw%2F-MLqbUCW4fuICo4zdkrD%2Fimage.png?alt=media\&token=a17936ee-7b1e-40bd-824c-971074a0e475)
+![](../cirth-assets/23e3f88d-8e51-4471-a691-7b79cadc8450.png)
 
-* Foydalanuvchining yoshini so'rab, uning tug'ilgan yilini hisoblab, konsolga chiqaruvchi dastur
+- Foydalanuvchining yoshini so'rab, uning tug'ilgan yilini hisoblab, konsolga chiqaruvchi dastur
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLlQxcWdJFuxfNQYaOI%2F-MLlYLnFPKXzahFJOvR5%2Fimage.png?alt=media\&token=19c4f43a-e686-4664-b1a1-99852df0cbe8)
+![](../cirth-assets/717634cf-2a1e-4a0e-b174-adc06fdbc21f.png)
 
-* Foydalanuvchidan ikki son kiritshni so'rab, kiritilgan sonlarning yig'indisi, ayirmasi, ko'paytmasi va bo'linmasini chiqaruvchi dastur
+- Foydalanuvchidan ikki son kiritshni so'rab, kiritilgan sonlarning yig'indisi, ayirmasi, ko'paytmasi va bo'linmasini chiqaruvchi dastur
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLmBsKDaC1xFQ77JlHJ%2F-MLmD9nxgqMpimSgbVKf%2Fimage.png?alt=media\&token=c7250d0b-fbbd-4c76-9e73-66588fbcb4e8)
+![](../cirth-assets/835f88f6-ace7-4207-93d7-30fe704ac740.png)
 
 ## JAVOBLAR
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-06-dars#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-06-dars#main.py" />
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLounVATri6iU10sCuw%2F-MLqbwIKkxmaWCjSoGkS%2F06-dars-javoblar.zip?alt=media&token=530d01ec-034e-486c-a16d-a92fb5e81b55>" %}
-
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLounVATri6iU10sCuw%2F-MLqbwIKkxmaWCjSoGkS%2F06-dars-javoblar.zip?alt=media&token=530d01ec-034e-486c-a16d-a92fb5e81b55" size="1.2 KB" />

@@ -1,6 +1,6 @@
 # #16 NESTING
 
-{% embed url="<https://youtu.be/IJPmoc-RIO4>" %}
+<Embed url="https://youtu.be/IJPmoc-RIO4" />
 
 ## NESTING
 
@@ -12,7 +12,7 @@ Keling, bunga bir nechta misollar ko'ramiz.
 
 Biz avvalgi darsimizda talabalarning ma'lumotlarini lug'at shaklida saqlashni ko'rgan edik. Shunday talabalardan yuzlab bo'lganda, ularning har biriga alohida lug'at qilishimiz tabiiy, lekin bu lug'atlar bilan ishlash qiyinchilik tug'dirishi mumkin. Shunday xolatda barcha lug'atlarni (talabalarni) bitta ro'yxatga joylab, ular ustida turli amallar bajarish mumkin.
 
-Kelin quyidagi misolni ko'ramiz, bazamizda bir nechta mashinalar bor. Har bir mashina alohida lug'at shaklida.&#x20;
+Kelin quyidagi misolni ko'ramiz, bazamizda bir nechta mashinalar bor. Har bir mashina alohida lug'at shaklida.
 
 ```python
 car0 = {
@@ -43,7 +43,7 @@ car2 = {
         }
 ```
 
-&#x20;Agar biz har bir lug'atga alohida murojat qiladigan bo'lsak, lug'atlarning nomlarini yodlab qolishimiz talab qilinar edi:
+Agar biz har bir lug'atga alohida murojat qiladigan bo'lsak, lug'atlarning nomlarini yodlab qolishimiz talab qilinar edi:
 
 ```python
 car = car0
@@ -62,7 +62,7 @@ print(f"{car['model'].title()},\
   {car['yil']}-yil, {car['narh']}$")  
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNiQYChWgOY_Ly8OP6l%2F-MNpwsfbOzsbD_t2fSwN%2Fimage.png?alt=media\&token=4a729829-91f9-4da4-b459-3bfdac3e1e23)
+![Natija](../cirth-assets/e65f8a80-d813-4b4e-a5f0-7b7754c540c1.png)
 
 Keling, barcha avtolarni bitta ro'yxatga joylaymiz, va for tsikli yordamida birma-bir konsolga chiqaramiz:
 
@@ -74,7 +74,7 @@ for car in cars:
           f"{car['yil']}-yil, {car['narh']}$")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNiQYChWgOY_Ly8OP6l%2F-MNpyPHGOL5-O23uZsH1%2Fimage.png?alt=media\&token=192d5fe1-78a0-4160-8afd-09944b063fec)
+![Natija](../cirth-assets/2a4baa93-58d3-4abc-bb18-c9123a525888.png)
 
 E'tibor bering, ishimiz bir muncha yengillashdi, kodimiz ham qisqardi. Natija esa bir hil.
 
@@ -149,7 +149,7 @@ for malibu in malibus:
         malibu['narh']=35000
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNiQYChWgOY_Ly8OP6l%2F-MNq8vU8dGx4tCTrTy2y%2Fimage.png?alt=media\&token=f6f71130-f85b-4362-9db5-023dba2a1f42)
+![Natija](../cirth-assets/8b1a3304-c654-4148-9f1a-11398990265a.png)
 
 ## LUG'AT ICHIDA RO'YXAT
 
@@ -170,11 +170,11 @@ for ism, tillar in dasturchilar.items():
         print(til.upper())
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNiQYChWgOY_Ly8OP6l%2F-MNqE-T60xXpDdk9hPT5%2Fimage.png?alt=media\&token=942977de-1165-4147-b1fe-3fa5081b590b)
+![Natija](../cirth-assets/d4000f47-ca76-4971-9119-6a8bc119f7cf.png)
 
-{% hint style="info" %}
+:::info
 Pythondagi `print()` funktsiyasi har bir matndan so'ng yangi qator tashlaydi. Buning oldini olish uchun quyidagi usuldan foydalanish mumkin: `print(string, end = '')`
-{% endhint %}
+:::
 
 ```python
 for ism, tillar in dasturchilar.items():
@@ -183,7 +183,7 @@ for ism, tillar in dasturchilar.items():
         print(f'{til.upper()} ', end='')
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNiQYChWgOY_Ly8OP6l%2F-MNqFUa1V-LYyyRDYyj3%2Fimage.png?alt=media\&token=ebd71f26-d8f0-4425-aa76-c217e8abce7d)
+![Natija](../cirth-assets/e8aff524-d4ff-4197-9724-6feb812cbb78.png)
 
 ## LUG'AT ICHIDA LUG'AT
 
@@ -219,49 +219,48 @@ for ism, info in hamkasblar.items():
         print(til.upper())
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNqJE_BT8SGt4W3QoS2%2F-MNqNfc5sBBrlfjVC11l%2Fimage.png?alt=media\&token=bb7a724b-5f4d-407e-92ca-abf24be4e2bb)
+![Natija](../cirth-assets/66b48283-137b-40b4-8746-fd4c12050d06.png)
 
-{% hint style="info" %}
+:::info
 Lug'at ichidagi lug'atlar bir hil tuzilishga ega bo'lgani ishingizni ancha yengillashtiradi, aks holda kodingiz murakkablashib ketishi mumkin.
-{% endhint %}
+:::
 
 ## AMALIYOT
 
-* Adabiyot (ilm-fan, san'at, internet) olamidagi 4 ta mashxur shaxlar haqidagi ma'lumotlarni lug'at ko'rinishida saqlang. Lug'atlarni bitta ro'yxatga joylang, va har bir shaxs haqidagi ma'lumotni konsolga chiqaring.
+- Adabiyot (ilm-fan, san'at, internet) olamidagi 4 ta mashxur shaxlar haqidagi ma'lumotlarni lug'at ko'rinishida saqlang. Lug'atlarni bitta ro'yxatga joylang, va har bir shaxs haqidagi ma'lumotni konsolga chiqaring.
 
-![Kutilgan natijaga misol](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNqJE_BT8SGt4W3QoS2%2F-MNqVcYbotAHFkflO1Jx%2Fimage.png?alt=media\&token=4de07b83-2094-4b55-8066-61aef4b04359)
+![Kutilgan natijaga misol](../cirth-assets/b92d95ec-82e2-4d60-b4e5-7f8c1a45df04.png)
 
-* Yuqoridagi lug'atlarga har bir shaxsning mashxur asarlari ro'yxatini ham qo'shing. For tsikli yordamida muallifning ismi va uning asarlarini konsolga chiqaring.
+- Yuqoridagi lug'atlarga har bir shaxsning mashxur asarlari ro'yxatini ham qo'shing. For tsikli yordamida muallifning ismi va uning asarlarini konsolga chiqaring.
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNqJE_BT8SGt4W3QoS2%2F-MNqaJZEJsx8fmy5B9uD%2Fimage.png?alt=media\&token=638da332-bfb2-4942-a468-d7af7e391de4)
+![Natija](../cirth-assets/98305218-8186-44bd-91f2-b12853b94473.png)
 
-* Oila a'zolaringiz (do'stlaringiz) dan 3 ta sevimli kino-seriali haqida so'rang. Do'stingiz ismi kalit, uning sevimli kinolarini esa ro'yxat ko'rinishida lug'artga saqlang.  Natijani konsolga chiqaring.
+- Oila a'zolaringiz (do'stlaringiz) dan 3 ta sevimli kino-seriali haqida so'rang. Do'stingiz ismi kalit, uning sevimli kinolarini esa ro'yxat ko'rinishida lug'artga saqlang.  Natijani konsolga chiqaring.
 
-![Kutilgan natijaga misol](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNqJE_BT8SGt4W3QoS2%2F-MNqcX84QqZhYtVAo6Td%2Fimage.png?alt=media\&token=f3812be0-01be-4847-bf43-17b001873b95)
+![Kutilgan natijaga misol](../cirth-assets/960844ae-9bd6-4a62-b7e7-c675a53044f8.png)
 
-* Davlatlar degan lug'at yarating, lug'at ichida bir nechta davlatlar haqida ma'lumotlarni lug'at ko'rinishida saqlang. Har bir davlat haqida ma'lumotni konsolga chiqaring.
+- Davlatlar degan lug'at yarating, lug'at ichida bir nechta davlatlar haqida ma'lumotlarni lug'at ko'rinishida saqlang. Har bir davlat haqida ma'lumotni konsolga chiqaring.
 
-![Kutilgan natijaga misol](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNqJE_BT8SGt4W3QoS2%2F-MNqgphoTHjdFMfHVwBi%2Fimage.png?alt=media\&token=ff5a680d-3023-43e1-a356-65fb3c6ac4c1)
+![Kutilgan natijaga misol](../cirth-assets/0dcb05a9-60d7-4634-a5ee-fa09ff751faa.png)
 
-* Yuqoridagi dasturga o'zgartirish kiriting: konsolga barcha davlatlarni emas, foydalanuvchi so'ragan davlat haqida ma'lumot bering. Agar davlat sizning lug'atingizda mavjud bo'lmasa, "*Bizda bu davlat haqida ma'lumot yo'q*" degan xabarni chiqaring.
+- Yuqoridagi dasturga o'zgartirish kiriting: konsolga barcha davlatlarni emas, foydalanuvchi so'ragan davlat haqida ma'lumot bering. Agar davlat sizning lug'atingizda mavjud bo'lmasa, "_Bizda bu davlat haqida ma'lumot yo'q_" degan xabarni chiqaring.
 
-![Kutilgan natijaga misol](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MNqJE_BT8SGt4W3QoS2%2F-MNqj4Q_4iY5_ZdY-85r%2Fimage.png?alt=media\&token=c44f283a-0390-4460-97f6-9b48e3e77f27)
+![Kutilgan natijaga misol](../cirth-assets/718eed27-0cde-40dd-8461-be16491159fe.png)
 
 ## JAVOBLAR
 
 ### GitHub
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
 ### Repl.it
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-16-dars-01#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-16-dars-01#main.py" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-16-dars-02#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-16-dars-02#main.py" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-16-dars-03#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-16-dars-03#main.py" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-16-dars-04#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-16-dars-04#main.py" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-16-dars-05#main.py>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-16-dars-05#main.py" />

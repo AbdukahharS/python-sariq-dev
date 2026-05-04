@@ -1,18 +1,18 @@
 # #10 IF-ELSE
 
-{% embed url="<https://www.youtube.com/watch?v=QH5Q_dyj3dI>" %}
+<Embed url="https://www.youtube.com/watch?v=QH5Q_dyj3dI" />
 
 ## TARMOQLANISH
 
-Shu vaqtgacha yozgan dasturlarimizga e'tibor bersangiz, dasturimiz yuqoridan pastga qarab qatorma-qator bajarilib keldi. Bu chiziqli dastur deyiladi. Voqelikda esa aksar dasturlar ma'lum bir shart bajarilishi (yoki bajarilmaganiga) ko'ra kodning bir qismidan boshqa qismiga "sakrab" o'tishi tabiiy hol. Dasturlashda bu ***tarmoqlanish*** deb ataladi.&#x20;
+Shu vaqtgacha yozgan dasturlarimizga e'tibor bersangiz, dasturimiz yuqoridan pastga qarab qatorma-qator bajarilib keldi. Bu chiziqli dastur deyiladi. Voqelikda esa aksar dasturlar ma'lum bir shart bajarilishi (yoki bajarilmaganiga) ko'ra kodning bir qismidan boshqa qismiga "sakrab" o'tishi tabiiy hol. Dasturlashda bu _**tarmoqlanish**_ deb ataladi.
 
-![Tarmoqlanishga misol](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMYB3w5bqcxar0xuzi2%2F-MMcrT4AK37JNwfmXziF%2Ffig1.png?alt=media\&token=176c0f12-d46f-43cd-a374-19c69f3caf3a)
+![Tarmoqlanishga misol](../cirth-assets/cac4f197-d30a-4b4c-9c2e-54969816d29d.png)
 
-Ushbu darsimizda biz **`if`** operatori yordamida shunday shartlarni yozishni, tekshirishni va tekshiruv natijasiga ko'ra kodning turli qismlarini bajarishni o'rganamiz. &#x20;
+Ushbu darsimizda biz **`if`** operatori yordamida shunday shartlarni yozishni, tekshirishni va tekshiruv natijasiga ko'ra kodning turli qismlarini bajarishni o'rganamiz.
 
 ## `if` OPERATORI
 
-**`if`** so'zi ingliz tilidan **"agar"** deb tarjima qilinadi va deyarli barcha dasturlash tillarida shartlarni yozish uchun foydalaniladi.&#x20;
+**`if`** so'zi ingliz tilidan **"agar"** deb tarjima qilinadi va deyarli barcha dasturlash tillarida shartlarni yozish uchun foydalaniladi.
 
 Keling quyidagi misolni ko'ramiz. Bizda `avtolar` ro'yxati bor:
 
@@ -20,9 +20,9 @@ Keling quyidagi misolni ko'ramiz. Bizda `avtolar` ro'yxati bor:
 avtolar = ['audi','bmw','volvo','kia','hyundai']
 ```
 
-Biz ro'yxatdagi har bil elementni katta harf bilan konsolga chiqarmoqchimiz. Bunda istisno sifatida "BMW" mashinasi nomini hamma harflarini katta bilan chiqarishimiz kerak.&#x20;
+Biz ro'yxatdagi har bil elementni katta harf bilan konsolga chiqarmoqchimiz. Bunda istisno sifatida "BMW" mashinasi nomini hamma harflarini katta bilan chiqarishimiz kerak.
 
-Demak quyidagi kodni yozamiz:&#x20;
+Demak quyidagi kodni yozamiz:
 
 ```python
 for avto in avtolar: # avtolar ichidadi har bir avto uchun ...
@@ -34,15 +34,15 @@ for avto in avtolar: # avtolar ichidadi har bir avto uchun ...
 
 Kodni tahlil qilaylik:
 
-* 1-qatorda biz for tsiklini boshladik: *avto ichidagi har bir avto uchun.*
-* 2-qatorda shart yozdik: *agar avto bmw ga teng bo'lsa* (bu yerda `==` belgisi tenglikni tekshirish belgisi hisoblanadi va **"`avto`** **`bmw` ga tengmi?"** deb o'qiladi).&#x20;
-* 3-qator yuqoridagi shartning badani hisoblanadi va **faqatgina** shart bajarilgandagina ishga tushadi va avto nomini hamma harflarini katta bilan yozadi (`.upper()` metodi).&#x20;
-* 4-qatorda yana bir yangi operator, **`else`** bilan tanishamiz. "**Else**" ingliz tilidan "**aks holda**" deb tarjima qilinadi va **`if`** sharti bajarilmaganda **`else`** qismi ichidagi kod bajariladi.&#x20;
-* 5-qator esa `else` (aks holda, ya'ni 2- qatordagi shart bajarilmaganda) ishga tushadi va avto nomining faqat birinchi harfini katta bilan yozadi (`.title()` metodi)
+- 1-qatorda biz for tsiklini boshladik: _avto ichidagi har bir avto uchun._
+- 2-qatorda shart yozdik: _agar avto bmw ga teng bo'lsa_ (bu yerda `==` belgisi tenglikni tekshirish belgisi hisoblanadi va **"`avto`** **`bmw` ga tengmi?"** deb o'qiladi).
+- 3-qator yuqoridagi shartning badani hisoblanadi va **faqatgina** shart bajarilgandagina ishga tushadi va avto nomini hamma harflarini katta bilan yozadi (`.upper()` metodi).
+- 4-qatorda yana bir yangi operator, **`else`** bilan tanishamiz. "**Else**" ingliz tilidan "**aks holda**" deb tarjima qilinadi va **`if`** sharti bajarilmaganda **`else`** qismi ichidagi kod bajariladi.
+- 5-qator esa `else` (aks holda, ya'ni 2- qatordagi shart bajarilmaganda) ishga tushadi va avto nomining faqat birinchi harfini katta bilan yozadi (`.title()` metodi)
 
-{% hint style="danger" %}
+:::danger
 **Diqqat!** Shart "badani" shartdan biroz o'ngga surib yoziladi (huddi `for` tsikli kabi). `if/else` dan keyin kelgan va o'ngga surib yozilgan har bir qator `if/else` shartining badani hisoblanadi.
-{% endhint %}
+:::
 
 Yuoqridagi kodni bajaramiz, va natijani ko'ramiz:
 
@@ -57,11 +57,11 @@ for avto in avtolar: # avtolar ichidadi har bir avto uchun ...
 
 Natija:
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMcxtx3m5yFtCQkecbx%2F-MMczNUKHUCFPNEElicg%2Fimage.png?alt=media\&token=fb639f61-464f-4ed0-a555-5fa75bb03103)
+![](../cirth-assets/a527ac95-c449-465f-9fc1-1cecce91aced.png)
 
 ## TRUE/FALSE
 
-Yuqorida shartni tekshirish uchun `==` operatoridan foydalandik. Bu operatorni oddiy tilga tarjima qilsak ***"tengmi?"*** degan ma'noni beradi.&#x20;
+Yuqorida shartni tekshirish uchun `==` operatoridan foydalandik. Bu operatorni oddiy tilga tarjima qilsak _**"tengmi?"**_ degan ma'noni beradi.
 
 Agar shartning ikki tarafidagi qiymatlar teng bo'lsa ifoda **TRUE** qiymatini qaytaradi ("True" so'zi ingliz tilidan "haqiqiq" yoki "to'g'ri" deb tarjima qilinadi).
 
@@ -69,11 +69,11 @@ Aksincha, qiymatlar tenglik qanoatlantirilmasa, ifoda **FALSE** qiymatini qaytar
 
 Quyidagi misollarga e'tibor bering. Biz `ism` degan o'zgaruvchi yaratdik, va unga `'Ali'` matnini yukladik. Keling endi `==` yordamida `ism` ning qiymatini tekshirib ko'ramiz:
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMd4_mGp7KhHljlqSbZ%2F-MMeM0VfegmFez43z3oQ%2Fimage.png?alt=media\&token=bab72ca9-5aaf-4ed0-a78c-84fe7a84004d)
+![](../cirth-assets/c24d7a1a-f7d2-4d69-aeec-1b7c75166dae.png)
 
 Ko'rib turganingizdek avval `ism=='Ali'` (`ism` `'Ali'` ga tengmi?) deb so'raganimizda, ifoda `TRUE` (Ha) degan javobni qaytardi, keyin esa `ism=='Vali'` (`ism` `'Vali'` ga tengmi?) deb so'raganimizda esa, ifoda `FALSE` (Yo'q) deb qiymat qaytardi.
 
-Demak, `if/else` bog'lamasida, `if` ning badani ifoda `True` bo'lganda, `else` ning badani esa ifoda `False` bo'lganda bajariladi.&#x20;
+Demak, `if/else` bog'lamasida, `if` ning badani ifoda `True` bo'lganda, `else` ning badani esa ifoda `False` bo'lganda bajariladi.
 
 ## MATNLARNI SOLISHTIRISH
 
@@ -81,9 +81,9 @@ Aksar tizimlar foydalanuvchi kiritgan matnni ma'lum bir ko'rinishga keltirib ola
 
 Tasavvur qiling siz yangi email manzil ochmoqchisiz, va o'zingizga yangi foydalanuvchi ismini tanlashingiz kerak. Kompyuter siz kiritgan foydalanuvchi ismini tizimdagi mavjud foydalanuvchilar bilan solishtiradi va agar ism band bo'lsa sizga boshqa ism tanlashni aytadi. Solishtirish jarayonida esa, siz tanlagan ismni kichik harflarga o'tkazib, boshqa ismlar bilan solishtiradi.
 
-![Yandex.uz sahifasida ro'yxatdan o'tish jarayoni](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMeP_WLpHkdzcxiw2zi%2F-MMeU64riTA_t65PqoXr%2Fimage.png?alt=media\&token=67317e40-bfd0-4173-bd32-3c43d10f7a37)
+![Yandex.uz sahifasida ro'yxatdan o'tish jarayoni](../cirth-assets/86266ed0-64ae-4296-a431-9fde71474d49.png)
 
-Yuqoridagi misolda, kimdur <anvar@yandex.ru> manzilini band qilgan, agarda men `'Anvar'`, yoki `'ANvar'`, yoki `'ANVAR'` deb login tanlasam ham, <anvar@yandex.ru> band bo'gani sababli men so'ragan loginlar rad qilinaveradi.&#x20;
+Yuqoridagi misolda, kimdur [anvar@yandex.ru](mailto\:anvar@yandex.ru) manzilini band qilgan, agarda men `'Anvar'`, yoki `'ANvar'`, yoki `'ANVAR'` deb login tanlasam ham, [anvar@yandex.ru](mailto\:anvar@yandex.ru) band bo'gani sababli men so'ragan loginlar rad qilinaveradi.
 
 Xo'sh, turli ko'rinishda yozilgan matnlarni qanday qilib solishtiramiz? Juda oddiy. Matnlarni solishtirishdan avval `.lower()` metodi yordamida kichik harflar ko'rinishiga keltirib olamiz:
 
@@ -96,7 +96,7 @@ Natija: `True`
 
 ## QIYMATLARNING TENG EMASLIGINI TEKSHIRISH
 
-Agar ikki qiymatning teng emasligini tekshirish talab qilinsa, `!=` operatoridan foydalanilamiz.&#x20;
+Agar ikki qiymatning teng emasligini tekshirish talab qilinsa, `!=` operatoridan foydalanilamiz.
 
 ```python
 ism = input('Ismingiz nima?\n>>>') # Foydalanuvchi ismini so'raymiz
@@ -106,22 +106,22 @@ else:
     print("Salom, Ali")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMeVadFwBXQmhe8UWVv%2F-MMeqY-wx5KUYWFaega3%2Fimage.png?alt=media\&token=1cad6bf3-0472-4244-b021-33eafc0db8bb)
+![Natija](../cirth-assets/9507156d-a65f-4726-b660-4c9ad5a241e1.png)
 
-Demak yuqoridagi kodning 2-qatorida `ism` ichidagi qiymat `'ali'` ga teng bo'lmasa *"Uzr, {ism} biz Alini kutyapmiz"* degan xabarni chiqar dedik. Aks holda (`else`), `"Salom, Ali"` degan xabar chiqadi.
+Demak yuqoridagi kodning 2-qatorida `ism` ichidagi qiymat `'ali'` ga teng bo'lmasa _"Uzr, {ism} biz Alini kutyapmiz"_ degan xabarni chiqar dedik. Aks holda (`else`), `"Salom, Ali"` degan xabar chiqadi.
 
-{% hint style="info" %}
+:::info
 Shartlarda `else` qismi bo'lishi majburiy emas. Bunga keyingi bo'limlarda tushunarliroq misollar ko'ramiz.
-{% endhint %}
+:::
 
 ## SONLARNI SOLISHTIRISH
 
 Sonlarni solishtirishda yuqoridagi teng (`==`) va teng emas (`!=`) shartlariga qo'shimcha ravishda quyidagi mantiqiy shartlar ham qo'shiladi:
 
-* Kichik: `a<b`
-* Kichik yoki teng: `a<=b`
-* Katta: `a>b`
-* Katta yoki teng: `a>=b`
+- Kichik: `a<b`
+- Kichik yoki teng: `a&lt;=b`
+- Katta: `a>b`
+- Katta yoki teng: `a>=b`
 
 ```python
 javob = float(input("12x6 nechiga teng?>>>"))
@@ -129,7 +129,7 @@ if javob!=72:
     print("Javob xato!")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMeVadFwBXQmhe8UWVv%2F-MMewgPWSwRz8L_i122u%2Fimage.png?alt=media\&token=356090d2-ab38-4475-9cbf-149a177c3bcc)
+![Natija](../cirth-assets/72607fab-6bbf-4c57-b8b9-bcb1c3d8118a.png)
 
 ```python
 yosh = int(input("Yoshingiz nechida?>>>"))
@@ -139,28 +139,28 @@ else: # ask holda
     print('Kirish mumkin emas!')
 ```
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMexlh5oIQLjya6mLJZ%2F-MMey0qAvKQC3JlG-f8D%2Fimage.png?alt=media\&token=522c304a-05fd-406b-baf0-4e345549d6ea)
+![](../cirth-assets/a62d863e-60e0-4d02-8c45-1e403b3cd867.png)
 
 ```python
 login = input("Yangi login tanlang:")
-if len(login)<=5: # login uzunligini tekshiramiz
+if len(login)&lt;=5: # login uzunligini tekshiramiz
     print("Login 5 harfdan ko'proq bo'lishi shart!")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMexlh5oIQLjya6mLJZ%2F-MMf-xwdyOFBTQcaNrUL%2Fimage.png?alt=media\&token=d8edee6a-881d-484e-b904-9ff9dee9bf46)
+![Natija](../cirth-assets/f9c6fd0f-034b-46d3-83eb-0b2e6e77563a.png)
 
 Sonlarni solishtirishda arifmetik ifodalar ham yozishimiz mumkin:
 
 ```python
 yil = int(input("Tug'ilgan yilingizni kiriting:"))
-if 2020-yil<18: # foydalanuvchining yoshini hisoblaymiz
+if 2020-yil&lt;18: # foydalanuvchining yoshini hisoblaymiz
     print(f"Yoshingiz {2020-yil}da ekan.")
     print("Kirish mumkin emas!")
 else:
     print("Xush kelibsiz!")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMf1QCPb9Vah1fjvdWp%2F-MMf8QjPej7q6ji1ysU-%2Fimage.png?alt=media\&token=73cd19f2-736d-402e-8915-a5479854cb86)
+![Natija](../cirth-assets/06d7ab6d-aa39-478b-977c-faeceda0e9f2.png)
 
 ## BIR QATOR `if/else`
 
@@ -171,7 +171,7 @@ yosh = int(input("Yoshingiz nechida?>>>"))
 if yosh>65: print("Siz COVID-19 risk guruhida ekansiz")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMivFFF91Tt-vMDZPvL%2F-MMiwqXQb3zenzlMiWF0%2Fimage.png?alt=media\&token=5322866b-5bbc-415e-a076-1d504c73ed17)
+![Natija](../cirth-assets/0a381b9c-66a2-492a-92c0-cdb9e880cca8.png)
 
 Yoki:
 
@@ -184,17 +184,16 @@ Natija: `x<y`
 
 ## AMALIYOT
 
-* Yangi `cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']` degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
+- Yangi `cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']` degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
 
-![](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MMhtJcB6L6ViQaDjYOj%2F-MMhuWawX7du_nPXqnli%2Fimage.png?alt=media\&token=7f51babd-1ee5-4b71-afff-b6489ec25f58)
+![](../cirth-assets/1814db76-ecb7-48ec-95c7-6c0f52813081.png)
 
-* Yuqoridagi mashqni teng emas (`!=`) operatori yordamida bajaring.&#x20;
-* Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, *"Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?"* xabarini konsolga chiqaring. Aks holda, *"Xush kelibsiz, `{foydalanuvchi_ismi}!`"*  matnini konsolga chiqaring.
-* Foydalanuvchidan 2 ta son kiritishni so'rang. Agar ikki son bir-biriga teng bo'lsa, "Sonlar teng" ekan degan yozuvni konsolga chiqaring.
-* Foydalanuvchidan istalgan son kiritishni so'rang. Agar son manfiy bo'lsa konsolga "Manfiy son", agar musbat bo'lsa "Musbat son" degan xabarni chiqaring.&#x20;
-* Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring.&#x20;
+- Yuqoridagi mashqni teng emas (`!=`) operatori yordamida bajaring.
+- Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, _"Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?"_ xabarini konsolga chiqaring. Aks holda, _"Xush kelibsiz, `{foydalanuvchi_ismi}!`"_  matnini konsolga chiqaring.
+- Foydalanuvchidan 2 ta son kiritishni so'rang. Agar ikki son bir-biriga teng bo'lsa, "Sonlar teng" ekan degan yozuvni konsolga chiqaring.
+- Foydalanuvchidan istalgan son kiritishni so'rang. Agar son manfiy bo'lsa konsolga "Manfiy son", agar musbat bo'lsa "Musbat son" degan xabarni chiqaring.
+- Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring.
 
 ## JAVOBLAR
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-10-dars#main.py>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-10-dars#main.py" />

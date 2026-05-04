@@ -1,6 +1,6 @@
 # #28 KLASSLAR
 
-{% embed url="<https://youtu.be/Mi0GzaBguEQ>" %}
+<Embed url="https://youtu.be/Mi0GzaBguEQ" />
 
 ## KIRISH
 
@@ -39,7 +39,7 @@ def salom_ber():
 print(type(salom_ber))
 ```
 
-&#x20;Natija: `<class 'function'>`
+Natija: `<class 'function'>`
 
 Demak, Pythondagi har qanday o'zgaruvchi, funksiya va boshqa elementlar aslida obyektlar ekan.
 
@@ -83,20 +83,20 @@ class Talaba:
 
 Kodimizni tahlil qilamiz:
 
-* `class Talaba` — `Talaba` nomli klass yaratdik. Klasslarga nom berishda uning birinchi harfini katta harfdan boshlash tavsiya qilinadi. Agar klass nomi 2 va undan ko'p so'zdan iborat bo'lsa har bir so'zni katta harf bilan boshlang.
-* `def __init__(self)` — klassga tegishli xususiyatlarni saqlovchi maxsus metod (funksiya). self kalit so'zi ingliz tilidan "o'zi" deb tarjima qilinadi, va bu klassdan yaratilgan obyektning o'ziga ishora qiladi. Ya'ni keyinchalik biz obyekt ichidagi metodga murojat qilganimizda shu obyektning o'zi birinchi bo'lib funksiyaga argument sifatida uzatiladi, obyket ustida turli amallar bajarish imkonin beradi
-* `def __init__(self,ism,familiya,tyil)` — yaratayotgan klassimizga xos xususiyatlarni `def __init__(self)` funksiyasiga argument sifatida uzatamiz. Bizning Talaba klassimiz ism, familiya va tug'ilgan yilga ega bo'ladi.&#x20;
-* Keyingi qatorlarda esa `self.xususiyat = argument` komandasi yordamida uzatilgan argumentlarni klassning xususiyatlari bilan bo'glayapmiz. Bu yerda xususiyat nomi uzatilgan argument nomi bilan mos tushishi shart emas, unga istalgan nom berishimiz mumkin (masalan `self.name = ism`)
+- `class Talaba` — `Talaba` nomli klass yaratdik. Klasslarga nom berishda uning birinchi harfini katta harfdan boshlash tavsiya qilinadi. Agar klass nomi 2 va undan ko'p so'zdan iborat bo'lsa har bir so'zni katta harf bilan boshlang.
+- `def __init__(self)` — klassga tegishli xususiyatlarni saqlovchi maxsus metod (funksiya). self kalit so'zi ingliz tilidan "o'zi" deb tarjima qilinadi, va bu klassdan yaratilgan obyektning o'ziga ishora qiladi. Ya'ni keyinchalik biz obyekt ichidagi metodga murojat qilganimizda shu obyektning o'zi birinchi bo'lib funksiyaga argument sifatida uzatiladi, obyket ustida turli amallar bajarish imkonin beradi
+- `def __init__(self,ism,familiya,tyil)` — yaratayotgan klassimizga xos xususiyatlarni `def __init__(self)` funksiyasiga argument sifatida uzatamiz. Bizning Talaba klassimiz ism, familiya va tug'ilgan yilga ega bo'ladi.
+- Keyingi qatorlarda esa `self.xususiyat = argument` komandasi yordamida uzatilgan argumentlarni klassning xususiyatlari bilan bo'glayapmiz. Bu yerda xususiyat nomi uzatilgan argument nomi bilan mos tushishi shart emas, unga istalgan nom berishimiz mumkin (masalan `self.name = ism`)
 
 ## KLASSDAN OBYEKT YARATAMIZ
 
-Klassimiz tayyor, keling endi klassimizdan yangi obyekt yaratamiz.&#x20;
+Klassimiz tayyor, keling endi klassimizdan yangi obyekt yaratamiz.
 
 ```python
 talaba1 = Talaba("Alijon","Valiyev",2000)
 ```
 
-Mana, `talaba1` obyektimiz tayyor. Obyektni yaratish uchun Talaba klassiga murojat qildik va talabaning ismi, familiyasi va tug'ilgan yilini parameter sifatida uzatdik.&#x20;
+Mana, `talaba1` obyektimiz tayyor. Obyektni yaratish uchun Talaba klassiga murojat qildik va talabaning ismi, familiyasi va tug'ilgan yilini parameter sifatida uzatdik.
 
 ### OBYKETNING XUSUSIYATLARINI KO'RISH
 
@@ -131,10 +131,10 @@ print(talaba2.ism)
 print(talaba4.familiya)
 ```
 
-Natija:&#x20;
+Natija:
 
-* `Olim`
-* `Akbarov`
+- `Olim`
+- `Akbarov`
 
 ## KLASSGA METODLAR QO'SHAMIZ
 
@@ -260,15 +260,14 @@ class User:
         pass
 ```
 
-&#x20;Yuqoridagi klassimizda `describe()` va `get_email()` funksiyalar badani hali tayyor emas, bo'shliqni to'ldirish uchun esa pass operatoridan foydalanganmiz.
+Yuqoridagi klassimizda `describe()` va `get_email()` funksiyalar badani hali tayyor emas, bo'shliqni to'ldirish uchun esa pass operatoridan foydalanganmiz.
 
-{% hint style="info" %}
+:::info
 `pass` operatoridan `if-else`, `for`, `while` operatorlari badanida ham foydalanish mumkin.
-{% endhint %}
+:::
 
 ## AMALIYOT
 
-* Web sahifangiz uchun foydalanuvchi (user) klassini tuzing. Klassning xususiyatlari sifatida odatda ijtimoiy tarmoqlar talab qiladigan ma'lumotlarni kiriting (ism, foydalanuvchi ismi, email, va hokazo)
-* Klassga bir nechta metodlar qo'shing, jumladan get\_info() metodi foydalanuvchi haqida yig'ilgan ma'lumotlarni chiroyli qilib chiqarsin (masalan: "Foydalanuvchi: alijon1994, ismi: Alijon Valiyev, email: <alijon1994@gmail.com>).
-* Klassdan bir nechta obyektlar yarating va uning xususiyatlari va metodlariga murojat qiling.
-
+- Web sahifangiz uchun foydalanuvchi (user) klassini tuzing. Klassning xususiyatlari sifatida odatda ijtimoiy tarmoqlar talab qiladigan ma'lumotlarni kiriting (ism, foydalanuvchi ismi, email, va hokazo)
+- Klassga bir nechta metodlar qo'shing, jumladan get\_info() metodi foydalanuvchi haqida yig'ilgan ma'lumotlarni chiroyli qilib chiqarsin (masalan: "Foydalanuvchi: alijon1994, ismi: Alijon Valiyev, email: [alijon1994@gmail.com](mailto\:alijon1994@gmail.com)).
+- Klassdan bir nechta obyektlar yarating va uning xususiyatlari va metodlariga murojat qiling.

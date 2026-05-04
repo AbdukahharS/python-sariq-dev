@@ -1,6 +1,6 @@
 # #32 DUNDER METODLAR
 
-{% embed url="<https://youtu.be/KOKEsau2uaU>" %}
+<Embed url="https://youtu.be/KOKEsau2uaU" />
 
 ## MAXSUS METODLAR
 
@@ -69,13 +69,13 @@ avto1 = Avto("GM","Malibu","Qora",2020,40000)
 print(avto1) # obyekt haqida ma'lumot
 ```
 
-Natija: `<__main__.Avto object at 0x00000238A6DAE0C8>`&#x20;
+Natija: `&lt;__main__.Avto object at 0x00000238A6DAE0C8>`
 
 Qandaydur tushunarsiz ma'lumot. Ekrandagi natijadan biz faqat `avto1` obyektimiz `Avto` klassiga tegishli ekanini ko'ramiz. Qanday qilib shuning o'rniga obyekt haqida tushunarliroq ma'lumot olishimiz mumkin?
 
-Gap shundaki biz har gal obyketga `print()` (yoki `str()` yoki `repr()`) orqali murojat qilganimizda, Python obyket ichida `__str__` yoki `__repr__` metodlariga murojat qiladi. Agar biz bu metodlarni yozmagan bo'lsak, yuqoridagi kabi umumiy ma'lumot qayataradi.&#x20;
+Gap shundaki biz har gal obyketga `print()` (yoki `str()` yoki `repr()`) orqali murojat qilganimizda, Python obyket ichida `__str__` yoki `__repr__` metodlariga murojat qiladi. Agar biz bu metodlarni yozmagan bo'lsak, yuqoridagi kabi umumiy ma'lumot qayataradi.
 
-Biz ushbu metodlarni yangidan yozib, biz istagan ma'lumotni qayataradian qilishimiz mumkin. Odatda, yuqoridagi ikki metoddan birini yozish kifoya. Odatda, `__repr__` umumiyorq, `__str__` esa batafsilroq ma'lumot olish uchun ishlatiladi.&#x20;
+Biz ushbu metodlarni yangidan yozib, biz istagan ma'lumotni qayataradian qilishimiz mumkin. Odatda, yuqoridagi ikki metoddan birini yozish kifoya. Odatda, `__repr__` umumiyorq, `__str__` esa batafsilroq ma'lumot olish uchun ishlatiladi.
 
 Ikkalasidan birini tanlaganda, `__repr__`metodiga yon bosiladi, sababi bu metod `print()`, `str()` va `repr()` funksiyalarining hammasi bilan ishlaydi. Keling biz ham yuoqirdagi klassimizga`__repr__`metodini qo'shamiz:
 
@@ -110,7 +110,7 @@ Mana endi natijamiz ancha tushunarli ko'rinishda chiqdi.
 
 ## OBYEKTLARNI TAQQOSLASH
 
-Taqqoslash operatorlari yordamida biz turli obyektlarni solishtirishimiz mumkin. Taqqoslash natijasi mantiqiy qiymat (`True` yoki `False`) ko'rinishida bo'ladi.&#x20;
+Taqqoslash operatorlari yordamida biz turli obyektlarni solishtirishimiz mumkin. Taqqoslash natijasi mantiqiy qiymat (`True` yoki `False`) ko'rinishida bo'ladi.
 
 ```python
 x,y = 5,10
@@ -129,20 +129,20 @@ avto1>avto2
 
 Natija: `TypeError: '>' not supported between instances of 'Avto' and 'Avto'`
 
-Xatolik. Demak bu ikki obyektni solshtirib bo'lmas ekan.&#x20;
+Xatolik. Demak bu ikki obyektni solshtirib bo'lmas ekan.
 
-Biz taqqolash operatorlariga murojat qilganimizda, Python obyektlar ichida taqqoslash uchun maxsus metodlarni qidiradi, agar metodlar topilmasa yuqoridagi kabi `TypeError` qaytaradi.&#x20;
+Biz taqqolash operatorlariga murojat qilganimizda, Python obyektlar ichida taqqoslash uchun maxsus metodlarni qidiradi, agar metodlar topilmasa yuqoridagi kabi `TypeError` qaytaradi.
 
 Taqqoslash metodlari quyidagilardan iborat:
 
-| Metod              | Operator |
-| ------------------ | -------- |
-| `x.__lt__(self,y)` | `x<y`    |
-| `x.__le__(self,y)` | `x<=y`   |
-| `x.__gt__(self,y)` | `x>y`    |
-| `x.__ge__(self,y)` | `x>=y`   |
-| `x.__eq__(self,y)` | `x==y`   |
-| `x.__ne__(self,y)` | `x!=y`   |
+| Metod              | Operator  |
+| ------------------ | --------- |
+| `x.__lt__(self,y)` | `x<y`     |
+| `x.__le__(self,y)` | `x&lt;=y` |
+| `x.__gt__(self,y)` | `x>y`     |
+| `x.__ge__(self,y)` | `x>=y`    |
+| `x.__eq__(self,y)` | `x==y`    |
+| `x.__ne__(self,y)` | `x!=y`    |
 
 Yuqoridagi obyektlardan yarmi uchun metodlar yozishimiz kifoya, misol uchun `__lt__` (x\<y) metodini yozsak, `__gt__` (x>y) metodini yozishimiz shart emas, yoki `__le__` metodi, `__ge__`metodini ham o'z ichiga oladi, va hokazo.
 
@@ -159,7 +159,7 @@ Keling tushunarli bo'lishi uchun Avto klassiga obyektlarni solishtirish uchun me
     
     def __le__(self,boshqa_avto):
         """Kichik yoki teng"""
-        return self.narh<=boshqa_avto.narh
+        return self.narh&lt;=boshqa_avto.narh
 ```
 
 Kodimizga e'tibor qilsangiz biz tenglik (`__eq__`) yoki kichiklikni (`__lt__`) tekshirmoqchi bo'lganimizda ikki avtoning aynan narhi bo'yicha solishtiramiz (`self.narh == boshqa_avto.narh`).
@@ -296,7 +296,7 @@ Mana endi bizning `AvtoSalon` klassimizga oid obyektlar uchun ham `len()` funksi
 
 ## OBYEKT ELEMENTLARIGA MUROJAT QILISH
 
-Ba'zi obyektlarning (matn, ro'yxat, lug'at va hokazo) elementlariga alohida murojat qilish mumkin.&#x20;
+Ba'zi obyektlarning (matn, ro'yxat, lug'at va hokazo) elementlariga alohida murojat qilish mumkin.
 
 ```python
 >>> mevalar = ['olma','anor','uzum']
@@ -470,7 +470,7 @@ salon1+salon2
 
 Natija: `TypeError: unsupported operand type(s) for +: 'AvtoSalon' and 'AvtoSalon'`
 
-Demak, bu ikki obyektni qo'shib bo'lmas ekan. Biz obyekt egasi sifatida qo'shish operatorini o'zimiz istagancha talqin qilishimiz mumkin. Misol uchun AvtoSalon obyektiga boshqa AvtoSalon obyektini qo'shganda, yangi AvtoSalon obyektini qaytaraylik va bu yangi obyekt avvalgi ikki obyektning avtolariga ega bo'lsin.&#x20;
+Demak, bu ikki obyektni qo'shib bo'lmas ekan. Biz obyekt egasi sifatida qo'shish operatorini o'zimiz istagancha talqin qilishimiz mumkin. Misol uchun AvtoSalon obyektiga boshqa AvtoSalon obyektini qo'shganda, yangi AvtoSalon obyektini qaytaraylik va bu yangi obyekt avvalgi ikki obyektning avtolariga ega bo'lsin.
 
 Qo'shish operatorini qayta talqin qilish uchun AvtoSalon klassimizga `__add__` metodini qo'shamiz.
 
@@ -533,7 +533,7 @@ Huddi shu kabi boshqa operatorlarni ham o'zingiz istalgancha talqin qilishingiz 
 
 ## OBYEKTNI CHAQIRISH
 
-Obyektlarni huddi funksiyalarni chaqirgandek chaqirish ham mumkin. Odatda biror funksiyaga murojat qilganda funksiya nomidan so'ng qavslar ochiladi va yopiladi. Agar funksiya argument qabul qilsa, ular qavs ichida beriladi.&#x20;
+Obyektlarni huddi funksiyalarni chaqirgandek chaqirish ham mumkin. Odatda biror funksiyaga murojat qilganda funksiya nomidan so'ng qavslar ochiladi va yopiladi. Agar funksiya argument qabul qilsa, ular qavs ichida beriladi.
 
 ```python
 >>> print(10)
@@ -594,21 +594,20 @@ Ushbu bo'limda biz maxsus metodlarning ba'zilari bilan tanishdik. Bu metodlarnin
 
 ## AMALIYOT
 
-* Avvalga darslarda yaratilgan obyektlarga (`Shaxs`, `Talaba`) turli dunder metodlarni qo'shishni mashq qiling.&#x20;
-  * Obyekt haqida ma'lumot (`__rerp__`)
-  * Talabalarni bosqichi bo'yicha solishtirish (`__lt__`,`__eg__` va hokazo)
-* Fan degan yangi klass yarating. Fan obyetklari tarkibida shu fanga yozilgan talabalarning ro'yxati saqlansin. Buning uchun Fanga add\_student(), `__getitem__`, `__setitem__`, `__len__` kabi metodlarni qo'shing.
-* Fanga qo'shish `+` operatori yordamida talaba qo'shish metodini yozing
-* Minus (`-`) operatori yordamida fandan talaba olib tashlash metodini yozing (bunda talabaning passport raqami yoki ID raqami bo'yicha topib, olib tashlash mumkin)
-* Fan obyektlarini chaqiriladigan qiling (masalan, `fizika()`, yoki `fizika(talaba1)`). Bu metodlarni o'zingiz istagandek talqin qiling.
+- Avvalga darslarda yaratilgan obyektlarga (`Shaxs`, `Talaba`) turli dunder metodlarni qo'shishni mashq qiling.
+  - Obyekt haqida ma'lumot (`__rerp__`)
+  - Talabalarni bosqichi bo'yicha solishtirish (`__lt__`,`__eg__` va hokazo)
+- Fan degan yangi klass yarating. Fan obyetklari tarkibida shu fanga yozilgan talabalarning ro'yxati saqlansin. Buning uchun Fanga add\_student(), `__getitem__`, `__setitem__`, `__len__` kabi metodlarni qo'shing.
+- Fanga qo'shish `+` operatori yordamida talaba qo'shish metodini yozing
+- Minus (`-`) operatori yordamida fandan talaba olib tashlash metodini yozing (bunda talabaning passport raqami yoki ID raqami bo'yicha topib, olib tashlash mumkin)
+- Fan obyektlarini chaqiriladigan qiling (masalan, `fizika()`, yoki `fizika(talaba1)`). Bu metodlarni o'zingiz istagandek talqin qiling.
 
 ## KODLAR
 
 ### GitHub
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
 ### Repl.it
 
-{% embed url="<https://repl.it/@anvarbek/darslar-32-dunder>" %}
-
+<Embed url="https://repl.it/@anvarbek/darslar-32-dunder" />

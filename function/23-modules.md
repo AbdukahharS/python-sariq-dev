@@ -1,12 +1,12 @@
 # #23 MODULLAR
 
-{% embed url="<https://www.youtube.com/watch?v=SEQzCcXY4Pc&feature=youtu.be>" %}
+<Embed url="https://www.youtube.com/watch?v=SEQzCcXY4Pc&feature=youtu.be" />
 
 ## MODUL NIMA?
 
-Funksiyaning qulayliklaridan biri, ko'p takrorlanadigan kodlarni funksiya ichida yashirishimiz va kerak bo'lgan murojat qilishimiz mumkinligida. Maqsadimiz dasturimizni ixcham va tushunarli qilib, kelajakda o'zimiz yoki boshqalar uchun ham "toza" kod qoldrisih. Bu yo'nalishda yana bir qadam qo'yib, dasturimizni modullarga ajratimshimiz mumkin.&#x20;
+Funksiyaning qulayliklaridan biri, ko'p takrorlanadigan kodlarni funksiya ichida yashirishimiz va kerak bo'lgan murojat qilishimiz mumkinligida. Maqsadimiz dasturimizni ixcham va tushunarli qilib, kelajakda o'zimiz yoki boshqalar uchun ham "toza" kod qoldrisih. Bu yo'nalishda yana bir qadam qo'yib, dasturimizni modullarga ajratimshimiz mumkin.
 
-Modul bu loyihamiz ichidagi alohida fayl bo'lib, dasturimiz davomida ishlatiladigan funskyalarni (va o'zgaruvchilarni) mana shu faylga joylab, ko'zdan yashirib qo'yishimiz mumkin. Bu bizga asosiy dasturimizdan chalg'imasdan kod yozish imkoniyatini beradi.&#x20;
+Modul bu loyihamiz ichidagi alohida fayl bo'lib, dasturimiz davomida ishlatiladigan funskyalarni (va o'zgaruvchilarni) mana shu faylga joylab, ko'zdan yashirib qo'yishimiz mumkin. Bu bizga asosiy dasturimizdan chalg'imasdan kod yozish imkoniyatini beradi.
 
 Modul va uning ichidagi funksiyalarni istalgan payt asosiy dasturimizga yuklab olishimiz, modullarni boshqa dasturchilar bilan ulashishimiz yoki kelajakda o'zimizning boshqa loyihalarimizda foydalanishimiz mumkin.
 
@@ -14,7 +14,7 @@ Umuman olganda katta dasturlar bir nech o'nlab modullardan iborat bo'lishi tabii
 
 ## MODUL YARATAMIZ
 
-Modul yaratish uchun asosiy dasturimizdagi funksiyalarni yangi faylga ko'chiramiz xolos. Modulga oson murojat qilishimiz uchun, faylimiz asosiy dasturimiz bilan bitta papkada bo'lgani afzal. Bunda adashib ketmaslik uchun, loyihangizning (dasturning) asosiy faylini `main.py` deb nomlash o'rinli.&#x20;
+Modul yaratish uchun asosiy dasturimizdagi funksiyalarni yangi faylga ko'chiramiz xolos. Modulga oson murojat qilishimiz uchun, faylimiz asosiy dasturimiz bilan bitta papkada bo'lgani afzal. Bunda adashib ketmaslik uchun, loyihangizning (dasturning) asosiy faylini `main.py` deb nomlash o'rinli.
 
 Keling, biz ham `avto_info_mod.py` degan fayl yaratamiz va ichiga quyidagi 3 ta funksiyalarni joylaymiz:
 
@@ -75,9 +75,9 @@ Natija: `Qora GM MALIBU, avtomat korobka, 2020-yil, 40000$`
 
 Ko'rib turganingizdek, dasturimiz qisqa, tushunarli va muhimi toza bo'ldi. 3 qator kod ortida 20 qatordan ortiq kodni yashirdik.
 
-{% hint style="info" %}
+:::info
 **`import`**` ``modul_nomi` komandasi bir martta, dastur boshida yoziladi.
-{% endhint %}
+:::
 
 ### MODULGA QISQA NOM BERISH
 
@@ -90,9 +90,9 @@ avto1 = aim.avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 aim.info_print(avto1)
 ```
 
-{% hint style="danger" %}
-Modulga qisqa nom berganingizda bunday nomli boshqa o'zgaruvchi yoki funksiya yo'qligiga amin boling. Shunigdek, dastur davomida bu nomni boshqa o'zgaruvchilarga yoki funksiylarga berib yubormang.&#x20;
-{% endhint %}
+:::danger
+Modulga qisqa nom berganingizda bunday nomli boshqa o'zgaruvchi yoki funksiya yo'qligiga amin boling. Shunigdek, dastur davomida bu nomni boshqa o'zgaruvchilarga yoki funksiylarga berib yubormang.
+:::
 
 ## MODUL ICIHDAN MA'LUM FUNKSIYALARNI KO'CHIRIB OLISH
 
@@ -109,7 +109,7 @@ info_print(avto1)
 
 ### FUNKSIYALARGA QISQA NOM BERISH
 
-Huddi avvalgidek, ko'chrib olgan funksiyamizga ham qisqa nom berishimiz mumkin.&#x20;
+Huddi avvalgidek, ko'chrib olgan funksiyamizga ham qisqa nom berishimiz mumkin.
 
 ```python
 from avto_info_mod import avto_info as ainfo, info_print as iprint
@@ -120,7 +120,7 @@ iprint(avto1)
 
 ## MODUL ICHIDAGI BARCHA FUNKSIYALARNI KO'CHIRIB OLISH
 
-Modul ichidagi barcha funksiyalarni asosiy dasturga ko'chirib olish uchun `from modul_nomi import *` komandasidan foydalanamiz. &#x20;
+Modul ichidagi barcha funksiyalarni asosiy dasturga ko'chirib olish uchun `from modul_nomi import *` komandasidan foydalanamiz.
 
 ```python
 from avto_info_mod import *
@@ -129,9 +129,9 @@ avto1 = avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 info_print(avto1)
 ```
 
-{% hint style="danger" %}
+:::danger
 Diqqat! Bir necha sabablarga ko'ra bu usuldan foydalanish tavsiya qilinmaydi. Katta modullarda yuzlab funksiyalar bo'lishi mumkin, va funksiya nomi sizning dasturingizdagi boshqa funksiya yoki o'zgaruvchi bilan bir hil nomga ega bo'lsa, dastur xato ishlashiga olib keladi.
-{% endhint %}
+:::
 
 ## MODULDA O'ZGARUVCHI SAQLASH
 
@@ -141,7 +141,7 @@ Modullarning ichida nafaqat funksiyalar, balki turli o'zgaruvchilarni ham saqlas
 
 Python dasturlash tili tayyor modullar bilan keladi, modullarning to'liq ro'yxatini quyidagi bo'glama orqali kirib ko'rishingiz mumkin:
 
-{% embed url="<https://docs.python.org/3/py-modindex.html>" %}
+<Embed url="https://docs.python.org/3/py-modindex.html" />
 
 Keling ulardan ba'zilari bilan tanishamiz.
 
@@ -207,7 +207,7 @@ Random moduli tasodifiy sonlar bilan ishlash uchun qulay funksiyalarga boy. Kein
 
 #### `randint(a,b)`
 
-Bu funksiya a va b oraligi'da tasodifiy butun son qaytaradi.&#x20;
+Bu funksiya a va b oraligi'da tasodifiy butun son qaytaradi.
 
 ```python
 import random as r # random modulini r deb chaqirayapmiz
@@ -227,7 +227,7 @@ print(ism)
 print(r.choice(ism)) # ismdan tasodifiy harf tanlaymiz
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MPUIjglBR0RNwpCAlPk%2F-MPUPeDuElnmFGwz1U5k%2Fimage.png?alt=media\&token=fd69a2ab-8b07-4de0-af00-9b55ba16ea25)
+![Natija](../cirth-assets/81034190-0278-4db9-b28c-353ff5f32748.png)
 
 ```python
 x = list(range(0,51,5))
@@ -235,9 +235,9 @@ print(x)
 print(r.choice(x))
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MPUIjglBR0RNwpCAlPk%2F-MPUPk2QRKNN5vGpSltz%2Fimage.png?alt=media\&token=0de0a769-5ec8-4405-8549-a572b77ad5cc)
+![Natija](../cirth-assets/fead1563-2686-4c15-a7f3-4f35073b88f9.png)
 
-&#x20;**shuffle(x)**
+**shuffle(x)**
 
 `x` ichidagi elementlarni tasodifiy tartibda qaytaruvchi funksiya. Bunda `x` bir necha elementdan iborat o'zgaruvchi (matn, ro'yxat) bo'lishi kerak.
 
@@ -248,7 +248,6 @@ r.shuffle(x)
 print(x)
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MPUIjglBR0RNwpCAlPk%2F-MPUQ-v5E_ysusN9Q2AR%2Fimage.png?alt=media\&token=4c07e236-9a6c-436c-8db5-66203746673a)
+![Natija](../cirth-assets/8d936ee3-0834-4738-a027-3dafd4f5279b.png)
 
 `random` moduli ichidagi boshqa funksiyalar haqida [Python rasmiy sahifasidan](https://docs.python.org/3/library/random.html#module-random) ma'lumot olishingiz mumkin.
-

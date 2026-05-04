@@ -1,10 +1,10 @@
 # #30 VORISLIK VA POLIMORFIZM
 
-{% embed url="<https://www.youtube.com/watch?v=JnoQ-2SFPnY>" %}
+<Embed url="https://www.youtube.com/watch?v=JnoQ-2SFPnY" />
 
 ## SUPER KLASS VA VORIS KLASS
 
-Obyektga yo'naltirilgan dasturlashning qulayliklaridan biri bu klasslardan boshqa klass yaratish imkoniyati. Bizga kerak bo'lgan yangi klass, avval yaratilgan boshqa klass bilan o'xshashlik joylari bo'lsa, biz bu klassdan voris klass yaratishimiz mumkin. Bunda asl klass - ota, yoki super klass deb ataladi.&#x20;
+Obyektga yo'naltirilgan dasturlashning qulayliklaridan biri bu klasslardan boshqa klass yaratish imkoniyati. Bizga kerak bo'lgan yangi klass, avval yaratilgan boshqa klass bilan o'xshashlik joylari bo'lsa, biz bu klassdan voris klass yaratishimiz mumkin. Bunda asl klass - ota, yoki super klass deb ataladi.
 
 Super klassdan yaratilgan voris klass otaning barcha yoki tanlangan xususiyatlari va metodlarini meros olish bilan birga, o'ziga xos xususiyat va metodlariga ega bo'ladi.
 
@@ -53,8 +53,8 @@ class Talaba(Shaxs):
 
 Kodimizni tahlil qilaylik:
 
-* 1-qatorda klass nomidan so'ng, qavs ichida super klass nomini berdik
-* 5-qatorda (`def __init__` ichida) klassimiz super klassning xususiyatlarini meros olishini ko'rsatdik&#x20;
+- 1-qatorda klass nomidan so'ng, qavs ichida super klass nomini berdik
+- 5-qatorda (`def __init__` ichida) klassimiz super klassning xususiyatlarini meros olishini ko'rsatdik
 
 Yangi yaratgan Talaba klassimiz Shaxsning barcha xususiyatlari va metodlariga ega bo'ladi.
 
@@ -65,7 +65,7 @@ print(talaba.get_info())
 
 Natija: Valijon Aliyev. Passport:FA112299, 2000-yilda tug\`ilgan
 
-Talaba klassi uchun alohida `get_info()` metodini yozmagan bo'lsakd&#x61;*,* bu metod `Talaba`ga `Shaxs`dan meros o'tdi.
+Talaba klassi uchun alohida `get_info()` metodini yozmagan bo'lsakda\*,\* bu metod `Talaba`ga `Shaxs`dan meros o'tdi.
 
 Huddi shu kabi `get_age()` metodiga ham murojat qilishimiz mumkin:
 
@@ -74,9 +74,9 @@ Huddi shu kabi `get_age()` metodiga ham murojat qilishimiz mumkin:
 21
 ```
 
-{% hint style="danger" %}
+:::danger
 Dastur davomida super klass voris klasslardan avval yozilgan (chaqirilgan) bo'lishi kerak.
-{% endhint %}
+:::
 
 ### VORIS KLASSGA XOS XUSUSIYATLAR VA METODLAR
 
@@ -129,9 +129,9 @@ Valijon Aliyev. Passport:FA112299, 2000-yilda tug`ilgan. ID raqami:0000012
 
 Shu zayilda yangi klassimizga istalgancha yangi xususiyatlar va metodlar qo'shishimiz mumkin. Bunda, agar yangi xususiyat yoki metod super klassga ham aloqador bo'lsa uni birdan super klassga qo'shish tavsiya qilinadi.
 
-{% hint style="info" %}
+:::info
 Voris klass boshqa klass uchun super klass bo'lishi mumkin.
-{% endhint %}
+:::
 
 ## POLIMORFIZM — SUPER KLASS METODLARINI QAYTA YOZISH
 
@@ -179,7 +179,7 @@ Valijon Aliyev. 1-bosqich. ID raqami: 0000012
 
 Ba'zida klassimiz xususiyatlar va ular bilan ishlaydigan metodlarga to'lib ketishi, bu esa o'z navbatida obyektga murojat qilishni qiyinlashitirishi mumkin. Shunday holatlarda ba'zi xususiyatlarni alohida klass ko'rinishida yozish va keyinchalik bu klassdan yaratilgan obyektni boshqa obyektning xususiyati sifatida foydalanish mumkin.
 
-Misol uchun, yuqoridagi `Shaxs` klassimizga yana bir `manzil` degan xususiyat qo'shaylik. Odatda manzil bir nechta qismlardan iborat bo'ladi (xonadon, ko'cha, mahalla, tuman/shahar, viloyat, indeks va hokazo) va ularning har biri uchun `Shaxs` ichida alohida xususiyat yaratmasdan, alohida `manzil` degan klassga yuklash maqsadga muvofiq bo'ladi.&#x20;
+Misol uchun, yuqoridagi `Shaxs` klassimizga yana bir `manzil` degan xususiyat qo'shaylik. Odatda manzil bir nechta qismlardan iborat bo'ladi (xonadon, ko'cha, mahalla, tuman/shahar, viloyat, indeks va hokazo) va ularning har biri uchun `Shaxs` ichida alohida xususiyat yaratmasdan, alohida `manzil` degan klassga yuklash maqsadga muvofiq bo'ladi.
 
 ```python
 class Manzil:
@@ -243,17 +243,16 @@ Bog'bon
 
 ## AMALIYOT
 
-* Talaba klassiga yana bir, fanlar degan xususiyat qo'shing. Bu xususiyat parametr sifatida uzatilmasin va obyekt yaratilganida bo'sh ro'yxatdan iborat bo'lsin (`self.fanlar=[]`)
-* Fan degan yangi klass yarating va bu klassdan turli fanlar uchun alohida obyektlar yarating.
-* Talaba klassiga `fanga_yozil()` degan yangi metod yozing. Bu metod parametr sifatida Fan klassiga tegishli obyektlarni qabul qilib olsin va talabaning fanlar ro'yxatiga qo'shib qo'ysin.
-* Talabaning fanlari ro'yxatidan biror fanni o'chirib tashlash uchun `remove_fan()` metodini yozing. Agar bu metodga ro'yxatda yo'q fan uzatilsa "Siz bu fanga yozilmagansiz" xabarini qaytarsin.
-* Yuqoridagi Shaxs klassidan boshqa turli voris klasslar yaratib ko'ring (masalan Professor, Foydalanuvchi, Sotuvchi, Mijoz va hokazo)
-* Har bir klassga o'ziga hoz xususiyatlar va metodlar yuklang.
-* Barcha yangi klasslar uchun `get_info()` metodini qayta yozib chiqing.
-* Voris klasslardan yana boshqa voris klass yaratib ko'ring. Misol uchun Foydalanuvchi klassidan Admin klassini yarating.&#x20;
-* Admin klassiga foydalanuvchida yo'q yangi metodlar yozing, masalan, `ban_user()` metodi konsolga "Foydalanuvchi bloklandi" degan matn chiqarsin.
+- Talaba klassiga yana bir, fanlar degan xususiyat qo'shing. Bu xususiyat parametr sifatida uzatilmasin va obyekt yaratilganida bo'sh ro'yxatdan iborat bo'lsin (`self.fanlar=[]`)
+- Fan degan yangi klass yarating va bu klassdan turli fanlar uchun alohida obyektlar yarating.
+- Talaba klassiga `fanga_yozil()` degan yangi metod yozing. Bu metod parametr sifatida Fan klassiga tegishli obyektlarni qabul qilib olsin va talabaning fanlar ro'yxatiga qo'shib qo'ysin.
+- Talabaning fanlari ro'yxatidan biror fanni o'chirib tashlash uchun `remove_fan()` metodini yozing. Agar bu metodga ro'yxatda yo'q fan uzatilsa "Siz bu fanga yozilmagansiz" xabarini qaytarsin.
+- Yuqoridagi Shaxs klassidan boshqa turli voris klasslar yaratib ko'ring (masalan Professor, Foydalanuvchi, Sotuvchi, Mijoz va hokazo)
+- Har bir klassga o'ziga hoz xususiyatlar va metodlar yuklang.
+- Barcha yangi klasslar uchun `get_info()` metodini qayta yozib chiqing.
+- Voris klasslardan yana boshqa voris klass yaratib ko'ring. Misol uchun Foydalanuvchi klassidan Admin klassini yarating.
+- Admin klassiga foydalanuvchida yo'q yangi metodlar yozing, masalan, `ban_user()` metodi konsolga "Foydalanuvchi bloklandi" degan matn chiqarsin.
 
 ## KODLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

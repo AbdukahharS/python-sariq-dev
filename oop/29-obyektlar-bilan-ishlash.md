@@ -1,6 +1,6 @@
 # #29 OBYKETLAR BILAN ISHLASH
 
-{% embed url="<https://www.youtube.com/watch?v=wWMGRlLTw48&feature=youtu.be>" %}
+<Embed url="https://www.youtube.com/watch?v=wWMGRlLTw48&feature=youtu.be" />
 
 ## XUSUSIYATLARGA STANDART QIYMAT BERISH
 
@@ -40,7 +40,7 @@ talaba1.bosqich= 2
 print(talaba1.bosqich)
 ```
 
-&#x20; Natija: `2`
+Natija: `2`
 
 Yana boshqa usuli, obyekt xususiyatini yangilovchi metod yozish.
 
@@ -175,9 +175,9 @@ Fanimizga 3 ta talaba qo'shilibdi. Talabalar haqida ma'lumot olsak bo'ladimi?
 print(matematika.talabalar)
 ```
 
-Natija: `[<__main__.Talaba object at 0x000001AB08939588>, <__main__.Talaba object at 0x000001AB089397C8>, <__main__.Talaba object at 0x000001AB087D9F08>]`
+Natija: `[&lt;__main__.Talaba object at 0x000001AB08939588>, &lt;__main__.Talaba object at 0x000001AB089397C8>, &lt;__main__.Talaba object at 0x000001AB087D9F08>]`
 
-Talabalarning ismi familiyasi o'rniga qandaydur tushunarsiz ma'lumotlar. Aslida hammasi to'g'ri, yuqorida fanimizga yangi talabalarni obyekt sifatida qo'shgan edik, yuqoridagi natija esa matematika.talabalar ro'yxatida `Talaba` klassiga oid 3 ta obyekt borligini ko'rsatayapti.&#x20;
+Talabalarning ismi familiyasi o'rniga qandaydur tushunarsiz ma'lumotlar. Aslida hammasi to'g'ri, yuqorida fanimizga yangi talabalarni obyekt sifatida qo'shgan edik, yuqoridagi natija esa matematika.talabalar ro'yxatida `Talaba` klassiga oid 3 ta obyekt borligini ko'rsatayapti.
 
 Fanimizga yozilgan talabalar haqida tushunarli ma'lumot olish uchun esa Fan klassiga yana bir, `get_students()` degan, yangi metod qo'shamiz. Bu metod `talabalar` ichidagi har bir `talaba` obyektiga murojat qilib, `get_info()` metodi yordamida talabaning ma'lumotlarini oladi, ro'yxatga qo'shadi va shu ro'yxatni qaytaradi:
 
@@ -203,7 +203,7 @@ Shu o'rinda Pythonda ro'yxatlar bilan ishlashning qulayliklaridan birini ham ko'
 [talaba.get_info() for talaba in self.talabalar]
 ```
 
-Kodimizni tahlil qilsak, `self.talabalar` ichidagi har bir talaba uchun `get_info()` metodini bajar degan ma'no kelib chiqadi. Kodni kvadrat qavslar ichiga olganimiz uchun esa, har bir tsikl natijasi avtomat ravishda ro'yxatga qo'shib boriladi.&#x20;
+Kodimizni tahlil qilsak, `self.talabalar` ichidagi har bir talaba uchun `get_info()` metodini bajar degan ma'no kelib chiqadi. Kodni kvadrat qavslar ichiga olganimiz uchun esa, har bir tsikl natijasi avtomat ravishda ro'yxatga qo'shib boriladi.
 
 Mana endi metodga murojat qilib, talabalar haqida ma'lumot olishimiz mumkin:
 
@@ -222,9 +222,9 @@ Pythondagi obyketlarning o'ziga xos xususiyatlaridan biri, obyektning xususiyati
 
 Bu o'ziga yarasha qulay bo'lsada, bu usuldan foydalanmagan afzal. Sababi, vaqt o'tib klassingiz takomillashishi, uning ba'zi xususiyatlari o'zgarishi, o'chirilishi yoki almashtirilishi mumkin. Shunday holatlarda nuqta orqali murojat qilish siz kutgan natijani bermasligi va dastur xato ishlashiga olib kelishi mumkin. Bunday holatlarning oldini olish uchun esa, obyektning xususiyatlarini metod orqali olishni odat qilish tavsiya qilinadi. Huddi shu kabi, obyektning xususiyatlarini yangilash uchun ham alohida metodlar yozga afzal.
 
-{% hint style="info" %}
+:::info
 Dasturchilar orasida obyektning xususiyatlarini o'zgartiradigan metodlarni `set` (o'zgartir) so'zi bilan, xususiyatlarni qaytaradigan metodlarni esa `get` (olish) so'zi bilan boshlash qoida qilib olingan. Masalan: `set_name()` va `get_name()` kabi.
-{% endhint %}
+:::
 
 Agar yuqoridagi qoidalarga amal qilgan holda, `Talaba` klassimizni yangilaydigan bo'lsak, u tahminan shunday ko'rinishga ega bo'ladi:
 
@@ -342,9 +342,9 @@ Obyektlar bilan ishlaganda, o'z-o'zidan shu obyektga tegishli xususiyatlar va me
 
 Lekin bunda har bir klass bilan keluvchi maxsus **dunder metodlar** ham chiqib keldi. Dunder metodlar ikki pastki chiziq (`__`) bilan boshlanadi va maxsus holatlar uchun saqlab qo'yilgan. Biz hozircha faqat `__init__` metodi bilan tanishdik, qolganlari bilan keyingi darslarimizda yana ko'rishamiz. Dunder metodlardan keyin esa biz murojat qilishimiz mumkin bo'lgan metodlar ro'yxati kelgan.
 
-{% hint style="info" %}
+:::info
 Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
-{% endhint %}
+:::
 
 Keling dunder metodlarni tashlab, bizga kerak metodlarni qaytaruvchi sodda funksiya yozamiz:
 
@@ -355,7 +355,7 @@ def see_methods(klass):
 print(see_methods(Talaba))
 ```
 
-&#x20;Natija: `['get_age', 'get_fullname', 'get_info', 'get_lastname', 'get_name', 'set_bosqich', 'update_bosqich']`
+Natija: `['get_age', 'get_fullname', 'get_info', 'get_lastname', 'get_name', 'set_bosqich', 'update_bosqich']`
 
 Agar `dir()` funksiyasiga klass emas, obyekt uzatsak metodlardan tashqari xususiyatlar ham chiqib keladi:
 
@@ -385,18 +385,17 @@ Natija: `dict_keys(['ism', 'familiya', 'tyil', 'bosqich'])`
 
 ## AMALIYOT
 
-* `Avto` degan yangi klass yarating. Unga avtomobillarga doir bo'lgan bir nechta xususiyatlar (model, rang, korobka, narh va hokazo) qo'shing. Ayrim xususiyatlarga standart qiymat bering (masalan, `kilometer=0`)
-* `Avto` ga oid obyektning xususiyatlarini qaytaradigan metodlar yozing
-  * `get_info()` metodi avti haqida to'liq ma'lumotni matn ko'rinishida qaytarsin
-* `Avto` ga oid obyektning xususiyatlarini yangilaydigan metodlar yozing.
-  * `update_km()` metodi son qabul qilib olib, avtomobilning yurgan kilometrajini yangilab borsin
-* Yangi, `Avtosalon` degan klass yarating va kerakli xususiyatlar bilan to'ldiring (salon nomi, manzili, sotuvdagi avtomobillar va hokazo)
-* Avtosalonga yangi avtomobillar qo'shish uchun metod yozing
-* Avtosalondagi avtomobillar haqida ma'lumot qaytaruvchi metod yozing
-* Yuqoridagi obyektlar va ularga tegishli metodlarni tekshirib ko'ring
-* `dir()` funksyasi va `__dict__` metodi yordamida o'zingiz yozgan va Pythondagi turli klass va obyektlarning xususiyatlari va metodlarini toping (`dir(str)`, `dir(int)` va hokazo)
+- `Avto` degan yangi klass yarating. Unga avtomobillarga doir bo'lgan bir nechta xususiyatlar (model, rang, korobka, narh va hokazo) qo'shing. Ayrim xususiyatlarga standart qiymat bering (masalan, `kilometer=0`)
+- `Avto` ga oid obyektning xususiyatlarini qaytaradigan metodlar yozing
+  - `get_info()` metodi avti haqida to'liq ma'lumotni matn ko'rinishida qaytarsin
+- `Avto` ga oid obyektning xususiyatlarini yangilaydigan metodlar yozing.
+  - `update_km()` metodi son qabul qilib olib, avtomobilning yurgan kilometrajini yangilab borsin
+- Yangi, `Avtosalon` degan klass yarating va kerakli xususiyatlar bilan to'ldiring (salon nomi, manzili, sotuvdagi avtomobillar va hokazo)
+- Avtosalonga yangi avtomobillar qo'shish uchun metod yozing
+- Avtosalondagi avtomobillar haqida ma'lumot qaytaruvchi metod yozing
+- Yuqoridagi obyektlar va ularga tegishli metodlarni tekshirib ko'ring
+- `dir()` funksyasi va `__dict__` metodi yordamida o'zingiz yozgan va Pythondagi turli klass va obyektlarning xususiyatlari va metodlarini toping (`dir(str)`, `dir(int)` va hokazo)
 
 ## KODLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

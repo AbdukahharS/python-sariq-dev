@@ -2,23 +2,22 @@
 
 ## 1-QISM: O'YIN SHARTI BILAN TANISHAMIZ
 
-{% embed url="<https://www.youtube.com/watch?v=KVFqG5N5OFk>" %}
+<Embed url="https://www.youtube.com/watch?v=KVFqG5N5OFk" />
 
 ## 2-QISM: DASTUR BO'YICHA YO'NALISH
 
-{% embed url="<https://www.youtube.com/watch?v=E_9HGsaZdSY>" %}
+<Embed url="https://www.youtube.com/watch?v=E_9HGsaZdSY" />
 
 ## 3-QISM: KOD
 
-{% embed url="<https://youtu.be/8Pq5hkR36PU>" %}
+<Embed url="https://youtu.be/8Pq5hkR36PU" />
 
 ## KOD
 
 ### GitHub
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
 ### Repl.it
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-25-sontop#main.py>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-25-sontop#main.py" />

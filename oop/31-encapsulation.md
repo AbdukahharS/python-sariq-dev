@@ -1,6 +1,6 @@
 # #31 INKAPSULYATSIA, KLASSNING XUSUSIYAT VA METODLARI
 
-{% embed url="<https://youtu.be/B7kS9lC1fWg>" %}
+<Embed url="https://youtu.be/B7kS9lC1fWg" />
 
 ## INKAPSULYATSIYA
 
@@ -34,7 +34,7 @@ avto1 = Avto("GM","Malibu","Qora",2020,40000,100000)
 avto1.__km
 ```
 
-&#x20;Natija: `AttributeError: 'Avto' object has no attribute '__km'`
+Natija: `AttributeError: 'Avto' object has no attribute '__km'`
 
 Yopiq xususiyatlarni ko'rish uchun esa alohida metodlar yozish maqsadga muvofiq bo'ladi (`get_km()` va `get_id()`):
 
@@ -90,11 +90,11 @@ class Avto:
         Avto.num_avto += 1
 ```
 
-&#x20; Kodni tahlil qilamiz:
+Kodni tahlil qilamiz:
 
-* 1-qatroda Avto klassini e'lo qildik
-* 3-qatorda Avto klassiga oid bo'lgan xususiyat `num_avto` yaratdik va unga 0 qiymatini berdik
-* Keyingi qatorlarda `__init__` metodi yordamida klassdan yaratiladigan obyektlarning xususiyatlarini e'lon qildik va har gal bu metdoga murojat qilingandan `num_avto` ning qiymatini `1` ga oshradigan qilib qo'ydik (13-qator).
+- 1-qatroda Avto klassini e'lo qildik
+- 3-qatorda Avto klassiga oid bo'lgan xususiyat `num_avto` yaratdik va unga 0 qiymatini berdik
+- Keyingi qatorlarda `__init__` metodi yordamida klassdan yaratiladigan obyektlarning xususiyatlarini e'lon qildik va har gal bu metdoga murojat qilingandan `num_avto` ning qiymatini `1` ga oshradigan qilib qo'ydik (13-qator).
 
 Yuqoridagi usul bilan endi biz dastur davomida Avto klassidan jami nechta obyektlar yaratilganini kuzatib borishimiz mumkin bo'ladi. Bunda num\_avto o'zgaruvchisiga istalgan obyekt orqali yoki klass nomi orqali murojat qilish mumkin:
 
@@ -111,7 +111,7 @@ avto3 = Avto("Toyota",'Carolla',"Silver",2018, 45000)
 print(Avto.num_avto)
 ```
 
-&#x20; Natija: `3`
+Natija: `3`
 
 ### KLASSNING XUSUSIYATLARINI INKAPSULYATSIYA QILISH
 
@@ -133,7 +133,7 @@ class Avto:
 
 ### KLASSGA OID METODLAR
 
-Klasslarning o'ziga xos metodlari ham bo'lishi mumkin. Misol uchun yuqoridagi num\_avto xususiyatini ko'rish uchun alohida metod yozishimiz mumkin. Klassga oid metodlar @classmethod dekoratori bilan boshlanadi va obyektga oid metodlardan farqli ravishda *`self`* emas *`cls`* (class) argumentini qabul qiladi.
+Klasslarning o'ziga xos metodlari ham bo'lishi mumkin. Misol uchun yuqoridagi num\_avto xususiyatini ko'rish uchun alohida metod yozishimiz mumkin. Klassga oid metodlar @classmethod dekoratori bilan boshlanadi va obyektga oid metodlardan farqli ravishda _`self`_ emas _`cls`_ (class) argumentini qabul qiladi.
 
 ```python
 class Avto:
@@ -166,13 +166,13 @@ print(Avto.get_num_avto())
 
 Natija: `3`
 
-{% hint style="info" %}
+:::info
 `@classmethod` bu maxsus dekorator. Dekoratorlar bu o'z ichiga funksiya oluvchi funksiyalar. Dekoratorlar haqida keyingi darslarimizning birida batafsil to'xtalamiz.
-{% endhint %}
+:::
 
 ## KLASSLARNI MODULGA AJRATISH
 
-Vaqt o'tishi bilan dasturimizda klasslar ko'payib borishi tabiiy. Bizning asosiy dasturimiz uzun va chigal bo'lmasligi uchun klasslarni ham huddi funksiyalar kabi alohida modullarga ajratish maqsadga muvofiq bo'ladi. Dastur davomida kerak bo'ladigan klasslarga esa modulni chaqirish (import) orqali murojat qilishimiz mumkin. Bunda, bir-biriga bog'liq klasslarni bitta faylga joylashimiz mumkin.&#x20;
+Vaqt o'tishi bilan dasturimizda klasslar ko'payib borishi tabiiy. Bizning asosiy dasturimiz uzun va chigal bo'lmasligi uchun klasslarni ham huddi funksiyalar kabi alohida modullarga ajratish maqsadga muvofiq bo'ladi. Dastur davomida kerak bo'ladigan klasslarga esa modulni chaqirish (import) orqali murojat qilishimiz mumkin. Bunda, bir-biriga bog'liq klasslarni bitta faylga joylashimiz mumkin.
 
 Misol uchun, biz `Talaba`, `Professor`, `Foydalanuvchi` va `Shaxs` degan klasslarni bitta `odamlar.py` moduliga, `Avto`, `Bus`, `Train` degan klasslarni esa boshqa `transport.py` moduliga joyladik. Kelajakda biz bu klasslarga import orqali murjat qilishimiz mumkin.
 
@@ -211,7 +211,7 @@ shaxs = odamlar.Shaxs("Hasan","Husanov","FB0011223")
 
 ### MODULDAGI BARCHA KLASSLARNI IMPORT QILISH
 
-Moduldagi barcha klasslar quyidagicha import qilinadi: `from modul import *`. Bunda modul ichidagi istalgan klassga to'g'ridan-to'g'ri uning nomi bilan murojat qilinadi.&#x20;
+Moduldagi barcha klasslar quyidagicha import qilinadi: `from modul import *`. Bunda modul ichidagi istalgan klassga to'g'ridan-to'g'ri uning nomi bilan murojat qilinadi.
 
 ```python
 from odamlar import *
@@ -222,15 +222,14 @@ shaxs = Shaxs("Hasan","Husanov","FB0011223")
 Bu usul 2 sababga ko'ra tavsiya qilinmaydi:
 
 1. Dasturni kelajakda qayta ochganimizda, dastur davomida moduldagi aynan qaysi klasslardan foydalanganimizni bir qarashda bilib bo'lmaydi
-2. Agar modul juda katta bo'lsa, uning ichidagi ba'zi klasslar biz o'zimiz yaratgan klasslar bilan nomi bir hil bo'lib qolish ehtimoli bor. Bu esa o'z navbatida dastrumiz xato ishlashiga olib keladi.
+1. Agar modul juda katta bo'lsa, uning ichidagi ba'zi klasslar biz o'zimiz yaratgan klasslar bilan nomi bir hil bo'lib qolish ehtimoli bor. Bu esa o'z navbatida dastrumiz xato ishlashiga olib keladi.
 
-{% hint style="info" %}
+:::info
 Modul ichiga boshqa modulni ham import qilish mumkin. Masalan modul ichidagi ba'zi klasslar to'g'ri ishlashi uchun boshqa modul talab qilingan vaqtlarda.
-{% endhint %}
+:::
 
 ## AMALIYOT
 
-* Avvalgi darslarimizda yaratgan `Shaxs` va `Talaba` klasslariga yopiq xususiyatlar qo'shing va ularning qiymatini ko'rsatuvchi va o'zgartiruvchi metodlar yozing.
-* Yuqoridagi klasslarga `talabalar_soni` va `odamlar_soni` degan klassga oid xususiyatlar qo'shing.
-* Klassga oid xususiyatlar bilan ishlash uchun maxsus `@classmethod` lar yozing&#x20;
-
+- Avvalgi darslarimizda yaratgan `Shaxs` va `Talaba` klasslariga yopiq xususiyatlar qo'shing va ularning qiymatini ko'rsatuvchi va o'zgartiruvchi metodlar yozing.
+- Yuqoridagi klasslarga `talabalar_soni` va `odamlar_soni` degan klassga oid xususiyatlar qo'shing.
+- Klassga oid xususiyatlar bilan ishlash uchun maxsus `@classmethod` lar yozing

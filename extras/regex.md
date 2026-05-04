@@ -4,11 +4,11 @@
 
 Pythondagi juda foydali modullardan biri bu **`re`** moduli. Bu modul yordamida biz biror matn berilgan andozaga tushish, tushmalsigini tekshrib ko'rishimiz mumkin. Yoki berilgan andoza asosida matnlar orasidan kerakli matnlarni ajratib olish mumkin.
 
-Keling boshlanishiga sodda misol ko'ramiz. Quyida biz 3 ta so'z va so'zlarni tekshirish uchun andoza yaratdik. Quyidagi andozamiz a harfidan boshlanuvchi (`^т`), s harfiga tugovchi (р`$`), 5 harfdan iborat so'zlarni qidiradi (`^т...р$`).&#x20;
+Keling boshlanishiga sodda misol ko'ramiz. Quyida biz 3 ta so'z va so'zlarni tekshirish uchun andoza yaratdik. Quyidagi andozamiz a harfidan boshlanuvchi (`^т`), s harfiga tugovchi (р`$`), 5 harfdan iborat so'zlarni qidiradi (`^т...р$`).
 
-{% hint style="success" %}
+:::tip
 Avvaliga andozalarni tushunish biroz qiyin bo'lishi mumkin, lekin vaqt o'tishi bilan andoza qanday ishlashini tushunib olasiz deb umid qilamiz.
-{% endhint %}
+:::
 
 So'zlarni andozaga solishtirish uchun `re.match()` funksiyasidan foydalanamiz. Agar tekshirgan so'zimiz andozaga mosh tushsa, `re.match()` metodi so'zni o'zini qaytaradi, aks holda `None` qiymatini qaytaradi.
 
@@ -49,7 +49,7 @@ for word in words:
 print(matches)
 ```
 
-Natija:&#x20;
+Natija:
 
 ```aspnet
 ['табар', 'табор', 'тавир', 'тайёр', 'татар', 'татир', 'тахир', 'тақир', 'театр', 'тембр', 'темир', 'темур', 'тенор', 'тикер', 'тихир', 'товар', 'товор', 'тожир', 'томир', 'тонер', 'тоҳир', 'триер', 'тумор', 'тўпар', 'тўпир']
@@ -115,4 +115,3 @@ Matn qaysi belgilar bilan tugashini ko'rsatuvchi MetaBelgi.
 # 6 harfdan iborat, лоқ bilan tugaydigan matn uchun andoza
 andoza = '...лоқ$'
 ```
-

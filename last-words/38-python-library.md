@@ -1,14 +1,14 @@
 # #38 PYTHON STANDART KUTUBXONASI
 
-{% embed url="<https://youtu.be/tvA1QV7D1Lo>" %}
+<Embed url="https://youtu.be/tvA1QV7D1Lo" />
 
 ## KIRISH
 
 Python dasturlash tili yildan-yilga ommalashib bormoqda. Bunga birinchi navbatda Pythonning sodda va tushunarli sintaksi sabab bo'lsa, ikkinchi va ehtimol eng ko'zga ko'ringan sabab bu Pythonning keng qamrovli kutubxonalar to'plamidir. Ushbu darsimizda Pytyon kutubxonasidagi ba'zi muhim modullar bilan tanishamiz. Standart kutubxonanig to'liq tarkibi bilan [Python rasmiy sahifasida](https://docs.python.org/3/library/) tanishishingiz mumkin.
 
-{% hint style="success" %}
-Kutubxona bu boshqalar tarafidan yozilgan tayyor funksiyalar va obyektlar to'plami.&#x20;
-{% endhint %}
+:::tip
+Kutubxona bu boshqalar tarafidan yozilgan tayyor funksiyalar va obyektlar to'plami.
+:::
 
 ## `datetime` — SANA VA VAQT
 
@@ -173,7 +173,7 @@ Natija: `e ning qiymati: 2.718281828459045`
 
 ### Trigonometriya
 
-Modul tarkibida deyarli barcha trigonometrik funksiyalar mavjud (cos, sin, tangens, arccos, va hokazo)&#x20;
+Modul tarkibida deyarli barcha trigonometrik funksiyalar mavjud (cos, sin, tangens, arccos, va hokazo)
 
 ```python
 math.sin(math.pi/2)
@@ -209,7 +209,7 @@ print(math.ceil(x))
 print(math.floor(x))
 ```
 
-Natija:&#x20;
+Natija:
 
 ```aspnet
 5
@@ -240,9 +240,7 @@ math.pow(x,1/3) # x dan kub ildiz
 
 Misol uchun, avvalgi darslarimizning birida yaratgan `bemor.json` faylini ochamiz va avval `print()` keyin `pprint()` yordamida konsolga chiqaramiz.
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MVKOuCO1rXy2QNl5hSo%2F-MVLISWmRxClH303Kj8C%2Fbemor.json?alt=media&token=63a76c45-6a4d-44a8-bef0-d09345879f23>" %}
-bemor.json fayli
-{% endfile %}
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MVKOuCO1rXy2QNl5hSo%2F-MVLISWmRxClH303Kj8C%2Fbemor.json?alt=media&token=63a76c45-6a4d-44a8-bef0-d09345879f23" />
 
 ```python
 from pprint import pprint
@@ -281,13 +279,13 @@ Natija:
 
 ## RegEx - ANDOZA YORDAMIDA MATN IZLASH
 
-Pythondagi juda foydali modullardan biri bu **`re`** (*regular expressions*) moduli. Bu modul yordamida biror matn berilgan andozaga tushish, tushmalsigini tekshrib ko'rishimiz mumkin. Yoki berilgan andoza asosida matnlar orasidan kerakli matnlarni ajratib olish mumkin.
+Pythondagi juda foydali modullardan biri bu **`re`** (_regular expressions_) moduli. Bu modul yordamida biror matn berilgan andozaga tushish, tushmalsigini tekshrib ko'rishimiz mumkin. Yoki berilgan andoza asosida matnlar orasidan kerakli matnlarni ajratib olish mumkin.
 
-Keling boshlanishiga sodda misol ko'ramiz. Quyida biz 3 ta so'z va so'zlarni tekshirish uchun andoza yaratdik. Quyidagi andozamiz т harfidan boshlanuvchi (`^т`), р harfiga tugovchi (р`$`), 5 harfdan iborat so'zlarni qidiradi (`^т...р$`).&#x20;
+Keling boshlanishiga sodda misol ko'ramiz. Quyida biz 3 ta so'z va so'zlarni tekshirish uchun andoza yaratdik. Quyidagi andozamiz т harfidan boshlanuvchi (`^т`), р harfiga tugovchi (р`$`), 5 harfdan iborat so'zlarni qidiradi (`^т...р$`).
 
-{% hint style="success" %}
+:::tip
 Avvaliga andozalarni tushunish biroz qiyin bo'lishi mumkin, lekin vaqt o'tishi bilan andoza qanday ishlashini tushunib olasiz deb umid qilamiz.
-{% endhint %}
+:::
 
 So'zlarni andozaga solishtirish uchun `re.match()` funksiyasidan foydalanamiz. Agar tekshirgan so'zimiz andozaga mosh tushsa, `re.match()` metodi so'zni o'zini qaytaradi, aks holda `None` qiymatini qaytaradi.
 
@@ -328,15 +326,15 @@ for word in words:
 print(matches)
 ```
 
-Natija:&#x20;
+Natija:
 
 ```aspnet
 ['табар', 'табор', 'тавир', 'тайёр', 'татар', 'татир', 'тахир', 'тақир', 'театр', 'тембр', 'темир', 'темур', 'тенор', 'тикер', 'тихир', 'товар', 'товор', 'тожир', 'томир', 'тонер', 'тоҳир', 'триер', 'тумор', 'тўпар', 'тўпир']
 ```
 
-Andozalar biror matnda biz uchun kerakli maʻlumotlarni ajratib olish uchun juda qulay. Masalan, Telegram orqali yuborilgan habardan email manzilini yoki telefon raqamini ajratib olish uchun maxsus andoza yozishmiz mumkin. [ihateregex.io](https://ihateregex.io/) sahifasidan esa loyihangiz uchun tayyor andozalarni topishingiz mumkin.&#x20;
+Andozalar biror matnda biz uchun kerakli maʻlumotlarni ajratib olish uchun juda qulay. Masalan, Telegram orqali yuborilgan habardan email manzilini yoki telefon raqamini ajratib olish uchun maxsus andoza yozishmiz mumkin. [ihateregex.io](https://ihateregex.io/) sahifasidan esa loyihangiz uchun tayyor andozalarni topishingiz mumkin.
 
-![ihateregex.io sahifasida email uchun andoza](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MVLd3UlKBz5SKW5nQkC%2F-MVLeZ9FVlbBBhfluJuR%2Fimage.png?alt=media\&token=6f572e8e-a964-4aaa-8ff7-f654a3b50584)
+![ihateregex.io sahifasida email uchun andoza](../cirth-assets/8d6e6da3-671c-4fc7-abae-adaf021201e5.png)
 
 Keling, yuqoridagi andoza asosida biror matndan email manzilini ajratib olamiz. Buning uchun `re.findall()` funksiyasidan foydalanamiz.
 
@@ -372,21 +370,20 @@ while True:
         print("Maxfiy so'z talabga javob bermadi")
 ```
 
-RegEx juda katta mavzu boʻlgani uchun, kelajakda bu haqida alohida dars qilamiz.&#x20;
+RegEx juda katta mavzu boʻlgani uchun, kelajakda bu haqida alohida dars qilamiz.
 
 ## AMALIYOT
 
-* Bugungi sanadan boshlab 2 hafta farq bilan 10 ta sanani konsolga chiqaring
-* Ramazon va qurbon hayitigacha qolgan kunlarni konsolga chiqaring
-* Tug'ilgan kuningizdan bugungi sanagacha qancha yil, oy, kun o'tganini qaytaruvchi funksiya yozing
-* Foydalanuvchidan telefon raqamini kiritishni so'rang. Kiritlgan qiymatni andoza yordamida tekshiring
-* Berilgan matndan veb sahifa manzilini ajratib olyuvchi funksiya yozing. Quyidagi matndan namuna sifatida foydalanishingiz mumkin:
+- Bugungi sanadan boshlab 2 hafta farq bilan 10 ta sanani konsolga chiqaring
+- Ramazon va qurbon hayitigacha qolgan kunlarni konsolga chiqaring
+- Tug'ilgan kuningizdan bugungi sanagacha qancha yil, oy, kun o'tganini qaytaruvchi funksiya yozing
+- Foydalanuvchidan telefon raqamini kiritishni so'rang. Kiritlgan qiymatni andoza yordamida tekshiring
+- Berilgan matndan veb sahifa manzilini ajratib olyuvchi funksiya yozing. Quyidagi matndan namuna sifatida foydalanishingiz mumkin:
 
-> Assalom alaykum hurmatli do'stlar. Navbatdagi darsimiz YouTubega yuklandi: <https://youtu.be/vsxJPRLXpgI>
+> Assalom alaykum hurmatli do'stlar. Navbatdagi darsimiz YouTubega yuklandi: [https://youtu.be/vsxJPRLXpgI](https://youtu.be/vsxJPRLXpgI)
 >
-> Ushbu darsimizda unittest moduli yordamida klasslarning xususiyatlar va metodlarini tekshiruvchi dastur yozishni o'rganamiz. Bugungi dars manzili: <https://python.sariq.dev/testing/37-klass-test>
+> Ushbu darsimizda unittest moduli yordamida klasslarning xususiyatlar va metodlarini tekshiruvchi dastur yozishni o'rganamiz. Bugungi dars manzili: [https://python.sariq.dev/testing/37-klass-test](https://python.sariq.dev/testing/37-klass-test)
 
 ## KODLAR
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
-
+<Embed url="https://github.com/anvarnarz/python-darslar" />

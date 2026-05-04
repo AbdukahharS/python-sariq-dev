@@ -1,6 +1,6 @@
 # #18 WHILE, RO'YXATLAR VA LUG'ATLAR
 
-{% embed url="<https://www.youtube.com/watch?v=1XOYa0BlF54>" %}
+<Embed url="https://www.youtube.com/watch?v=1XOYa0BlF54" />
 
 Ro'yxatlar (lug'atlar) bilan ishlashda while tisklining foydalari juda ko'p. Misol uchun foydalanuvchidan bir nechta ma'lumotlarni qabul qilib olish, ro'yxatdan takrorlanuvchi qiymatlarni o'chirib tashlash yoki bir ro'yxatni ikkinchi ro'yxatga ko'chirishda while tsiklidan foydalanishimiz mumkin.
 
@@ -25,7 +25,7 @@ while True:
         break
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOPU3FOjdX_gUm7w87B%2F-MOPYjkoRnpAUY01Gcas%2Fimage.png?alt=media\&token=540ebfa2-ed7a-4a67-8661-1c828a4ffcd7)
+![Natija](../cirth-assets/5fdda505-67d0-436d-9d8e-f44cf4433199.png)
 
 ```python
 print("Do'stlaringiz ro'yxati:")
@@ -33,7 +33,7 @@ for ism in ismlar:
     print(ism.title())
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOPU3FOjdX_gUm7w87B%2F-MOPZI7fGNQKPwHFinWO%2Fimage.png?alt=media\&token=71848219-a391-4c42-8aa2-bb1cf8a771a9)
+![Natija](../cirth-assets/ad577d51-3c18-4e5a-ad5f-5264c0e69d36.png)
 
 ## `WHILE` YORDAMIDA LUG'ATNI TO'LDIRISH
 
@@ -56,7 +56,7 @@ for ism, yosh in dostlar.items():
     print(f"{ism.title()} {yosh} yoshda")
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOPZ_Jspw2DgaWS0b8R%2F-MOR2S29ceRx5Cna4S0A%2Fimage.png?alt=media\&token=1b30b57d-3205-4612-8c40-5267d3bcc85c)
+![Natija](../cirth-assets/7eae5278-2bca-44f7-af85-d0ddad4d1ba5.png)
 
 ## RO'YXAT ELEMENTLARINI O'CHIRISH
 
@@ -75,7 +75,7 @@ Yuqoridagi tsikl toki `cars` degan ro'yxatda `'nexia'` qiymati tugagunga qadar t
 
 ## RO'YXATDAN RO'YXATGA ELEMENT KO'CHIRISH
 
-Tasavvur qiling bizda ma'lum bir ro'yxat bor, biz ro'yxatdagi har bir element ustida biror amalni bajarib, uni birinchi ro'yxatdan ikkinchi ro'yxatga ko'chirib olmoqchimiz. Shunday holatlarda `while` tsikli juda qo'l keladi.&#x20;
+Tasavvur qiling bizda ma'lum bir ro'yxat bor, biz ro'yxatdagi har bir element ustida biror amalni bajarib, uni birinchi ro'yxatdan ikkinchi ro'yxatga ko'chirib olmoqchimiz. Shunday holatlarda `while` tsikli juda qo'l keladi.
 
 Quyidagi misolni ko'raylik. Bizda `talabalar` ro'yxati bor. `while` tsikli toki ro'yxatda talabalar bor ekan aylanaveradi. Tsikl ichida biz `.pop()` metodi yordamida talabaning ismini ro'yxatdan sug'urib oldik va foydalanuvchidan talabani baholashni so'radik. Talabaning ismi va bahosini lug'at elementi ko'rinishida saqlab qo'ydik (`talaba` - kalit, `baho` - qiymat).
 
@@ -89,27 +89,26 @@ while talabalar:
     baholangan_talabalar[talaba] = baho
 ```
 
-![Natija](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MORKGSfoBiZyWJv7JKQ%2F-MORKTU_xtqVWuUjW2xe%2Fimage.png?alt=media\&token=a65f8310-1f46-49aa-b3cd-313cf097665a)
+![Natija](../cirth-assets/3eff5e28-6e32-4e69-94c0-6d1ec97e3f3a.png)
 
-Yuqorida biz while tsikli yordamida ro'yxat va lug'atlar ustida bajarish mumkin bo'lgan ba'zi misollarni ko'rdik. Albatta dasturlash davomida bundan boshqa holatlar ham uchrashi tabiiy.&#x20;
+Yuqorida biz while tsikli yordamida ro'yxat va lug'atlar ustida bajarish mumkin bo'lgan ba'zi misollarni ko'rdik. Albatta dasturlash davomida bundan boshqa holatlar ham uchrashi tabiiy.
 
 ## AMALIYOT
 
 1. Foydalanuvchidan buyurtma qabul qiluvchi dastur yozing. Mahsulotlar nomini birma-bir qabul qilib, yangi ro'yxatga joylang.
-2. e-bozor uchun mahsulotlar va ularning narhlari lug'atini shakllantiruvchi dastur yozing. Foydalanuvchidan lug'atga bir nechta elementlar (mahsulot va uning narhi) kiritishni so'rang.
-3. Yuqoridagi ikki dasturni jamlaymiz. Foydalanuvchi buyurtmasi ro'yxatidagi har bir mahsulotni e-bozordagi mahsulotlar bilan solishitiring (tayyor ro'yxat ishlatishingiz mumkin). Agar mahsuot e-bozorda mavjud bo'lsa mahuslot narhini chiqaring, aks holda "Bizda bu mahsulot yo'q" degan xabarni kor'sating.
+1. e-bozor uchun mahsulotlar va ularning narhlari lug'atini shakllantiruvchi dastur yozing. Foydalanuvchidan lug'atga bir nechta elementlar (mahsulot va uning narhi) kiritishni so'rang.
+1. Yuqoridagi ikki dasturni jamlaymiz. Foydalanuvchi buyurtmasi ro'yxatidagi har bir mahsulotni e-bozordagi mahsulotlar bilan solishitiring (tayyor ro'yxat ishlatishingiz mumkin). Agar mahsuot e-bozorda mavjud bo'lsa mahuslot narhini chiqaring, aks holda "Bizda bu mahsulot yo'q" degan xabarni kor'sating.
 
 ## JAVOBLAR
 
 ### GitHub
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
-### Repl.it&#x20;
+### Repl.it
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-18-01#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-18-01#main.py" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-18-02#main.py>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-18-02#main.py" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-18-03#main.py>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-18-03#main.py" />

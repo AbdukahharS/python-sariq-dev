@@ -1,6 +1,6 @@
 # #33 FAYLLAR BILAN ISHLASH
 
-{% embed url="<https://youtu.be/3JIhjqXNWj0>" %}
+<Embed url="https://youtu.be/3JIhjqXNWj0" />
 
 ## KIRISH
 
@@ -8,7 +8,7 @@ Ushbu bo'limda katta hajmdagi ma'lumotlarni fayldan yuklab olish va dastur yakun
 
 ## FAYLDAN O'QISH
 
-Kompyuterimizda aksar ma'lumotlar fayl ko'rinishida saqlanadi. Bu xoh matn bo'lsin, xoh jadval, xoh rasm, xoh video. Fayllarda turli ma'lumotlar saqlanishi mumkin, ob-havo ma'lumotlari, yillik hisobotlar, mijozlarning telefon raqamlari, talabalarning baholari va hokazo.&#x20;
+Kompyuterimizda aksar ma'lumotlar fayl ko'rinishida saqlanadi. Bu xoh matn bo'lsin, xoh jadval, xoh rasm, xoh video. Fayllarda turli ma'lumotlar saqlanishi mumkin, ob-havo ma'lumotlari, yillik hisobotlar, mijozlarning telefon raqamlari, talabalarning baholari va hokazo.
 
 Ko'pgina holatlarda dastur davomida katta ma'lumotlarni aynan fayllardan o'qib olish talab qilinadi. Ayniqsa, tahliliy dasturlarda fayl ko'rinishida saqlangan, katta hajmdagi jadvallar bilan ishlash tabiiy. Lekin fayllar bilan ishlash boshqa holatlarda ham ko'p asqotadi, misol uchun oddiy matnni html ko'rinishga o'tkazishni avtomatlashtiruvchi dastur yozishda.
 
@@ -24,9 +24,7 @@ Boshlanishiga bizga fayl kerak. Keling, yangi `pi.txt` faylini yaratamiz, va ich
 2643383279
 ```
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MT8QSNv2gjPhBQN2i_X%2F-MTA-r8U0MJXr_8MBBbL%2Fpi.txt?alt=media&token=3e7dce7e-d023-4b7c-b03e-5d814e286a45>" %}
-pi.txt faylini yuklab oling
-{% endfile %}
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MT8QSNv2gjPhBQN2i_X%2F-MTA-r8U0MJXr_8MBBbL%2Fpi.txt?alt=media&token=3e7dce7e-d023-4b7c-b03e-5d814e286a45" size="36 B" />
 
 Uch qatordan iborat faylimiz $$\pi$$ sonining qiymatini saqlaydi (30 xona aniqlik bilan).
 
@@ -39,10 +37,10 @@ with open('pi.txt') as fayl:
 
 Kodni tahlil qilamiz:
 
-* Birinchi qatorda `open()` funksiyasi yordamida faylni ochayapmiz. Bunda funksiyaga argument sifatida fayl nomini berayapmiz. Bu yerda biz ochayotgan fayl va dasturimiz bir papkada bo'lishi muhim.
-* `open()` funksiyasi faylni obyekt sifatida qaytaradi, `as` operatori yordamida esa biz obyektimizga `fayl` deb nom berayapmiz.&#x20;
-* Ikkinchi qatorda `.read()` metodi yordamida `fayl` obyektining tarkibidan bizga kerakli matnni olib, yangi, `PI` o'zgaruvchisiga yuklayabmiz.
-* `with` operatorining vazifasi biz fayl bilan ishlab bo'lganimizdan so'ng faylni yopish. Yuqoridagi misolda, 2-qatordan so'ng Python zudlik bilan faylni yopadi.
+- Birinchi qatorda `open()` funksiyasi yordamida faylni ochayapmiz. Bunda funksiyaga argument sifatida fayl nomini berayapmiz. Bu yerda biz ochayotgan fayl va dasturimiz bir papkada bo'lishi muhim.
+- `open()` funksiyasi faylni obyekt sifatida qaytaradi, `as` operatori yordamida esa biz obyektimizga `fayl` deb nom berayapmiz.
+- Ikkinchi qatorda `.read()` metodi yordamida `fayl` obyektining tarkibidan bizga kerakli matnni olib, yangi, `PI` o'zgaruvchisiga yuklayabmiz.
+- `with` operatorining vazifasi biz fayl bilan ishlab bo'lganimizdan so'ng faylni yopish. Yuqoridagi misolda, 2-qatordan so'ng Python zudlik bilan faylni yopadi.
 
 Yuqorida ko'rgan usulimiz fayl bilan ishlashning eng xavfsiz usuli. Aslida biz fayllarni to'g'ridan-to'g'ri `fayl=open('pi.txt')` yordamida ochishimiz, fayl bilan ishlab bo'lgandan so'ng esa `fayl.close()` komandasi yordamida faylni yopishimiz ham mumkin edi:
 
@@ -77,9 +75,9 @@ print(pi)
 
 Natija: `3.141592653589793`
 
-{% hint style="info" %}
+:::info
 **`.replace()`** metodi matn tarkibidagi biror harf yoki belgini boshqa harf yoki belgi bilan almashtirish uchun ishlatiladi.
-{% endhint %}
+:::
 
 ### PAPKA ICHIDAGI FAYLLARNI OCHISH
 
@@ -98,9 +96,9 @@ with open(faylnomi) as fayl:
     pi = fayl.read()
 ```
 
-{% hint style="info" %}
+:::info
 Windowsda papkalar orasida "\\" belgisi ishlatilsada, Pythonda "/" belgisini ishlataveramiz. Agar \ belgisini ishlatishni istasangiz, bu belgini 2 marta yozing: `C:\\python\\darslar\\data`
-{% endhint %}
+:::
 
 ## FAYLNI QATORMA-QATOR OʻQISH
 
@@ -113,7 +111,7 @@ with open(filename) as file:
         print(line)
 ```
 
-Natija:&#x20;
+Natija:
 
 `alijon valiyev`
 
@@ -143,7 +141,7 @@ Natija: `['alijon valiyev', 'hasan olimov', 'rahima muminova', 'hamida oqilova']
 
 ## FAYLGA YOZISH
 
-Ma'lumotlarni saqlashning eng qulay usuli bu faylga yozish. Dasturimiz bajarilishdan to'xtaganidan so'ng, xotiradagi ma'lumotlar o'chib ketishi mumkin, lekin faylga yozilgan ma'lumotlar saqlanib turaveradi. Fayllarni kelajakda qaytdan xotiraga yuklab, dasturimizni to'htagan joyidan davom etishimiz mumkin.&#x20;
+Ma'lumotlarni saqlashning eng qulay usuli bu faylga yozish. Dasturimiz bajarilishdan to'xtaganidan so'ng, xotiradagi ma'lumotlar o'chib ketishi mumkin, lekin faylga yozilgan ma'lumotlar saqlanib turaveradi. Fayllarni kelajakda qaytdan xotiraga yuklab, dasturimizni to'htagan joyidan davom etishimiz mumkin.
 
 Yuqorida biz faylni ochishda `open()` funksiyasidan foydalandik, va yagona argument sifatida fayl nomini berdik. Bunda fayl faqatgina o'qish uchun ochiladi, unga yozib bo'lmaydi. Faylga ma'lumot yozish uchun `open()` funksiyasiga murojat qilishda fayl nomidan tashqari yana bir argument beramiz. Ikkinchi argument faylni aynan nima maqsadda ochishimizni bildiradi. Argumentlar quyidagilardan iborat bo'lishi mumkin:
 
@@ -166,9 +164,9 @@ with open(faylnomi,'w') as fayl:
     fayl.write('anvar narzullaev') # faylga yozilayotgan ma'lumot
 ```
 
-{% hint style="danger" %}
-**Diqqat!!!** `open()` funksiyasini `'w'` argumenti bilan chaqirganimizda ehtiyot bo'lishimiz kerak, sababi agar bunday fayl mavjud bo'lsa, uning ichidagi barcha ma'lumotlar o'chib ketadi.&#x20;
-{% endhint %}
+:::danger
+**Diqqat!!!** `open()` funksiyasini `'w'` argumenti bilan chaqirganimizda ehtiyot bo'lishimiz kerak, sababi agar bunday fayl mavjud bo'lsa, uning ichidagi barcha ma'lumotlar o'chib ketadi.
+:::
 
 Faylga yozayotgan ma'lumotlarimiz matn ko'rinishida bo'lishi kerak. Aks holda dasturimiz xato beradi.
 
@@ -196,9 +194,9 @@ with open(faylnomi,'w') as fayl:
 
 Fayllar matn formatida yoziladi, va biz ularni istalgan matn muharriri yordamida ochib ko'rishimiz mumkin.
 
-![Faylda saqlangan ma'lumotlar](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTFShfF-96YP2YMtAFf%2F-MTFWKernfHGeFumH8Sx%2Fimage.png?alt=media\&token=9d39ccbc-8ac0-42d4-8a98-f080094bb680)
+![Faylda saqlangan ma'lumotlar](../cirth-assets/99634055-ab29-4400-b2c9-d175bec6bf85.png)
 
-Afsuski, faylga bir nechta ma'lumot yozganimizda, ma'lumotlar alohida qatordan emas, bir qatorda bir-biriga qo'shib qo'shib yoziladi.&#x20;
+Afsuski, faylga bir nechta ma'lumot yozganimizda, ma'lumotlar alohida qatordan emas, bir qatorda bir-biriga qo'shib qo'shib yoziladi.
 
 Buning oldini olishimiz uchun matn so'ngida \n belgisini qo'shib ketishimiz kerak bo'ladi:
 
@@ -211,11 +209,11 @@ with open(faylnomi,'w') as fayl:
     fayl.write(str(tyil)+'\n')
 ```
 
-![Fayldagi ma'lumotlar yangi qatordan saqlandi](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTFShfF-96YP2YMtAFf%2F-MTFXAxEdeUINPk1sAdl%2Fimage.png?alt=media\&token=548ed1f2-fcf7-4943-9c6a-606133569a00)
+![Fayldagi ma'lumotlar yangi qatordan saqlandi](../cirth-assets/0deff863-81d6-426a-a481-0829c5928ed6.png)
 
 ### FAYLGA MA'LUMOT QO'SHISH
 
-Agar mavjud faylga ma'lumot qo'shish talab qilinsa, `open()` funksiyasiga murojat qilishda  `'a'` (append) argumentidan foydalanamiz. Bunda yangi qo'shilgan ma'lumotlar faylning oxiriga qo'shiladi.&#x20;
+Agar mavjud faylga ma'lumot qo'shish talab qilinsa, `open()` funksiyasiga murojat qilishda  `'a'` (append) argumentidan foydalanamiz. Bunda yangi qo'shilgan ma'lumotlar faylning oxiriga qo'shiladi.
 
 ```python
 with open(faylnomi,'a') as fayl:
@@ -223,13 +221,13 @@ with open(faylnomi,'a') as fayl:
     fayl.write('2000')
 ```
 
-![Faylga yangi ma'lumotlar qo'shildi](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTFShfF-96YP2YMtAFf%2F-MTFZGwybIE_LdXfluSb%2Fimage.png?alt=media\&token=55d389b2-385f-4a84-a93a-a11e492ded81)
+![Faylga yangi ma'lumotlar qo'shildi](../cirth-assets/46aae836-b4c9-4509-a5c8-10c21ed8d2ae.png)
 
 Agar biz ochayotgan fayl mavjud bo'lmasa, Python yangi fayl yaratadi.
 
 ## O'ZGARUVCHILARNI FAYLDA SAQLASH
 
-Yuqorida biz ma'lumotlarni matn ko'rinishida saqlashni ko'rdik. Agar dastur davomida turli o'zgaruvchilarni faylda saqlash talab qilinsa `pickle` modulidan foydalanamiz. Pickle ma'lumotlarni biz qanday ko'rinishda bersak, shunday ko'rinishda faylga yozadi. Yuqoridagi usuldan farqli ravishda, pickle yordamida yozilgan fayllarning tarkibini Pythondan tashqarida ko'rib bo'lmaydi.&#x20;
+Yuqorida biz ma'lumotlarni matn ko'rinishida saqlashni ko'rdik. Agar dastur davomida turli o'zgaruvchilarni faylda saqlash talab qilinsa `pickle` modulidan foydalanamiz. Pickle ma'lumotlarni biz qanday ko'rinishda bersak, shunday ko'rinishda faylga yozadi. Yuqoridagi usuldan farqli ravishda, pickle yordamida yozilgan fayllarning tarkibini Pythondan tashqarida ko'rib bo'lmaydi.
 
 ### PICKLE FAYLGA YOZISH
 
@@ -272,32 +270,29 @@ print(talaba2)
 
 Natija:`{'ism': 'alijon', 'familiya': 'valiyev', 'tyil': 2004, 'kurs': 1}`
 
-{% hint style="info" %}
+:::info
 Adashib ketmaslik uchun, alohida o'zgaruvchilarni alohida fayllarga saqlash tavsiya qilinadi.
-{% endhint %}
+:::
 
 ## AMALIYOT
 
-* Bugun o'rgangan narsalaringizni matnga yozing va matnni Python yordamida oching
-* Quyidagi `pi_million_digits.txt` faylini yuklab oling (faylda $$\pi$$  soni nuqtadan so'ng million xona aniqlik bilan yozilgan).&#x20;
-* Sizning tug'ilgan kuningiz $$\pi$$ soni tarkibida uchraydimi yoki yo'q ekanligini aniqlovchi funksiya yozing. Misol uchun, tug'ilgan sanangiz 25 Fevral, 2000-yil bo'lsa, 25022000 ketma-ketligi yuqoridagi matnda uchraydimi yo'q toping.
-* Fayl ichidagi matnni float ma'lumot turiga o'tkazing va pickle yordamida yangi faylga saqlang.
+- Bugun o'rgangan narsalaringizni matnga yozing va matnni Python yordamida oching
+- Quyidagi `pi_million_digits.txt` faylini yuklab oling (faylda $$\pi$$  soni nuqtadan so'ng million xona aniqlik bilan yozilgan).
+- Sizning tug'ilgan kuningiz $$\pi$$ soni tarkibida uchraydimi yoki yo'q ekanligini aniqlovchi funksiya yozing. Misol uchun, tug'ilgan sanangiz 25 Fevral, 2000-yil bo'lsa, 25022000 ketma-ketligi yuqoridagi matnda uchraydimi yo'q toping.
+- Fayl ichidagi matnni float ma'lumot turiga o'tkazing va pickle yordamida yangi faylga saqlang.
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTFShfF-96YP2YMtAFf%2F-MTFmSDSeDIeZAOhX9Yk%2Fpi_million_digits.txt?alt=media&token=224f0425-0448-469d-bc93-dff2f6e5c178>" %}
-Amaliyot uchun fayl
-{% endfile %}
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTFShfF-96YP2YMtAFf%2F-MTFmSDSeDIeZAOhX9Yk%2Fpi_million_digits.txt?alt=media&token=224f0425-0448-469d-bc93-dff2f6e5c178" />
 
-* Foydalanuvchidan turli hil ma'lumotlarni so'rab, har bir kiritilgan ma'lumotni yangi qatordan faylga yozib boruvchi dastur tuzing. Dastur qayta chaqirilganida yangi ma'lumotlar fayl oxiridan qo'shilib borsin (yangi faylga emas).
+- Foydalanuvchidan turli hil ma'lumotlarni so'rab, har bir kiritilgan ma'lumotni yangi qatordan faylga yozib boruvchi dastur tuzing. Dastur qayta chaqirilganida yangi ma'lumotlar fayl oxiridan qo'shilib borsin (yangi faylga emas).
 
 ## JAVOBLAR
 
 ### GitHub
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
 ### Repl.it
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-33-pi>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-33-pi" />
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-33-02#main.py>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-33-02#main.py" />

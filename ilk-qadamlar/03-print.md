@@ -1,6 +1,6 @@
 # #03 PRINT(), SINTEKS VA ARIFMETIK AMALLAR
 
-{% embed url="<https://www.youtube.com/watch?v=djtv5NMIBSY>" %}
+<Embed url="https://www.youtube.com/watch?v=djtv5NMIBSY" />
 
 ## PRINT()
 
@@ -20,7 +20,7 @@ print(Hayrli tong!)
 
 Natija: **`SyntaxError: invalid syntax`**
 
-Bu safar esa `Hayrli tong!` yozuvi o'rniga, **Syntax Error (**&#x73;inteksda xatolik) xabari chiqdi. Xatolik qayerda?
+Bu safar esa `Hayrli tong!` yozuvi o'rniga, \*\*Syntax Error (\*\*sinteksda xatolik) xabari chiqdi. Xatolik qayerda?
 
 Avval aytganimizdek, print() funktsiyasi matn yoki ifodalarni konsolga chiqarish vazifasini bajaradi. Lekin bu funktsiya to'g'ri ishlashi uchun bir nechta qoidalarga amal qilish lozim. Jumladan, agar konsolga matn chiqarmoqchi bo'lsak, matnimiz albatta qo'shtirnoq yoki (`" "`) yoki birtirnoq(`' '`) orasida yozlishi kerak. Demak `Hayrli tong!` so'zini konsolda chiqarish uchun to'g'ri kod:
 
@@ -34,7 +34,7 @@ yoki
 print('Hayrli tong!')
 ```
 
-bo'ladi.&#x20;
+bo'ladi.
 
 Natija: `Hayrli tong!`
 
@@ -44,7 +44,7 @@ Qo'shitrnoq yoki birtirnoq ishlatishning afzalliklaridan biri, agar siz chiqarmo
 print('Men "Dell" markasidagi noutbuk sotib oldim')
 ```
 
-&#x20;Natija: `Men "Dell" markasidagi noutbuk sotib oldim`
+Natija: `Men "Dell" markasidagi noutbuk sotib oldim`
 
 Yuqoridagi matnda `"Dell"` so'zi qo'shtirnoq ichida eda. Bu matnni konsolga chiqarish uchun esa, `print()`funktsyasi ichida matnni birtirnoq ichiga oldik.
 
@@ -55,7 +55,7 @@ print("""Odami ersang, demagil odami,
 Oniki, yo'q xalq g'amidin g'ami""")
 ```
 
-Natija:&#x20;
+Natija:
 
 `Odami ersang, demagil odami,`
 
@@ -67,7 +67,7 @@ Qatorga bo'lishning yana bir usuli, qator so'nggida `\n` belgisini qo'yish.
 print("Odami ersang, demagil odami,\nOniki, yo'q xalq g'amidin g'ami")
 ```
 
-Natija:&#x20;
+Natija:
 
 `Odami ersang, demagil odami,`
 
@@ -75,15 +75,15 @@ Natija:&#x20;
 
 Yuoqridagi matnni birtirnoq orqali ham konsolga chiqarish mumkinmi? Matndagi `yo'q`, `g'am` so'zlaridagi birtirnoqlar bunga to'sqinlik qilmaydimi? **Qiladi.**
 
-Buning oldini olish uchun esa matndagi birtirnoq belgisidan avval `\` belgisini qo'yish lozim.&#x20;
+Buning oldini olish uchun esa matndagi birtirnoq belgisidan avval `\` belgisini qo'yish lozim.
 
 ```python
 print('Odami ersang, demagil odami, \nOniki, yo\'q xalq g\'amidin g\'ami')
 ```
 
-Natija:&#x20;
+Natija:
 
-`Odami ersang, demagil odami,`&#x20;
+`Odami ersang, demagil odami,`
 
 `Oniki, yo'q xalq g'amidin g'ami`
 
@@ -97,15 +97,15 @@ print('Odami ersang, demagil odami,\nOniki, yo'q xalq g'amidin g'ami')
 
 Natija: **`SyntaxError: invalid syntax`**
 
-Keling shu o'rinda **Syntax Error** (sinteksda xatolik) haqida ham gaplashaylik.&#x20;
+Keling shu o'rinda **Syntax Error** (sinteksda xatolik) haqida ham gaplashaylik.
 
 ## SINTEKS XATOLIK (SYNTAX ERROR)
 
-Har bir tilda orfografik va grammatik qoidalar bo'lgani kabi, dasturlash tillarining ham o'ziga yarasha qonun-qoidalari bor. Bu qoidalar to'plami **sinteks (syntax)** deb ataladi. **Sinteks xatolik** (Syntax Error) deb esa shu qoidalarning buzilishiga aytiladi.&#x20;
+Har bir tilda orfografik va grammatik qoidalar bo'lgani kabi, dasturlash tillarining ham o'ziga yarasha qonun-qoidalari bor. Bu qoidalar to'plami **sinteks (syntax)** deb ataladi. **Sinteks xatolik** (Syntax Error) deb esa shu qoidalarning buzilishiga aytiladi.
 
 Misol uchun keraksiz joyda qo'yilgan nuqta, vergul yoki bo'sh joy, shuningdek ma'lum funktsiyalar nomini xato yozish (`print()` o'rniga `prit()`), ochilmay yoki yopilmay qolgan qavs, noo'rin bo'shliq, qolib ketgan kalit so'z (keyword) kabilar ham Syntax Error hisoblanadi.
 
-Syntax Error eng ko'p uchraydigan xatolik bo'lib, Python bunday xatolik bor dasturlarni **bajarmaydi**.&#x20;
+Syntax Error eng ko'p uchraydigan xatolik bo'lib, Python bunday xatolik bor dasturlarni **bajarmaydi**.
 
 Biz darslarimiz davomida turli sinteks qoidalar haqida o'z o'rnida yana to'xtalamiz.
 
@@ -123,10 +123,10 @@ Natija: `10`
 
 Python arifmetik amallarni bajarishda Matematika qoidalariga amal qiladi:
 
-* Qavs ichidagi amallar qavs ortidagilardan avval bajariladi
-* Darajaga oshirish (ildiz chiqarish) ko'paytirish va bo'lishdan avval bajariladi
-* Ko'paytirish va bo'lish, qo'shish va ayirishdan avval bajariladi
-* Boshqa holatlarda ifodalar chapdan o'ngga qarab bajariladi
+- Qavs ichidagi amallar qavs ortidagilardan avval bajariladi
+- Darajaga oshirish (ildiz chiqarish) ko'paytirish va bo'lishdan avval bajariladi
+- Ko'paytirish va bo'lish, qo'shish va ayirishdan avval bajariladi
+- Boshqa holatlarda ifodalar chapdan o'ngga qarab bajariladi
 
 Yuqoridagi misolda ham avval ko'paytirish (`4*2=8`), keyin esa qo'shish amali (`2+8=10`) bajarildi.
 
@@ -196,7 +196,7 @@ Natija:`3x3= 9`
 
 ## IZOHLAR (COMMENTS)
 
-Yaxshi dasturchilarning odatlaridan biri har qanday kodni izohlar bilan tushuntirib ketish. Izohlar kelajakda o'zimiz uchun ham, boshqalar uchun ham dasturimiz qanday ishlashini tushunishda yordam beradi.&#x20;
+Yaxshi dasturchilarning odatlaridan biri har qanday kodni izohlar bilan tushuntirib ketish. Izohlar kelajakda o'zimiz uchun ham, boshqalar uchun ham dasturimiz qanday ishlashini tushunishda yordam beradi.
 
 Quyidagi ikki misolga e'tibor bering, va ulardan qay biri tushunarliroq ekanini solishtiring
 
@@ -209,7 +209,7 @@ print(2*5*3.14159)
 print(2*5*3.14159)
 ```
 
-Yuqoridagi misolda `#` belgisidan keyin yozilgan matn **izoh** (**comment**) deyiladi.&#x20;
+Yuqoridagi misolda `#` belgisidan keyin yozilgan matn **izoh** (**comment**) deyiladi.
 
 Izoh alohida qatorda yoki qator oxiridan ham yozilishi mumkin. Python `#` dan keyingi har qanday matnni (qator oxirigacha) e'tiborsiz qoldiaradi. `#` dan keyin yozligan kodlar ham bajarilmaydi:
 
@@ -230,22 +230,19 @@ Quyidagi matnni aynan shunday ko'rinishda konsolda chiqaring:
 Quyidagi misollarga yechimni Pythonda chiqaring. Har bir misoldan avval misol matnini izoh ko'rinishida yozing:
 
 1. 5 ning 4-darajasini toping
-2. 22 ni 4 ga bo'lganda qancha qoldiq qoladi?
-3. Tomonlari 125 ga teng kvadratning yuzi va perimetrini toping
-4. Diametri 12 ga teng bo'lgan doiraning yuzini toping  ($$\pi=3.14$$ deb oling)
-5. Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping ([Pifagor teoremasidan ](https://fayllar.org/pifagor-teoremasi-va-uning-turli-hil-isbotlari-mavzusida-tajer.html)foydalaning)
+1. 22 ni 4 ga bo'lganda qancha qoldiq qoladi?
+1. Tomonlari 125 ga teng kvadratning yuzi va perimetrini toping
+1. Diametri 12 ga teng bo'lgan doiraning yuzini toping  ($$\pi=3.14$$ deb oling)
+1. Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping ([Pifagor teoremasidan ](https://fayllar.org/pifagor-teoremasi-va-uning-turli-hil-isbotlari-mavzusida-tajer.html)foydalaning)
 
-{% hint style="info" %}
+:::info
 Javoblarni savol va yechim ko'rinishida chiqaring: `5 ning 4-darajasi 625`
-{% endhint %}
+:::
 
 ## MISOLLARGA JAVOBLAR
 
 Yuqoridagi misollarni o'zingiz ishlashga harakat qiling, so'ngra quyidagi bog'lamadagi javoblar bilan solishtiring.
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-03-dars>" %}
+<Embed url="https://repl.it/@anvarbek/javoblar-03-dars" />
 
-{% file src="<https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLXApyXUq0jDUHl-zUt%2F-MLXBV_QbCtQlbkQ9u6w%2Fjavoblar-03-dars.zip?alt=media&token=5fca7cb2-d3f6-4023-b02d-ef35f2fc70d0>" %}
-03-dars javoblari
-{% endfile %}
-
+<FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MLXApyXUq0jDUHl-zUt%2F-MLXBV_QbCtQlbkQ9u6w%2Fjavoblar-03-dars.zip?alt=media&token=5fca7cb2-d3f6-4023-b02d-ef35f2fc70d0" size="574 B" />

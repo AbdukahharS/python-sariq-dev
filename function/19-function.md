@@ -1,14 +1,14 @@
 # #19 FUNKSIYA
 
-{% embed url="<https://www.youtube.com/watch?v=_aDyBPYAeyU>" %}
+<Embed url="https://www.youtube.com/watch?v=_aDyBPYAeyU" />
 
 ## FUNKSIYA NIMA?
 
-Funksiya ma'lum bir vazifani bajarishga mo'ljallangan kodlar yig'indisi. Biz shu paytgacha bir nechta tayyor funksiyalardan foydalanib keldik. Misol uchun [`print()`](https://python.sariq.dev/ilk-qadamlar/03-print#print) funksiyasi konsolga matn chiqarish uchun, [`range()`](https://python.sariq.dev/ozgaruvchilar-va-malumot-turlari/08-list-tuple#range-funktsiyasi) funksiyasi esa ma'lum oraliqdagi sonlarni yaratish uchun ishlatiladi. &#x20;
+Funksiya ma'lum bir vazifani bajarishga mo'ljallangan kodlar yig'indisi. Biz shu paytgacha bir nechta tayyor funksiyalardan foydalanib keldik. Misol uchun [`print()`](https://python.sariq.dev/ilk-qadamlar/03-print#print) funksiyasi konsolga matn chiqarish uchun, [`range()`](https://python.sariq.dev/ozgaruvchilar-va-malumot-turlari/08-list-tuple#range-funktsiyasi) funksiyasi esa ma'lum oraliqdagi sonlarni yaratish uchun ishlatiladi.
 
-Aslida har qanday funksiyaning ortida ham bir necha qatordan iborat kod bo'ladi, lekin biz funksiyaga murojat qilganda uning nomini yozamiz xolos. Funksiya ortidagi kod esa biz uchun yashirin bo'lib qolaveradi. Funksiyalarning qulayligi ham shunda. Dastur davomida ma'lum bir kodlarni qayta-qayta yozmaslik uchun biz ularni jamlab, bitta funksiya ichiga joylashimiz va dastur davomida bu kodlarga funksiya nomi orqali murojat qilishimiz mumkin.&#x20;
+Aslida har qanday funksiyaning ortida ham bir necha qatordan iborat kod bo'ladi, lekin biz funksiyaga murojat qilganda uning nomini yozamiz xolos. Funksiya ortidagi kod esa biz uchun yashirin bo'lib qolaveradi. Funksiyalarning qulayligi ham shunda. Dastur davomida ma'lum bir kodlarni qayta-qayta yozmaslik uchun biz ularni jamlab, bitta funksiya ichiga joylashimiz va dastur davomida bu kodlarga funksiya nomi orqali murojat qilishimiz mumkin.
 
-Funksiyalar turlicha bo'ladi, ba'zi funksiyalar sizdan qiymat qabul qilib, konsolga biror ma'umot chiqaradi, ba'zilari esa sizdan qabul qilgan qiymat ustida turli amallar bajarib yangi qiymat qaytaradi. Foydalanuvchidan mutlaqo qiymat qabul qilmaydigan funksiyalar ham mavjud.&#x20;
+Funksiyalar turlicha bo'ladi, ba'zi funksiyalar sizdan qiymat qabul qilib, konsolga biror ma'umot chiqaradi, ba'zilari esa sizdan qabul qilgan qiymat ustida turli amallar bajarib yangi qiymat qaytaradi. Foydalanuvchidan mutlaqo qiymat qabul qilmaydigan funksiyalar ham mavjud.
 
 Ushbu mavzuda siz qanday qilib Pythonda yangi funksiya yaratish, unga murojat qilish, tekshirish va to'g'rilashni o'rganasiz. Shuningdek darsimiz yakunida dasturimizni bir nechta faullarga ajratishni va funksiylarani alohida, module deb ataluvchi fayllarga joylashni ham o'rganamiz.
 
@@ -25,10 +25,10 @@ def salom_ber():
 Kodni qatroma-qator tahlil qilaylik:
 
 1. Avvalo `def` operatori yordamida Pythonga funksiya yaratayotganimizni bildirdik. `def` dan so'ng esa funksiyamizga nom berdik va qavslarni ochib, yopdik. Bizning funksiyamiz foydalanuvchidan hech qanday qiymat qabul qilmaydi, shuning uchun ham qavs ichi bo'sh. Keyingi misollarda foydalanuvchidan qiymat qabul qiluvchi funksiyalarni ham ko'ramiz.
-2. `def` qatoridan keyin o'ngga surib yozilgan har qanday kod funksiyaning badani hisoblanadi. 2-qatorda biz uchta ketma-ket qo'shtirnoq ichida funksiya haqida ma'lumot berdik. Python mana shu ma'lumotni o'qib, dasturchi funksiya haqida bilmoqchi bo'lganda aynan shu matnni ko'rsatadi.&#x20;
-3. Oxirgi qatorimizda esa `"Assalomu alaykum!"` matnini konsolga chiqarishni buyurdik. Bizning sodda funksiyamizning asosiy vazifasi ham shu.
+1. `def` qatoridan keyin o'ngga surib yozilgan har qanday kod funksiyaning badani hisoblanadi. 2-qatorda biz uchta ketma-ket qo'shtirnoq ichida funksiya haqida ma'lumot berdik. Python mana shu ma'lumotni o'qib, dasturchi funksiya haqida bilmoqchi bo'lganda aynan shu matnni ko'rsatadi.
+1. Oxirgi qatorimizda esa `"Assalomu alaykum!"` matnini konsolga chiqarishni buyurdik. Bizning sodda funksiyamizning asosiy vazifasi ham shu.
 
-Mana funksiya tayyor. Endi bu funksiyadan foydalanish uchun uni *chaqiramiz*. Buning uchun funksiya nomini yozamiz va qavslarni ochib, yopamiz (esingizda bo'lsa bizning funksiyamiz qiymat qabul qilmaydi, shuning uchun qavslar ichi bo'sh).
+Mana funksiya tayyor. Endi bu funksiyadan foydalanish uchun uni _chaqiramiz_. Buning uchun funksiya nomini yozamiz va qavslarni ochib, yopamiz (esingizda bo'lsa bizning funksiyamiz qiymat qabul qilmaydi, shuning uchun qavslar ichi bo'sh).
 
 ```python
 salom_ber()
@@ -36,9 +36,9 @@ salom_ber()
 
 Natija: `Assalomu alaykum!`
 
-{% hint style="info" %}
+:::info
 Funksiyaga nom berishda fe'l, ya'ni harakatni bildiruvchi so'zlar yoki jumlalardan foydalaning. Bu bilan siz o'zgaruvchi va funksiya o'rtasini farqlashingiz oson bo'ladi. Misol uchun, yuqorida biz funksiyamizni `salom` emas `salom_ber` deb nomladik.
-{% endhint %}
+:::
 
 ### FUNKSIYAGA QIYMAT UZATISH
 
@@ -79,7 +79,7 @@ def salom_ber(ism):
 
 Xo'sh, bu ma'lumot qachon va qayerda ko'rsatiladi? Dastur yozish jarayonida funksiya nomini yozishingiz bilan, docstring ko'rsatiladi:
 
-![Docstring - funksiya haqida ma'lumot](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOeIRBktQ-fwuoU3oVA%2F-MOeJsdlMhaALqFN97IQ%2Fimage.png?alt=media\&token=88bdbd2d-1bbf-40a2-9751-32ef12924d93)
+![Docstring - funksiya haqida ma'lumot](../cirth-assets/5fa23e36-80fa-4c56-aaa7-59a5c270d3ea.png)
 
 Docstringni konsolga chiqarish uchun **`print(funksiya_nomi.__doc__)`** deb ham yozishimiz mumkin:
 
@@ -87,11 +87,11 @@ Docstringni konsolga chiqarish uchun **`print(funksiya_nomi.__doc__)`** deb ham 
 print(salom_ber.__doc__)
 ```
 
-![Docstring](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOeKCGGl7D-4dTLaTzw%2F-MOePAVu5GKkM9s4Rq9B%2Fimage.png?alt=media\&token=addfe2e8-bc07-49af-80e8-0fc3f412d582)
+![Docstring](../cirth-assets/d1551b72-d1a3-4bcd-82f7-59907cfd5528.png)
 
 ### FUNKSIYAGA BIR NECHA BOR MUROJAT QILISH
 
-Funksiya yaratishning asl maqsadlaridan biri, biz unga qayta-qayta, yangi qiymatlar bilan murojat qilishimiz mumkin.&#x20;
+Funksiya yaratishning asl maqsadlaridan biri, biz unga qayta-qayta, yangi qiymatlar bilan murojat qilishimiz mumkin.
 
 ```python
 salom_ber('hasan')
@@ -100,19 +100,19 @@ salom_ber('olim')
 
 Natija:
 
-`Assalomu alaykum, hurmatli Hasan!`&#x20;
+`Assalomu alaykum, hurmatli Hasan!`
 
 `Assalomu alaykum, hurmatli Olim!`
 
 ### ARGUMENT VA PARAMETER
 
-Funksiya yaratishda, qavs ichida berilgan, funksiya to'g'ri ishlashi uchun uzatiladigan qiymat **parameter** deb ataladi. Yuqoridagi misolda `ism` bu `salom_ber` funksiyasining parametri.&#x20;
+Funksiya yaratishda, qavs ichida berilgan, funksiya to'g'ri ishlashi uchun uzatiladigan qiymat **parameter** deb ataladi. Yuqoridagi misolda `ism` bu `salom_ber` funksiyasining parametri.
 
-Foydalanuvchi funksiyaga murojat qilishda funksiyaga uzatgan qiymat esa **argument** deb ataladi. `salom_ber('hasan')` kodida `'hasan'` bu argument.&#x20;
+Foydalanuvchi funksiyaga murojat qilishda funksiyaga uzatgan qiymat esa **argument** deb ataladi. `salom_ber('hasan')` kodida `'hasan'` bu argument.
 
-{% hint style="info" %}
+:::info
 Ba'zi manbalarda yoki darslarda argument va parametr so'zlari almashtirib ishlatilishi ham kuzatiladi.
-{% endhint %}
+:::
 
 ## FUNKSIYAGA BIR NECHTA ARGUMENT UZATISH
 
@@ -135,9 +135,9 @@ Yuqoridagi funksiya to'g'ri natija chiqarishi uchun argumentlarni ism va familiy
 toliq_ism('olim','hakimov')
 ```
 
-Natija:&#x20;
+Natija:
 
-`Foydalanuvchi ismi: Olim`&#x20;
+`Foydalanuvchi ismi: Olim`
 
 `Foydalanuvchi familiyasi: Hakimov`
 
@@ -149,7 +149,7 @@ toliq_ism('hakimov','olim')
 
 Natija:
 
-`Foydalanuvchi ismi: Hakimov`&#x20;
+`Foydalanuvchi ismi: Hakimov`
 
 `Foydalanuvchi familiyasi: Olim`
 
@@ -183,7 +183,7 @@ yosh_hisobla(tugilgan_yil=1997, ism='olim')
 
 Natija: Olim 23 yoshda
 
-Yuoqirdagi misolda funksiyani chaqirishda biz parametrlar ketma-ketligiga rioya qilmagan bo'lsakda, argumentlarni **`parametr_nomi=qiymat`** ko'rinishida yozganimiz sababli funksiya to'g'ri ishladi.&#x20;
+Yuoqirdagi misolda funksiyani chaqirishda biz parametrlar ketma-ketligiga rioya qilmagan bo'lsakda, argumentlarni **`parametr_nomi=qiymat`** ko'rinishida yozganimiz sababli funksiya to'g'ri ishladi.
 
 Huddi shu kabi yuqoridagi toliq\_ism funksiyasiga murojat qilishimiz mumkin:
 
@@ -197,13 +197,13 @@ Natija:
 
 `Foydalanuvchi familiyasi: Hakimov`
 
-{% hint style="danger" %}
+:::danger
 Kalit so'z usulidan foydalanganda parametr nomi to'g'ri yozilganiga ahamiyat bering.
-{% endhint %}
+:::
 
 ### STANDART QIYMAT
 
-Funksiya yaratishda, istalgan parametr uchun standart qiymat ko'rsatib ketishimiz mumkin. Agar foydalanuvchi shu parametr uchun qiymat (argument) kiritmasa, funksiya bajarilishi jarayonida standart qiymat ishlatiladi. Standart qiymatni funksiya yaratish vaqtid&#x61;**`parametr = qiymat`** ko'rinishida beriladi.
+Funksiya yaratishda, istalgan parametr uchun standart qiymat ko'rsatib ketishimiz mumkin. Agar foydalanuvchi shu parametr uchun qiymat (argument) kiritmasa, funksiya bajarilishi jarayonida standart qiymat ishlatiladi. Standart qiymatni funksiya yaratish vaqtida\*\*`parametr = qiymat`\*\* ko'rinishida beriladi.
 
 ```python
 def yosh_hisobla(tugilgan_yil, joriy_yil=2020): # joriy yil uchun st.qiymat 2020
@@ -211,11 +211,11 @@ def yosh_hisobla(tugilgan_yil, joriy_yil=2020): # joriy yil uchun st.qiymat 2020
     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
 ```
 
-Yuqoridagi misolda biz `joriy_yil` parametriga `2020` standart qiymatini berib ketdik.&#x20;
+Yuqoridagi misolda biz `joriy_yil` parametriga `2020` standart qiymatini berib ketdik.
 
-{% hint style="danger" %}
+:::danger
 Funksiya yaratishda, standart qiymatga ega parametrlar doim oxirida yozilishi kerak. Aks holda xatolik yuzaga keladi.
-{% endhint %}
+:::
 
 Keling avval funksiyani ikkala argument bilan chaqiramiz:
 
@@ -233,7 +233,7 @@ yosh_hisobla(1993)
 
 Natija: `Siz 27 yoshdasiz`
 
-Bu safar foydalanuvchi `joriy_yil` ni kiritmagani sababli, standart qiymat, `2020` ishlatildi.&#x20;
+Bu safar foydalanuvchi `joriy_yil` ni kiritmagani sababli, standart qiymat, `2020` ishlatildi.
 
 ## FUNKSIYAGA MUROJAT QILISHDA XATOLIKLAR
 
@@ -284,22 +284,21 @@ Natija: `TypeError: toliq_ism() missing 1 required positional argument: 'familiy
 ## AMALIYOT
 
 1. Foydalanuvchi ismi va yoshini so'rab, uning tug'ilgan yilini hisoblaydigan funksiya yozing.
-2. Foydalanuvchidan son olib, uning kvadrati va kubini konsolga chiqaruvchi funksiya yozing.
-3. Foydalanuvchidan son olib, son juft yoki toqligini konsolga chiqaruvchi funksiya yozing.
-4. Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing. Agar sonlar teng bo'lsa "Sonlar teng" degan xabarni chiqaring.
-5. Foydalanuvchidan x va y sonlarini olib, $$x^y$$ni konsolga chiqaruvchi funksiya yozing.
-6. Yuqoridagi funksiyada `y` uchun `2` standart qiymatini bering.
-7. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing. Natijalarni konsolga chiqaring.
+1. Foydalanuvchidan son olib, uning kvadrati va kubini konsolga chiqaruvchi funksiya yozing.
+1. Foydalanuvchidan son olib, son juft yoki toqligini konsolga chiqaruvchi funksiya yozing.
+1. Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing. Agar sonlar teng bo'lsa "Sonlar teng" degan xabarni chiqaring.
+1. Foydalanuvchidan x va y sonlarini olib, $$x^y$$ni konsolga chiqaruvchi funksiya yozing.
+1. Yuqoridagi funksiyada `y` uchun `2` standart qiymatini bering.
+1. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing. Natijalarni konsolga chiqaring.
 
-![Kutilgan natijaga misol](https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MOg9IWej75FxyP-sKMZ%2F-MOg9NV1_WMTAmULqk3T%2Fimage.png?alt=media\&token=4f549bd9-1856-47c1-a3f7-3c798ed34cdf)
+![Kutilgan natijaga misol](../cirth-assets/b08ed378-f8b6-4f4f-8f24-41ff9816feb2.png)
 
 ## JAVOBLAR
 
 ### GitHub
 
-{% embed url="<https://github.com/anvarnarz/python-darslar>" %}
+<Embed url="https://github.com/anvarnarz/python-darslar" />
 
 ### Repl.it
 
-{% embed url="<https://repl.it/@anvarbek/javoblar-19>" %}
-
+<Embed url="https://repl.it/@anvarbek/javoblar-19" />

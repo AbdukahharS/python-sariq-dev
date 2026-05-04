@@ -1,0 +1,370 @@
+{
+  "site": {
+    "name": "python-sariq-dev",
+    "slug": "python-sariq-dev",
+    "themeId": "default"
+  },
+  "navigation": [
+    {
+      "type": "group",
+      "title": "Amaliyot",
+      "slug": "amaliyot",
+      "children": [
+        {
+          "type": "page",
+          "file": "amaliyot/25-guess-the-number.md",
+          "title": "25 Guess The Number",
+          "slug": "25-guess-the-number"
+        },
+        {
+          "type": "page",
+          "file": "amaliyot/26-guess-the-word.md",
+          "title": "26 Guess The Word",
+          "slug": "26-guess-the-word"
+        },
+        {
+          "type": "page",
+          "file": "amaliyot/27-cyr2lat-bot.md",
+          "title": "27 Cyr2lat Bot",
+          "slug": "27-cyr2lat-bot"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Dictionary",
+      "slug": "dictionary",
+      "children": [
+        {
+          "type": "page",
+          "file": "dictionary/14-dictionary.md",
+          "title": "14 Dictionary",
+          "slug": "14-dictionary"
+        },
+        {
+          "type": "page",
+          "file": "dictionary/15-dictionary-sets.md",
+          "title": "15 Dictionary Sets",
+          "slug": "15-dictionary-sets"
+        },
+        {
+          "type": "page",
+          "file": "dictionary/16-nesting.md",
+          "title": "16 Nesting",
+          "slug": "16-nesting"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Extras",
+      "slug": "extras",
+      "children": [
+        {
+          "type": "page",
+          "file": "extras/regex.md",
+          "title": "Regex",
+          "slug": "regex"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Files Exceptions",
+      "slug": "files-exceptions",
+      "children": [
+        {
+          "type": "page",
+          "file": "files-exceptions/33-files.md",
+          "title": "33 Files",
+          "slug": "33-files"
+        },
+        {
+          "type": "page",
+          "file": "files-exceptions/34-json.md",
+          "title": "34 Json",
+          "slug": "34-json"
+        },
+        {
+          "type": "page",
+          "file": "files-exceptions/35-xatolar.md",
+          "title": "35 Xatolar",
+          "slug": "35-xatolar"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Function",
+      "slug": "function",
+      "children": [
+        {
+          "type": "page",
+          "file": "function/19-function.md",
+          "title": "19 Function",
+          "slug": "19-function"
+        },
+        {
+          "type": "page",
+          "file": "function/20-qiymat-qaytarish.md",
+          "title": "20 Qiymat Qaytarish",
+          "slug": "20-qiymat-qaytarish"
+        },
+        {
+          "type": "page",
+          "file": "function/21-funksiya-va-royxat.md",
+          "title": "21 Funksiya Va Royxat",
+          "slug": "21-funksiya-va-royxat"
+        },
+        {
+          "type": "page",
+          "file": "function/22-flexible-functions.md",
+          "title": "22 Flexible Functions",
+          "slug": "22-flexible-functions"
+        },
+        {
+          "type": "page",
+          "file": "function/23-modules.md",
+          "title": "23 Modules",
+          "slug": "23-modules"
+        },
+        {
+          "type": "page",
+          "file": "function/24-lambda.md",
+          "title": "24 Lambda",
+          "slug": "24-lambda"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "file": "howto.md",
+      "title": "Howto",
+      "slug": "howto"
+    },
+    {
+      "type": "group",
+      "title": "Ilk Qadamlar",
+      "slug": "ilk-qadamlar",
+      "children": [
+        {
+          "type": "page",
+          "file": "ilk-qadamlar/01-software.md",
+          "title": "01 Software",
+          "slug": "01-software"
+        },
+        {
+          "type": "page",
+          "file": "ilk-qadamlar/02-hello-world.md",
+          "title": "02 Hello World",
+          "slug": "02-hello-world"
+        },
+        {
+          "type": "page",
+          "file": "ilk-qadamlar/03-print.md",
+          "title": "03 Print",
+          "slug": "03-print"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "file": "index.md",
+      "title": "Index",
+      "slug": ""
+    },
+    {
+      "type": "group",
+      "title": "Last Words",
+      "slug": "last-words",
+      "children": [
+        {
+          "type": "page",
+          "file": "last-words/38-python-library.md",
+          "title": "38 Python Library",
+          "slug": "38-python-library"
+        },
+        {
+          "type": "page",
+          "file": "last-words/39-pip-pypi.md",
+          "title": "39 Pip Pypi",
+          "slug": "39-pip-pypi"
+        },
+        {
+          "type": "page",
+          "file": "last-words/40-the-end.md",
+          "title": "40 The End",
+          "slug": "40-the-end"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Lirik Chekinish 1",
+      "slug": "lirik-chekinish-1",
+      "children": [
+        {
+          "type": "page",
+          "file": "lirik-chekinish-1/12-xatolar.md",
+          "title": "12 Xatolar",
+          "slug": "12-xatolar"
+        },
+        {
+          "type": "page",
+          "file": "lirik-chekinish-1/13-github.md",
+          "title": "13 Github",
+          "slug": "13-github"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Oop",
+      "slug": "oop",
+      "children": [
+        {
+          "type": "page",
+          "file": "oop/28-klasslar.md",
+          "title": "28 Klasslar",
+          "slug": "28-klasslar"
+        },
+        {
+          "type": "page",
+          "file": "oop/29-obyektlar-bilan-ishlash.md",
+          "title": "29 Obyektlar Bilan Ishlash",
+          "slug": "29-obyektlar-bilan-ishlash"
+        },
+        {
+          "type": "page",
+          "file": "oop/30-vorislik-polimorfizm.md",
+          "title": "30 Vorislik Polimorfizm",
+          "slug": "30-vorislik-polimorfizm"
+        },
+        {
+          "type": "page",
+          "file": "oop/31-encapsulation.md",
+          "title": "31 Encapsulation",
+          "slug": "31-encapsulation"
+        },
+        {
+          "type": "page",
+          "file": "oop/32-dunder-metodlar.md",
+          "title": "32 Dunder Metodlar",
+          "slug": "32-dunder-metodlar"
+        },
+        {
+          "type": "page",
+          "file": "oop/kirish.md",
+          "title": "Kirish",
+          "slug": "kirish"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Ozgaruvchilar Va Malumot Turlari",
+      "slug": "ozgaruvchilar-va-malumot-turlari",
+      "children": [
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/04-variables.md",
+          "title": "04 Variables",
+          "slug": "04-variables"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
+          "title": "05 String",
+          "slug": "05-string"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
+          "title": "06 Sonlar",
+          "slug": "06-sonlar"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
+          "title": "07 Lists",
+          "slug": "07-lists"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
+          "title": "08 List Tuple",
+          "slug": "08-list-tuple"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
+          "title": "09 For Loop",
+          "slug": "09-for-loop"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Shartlar",
+      "slug": "shartlar",
+      "children": [
+        {
+          "type": "page",
+          "file": "shartlar/10-if-else.md",
+          "title": "10 If Else",
+          "slug": "10-if-else"
+        },
+        {
+          "type": "page",
+          "file": "shartlar/11-if-elif-else.md",
+          "title": "11 If Elif Else",
+          "slug": "11-if-elif-else"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Testing",
+      "slug": "testing",
+      "children": [
+        {
+          "type": "page",
+          "file": "testing/36-function-test.md",
+          "title": "36 Function Test",
+          "slug": "36-function-test"
+        },
+        {
+          "type": "page",
+          "file": "testing/37-klass-test.md",
+          "title": "37 Klass Test",
+          "slug": "37-klass-test"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "While",
+      "slug": "while",
+      "children": [
+        {
+          "type": "page",
+          "file": "while/17-while-loop.md",
+          "title": "17 While Loop",
+          "slug": "17-while-loop"
+        },
+        {
+          "type": "page",
+          "file": "while/18-while-lists.md",
+          "title": "18 While Lists",
+          "slug": "18-while-lists"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "file": "yangilik.md",
+      "title": "Yangilik",
+      "slug": "yangilik"
+    }
+  ]
+}
