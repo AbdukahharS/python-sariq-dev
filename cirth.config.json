@@ -113,39 +113,14 @@
         {
           "type": "page",
           "file": "lirik-chekinish-1/12-xatolar.md",
-          "title": "12 Xatolar",
+          "title": "#12 XATOLAR BILAN ISHLASH",
           "slug": "12-xatolar"
         },
         {
           "type": "page",
           "file": "lirik-chekinish-1/13-github.md",
-          "title": "13 Github",
+          "title": "#13 GitHub PORTFOLIO",
           "slug": "13-github"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Amaliyot",
-      "slug": "amaliyot",
-      "children": [
-        {
-          "type": "page",
-          "file": "amaliyot/25-guess-the-number.md",
-          "title": "25 Guess The Number",
-          "slug": "25-guess-the-number"
-        },
-        {
-          "type": "page",
-          "file": "amaliyot/26-guess-the-word.md",
-          "title": "26 Guess The Word",
-          "slug": "26-guess-the-word"
-        },
-        {
-          "type": "page",
-          "file": "amaliyot/27-cyr2lat-bot.md",
-          "title": "27 Cyr2lat Bot",
-          "slug": "27-cyr2lat-bot"
         }
       ]
     },
@@ -171,6 +146,31 @@
           "file": "dictionary/16-nesting.md",
           "title": "16 Nesting",
           "slug": "16-nesting"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Amaliyot",
+      "slug": "amaliyot",
+      "children": [
+        {
+          "type": "page",
+          "file": "amaliyot/25-guess-the-number.md",
+          "title": "25 Guess The Number",
+          "slug": "25-guess-the-number"
+        },
+        {
+          "type": "page",
+          "file": "amaliyot/26-guess-the-word.md",
+          "title": "26 Guess The Word",
+          "slug": "26-guess-the-word"
+        },
+        {
+          "type": "page",
+          "file": "amaliyot/27-cyr2lat-bot.md",
+          "title": "27 Cyr2lat Bot",
+          "slug": "27-cyr2lat-bot"
         }
       ]
     },
