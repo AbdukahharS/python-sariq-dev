@@ -71,15 +71,15 @@ Natija: `1 2 3 4 5`
 
 Yuqoridagi kodni tahlil qilamiz:
 
-- avval `son` degan o'zgaruvchi yaratdik va unga `1` qiymatini berdik.
-- 2-qatorda esa toki `son` 5 dan kichik yoki teng ekan 3-4-qatorlarni bajar dedik.
-- 3-qatorda `son` ni konsolga chiqardik
-- 4-qatorda `son` ga `1` qo'shdik.
-- 4-qatordan so'ng kod yana 2-qatorga qaytadi va `son&lt;=5` shartini tekshiradi, agar shart bajarilsa 3-4 qator qayta-qayta bajarilaveradi.
-- 5-qadamdan so'ng `son=5` bo'lganda `while` tsikli to'xtaydi.
+* avval `son` degan o'zgaruvchi yaratdik va unga `1` qiymatini berdik.
+* 2-qatorda esa toki `son` 5 dan kichik yoki teng ekan 3-4-qatorlarni bajar dedik.
+* 3-qatorda `son` ni konsolga chiqardik
+* 4-qatorda `son` ga `1` qo'shdik.
+* 4-qatordan so'ng kod yana 2-qatorga qaytadi va `son&lt;=5` shartini tekshiradi, agar shart bajarilsa 3-4 qator qayta-qayta bajarilaveradi.
+* 5-qadamdan so'ng `son=5` bo'lganda `while` tsikli to'xtaydi.
 
 :::info
-Pythonda += operatori bor. Bu operator o'ng tarafdagi qiymatni chap tarafdagi qiymatga qo'shadi. Misol uchun, yuqorida `son = son + 1` o'rniga `son += 1` deb yozishimiz mumkin.
+Pythonda +\= operatori bor. Bu operator o'ng tarafdagi qiymatni chap tarafdagi qiymatga qo'shadi. Misol uchun, yuqorida `son = son + 1` o'rniga `son += 1` deb yozishimiz mumkin.
 :::
 
 ## `while` va `input()`
@@ -103,7 +103,7 @@ Yuoqridagi dasturimiz toki foydalanuvchi `exit` deb yozguniga qadar takrorlanave
 
 ### Ishora (flag)
 
-Yuqoridagi dasturda dasturni to'xtatish uchun yagona shartni tekshirdik (qiymat!='exit'), katta dasturlarda bir emas bir nechta shartlarni tekshirish, va ulardan biri bajarilgan taqdirda dasturni to'xtatish talab qilinishi mumkin.
+Yuqoridagi dasturda dasturni to'xtatish uchun yagona shartni tekshirdik (qiymat!\='exit'), katta dasturlarda bir emas bir nechta shartlarni tekshirish, va ulardan biri bajarilgan taqdirda dasturni to'xtatish talab qilinishi mumkin.
 
 Bunday holatlarda biror o'zgaruvchidan ishora (flag) sifatida foydalanishimiz mumkin. Agar dastur bajarilishi davomida dasturni to'xtatish shartlaridan biri bajarilganda ishora o'zgaruvchining qiymatini o'zgartiramiz va dastur o'z-o'zidan to'xtaydi.
 
@@ -230,9 +230,9 @@ Dastur bajarilishini to'xtatish uchun konsolda **Ctrl+C** tugmasini bosing
 ## AMALIYOT
 
 1. Foydalanuvchidan yaxshi ko'rgan kitoblarini kiritishni so'rang. Foydalanuvchi `stop` so'zini yozishi bilan dasturni to'xtating
-1. Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. Foydalanuvchi `exit` yoki `quit` deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
+2. Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. Foydalanuvchi `exit` yoki `quit` deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
    1. Yuqoridagi dasturni turli usullarda yozib ko'ring (break, ishora, yoki shart tekshirish)
-1. Quyidagi dasturda bir nechta mantiqiy xatolar bor. Jumladan, xusisiy holatlarda tsikl abadiy qaytarilib qolmoqda. Xatolarni to'g'rilay olasizmi?
+3. Quyidagi dasturda bir nechta mantiqiy xatolar bor. Jumladan, xusisiy holatlarda tsikl abadiy qaytarilib qolmoqda. Xatolarni to'g'rilay olasizmi?
 
 ```python
 savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
