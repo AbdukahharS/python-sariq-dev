@@ -219,20 +219,63 @@
         {
           "type": "page",
           "file": "amaliyot/25-guess-the-number.md",
-          "title": "25 Guess The Number",
+          "title": "#25 \"SON TOPISH\" O'YINI",
           "slug": "25-guess-the-number"
         },
         {
           "type": "page",
           "file": "amaliyot/26-guess-the-word.md",
-          "title": "26 Guess The Word",
+          "title": "#26 \"SO'Z TOPISH\" O'YINI",
           "slug": "26-guess-the-word"
         },
         {
           "type": "page",
           "file": "amaliyot/27-cyr2lat-bot.md",
-          "title": "27 Cyr2lat Bot",
+          "title": "#27 KIRILL-LOTIN TELEGRAM BOT",
           "slug": "27-cyr2lat-bot"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Oop",
+      "slug": "oop",
+      "children": [
+        {
+          "type": "page",
+          "file": "oop/28-klasslar.md",
+          "title": "28 Klasslar",
+          "slug": "28-klasslar"
+        },
+        {
+          "type": "page",
+          "file": "oop/29-obyektlar-bilan-ishlash.md",
+          "title": "29 Obyektlar Bilan Ishlash",
+          "slug": "29-obyektlar-bilan-ishlash"
+        },
+        {
+          "type": "page",
+          "file": "oop/30-vorislik-polimorfizm.md",
+          "title": "30 Vorislik Polimorfizm",
+          "slug": "30-vorislik-polimorfizm"
+        },
+        {
+          "type": "page",
+          "file": "oop/31-encapsulation.md",
+          "title": "31 Encapsulation",
+          "slug": "31-encapsulation"
+        },
+        {
+          "type": "page",
+          "file": "oop/32-dunder-metodlar.md",
+          "title": "32 Dunder Metodlar",
+          "slug": "32-dunder-metodlar"
+        },
+        {
+          "type": "page",
+          "file": "oop/kirish.md",
+          "title": "Kirish",
+          "slug": "kirish"
         }
       ]
     },
@@ -283,49 +326,6 @@
           "file": "last-words/40-the-end.md",
           "title": "40 The End",
           "slug": "40-the-end"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Oop",
-      "slug": "oop",
-      "children": [
-        {
-          "type": "page",
-          "file": "oop/28-klasslar.md",
-          "title": "28 Klasslar",
-          "slug": "28-klasslar"
-        },
-        {
-          "type": "page",
-          "file": "oop/29-obyektlar-bilan-ishlash.md",
-          "title": "29 Obyektlar Bilan Ishlash",
-          "slug": "29-obyektlar-bilan-ishlash"
-        },
-        {
-          "type": "page",
-          "file": "oop/30-vorislik-polimorfizm.md",
-          "title": "30 Vorislik Polimorfizm",
-          "slug": "30-vorislik-polimorfizm"
-        },
-        {
-          "type": "page",
-          "file": "oop/31-encapsulation.md",
-          "title": "31 Encapsulation",
-          "slug": "31-encapsulation"
-        },
-        {
-          "type": "page",
-          "file": "oop/32-dunder-metodlar.md",
-          "title": "32 Dunder Metodlar",
-          "slug": "32-dunder-metodlar"
-        },
-        {
-          "type": "page",
-          "file": "oop/kirish.md",
-          "title": "Kirish",
-          "slug": "kirish"
         }
       ]
     },
