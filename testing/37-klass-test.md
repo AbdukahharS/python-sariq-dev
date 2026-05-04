@@ -41,12 +41,12 @@ class Car:
 
 Yuqoridagi klassimiz avtomobil haqida ma'lumotlarni saqlaydi. Klassimizning e'tibor qaratishimiz kerak bo'lgan jihatlari:
 
-- `km` va `price` (narh) argumentlariga standart qiymat berilgan
-- km parametri inkapsulasiyalangan (`self.__km`)
-- Avtomobil narhini `set_price()` metodi yordamida yangilash mumkin
-- `add_km()` metodi faqat musbat qiymat qabul qiladi. Agar manfiy qiymat uzatilsa `raise` operatori yordamida `ValueError` xatosini qaytaradi
-- `get_info()` metodidan qaytadigan qiymat avtomobil narhi bor yoki yo'qligiga qarab turli ko'rinishda bo'lishi mumkin
-- Avtomobil kilometrajini ko'rish uchun `get_km()` metodiga murojat qilamiz.
+* `km` va `price` (narh) argumentlariga standart qiymat berilgan
+* km parametri inkapsulasiyalangan (`self.__km`)
+* Avtomobil narhini `set_price()` metodi yordamida yangilash mumkin
+* `add_km()` metodi faqat musbat qiymat qabul qiladi. Agar manfiy qiymat uzatilsa `raise` operatori yordamida `ValueError` xatosini qaytaradi
+* `get_info()` metodidan qaytadigan qiymat avtomobil narhi bor yoki yo'qligiga qarab turli ko'rinishda bo'lishi mumkin
+* Avtomobil kilometrajini ko'rish uchun `get_km()` metodiga murojat qilamiz.
 
 ## XUSUSIYATLARNI TEKSHIRISH
 
@@ -242,8 +242,8 @@ OK
 
 ## AMALIYOT
 
-- [30-darsimizda](https://python.sariq.dev/oop/30-vorislik-polimorfizm) `Shaxs` va `Talaba` klasslarini yaratgan edik. Shu ikki klassning xususiyatlari va metodlarini tekshiruvchi test dasturlar yozing.
-- Ikki klass uchun yagona test yoza olasizmi? (`isInstance()` funksiyasini eslang)
+* [30-darsimizda](https://python.sariq.dev/oop/30-vorislik-polimorfizm) `Shaxs` va `Talaba` klasslarini yaratgan edik. Shu ikki klassning xususiyatlari va metodlarini tekshiruvchi test dasturlar yozing.
+* Ikki klass uchun yagona test yoza olasizmi? (`isInstance()` funksiyasini eslang)
 
 ## KODLAR
 
