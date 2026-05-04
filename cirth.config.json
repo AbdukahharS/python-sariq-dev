@@ -36,7 +36,8 @@
           "type": "page",
           "file": "ilk-qadamlar/02-hello-world.md",
           "title": "#02 HELLO WORLD!",
-          "slug": "02-hello-world"
+          "slug": "02-hello-world",
+          "description": "Pythonda birinchi dasturimizni yozamiz."
         },
         {
           "type": "page",
