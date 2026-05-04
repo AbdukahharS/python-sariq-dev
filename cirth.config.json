@@ -71,7 +71,8 @@
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
           "title": "#06 SONLAR",
-          "slug": "06-sonlar"
+          "slug": "06-sonlar",
+          "description": "Pythonda sonlar bilan ishlashni o'rganamiz"
         },
         {
           "type": "page",
