@@ -157,14 +157,57 @@
         {
           "type": "page",
           "file": "while/17-while-loop.md",
-          "title": "17 While Loop",
+          "title": "#17 WHILE TSIKLI",
           "slug": "17-while-loop"
         },
         {
           "type": "page",
           "file": "while/18-while-lists.md",
-          "title": "18 While Lists",
+          "title": "#18 WHILE, RO'YXATLAR VA LUG'ATLAR",
           "slug": "18-while-lists"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Function",
+      "slug": "function",
+      "children": [
+        {
+          "type": "page",
+          "file": "function/19-function.md",
+          "title": "19 Function",
+          "slug": "19-function"
+        },
+        {
+          "type": "page",
+          "file": "function/20-qiymat-qaytarish.md",
+          "title": "20 Qiymat Qaytarish",
+          "slug": "20-qiymat-qaytarish"
+        },
+        {
+          "type": "page",
+          "file": "function/21-funksiya-va-royxat.md",
+          "title": "21 Funksiya Va Royxat",
+          "slug": "21-funksiya-va-royxat"
+        },
+        {
+          "type": "page",
+          "file": "function/22-flexible-functions.md",
+          "title": "22 Flexible Functions",
+          "slug": "22-flexible-functions"
+        },
+        {
+          "type": "page",
+          "file": "function/23-modules.md",
+          "title": "23 Modules",
+          "slug": "23-modules"
+        },
+        {
+          "type": "page",
+          "file": "function/24-lambda.md",
+          "title": "24 Lambda",
+          "slug": "24-lambda"
         }
       ]
     },
@@ -215,49 +258,6 @@
           "file": "files-exceptions/35-xatolar.md",
           "title": "35 Xatolar",
           "slug": "35-xatolar"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Function",
-      "slug": "function",
-      "children": [
-        {
-          "type": "page",
-          "file": "function/19-function.md",
-          "title": "19 Function",
-          "slug": "19-function"
-        },
-        {
-          "type": "page",
-          "file": "function/20-qiymat-qaytarish.md",
-          "title": "20 Qiymat Qaytarish",
-          "slug": "20-qiymat-qaytarish"
-        },
-        {
-          "type": "page",
-          "file": "function/21-funksiya-va-royxat.md",
-          "title": "21 Funksiya Va Royxat",
-          "slug": "21-funksiya-va-royxat"
-        },
-        {
-          "type": "page",
-          "file": "function/22-flexible-functions.md",
-          "title": "22 Flexible Functions",
-          "slug": "22-flexible-functions"
-        },
-        {
-          "type": "page",
-          "file": "function/23-modules.md",
-          "title": "23 Modules",
-          "slug": "23-modules"
-        },
-        {
-          "type": "page",
-          "file": "function/24-lambda.md",
-          "title": "24 Lambda",
-          "slug": "24-lambda"
         }
       ]
     },
