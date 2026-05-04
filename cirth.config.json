@@ -113,7 +113,8 @@
           "type": "page",
           "file": "shartlar/11-if-elif-else.md",
           "title": "#11 BIR NECHTA SHARTLARNI TEKSHIRISH",
-          "slug": "11-if-elif-else"
+          "slug": "11-if-elif-else",
+          "description": "if-elif-else zanjiri, \"and\", \"or\" operatorlari bilan tanishamiz"
         }
       ]
     },
