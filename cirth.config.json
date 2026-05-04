@@ -1,9 +1,4 @@
 {
-  "site": {
-    "name": "python-sariq-dev",
-    "slug": "python-sariq-dev",
-    "themeId": "default"
-  },
   "navigation": [
     {
       "type": "group",
@@ -52,19 +47,6 @@
           "file": "dictionary/16-nesting.md",
           "title": "16 Nesting",
           "slug": "16-nesting"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Extras",
-      "slug": "extras",
-      "children": [
-        {
-          "type": "page",
-          "file": "extras/regex.md",
-          "title": "Regex",
-          "slug": "regex"
         }
       ]
     },
@@ -365,6 +347,19 @@
       "file": "yangilik.md",
       "title": "Yangilik",
       "slug": "yangilik"
+    },
+    {
+      "type": "group",
+      "title": "Extras",
+      "slug": "extras",
+      "children": [
+        {
+          "type": "page",
+          "file": "extras/regex.md",
+          "title": "Regex",
+          "slug": "regex"
+        }
+      ]
     }
   ]
 }
