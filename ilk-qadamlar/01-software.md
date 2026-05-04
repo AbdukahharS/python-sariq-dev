@@ -6,9 +6,9 @@ Kod yozish uchun avvalo kompyuterimizda Python o'rnatilgan bo'lishi kerak. Biz b
 
 Bunday qilishimizning bir nechta sabablari bor:
 
-- Anaconda Python nisbatan tezroq
-- Anaconda biz uchun kerakli bo'lgan qo'shimcha dasturlar va muhim paketlar bilan birga o'rnatiladi
-- Anacondada turli dasturlar (loyihalar) uchun alohida muhit yaratish mumkin
+* Anaconda Python nisbatan tezroq
+* Anaconda biz uchun kerakli bo'lgan qo'shimcha dasturlar va muhim paketlar bilan birga o'rnatiladi
+* Anacondada turli dasturlar (loyihalar) uchun alohida muhit yaratish mumkin
 
 ### Repl.it
 
@@ -26,16 +26,16 @@ Anaconda platformasini o'rnatamiz.
 
 <Embed url="https://www.youtube.com/watch?v=xforSDte5-4" />
 
-- [ ] Kompyuterimizda brauzerni ochib, [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual) sahifasiga kiramiz va **Download** tugmasini bosamiz.
-- [ ] Kompyuterimizda o'rnatilgan operatsion tizim uchun mos keluvchi faylni yuklab olamiz (_agar yuqoridagi jumlani tushunmagan bo'lsangiz, katta ehtimollik bilan sizda 64-Bit Windows operatsion tizimi o'rnatilgan_)
+* [ ] Kompyuterimizda brauzerni ochib, [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual) sahifasiga kiramiz va **Download** tugmasini bosamiz.
+* [ ] Kompyuterimizda o'rnatilgan operatsion tizim uchun mos keluvchi faylni yuklab olamiz (*agar yuqoridagi jumlani tushunmagan bo'lsangiz, katta ehtimollik bilan sizda 64-Bit Windows operatsion tizimi o'rnatilgan*)
 
 ![](../cirth-assets/feeae64c-4e3c-4ac8-b299-3da0e4e29413.png)
 
-- [ ] Yuklab olingan faylni ochamiz, va o'rnatamiz _(hech qanday o'zgartirishlarga hojat yo'q, NEXT, ACCEPT, FINISH tugmalarini bosib turamiz xolos)_
+* [ ] Yuklab olingan faylni ochamiz, va o'rnatamiz *(hech qanday o'zgartirishlarga hojat yo'q, NEXT, ACCEPT, FINISH tugmalarini bosib turamiz xolos)*
 
 ![](../cirth-assets/0daa3a8a-9e92-4ddf-979d-dbdb986e1e31.png)
 
-- [ ] Anaconda o'rnatilganidan so'ng Windowsdagi dasturlar orasida Anaconda Navigator dasturini ochamiz.
+* [ ] Anaconda o'rnatilganidan so'ng Windowsdagi dasturlar orasida Anaconda Navigator dasturini ochamiz.
 
 ![](../cirth-assets/12adc404-4316-4aa0-8b5b-c43d5f834142.png)
 
