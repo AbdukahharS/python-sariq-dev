@@ -29,7 +29,8 @@
           "type": "page",
           "file": "ilk-qadamlar/01-software.md",
           "title": "#01 KERAKLI DASTURLAR",
-          "slug": "01-software"
+          "slug": "01-software",
+          "description": "Ushbu bo'limda Python tilida kod yozish uchun kerak bo'lgan dasturlarni o'rnatamiz"
         },
         {
           "type": "page",
