@@ -64,7 +64,8 @@
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
           "title": "#05 STRING (MATN)",
-          "slug": "05-string"
+          "slug": "05-string",
+          "description": "STRING ma'lumot turi va uning ustida amallar"
         },
         {
           "type": "page",
