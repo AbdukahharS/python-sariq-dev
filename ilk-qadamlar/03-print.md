@@ -123,10 +123,10 @@ Natija: `10`
 
 Python arifmetik amallarni bajarishda Matematika qoidalariga amal qiladi:
 
-- Qavs ichidagi amallar qavs ortidagilardan avval bajariladi
-- Darajaga oshirish (ildiz chiqarish) ko'paytirish va bo'lishdan avval bajariladi
-- Ko'paytirish va bo'lish, qo'shish va ayirishdan avval bajariladi
-- Boshqa holatlarda ifodalar chapdan o'ngga qarab bajariladi
+* Qavs ichidagi amallar qavs ortidagilardan avval bajariladi
+* Darajaga oshirish (ildiz chiqarish) ko'paytirish va bo'lishdan avval bajariladi
+* Ko'paytirish va bo'lish, qo'shish va ayirishdan avval bajariladi
+* Boshqa holatlarda ifodalar chapdan o'ngga qarab bajariladi
 
 Yuqoridagi misolda ham avval ko'paytirish (`4*2=8`), keyin esa qo'shish amali (`2+8=10`) bajarildi.
 
@@ -170,15 +170,15 @@ Yuqoridagi `**` belgisi darajaga oshirishni anglatadi, ya'ni `2**4` ifodasi 2 ni
 
 Pythonda oddiy arifmetik amallar quyidagi jadvalda berilgan.
 
-| Operator | Tavsif                         | Misol        |
-| -------- | ------------------------------ | ------------ |
-| +        | Qo'shish                       | 5+6=11       |
-| -        | Ayirish                        | 5-6=-1       |
-| \*       | Ko'paytirish                   | 5\*6=30      |
-| /        | Bo'lish                        | 5/6=0.833333 |
-| //       | Bo'lish va butun qismini olish | 5//6=0       |
-| \*\*     | Exponenta (daraja/ildiz)       | 5\*\*6=15625 |
-| %        | Bo'linmaning qoldig'ini olish  | 15%6=3       |
+| Operator | Tavsif                         | Misol         |
+| -------- | ------------------------------ | ------------- |
+| +        | Qo'shish                       | 5+6\=11       |
+| -        | Ayirish                        | 5-6\=-1       |
+| \*       | Ko'paytirish                   | 5\*6\=30      |
+| /        | Bo'lish                        | 5/6\=0.833333 |
+| //       | Bo'lish va butun qismini olish | 5//6\=0       |
+| \*\*     | Exponenta (daraja/ildiz)       | 5\*\*6\=15625 |
+| %        | Bo'linmaning qoldig'ini olish  | 15%6\=3       |
 
 `print()` yordamida matn va ifodalarni jamlab chiqarish ham mumkin. Buning uchun har bir ifoda va matn vergul (`,`) bilan ajratiladi:
 
@@ -230,10 +230,10 @@ Quyidagi matnni aynan shunday ko'rinishda konsolda chiqaring:
 Quyidagi misollarga yechimni Pythonda chiqaring. Har bir misoldan avval misol matnini izoh ko'rinishida yozing:
 
 1. 5 ning 4-darajasini toping
-1. 22 ni 4 ga bo'lganda qancha qoldiq qoladi?
-1. Tomonlari 125 ga teng kvadratning yuzi va perimetrini toping
-1. Diametri 12 ga teng bo'lgan doiraning yuzini toping  ($$\pi=3.14$$ deb oling)
-1. Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping ([Pifagor teoremasidan ](https://fayllar.org/pifagor-teoremasi-va-uning-turli-hil-isbotlari-mavzusida-tajer.html)foydalaning)
+2. 22 ni 4 ga bo'lganda qancha qoldiq qoladi?
+3. Tomonlari 125 ga teng kvadratning yuzi va perimetrini toping
+4. Diametri 12 ga teng bo'lgan doiraning yuzini toping  ($$\pi\=3.14$$ deb oling)
+5. Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasini toping ([Pifagor teoremasidan ](https://fayllar.org/pifagor-teoremasi-va-uning-turli-hil-isbotlari-mavzusida-tajer.html)foydalaning)
 
 :::info
 Javoblarni savol va yechim ko'rinishida chiqaring: `5 ning 4-darajasi 625`
