@@ -54,7 +54,7 @@ Natija: `['ali', 'vali', 'hasan', 'husan']`
 
 ## AMALIYOT
 
-- Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya yozing.
+* Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya yozing.
 
 ```python
 ismlar = ['ali', 'vali', 'hasan', 'husan']
@@ -64,7 +64,7 @@ print(ismlar)
 
 Kutilgan natija: `['Ali', 'Vali', 'Hasan', 'Husan']`
 
-- Yuoqirdagi funksiyani asl ro'yxatni o'zgartirmaydigan va yangi ro'yxat qaytaradigan qilib o'zgartiring
+* Yuoqirdagi funksiyani asl ro'yxatni o'zgartirmaydigan va yangi ro'yxat qaytaradigan qilib o'zgartiring
 
 ```python
 ismlar = ['ali', 'vali', 'hasan', 'husan']
@@ -79,7 +79,7 @@ Kutilgan natija:
 
 `['Ali', 'Vali', 'Hasan', 'Husan']`
 
-- Darsimiz davomida yozgan bahola funksiyasini `.pop()` metodidan foydalanmasdan va asl ro'yxatga o'zgartirish kiritmasdan faqat lug'at qaytaradigan qilib yozing.
+* Darsimiz davomida yozgan bahola funksiyasini `.pop()` metodidan foydalanmasdan va asl ro'yxatga o'zgartirish kiritmasdan faqat lug'at qaytaradigan qilib yozing.
 
 ## JAVOBLAR
 
