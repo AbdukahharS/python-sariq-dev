@@ -63,7 +63,7 @@ talaba = Talaba("Valijon","Aliyev","FA112299",2000)
 print(talaba.get_info())
 ```
 
-Natija: Valijon Aliyev. Passport:FA112299, 2000-yilda tug\`ilgan
+Natija: Valijon Aliyev. Passport: FA112299, 2000-yilda tug\`ilgan
 
 Talaba klassi uchun alohida `get_info()` metodini yozmagan bo'lsakda\*,\* bu metod `Talaba`ga `Shaxs`dan meros o'tdi.
 
