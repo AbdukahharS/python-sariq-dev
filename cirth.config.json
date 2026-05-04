@@ -94,14 +94,33 @@
         {
           "type": "page",
           "file": "shartlar/10-if-else.md",
-          "title": "10 If Else",
+          "title": "#10 IF-ELSE",
           "slug": "10-if-else"
         },
         {
           "type": "page",
           "file": "shartlar/11-if-elif-else.md",
-          "title": "11 If Elif Else",
+          "title": "#11 BIR NECHTA SHARTLARNI TEKSHIRISH",
           "slug": "11-if-elif-else"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Lirik Chekinish 1",
+      "slug": "lirik-chekinish-1",
+      "children": [
+        {
+          "type": "page",
+          "file": "lirik-chekinish-1/12-xatolar.md",
+          "title": "12 Xatolar",
+          "slug": "12-xatolar"
+        },
+        {
+          "type": "page",
+          "file": "lirik-chekinish-1/13-github.md",
+          "title": "13 Github",
+          "slug": "13-github"
         }
       ]
     },
@@ -245,25 +264,6 @@
           "file": "last-words/40-the-end.md",
           "title": "40 The End",
           "slug": "40-the-end"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Lirik Chekinish 1",
-      "slug": "lirik-chekinish-1",
-      "children": [
-        {
-          "type": "page",
-          "file": "lirik-chekinish-1/12-xatolar.md",
-          "title": "12 Xatolar",
-          "slug": "12-xatolar"
-        },
-        {
-          "type": "page",
-          "file": "lirik-chekinish-1/13-github.md",
-          "title": "13 Github",
-          "slug": "13-github"
         }
       ]
     },
