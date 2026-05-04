@@ -85,7 +85,8 @@
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
           "title": "#08 RO'YXATLAR BILAN ISHLASH",
-          "slug": "08-list-tuple"
+          "slug": "08-list-tuple",
+          "description": "Ro'yxatlarning ustida turli amallar bajarishni o'rganamiz"
         },
         {
           "type": "page",
