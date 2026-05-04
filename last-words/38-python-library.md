@@ -279,7 +279,7 @@ Natija:
 
 ## RegEx - ANDOZA YORDAMIDA MATN IZLASH
 
-Pythondagi juda foydali modullardan biri bu **`re`** (_regular expressions_) moduli. Bu modul yordamida biror matn berilgan andozaga tushish, tushmalsigini tekshrib ko'rishimiz mumkin. Yoki berilgan andoza asosida matnlar orasidan kerakli matnlarni ajratib olish mumkin.
+Pythondagi juda foydali modullardan biri bu **`re`** (*regular expressions*) moduli. Bu modul yordamida biror matn berilgan andozaga tushish, tushmalsigini tekshrib ko'rishimiz mumkin. Yoki berilgan andoza asosida matnlar orasidan kerakli matnlarni ajratib olish mumkin.
 
 Keling boshlanishiga sodda misol ko'ramiz. Quyida biz 3 ta so'z va so'zlarni tekshirish uchun andoza yaratdik. Quyidagi andozamiz т harfidan boshlanuvchi (`^т`), р harfiga tugovchi (р`$`), 5 harfdan iborat so'zlarni qidiradi (`^т...р$`).
 
@@ -374,11 +374,11 @@ RegEx juda katta mavzu boʻlgani uchun, kelajakda bu haqida alohida dars qilamiz
 
 ## AMALIYOT
 
-- Bugungi sanadan boshlab 2 hafta farq bilan 10 ta sanani konsolga chiqaring
-- Ramazon va qurbon hayitigacha qolgan kunlarni konsolga chiqaring
-- Tug'ilgan kuningizdan bugungi sanagacha qancha yil, oy, kun o'tganini qaytaruvchi funksiya yozing
-- Foydalanuvchidan telefon raqamini kiritishni so'rang. Kiritlgan qiymatni andoza yordamida tekshiring
-- Berilgan matndan veb sahifa manzilini ajratib olyuvchi funksiya yozing. Quyidagi matndan namuna sifatida foydalanishingiz mumkin:
+* Bugungi sanadan boshlab 2 hafta farq bilan 10 ta sanani konsolga chiqaring
+* Ramazon va qurbon hayitigacha qolgan kunlarni konsolga chiqaring
+* Tug'ilgan kuningizdan bugungi sanagacha qancha yil, oy, kun o'tganini qaytaruvchi funksiya yozing
+* Foydalanuvchidan telefon raqamini kiritishni so'rang. Kiritlgan qiymatni andoza yordamida tekshiring
+* Berilgan matndan veb sahifa manzilini ajratib olyuvchi funksiya yozing. Quyidagi matndan namuna sifatida foydalanishingiz mumkin:
 
 > Assalom alaykum hurmatli do'stlar. Navbatdagi darsimiz YouTubega yuklandi: [https://youtu.be/vsxJPRLXpgI](https://youtu.be/vsxJPRLXpgI)
 >
