@@ -20,13 +20,13 @@
     },
     {
       "type": "group",
-      "title": "Ilk Qadamlar",
+      "title": "🏁 ILK QADAMLAR",
       "slug": "ilk-qadamlar",
       "children": [
         {
           "type": "page",
           "file": "ilk-qadamlar/01-software.md",
-          "title": "01 Software",
+          "title": "#01 KERAKLI DASTURLAR",
           "slug": "01-software"
         },
         {
