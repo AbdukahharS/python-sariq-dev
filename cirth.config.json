@@ -1,6 +1,12 @@
 {
   "navigation": [
     {
+      "type": "page",
+      "file": "yangilik.md",
+      "title": "Yangilik",
+      "slug": "yangilik"
+    },
+    {
       "type": "group",
       "title": "Amaliyot",
       "slug": "amaliyot",
@@ -341,12 +347,6 @@
           "slug": "18-while-lists"
         }
       ]
-    },
-    {
-      "type": "page",
-      "file": "yangilik.md",
-      "title": "Yangilik",
-      "slug": "yangilik"
     },
     {
       "type": "group",
