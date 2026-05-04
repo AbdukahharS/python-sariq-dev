@@ -2,6 +2,12 @@
   "navigation": [
     {
       "type": "page",
+      "file": "howto.md",
+      "title": "Howto",
+      "slug": "howto"
+    },
+    {
+      "type": "page",
       "file": "yangilik.md",
       "title": "Yangilik",
       "slug": "yangilik"
@@ -123,12 +129,6 @@
           "slug": "24-lambda"
         }
       ]
-    },
-    {
-      "type": "page",
-      "file": "howto.md",
-      "title": "Howto",
-      "slug": "howto"
     },
     {
       "type": "group",
