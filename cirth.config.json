@@ -92,7 +92,8 @@
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
           "title": "#09 FOR TAKRORLASH OPERATORI",
-          "slug": "09-for-loop"
+          "slug": "09-for-loop",
+          "description": "FOR operatori bilan ishlashni o'rganamiz"
         }
       ]
     },
