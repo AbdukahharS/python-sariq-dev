@@ -78,7 +78,8 @@
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
           "title": "#07 LIST (RO'YXAT)",
-          "slug": "07-lists"
+          "slug": "07-lists",
+          "description": "List yordamida bir o'zgaruvchida ko'p qiymatlar saqlashni o'rganamiz."
         },
         {
           "type": "page",
