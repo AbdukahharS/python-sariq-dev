@@ -32,14 +32,57 @@
         {
           "type": "page",
           "file": "ilk-qadamlar/02-hello-world.md",
-          "title": "02 Hello World",
+          "title": "#02 HELLO WORLD!",
           "slug": "02-hello-world"
         },
         {
           "type": "page",
           "file": "ilk-qadamlar/03-print.md",
-          "title": "03 Print",
+          "title": "#03 PRINT(), SINTEKS VA ARIFMETIK AMALLAR",
           "slug": "03-print"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Ozgaruvchilar Va Malumot Turlari",
+      "slug": "ozgaruvchilar-va-malumot-turlari",
+      "children": [
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/04-variables.md",
+          "title": "04 Variables",
+          "slug": "04-variables"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
+          "title": "05 String",
+          "slug": "05-string"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
+          "title": "06 Sonlar",
+          "slug": "06-sonlar"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
+          "title": "07 Lists",
+          "slug": "07-lists"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
+          "title": "08 List Tuple",
+          "slug": "08-list-tuple"
+        },
+        {
+          "type": "page",
+          "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
+          "title": "09 For Loop",
+          "slug": "09-for-loop"
         }
       ]
     },
@@ -245,49 +288,6 @@
           "file": "oop/kirish.md",
           "title": "Kirish",
           "slug": "kirish"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Ozgaruvchilar Va Malumot Turlari",
-      "slug": "ozgaruvchilar-va-malumot-turlari",
-      "children": [
-        {
-          "type": "page",
-          "file": "ozgaruvchilar-va-malumot-turlari/04-variables.md",
-          "title": "04 Variables",
-          "slug": "04-variables"
-        },
-        {
-          "type": "page",
-          "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
-          "title": "05 String",
-          "slug": "05-string"
-        },
-        {
-          "type": "page",
-          "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
-          "title": "06 Sonlar",
-          "slug": "06-sonlar"
-        },
-        {
-          "type": "page",
-          "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
-          "title": "07 Lists",
-          "slug": "07-lists"
-        },
-        {
-          "type": "page",
-          "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
-          "title": "08 List Tuple",
-          "slug": "08-list-tuple"
-        },
-        {
-          "type": "page",
-          "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
-          "title": "09 For Loop",
-          "slug": "09-for-loop"
         }
       ]
     },
