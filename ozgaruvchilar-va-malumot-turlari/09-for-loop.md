@@ -30,15 +30,15 @@ Natija:
 
 Keling, kodni tahlil qilaylik.
 
-- 1-qatorda biz `mehmonlar` degan ro'yxat yaratdik va uni mehmonlarning ismi bilan to'ldirdik.
-- 2-qatorda `for` tsiklini bohladik. Bu qator Pythonga `mehmonlar` degan ro'yxatdan har bir elementini olib uni yangi, `mehmon` degan o'zgaruvchiga yuklashni buyuryapti (_o'zgaruvchiga istalgan nom berishingiz mumkin. Biz tushunarli bo'lishi uchun_ `mehmon` _deb atadik_)
-- 3-qatorda biz `mehmon` degan o'zgaruvchining qiymatini konsolga chiqardik. Bu tsikl to `mehmonlar` ro'yxatida elementlar tugagunga qadar takrorlanadi.
+* 1-qatorda biz `mehmonlar` degan ro'yxat yaratdik va uni mehmonlarning ismi bilan to'ldirdik.
+* 2-qatorda `for` tsiklini bohladik. Bu qator Pythonga `mehmonlar` degan ro'yxatdan har bir elementini olib uni yangi, `mehmon` degan o'zgaruvchiga yuklashni buyuryapti (*o'zgaruvchiga istalgan nom berishingiz mumkin. Biz tushunarli bo'lishi uchun* `mehmon` *deb atadik*)
+* 3-qatorda biz `mehmon` degan o'zgaruvchining qiymatini konsolga chiqardik. Bu tsikl to `mehmonlar` ro'yxatida elementlar tugagunga qadar takrorlanadi.
 
 :::info
 "**For**" so'zi ingliz tilidan "**uchun**" deb tarjima qilinadi.
 :::
 
-Yuqoridagi kodni oddiy tilga tarjima qilsak _"Mehmonlar ro'yxatidagi har bir mehmon **uchun** uning ismini konsolga chiqar"_ degan ma'noni beradi.
+Yuqoridagi kodni oddiy tilga tarjima qilsak *"Mehmonlar ro'yxatidagi har bir mehmon **uchun** uning ismini konsolga chiqar"* degan ma'noni beradi.
 
 ## `for` QANDAY ISHLAYDI
 
@@ -157,11 +157,11 @@ Natija:
 
 Kodni tahlil qilamiz:
 
-- 1-qatorda bo'sh `dostlar` ro'yxatini yaratdik
-- 2-qatorda ekranga `"5 ta eng yaqin do'stingiz kim?"` degan xabarni chiqardik
-- 3-qatorda tsiklni boshladik. `range(5)` funktsiyasi 0 dan 5 gacha sonlar ketma-ketligini yaratadi `(0,1,2,3,4)` tsikl esa `n` shularning har biriga teng bo'lib chiqquncha davom etadi.
-- 4-qatorda tsikl badani kelgan. Bu yerda biz foydalanuvchidan `n+1` do'stingizni kiriting deb so'radik. Nima uchun `n+1` (`n` emas)? Sababi `n` 0 dan 4 gacha qiymatlarni oladi, foydalanuvchiga tushunarli bo'lishi uchun esa biz "0-do'stingizni ismini kiriting:" deb emas, balki `n+1` ya'ni 1-ismni kiriting deb murojat qilyapmiz.
-- 5-qatorda shakllangan ro'yxatni konsolga chiqardik.
+* 1-qatorda bo'sh `dostlar` ro'yxatini yaratdik
+* 2-qatorda ekranga `"5 ta eng yaqin do'stingiz kim?"` degan xabarni chiqardik
+* 3-qatorda tsiklni boshladik. `range(5)` funktsiyasi 0 dan 5 gacha sonlar ketma-ketligini yaratadi `(0,1,2,3,4)` tsikl esa `n` shularning har biriga teng bo'lib chiqquncha davom etadi.
+* 4-qatorda tsikl badani kelgan. Bu yerda biz foydalanuvchidan `n+1` do'stingizni kiriting deb so'radik. Nima uchun `n+1` (`n` emas)? Sababi `n` 0 dan 4 gacha qiymatlarni oladi, foydalanuvchiga tushunarli bo'lishi uchun esa biz "0-do'stingizni ismini kiriting:" deb emas, balki `n+1` ya'ni 1-ismni kiriting deb murojat qilyapmiz.
+* 5-qatorda shakllangan ro'yxatni konsolga chiqardik.
 
 :::tip
 **`for`** tsikli har qanday dasturlash tilining eng muhim qismlaridan hisoblanadi va biz bu operatoraga hali takror-takror qaytamiz.
@@ -169,17 +169,17 @@ Kodni tahlil qilamiz:
 
 ## AMALIYOT
 
-- Kamida 5 elementdan iborat ismlar degan ro'yxat tuzing, va ro'yxatdagi har bir ismga takrorlanuvchi xabar yozing
-- Yuoqirdagi tsikl tugaganidan so'ng, ekranga "Kod `n` marta takrorlandi" degan xabarni chiqaring (`n` o'rniga kod necha marta takrorlanganini yozing)
+* Kamida 5 elementdan iborat ismlar degan ro'yxat tuzing, va ro'yxatdagi har bir ismga takrorlanuvchi xabar yozing
+* Yuoqirdagi tsikl tugaganidan so'ng, ekranga "Kod `n` marta takrorlandi" degan xabarni chiqaring (`n` o'rniga kod necha marta takrorlanganini yozing)
 
 ![Kutilgan natija](../cirth-assets/9188c625-0948-4e83-8284-cd5eca724ef6.png)
 
-- 10 dan 100 gacha bo'lgan toq sonlar ro'yxatini tuzing. Ro'yxatning xar bir elementining kubini yangi qatordan konsolga chiqaring.
+* 10 dan 100 gacha bo'lgan toq sonlar ro'yxatini tuzing. Ro'yxatning xar bir elementining kubini yangi qatordan konsolga chiqaring.
 
 ![](../cirth-assets/3369c92a-9435-4c5d-9471-8762ac830177.png)
 
-- Foydalanuvchidan 5 ta eng sevimli kinolarini kiritshni so'rang, va `kinolar` degan ro'yxatga saqlab oling. Natijani konsolga chiqaring.
-- Foydalanuvchidan bugun nechta odam bilan uchrashganini (suhbatlashganini) so'rang, va har bir suhbatlashgan odamning ismini birma-bir so'rab ro'yxatga yozing. Ro'yxatni konsolga chiqaring.
+* Foydalanuvchidan 5 ta eng sevimli kinolarini kiritshni so'rang, va `kinolar` degan ro'yxatga saqlab oling. Natijani konsolga chiqaring.
+* Foydalanuvchidan bugun nechta odam bilan uchrashganini (suhbatlashganini) so'rang, va har bir suhbatlashgan odamning ismini birma-bir so'rab ro'yxatga yozing. Ro'yxatni konsolga chiqaring.
 
 ![](../cirth-assets/b8553249-5590-4e76-9344-9703ab69b35f.gif)
 
