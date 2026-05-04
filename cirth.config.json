@@ -176,44 +176,44 @@
         {
           "type": "page",
           "file": "function/19-function.md",
-          "title": "19 Function",
+          "title": "#19 FUNKSIYA",
           "slug": "19-function"
         },
         {
           "type": "page",
           "file": "function/20-qiymat-qaytarish.md",
-          "title": "20 Qiymat Qaytarish",
+          "title": "#20 QIYMAT QAYTARUVCHI FUNKSIYA",
           "slug": "20-qiymat-qaytarish"
         },
         {
           "type": "page",
           "file": "function/21-funksiya-va-royxat.md",
-          "title": "21 Funksiya Va Royxat",
+          "title": "#21 FUNKSIYA VA RO'YXAT",
           "slug": "21-funksiya-va-royxat"
         },
         {
           "type": "page",
           "file": "function/22-flexible-functions.md",
-          "title": "22 Flexible Functions",
+          "title": "#22 MOSLASHUVCHAN FUNKSIYA (*args, **kwargs)",
           "slug": "22-flexible-functions"
         },
         {
           "type": "page",
           "file": "function/23-modules.md",
-          "title": "23 Modules",
+          "title": "#23 MODULLAR",
           "slug": "23-modules"
         },
         {
           "type": "page",
           "file": "function/24-lambda.md",
-          "title": "24 Lambda",
+          "title": "#24 FUNKSIYALAR. SON'GSO'Z.",
           "slug": "24-lambda"
         }
       ]
     },
     {
       "type": "group",
-      "title": "Amaliyot",
+      "title": "🛠️ AMALIY MASHG'ULOTLAR",
       "slug": "amaliyot",
       "children": [
         {
