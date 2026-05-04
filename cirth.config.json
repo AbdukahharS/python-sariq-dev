@@ -243,39 +243,39 @@
       "children": [
         {
           "type": "page",
+          "file": "oop/kirish.md",
+          "title": "Kirish",
+          "slug": "kirish"
+        },
+        {
+          "type": "page",
           "file": "oop/28-klasslar.md",
-          "title": "28 Klasslar",
+          "title": "#28 KLASSLAR",
           "slug": "28-klasslar"
         },
         {
           "type": "page",
           "file": "oop/29-obyektlar-bilan-ishlash.md",
-          "title": "29 Obyektlar Bilan Ishlash",
+          "title": "#29 OBYKETLAR BILAN ISHLASH",
           "slug": "29-obyektlar-bilan-ishlash"
         },
         {
           "type": "page",
           "file": "oop/30-vorislik-polimorfizm.md",
-          "title": "30 Vorislik Polimorfizm",
+          "title": "#30 VORISLIK VA POLIMORFIZM",
           "slug": "30-vorislik-polimorfizm"
         },
         {
           "type": "page",
           "file": "oop/31-encapsulation.md",
-          "title": "31 Encapsulation",
+          "title": "#31 INKAPSULYATSIA, KLASSNING XUSUSIYAT VA METODLARI",
           "slug": "31-encapsulation"
         },
         {
           "type": "page",
           "file": "oop/32-dunder-metodlar.md",
-          "title": "32 Dunder Metodlar",
+          "title": "#32 DUNDER METODLAR",
           "slug": "32-dunder-metodlar"
-        },
-        {
-          "type": "page",
-          "file": "oop/kirish.md",
-          "title": "Kirish",
-          "slug": "kirish"
         }
       ]
     },
