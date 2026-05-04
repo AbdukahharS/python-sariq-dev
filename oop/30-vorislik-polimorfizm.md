@@ -139,7 +139,7 @@ Voris klassga super klassdan meros qolgan istalgan metodni qayta talqin qilish m
 
 ```python
 >>> print(talaba.get_info())
-Valijon Aliyev. Passport:FA112299, 2000-yilda tug`ilgan
+Valijon Aliyev. Passport: FA112299, 2000-yilda tug`ilgan
 ```
 
 Endi`get_info()` metodi talabaga mos ma'lumotlar qaytarishi uchun, `Talaba` klassi ichida huddi shu nomli metodni qayta yozamiz:
