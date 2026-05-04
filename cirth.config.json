@@ -3,20 +3,45 @@
     {
       "type": "page",
       "file": "index.md",
-      "title": "Index",
+      "title": "💻 DASTURLASH ASOSLARI",
       "slug": ""
     },
     {
       "type": "page",
       "file": "howto.md",
-      "title": "Howto",
+      "title": "👀 DARSLARNI QANDAY O'ZLASHTIRAMIZ",
       "slug": "howto"
     },
     {
       "type": "page",
       "file": "yangilik.md",
-      "title": "Yangilik",
+      "title": "YANGILIK!!",
       "slug": "yangilik"
+    },
+    {
+      "type": "group",
+      "title": "Ilk Qadamlar",
+      "slug": "ilk-qadamlar",
+      "children": [
+        {
+          "type": "page",
+          "file": "ilk-qadamlar/01-software.md",
+          "title": "01 Software",
+          "slug": "01-software"
+        },
+        {
+          "type": "page",
+          "file": "ilk-qadamlar/02-hello-world.md",
+          "title": "02 Hello World",
+          "slug": "02-hello-world"
+        },
+        {
+          "type": "page",
+          "file": "ilk-qadamlar/03-print.md",
+          "title": "03 Print",
+          "slug": "03-print"
+        }
+      ]
     },
     {
       "type": "group",
@@ -133,31 +158,6 @@
           "file": "function/24-lambda.md",
           "title": "24 Lambda",
           "slug": "24-lambda"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Ilk Qadamlar",
-      "slug": "ilk-qadamlar",
-      "children": [
-        {
-          "type": "page",
-          "file": "ilk-qadamlar/01-software.md",
-          "title": "01 Software",
-          "slug": "01-software"
-        },
-        {
-          "type": "page",
-          "file": "ilk-qadamlar/02-hello-world.md",
-          "title": "02 Hello World",
-          "slug": "02-hello-world"
-        },
-        {
-          "type": "page",
-          "file": "ilk-qadamlar/03-print.md",
-          "title": "03 Print",
-          "slug": "03-print"
         }
       ]
     },
