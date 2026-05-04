@@ -51,38 +51,57 @@
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/04-variables.md",
-          "title": "04 Variables",
+          "title": "#04 O'ZGARUVCHILAR",
           "slug": "04-variables"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
-          "title": "05 String",
+          "title": "#05 STRING (MATN)",
           "slug": "05-string"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
-          "title": "06 Sonlar",
+          "title": "#06 SONLAR",
           "slug": "06-sonlar"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
-          "title": "07 Lists",
+          "title": "#07 LIST (RO'YXAT)",
           "slug": "07-lists"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
-          "title": "08 List Tuple",
+          "title": "#08 RO'YXATLAR BILAN ISHLASH",
           "slug": "08-list-tuple"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
-          "title": "09 For Loop",
+          "title": "#09 FOR TAKRORLASH OPERATORI",
           "slug": "09-for-loop"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Shartlar",
+      "slug": "shartlar",
+      "children": [
+        {
+          "type": "page",
+          "file": "shartlar/10-if-else.md",
+          "title": "10 If Else",
+          "slug": "10-if-else"
+        },
+        {
+          "type": "page",
+          "file": "shartlar/11-if-elif-else.md",
+          "title": "11 If Elif Else",
+          "slug": "11-if-elif-else"
         }
       ]
     },
@@ -288,25 +307,6 @@
           "file": "oop/kirish.md",
           "title": "Kirish",
           "slug": "kirish"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Shartlar",
-      "slug": "shartlar",
-      "children": [
-        {
-          "type": "page",
-          "file": "shartlar/10-if-else.md",
-          "title": "10 If Else",
-          "slug": "10-if-else"
-        },
-        {
-          "type": "page",
-          "file": "shartlar/11-if-elif-else.md",
-          "title": "11 If Elif Else",
-          "slug": "11-if-elif-else"
         }
       ]
     },
