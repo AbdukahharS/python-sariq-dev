@@ -114,4 +114,3 @@ Marhamat, Repository kompyuteringizga yuklandi. Endi kodni ochib, istalgancha o'
 5. Sahifamizga qo'yib borilayotgan mashg'ulotlarning javoblarini quyidagi [repositorydan ](https://github.com/anvarnarz/python-darslar)o'zingizga Clone qilib oling:
 
 <Embed url="https://github.com/anvarnarz/python-darslar" />
-{% endembed %}
