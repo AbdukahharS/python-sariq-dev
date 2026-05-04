@@ -11,12 +11,12 @@ Mavzuning aksar qismi video darsimizda yoritilgan bo'lsada, quyidagi matnlarga h
 Spyder muhiti uch qismdan iborat:
 
 1. **Matn muharriri** —dasturlar yozish uchun.
-1. **Konsol** —qisqa kodlarni bajarib, tekshirib ko'rish uchun.
-1. **Qo'shimcha ma'lumotlar** oynasi. Bu yerda quyidagi ma'lumotlarni ko'rish mumkin:
+2. **Konsol** —qisqa kodlarni bajarib, tekshirib ko'rish uchun.
+3. **Qo'shimcha ma'lumotlar** oynasi. Bu yerda quyidagi ma'lumotlarni ko'rish mumkin:
    1. Turli funktsiyalar haqida yordam
-   1. Dasturdagi o'zgaruvchilar ro'yhati
-   1. Grafiklar
-   1. Fayllar
+   2. Dasturdagi o'zgaruvchilar ro'yhati
+   3. Grafiklar
+   4. Fayllar
 
 ![Spyder IDE](../cirth-assets/bfab539e-0a19-40f5-8498-bb8940844b7e.png)
 
@@ -35,10 +35,10 @@ Faylga ma'nili nom beramiz, buning uchun **File --> Save as..** menusini tanlaym
 :::danger
 Faylni nomlashda quyidagi qoidalarga amal qiling:
 
-- Fayl nomi _qisqa, kichkina  lotin harflari bilan_ va eng muhimi _bo'shliq (пробел) qo'ymasdan_ yozilgan bo'lishi kerak
-- Fayl nomi **.py** bilan tugashi kerak (misol uchun `faylnomi.py`)
-- Faylga ikki so'zdan iborat nom qo'ymoqchi bo'lsangiz so'zlar orasini tire (-) yoki pastki chiziq (\_) bilan ajrating. Misol uchun: `hello-world.py` yoki `hello_world.py`
-- Fayl nomini sonlar bilan boshlamang
+* Fayl nomi *qisqa, kichkina  lotin harflari bilan* va eng muhimi *bo'shliq (пробел) qo'ymasdan* yozilgan bo'lishi kerak
+* Fayl nomi **.py** bilan tugashi kerak (misol uchun `faylnomi.py`)
+* Faylga ikki so'zdan iborat nom qo'ymoqchi bo'lsangiz so'zlar orasini tire (-) yoki pastki chiziq (\_) bilan ajrating. Misol uchun: `hello-world.py` yoki `hello_world.py`
+* Fayl nomini sonlar bilan boshlamang
 :::
 
 Yuqoridagi qoidalarga amal qilgan holda faylga `hello.py` deb nom beramiz (siz istlagnahca nomalshingiz mumkin) va **Save** tugmasini bosamiz.
