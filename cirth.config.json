@@ -287,20 +287,39 @@
         {
           "type": "page",
           "file": "files-exceptions/33-files.md",
-          "title": "33 Files",
+          "title": "#33 FAYLLAR BILAN ISHLASH",
           "slug": "33-files"
         },
         {
           "type": "page",
           "file": "files-exceptions/34-json.md",
-          "title": "34 Json",
+          "title": "#34 JSON",
           "slug": "34-json"
         },
         {
           "type": "page",
           "file": "files-exceptions/35-xatolar.md",
-          "title": "35 Xatolar",
+          "title": "#35 XATOLAR BILAN ISHLASH",
           "slug": "35-xatolar"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Testing",
+      "slug": "testing",
+      "children": [
+        {
+          "type": "page",
+          "file": "testing/36-function-test.md",
+          "title": "36 Function Test",
+          "slug": "36-function-test"
+        },
+        {
+          "type": "page",
+          "file": "testing/37-klass-test.md",
+          "title": "37 Klass Test",
+          "slug": "37-klass-test"
         }
       ]
     },
@@ -326,25 +345,6 @@
           "file": "last-words/40-the-end.md",
           "title": "40 The End",
           "slug": "40-the-end"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Testing",
-      "slug": "testing",
-      "children": [
-        {
-          "type": "page",
-          "file": "testing/36-function-test.md",
-          "title": "36 Function Test",
-          "slug": "36-function-test"
-        },
-        {
-          "type": "page",
-          "file": "testing/37-klass-test.md",
-          "title": "37 Klass Test",
-          "slug": "37-klass-test"
         }
       ]
     },
