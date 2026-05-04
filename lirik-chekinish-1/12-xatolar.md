@@ -8,7 +8,7 @@ Har qanday dasturchi kod yozishda xato qiladi. Ko'p yozgan odam esa ko'p xato qi
 
 ## **SyntaxError** - SINTEKS XATOLIK
 
-Biz _syntax error_ bilan [3-darsimizda ](https://python.sariq.dev/ilk-qadamlar/03-print)tanishgan edik. Bu eng ko'p uchraydigan xato bo'lib, odatda dasturlash tili qoidalariga amal qilmaslik natijasida kelib chiqadi. Aksar dasturlash muhitlari sintaks xatolikni dastur bajarilishidan avvaloq aniqlab, dasturchiga ishora beradi. Sintaks xatolik bor dasturni Python bajarmaydi.
+Biz *syntax error* bilan [3-darsimizda ](https://python.sariq.dev/ilk-qadamlar/03-print)tanishgan edik. Bu eng ko'p uchraydigan xato bo'lib, odatda dasturlash tili qoidalariga amal qilmaslik natijasida kelib chiqadi. Aksar dasturlash muhitlari sintaks xatolikni dastur bajarilishidan avvaloq aniqlab, dasturchiga ishora beradi. Sintaks xatolik bor dasturni Python bajarmaydi.
 
 ```python
 print "Hello World!"
@@ -185,7 +185,7 @@ print(aylana_yuzi)
 
 Natija: `103.49999999999999`
 
-Yuqoridagi kod bajarildi, va natija ham chiqdi. Lekin natija xato. Nima uchun? Sababi biz $$\pi=4.14$$ deb, xato yozib ketdik.
+Yuqoridagi kod bajarildi, va natija ham chiqdi. Lekin natija xato. Nima uchun? Sababi biz $$\pi\=4.14$$ deb, xato yozib ketdik.
 
 Yana bir misol ko'raylik:
 
