@@ -106,7 +106,8 @@
           "type": "page",
           "file": "shartlar/10-if-else.md",
           "title": "#10 IF-ELSE",
-          "slug": "10-if-else"
+          "slug": "10-if-else",
+          "description": "Dasturni tarmoqlashni o'rganamiz"
         },
         {
           "type": "page",
