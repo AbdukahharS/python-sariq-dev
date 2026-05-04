@@ -244,7 +244,7 @@
         {
           "type": "page",
           "file": "oop/kirish.md",
-          "title": "Kirish",
+          "title": "OOP NIMA?",
           "slug": "kirish"
         },
         {
@@ -281,7 +281,7 @@
     },
     {
       "type": "group",
-      "title": "Files Exceptions",
+      "title": "📂 FAYLLAR VA XATOLAR",
       "slug": "files-exceptions",
       "children": [
         {
