@@ -4,7 +4,8 @@
       "type": "page",
       "file": "index.md",
       "title": "💻 DASTURLASH ASOSLARI",
-      "slug": ""
+      "slug": "",
+      "description": "Assalom alaykum hurmatli do'stlar. Bu yerda siz dasturlash asoslarini o'rganasiz."
     },
     {
       "type": "page",
@@ -312,13 +313,13 @@
         {
           "type": "page",
           "file": "testing/36-function-test.md",
-          "title": "36 Function Test",
+          "title": "# 36 FUNKSIYANI TEKSHIRISH",
           "slug": "36-function-test"
         },
         {
           "type": "page",
           "file": "testing/37-klass-test.md",
-          "title": "37 Klass Test",
+          "title": "#37 KLASSNI TEKSHIRISH",
           "slug": "37-klass-test"
         }
       ]
@@ -331,19 +332,19 @@
         {
           "type": "page",
           "file": "last-words/38-python-library.md",
-          "title": "38 Python Library",
+          "title": "#38 PYTHON STANDART KUTUBXONASI",
           "slug": "38-python-library"
         },
         {
           "type": "page",
           "file": "last-words/39-pip-pypi.md",
-          "title": "39 Pip Pypi",
+          "title": "#39 PIP VA TASHQI KUTUBXONALAR",
           "slug": "39-pip-pypi"
         },
         {
           "type": "page",
           "file": "last-words/40-the-end.md",
-          "title": "40 The End",
+          "title": "#40 SO'NGSO'Z VA KEYINGI QADAMLAR",
           "slug": "40-the-end"
         }
       ]
