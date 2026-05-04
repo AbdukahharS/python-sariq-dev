@@ -132,20 +132,39 @@
         {
           "type": "page",
           "file": "dictionary/14-dictionary.md",
-          "title": "14 Dictionary",
+          "title": "#14 LUG'AT BILAN TANISHUV",
           "slug": "14-dictionary"
         },
         {
           "type": "page",
           "file": "dictionary/15-dictionary-sets.md",
-          "title": "15 Dictionary Sets",
+          "title": "#15 LUG'AT ELEMENTLARI BILAN ISHLASH",
           "slug": "15-dictionary-sets"
         },
         {
           "type": "page",
           "file": "dictionary/16-nesting.md",
-          "title": "16 Nesting",
+          "title": "#16 NESTING",
           "slug": "16-nesting"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "While",
+      "slug": "while",
+      "children": [
+        {
+          "type": "page",
+          "file": "while/17-while-loop.md",
+          "title": "17 While Loop",
+          "slug": "17-while-loop"
+        },
+        {
+          "type": "page",
+          "file": "while/18-while-lists.md",
+          "title": "18 While Lists",
+          "slug": "18-while-lists"
         }
       ]
     },
@@ -326,25 +345,6 @@
           "file": "testing/37-klass-test.md",
           "title": "37 Klass Test",
           "slug": "37-klass-test"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "While",
-      "slug": "while",
-      "children": [
-        {
-          "type": "page",
-          "file": "while/17-while-loop.md",
-          "title": "17 While Loop",
-          "slug": "17-while-loop"
-        },
-        {
-          "type": "page",
-          "file": "while/18-while-lists.md",
-          "title": "18 While Lists",
-          "slug": "18-while-lists"
         }
       ]
     },
