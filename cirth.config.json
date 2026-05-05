@@ -347,7 +347,8 @@
           "type": "page",
           "file": "files-exceptions/34-json.md",
           "title": "#34 JSON",
-          "slug": "34-json"
+          "slug": "34-json",
+          "description": "Internetdagi eng mashxur format bilan tanishamiz"
         },
         {
           "type": "page",
