@@ -12,7 +12,8 @@
     "themeConfig": {
       "fontFamily": "Inter",
       "darkMode": null
-    }
+    },
+    "logoUrl": "https://pub-d539d05c5c7343988c993eb233b1f7f6.r2.dev/assets/135dab65-7d00-49cd-85f1-e1a82a109727/c328abbc-9392-4147-b1e7-c0bd348dd24a/12057aca-7bd5-4f62-8d98-d24d70a6c1ba.svg"
   },
   "navigation": [
     {
