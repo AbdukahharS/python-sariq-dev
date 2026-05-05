@@ -298,7 +298,8 @@
           "type": "page",
           "file": "oop/28-klasslar.md",
           "title": "#28 KLASSLAR",
-          "slug": "28-klasslar"
+          "slug": "28-klasslar",
+          "description": "Pythonda klasslar bilan tanishamiz"
         },
         {
           "type": "page",
