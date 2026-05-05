@@ -11,7 +11,7 @@
     },
     "themeConfig": {
       "fontFamily": "Inter",
-      "darkMode": true
+      "darkMode": false
     }
   },
   "navigation": [
