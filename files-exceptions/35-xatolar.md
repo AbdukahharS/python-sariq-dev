@@ -6,7 +6,7 @@
 
 Avvalgi darslarimizning birida biz "**Run time error"** xatoliklari bilan tanishgan edik. Bunday xatolar dastur bajarish jarayonida kelib chiqadi va dasturning ishlashini to'xtatadi. Sintaks xatolikdan farqli ravishda Python bunday xatolarni dasturni bajarishdan avval aniqlay olmaydi.
 
-Ushbu darsimizda qanday qilib mana shunday xatoliklarni jilovlashni o'rganamiz. Maqsadimiz xatolik yuz berganda dastur to'xtab qolishining oldini olish. Gap shundaki, dastur davomida xato yuz berganda Python maxsus _exception_ (istisno) obyektini yaratadi. Agar bu obyekt "tutib" olinmasa, dastur bajarilishdan to'xtaydi.
+Ushbu darsimizda qanday qilib mana shunday xatoliklarni jilovlashni o'rganamiz. Maqsadimiz xatolik yuz berganda dastur to'xtab qolishining oldini olish. Gap shundaki, dastur davomida xato yuz berganda Python maxsus *exception* (istisno) obyektini yaratadi. Agar bu obyekt "tutib" olinmasa, dastur bajarilishdan to'xtaydi.
 
 ## `try-except`
 
@@ -22,7 +22,7 @@ print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
 Yuqoridagi misolning 1-qatorida biz foydalanuvchidan yoshini kiritishni so'rayabmiz. Navbatdagi qatorda esa foydalanuvchi kiritgan qiymatni int() yordamida butun songa o'tkazayapmiz. Agar foydalanuvchi yoshini kiritganda, butun emas, o'nlik son kiritsa bu `ValueError` xatoligiga olib keladi, va dastur bajarilishdan to'xtaydi.
 
-![Dastur natijasi](../cirth-assets/f3306fbc-1790-4118-b379-3202db561286.png)
+![Dastur natijasi](../cirth-assets/aec79eca-0abd-40ee-96de-6bdf083daf1c.png)
 
 Keling, yuqoridagi kodni `try-except` yordamida yozamiz:
 
@@ -39,7 +39,7 @@ print("Dastur Tugadi!")
 
 Bu yerda ham dastavval foydalanuvchi yoshini so'radik. `int()` finksiyasini esa `try` badani ichida yozdik, agar foydalanuvchi to'gri qiymat kiritgan bo'lsa kodimiz foydalanuvchi tug'ilgan yilini hisoblab ko'rsatadi, exception (istisno) yuz berganda esa `"Butun son kiritmadingiz"` xabarini konsolga chiqaradi. Lekin dastur bajarilishdan to'xtamaydi, va try-except blokidan keyingi qatorlar ham bajarilaveradi (`print("Dastur Tugadi!")`). Buni quyidagi natijadan ham ko'rishimiz mumkin:
 
-![Dastur natijasi](../cirth-assets/7715d8df-cb32-428b-b464-be7a270df135.png)
+![Dastur natijasi](../cirth-assets/d91be277-fcb5-45aa-8571-c9c4c69f94dd.png)
 
 `try-except` operatorining afzalliklaridan biri, foydalanuvchiga tushunarsiz xatolar o'rniga, o'zimiz istagan, tushunarliroq matnni ko'rsatishimiz mumkin. Shuningdek, kompleks tizimlarda arzimagan xatoni deb dasturimiz to'xtab qolmaydi.
 
@@ -184,7 +184,7 @@ for filename in files:
         # fayl ustida turli amallar 
 ```
 
-![Natija](../cirth-assets/7c1f3c23-6580-405e-bcee-2576497906b5.png)
+![Natija](../cirth-assets/b7a4f70d-f283-402d-91db-9b96e451ff17.png)
 
 Hech qanday ma'lumot ko'rsatmay, dasturni davom etish uchun `pass` operatoridan foydalanamiz. Odatda `pass` operatoridan funksiyalar yoki operatorlarning badanini "to'ldirib" ketish uchun ishlatiladi. Ya'ni, agar biz `except` operatorini yozsagu, uning badanida hech narsa bajarilishini istmasak, `pass` operatorini ishlatamiz.
 
@@ -217,7 +217,7 @@ while True:
 print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 ```
 
-![Natija](../cirth-assets/28d41ec0-87d5-4291-a67d-3f8d310d02f6.png)
+![Natija](../cirth-assets/72eede6a-25cc-4252-9f1d-bdd2c79786f3.png)
 
 Albatta yuqordagi usul barcha xatolar uchun ishlamaydi. Shunday xatolar bo'lishi mumkinki, biz ularni oldindan ko'ra olmasligimiz yoki, oldindan to'g'rila olmasligimiz, yoki xato foydalanuvchiga bog'liq bo'lmasligi mumkin. Shunday holatlarda, `try-except` operatorlari bizning xaloskorimiz bo'ladi.
 
