@@ -368,7 +368,8 @@
           "type": "page",
           "file": "testing/36-function-test.md",
           "title": "# 36 FUNKSIYANI TEKSHIRISH",
-          "slug": "36-function-test"
+          "slug": "36-function-test",
+          "description": "Dasturni tekshiruvchi dastur yozamiz"
         },
         {
           "type": "page",
