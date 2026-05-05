@@ -277,7 +277,8 @@
           "type": "page",
           "file": "amaliyot/27-cyr2lat-bot.md",
           "title": "#27 KIRILL-LOTIN TELEGRAM BOT",
-          "slug": "27-cyr2lat-bot"
+          "slug": "27-cyr2lat-bot",
+          "description": "Sodda telegram bot yaratamiz"
         }
       ]
     },
