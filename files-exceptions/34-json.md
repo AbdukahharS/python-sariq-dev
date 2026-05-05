@@ -8,7 +8,7 @@ JSON (**J**ava**S**cript **O**bject **N**otation) bugungi kunda ma'lumotlarni sa
 
 Aksar holatlarda dastur va server orasidagi maʻlumotlar aynan JSON koʻrinishida uzatiladi. Quyidagi rasmda Wikipedia sahifasidan olingan maʻlumot ham JSON formatida berilgan:
 
-![JSON](../cirth-assets/580df82c-8327-4354-9c20-ec492b02fc56.png)
+![JSON](../cirth-assets/37a0cd25-2232-4e79-a0d7-f1e5bb28f8e6.png)
 
 Yuqoridagi misolda maʻlumotlar Pythondagi lug'atlar kabi kalit soʻz va qiymat koʻrinishida saqlangan. Lekin, JSON yordamida biz nafaqat lug'at, balki boshqa turdagi ma'lumotlarni ham saqlashimiz mumkin. Bunda Pythondagi ma'lumot turlari, quyidagi jadval asosida, JavaScript ma'lumot turlariga konvertasiya qilinadi:
 
@@ -36,8 +36,8 @@ JSON maʻlumotlar va fayllar bilan ishlash uchun Pythonda maxsus `json` moduli b
 
 Ma'lumotlarni JSON matniga o'tkazish uchun ikki funksiyadan foydalanamiz:
 
-- `json.dumps(x)` — berilgan `x` o'zgaruvchini JSON matniga o'zgartiradi
-- `json.dump(x,fayl)` — berilgan `x` o'zgaruvchini JSON ga o'zgartirib, ko'rsatilgan `fayl`ga saqlaydi.
+* `json.dumps(x)` — berilgan `x` o'zgaruvchini JSON matniga o'zgartiradi
+* `json.dump(x,fayl)` — berilgan `x` o'zgaruvchini JSON ga o'zgartirib, ko'rsatilgan `fayl`ga saqlaydi.
 
 ### `json.dumps()`
 
@@ -149,7 +149,7 @@ with open('bemor.json','w') as f:
 
 JSON fayl tarkibini istalgan matn muharrirda ochib ko'rishimiz mumkin:
 
-![JSON fayl tarkibi](../cirth-assets/3d9d1cec-e2bd-4de2-aa4d-750021895d89.png)
+![JSON fayl tarkibi](../cirth-assets/a3aa55a9-8c24-4043-88ed-27b221c87356.png)
 
 ## JSONDAN PYTHONGA
 
@@ -287,18 +287,18 @@ Natija: `41.3645355,69.2281531`
 
 Koordinatalarni Google Mapsga kiritib ko'ramiz va quyidagi natijani olamiz.
 
-![Olmazor tumani](../cirth-assets/4c483e21-44fa-4f34-9654-d7deaae08243.png)
+![Olmazor tumani](../cirth-assets/84b35d4c-cf2e-490b-9572-d172f22f949e.png)
 
 ## AMALIYOT
 
-- Ushbu o'zgaruvchini JSON ko'rinishida saqlang va JSON matnini konsolga chiqaring: `data = {"Model" : "Malibu", "Rang" : "Qora", "Yil":2020, "Narh":40000}`
-- Ushbu JSON matnni ko'chirib oling, va talabaning ismi va familiyasini  konsolga chiqaring: `talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""`
-- Yuqoridagi ikki o'zgaruvchini alohida JSON fayllarga saqlang.
-- Quyidagi JSON faylni yuklab oling. Faylda 3 ta talabaning ism va familiyasi saqlangan. Ularning har birini alohida qatordan `"Ism Familiya, n-kurs, Fakultet talabasi"` ko'rinishida konsolga chiqaring.
+* Ushbu o'zgaruvchini JSON ko'rinishida saqlang va JSON matnini konsolga chiqaring: `data = {"Model" : "Malibu", "Rang" : "Qora", "Yil":2020, "Narh":40000}`
+* Ushbu JSON matnni ko'chirib oling, va talabaning ismi va familiyasini  konsolga chiqaring: `talaba_json = """{"ism":"Hasan","familiya":"Husanov","tyil":2000}"""`
+* Yuqoridagi ikki o'zgaruvchini alohida JSON fayllarga saqlang.
+* Quyidagi JSON faylni yuklab oling. Faylda 3 ta talabaning ism va familiyasi saqlangan. Ularning har birini alohida qatordan `"Ism Familiya, n-kurs, Fakultet talabasi"` ko'rinishida konsolga chiqaring.
 
 <FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTVgdRJ9ZPHuoEl9qq7%2F-MTW0XsEsSxHFQphbPiH%2Fstudents.json?alt=media&token=dc85518c-4e8b-40f9-aab3-2191c3d1cf8e" />
 
-- Quyidagi bog'lamaga kirsangiz, Wikipediadagi Python dasturlash tili haqidagi maqolani JSON ko'rinishida ko'rishingiz mumkin. Brauzerda chiqqan ma'lumotni JSON ko'rinishida saqlang (brauzerda Ctrl+S tugmasini bosib). Faylni Pythonda oching va konsolga maqolaning sarlavhasi (title) va qisqa matnini (extract) chiqaring: [https://uz.wikipedia.org/w/api.php?format=json\&action=query\&prop=extracts\&exintro\&explaintext\&redirects=1\&titles=Python](https://uz.wikipedia.org/w/api.php?format=json\&action=query\&prop=extracts\&exintro\&explaintext\&redirects=1\&titles=Python)
+* Quyidagi bog'lamaga kirsangiz, Wikipediadagi Python dasturlash tili haqidagi maqolani JSON ko'rinishida ko'rishingiz mumkin. Brauzerda chiqqan ma'lumotni JSON ko'rinishida saqlang (brauzerda Ctrl+S tugmasini bosib). Faylni Pythonda oching va konsolga maqolaning sarlavhasi (title) va qisqa matnini (extract) chiqaring: [https://uz.wikipedia.org/w/api.php?format\=json\&action\=query\&prop\=extracts\&exintro\&explaintext\&redirects\=1\&titles\=Python](https://uz.wikipedia.org/w/api.php?format=json\&action=query\&prop=extracts\&exintro\&explaintext\&redirects=1\&titles=Python)
 
 ## JAVOBLAR
 
