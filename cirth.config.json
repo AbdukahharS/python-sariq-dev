@@ -389,7 +389,8 @@
           "type": "page",
           "file": "last-words/38-python-library.md",
           "title": "#38 PYTHON STANDART KUTUBXONASI",
-          "slug": "38-python-library"
+          "slug": "38-python-library",
+          "description": "Pythondagi foydali modullar bilan tanishamiz."
         },
         {
           "type": "page",
