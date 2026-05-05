@@ -79,7 +79,7 @@ def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
     return avto
 ```
 
-E'tibor bering, `narhi` nomli parametrga `None` standart qiymatini berib ketdik. `None` Pythonda _mavjud emas_ ma'nosini beradi, va `if` yordamida tekshirganda `False` mantiqiy qiymatini qaytardi.
+E'tibor bering, `narhi` nomli parametrga `None` standart qiymatini berib ketdik. `None` Pythonda *mavjud emas* ma'nosini beradi, va `if` yordamida tekshirganda `False` mantiqiy qiymatini qaytardi.
 
 Quyidagi kodni tahlil qilishni sizga vazifa sifatida qoldiramiz:
 
@@ -96,7 +96,7 @@ for avto in avtolar:
     print(f"{avto['rang']} {avto['model']}. Narhi: {narh}")
 ```
 
-![Natija](../cirth-assets/dd672fea-51b1-4bcf-9309-cf6852817621.png)
+![Natija](../cirth-assets/9a7e25a9-d775-43ad-8c99-22197d672a51.png)
 
 ## FUNKSIYADAN RO'YXAT QAYTARAMIZ
 
@@ -118,7 +118,7 @@ print(oraliq(0,10))
 print(oraliq(10,21))
 ```
 
-![Natija](../cirth-assets/8e9f67ca-a0d3-4256-b6be-2731c5dd6528.png)
+![Natija](../cirth-assets/9c15c2cb-5f20-4f45-8502-84a9fb2f8a66.png)
 
 Yuqoridagi funksiyaga uchinchi, `qadam` deb nomlangan ixtiyoriy parameterni qo'sha olasizmi?
 
@@ -156,16 +156,16 @@ while True:
 
 Yuqoridagi funksiyani Pythonda bajarib kor'ing. Ro'yxatga bir necha qiymatlar qo'shing. Natijalarni konsolga chiroyli qilib chiqaring:
 
-![Kutilgan natija](../cirth-assets/ecb8772e-7bdb-4b83-9d71-6996c01b3a79.png)
+![Kutilgan natija](../cirth-assets/bd381780-2af8-4c09-9a75-c0d4613ba59c.png)
 
 ## AMALIYOT
 
 1. Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida qaytaruvchi funksiya yozing. Lug'atda foydalanuvchu yoshi ham bo'lsin. Ba'zi argumentlarni kiritishni ixtiyoriy qiling (masalan, tel.raqam, el.manzil)
-1. Yuqoridagi funksiyani `while` yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring.
-1. Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
-1. Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
-1. Berilgan oraliqdagi [tub sonlar ](https://uz.wikipedia.org/wiki/Tub_sonlar_ro%CA%BByxati)ro'yxatini qaytaruvchi funksiya yozing (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
-1. Foydalanuvchidan son qabul qilib, shu son miqdoricha [Fibonachchi ketma-ketligidagi ](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d)sonlar ro'yxatni qaytaruvchi funksiya yozing.  _**Ta’rif**_: _Har bir hadi o’zidan oldingi ikkita hadning yig’indisiga teng bo’lgan ketma-ketlik Fibonachchi ketma-ketligi deyiladi. Bunda boshlang’ish had ko’pincha 1 deb olinadi._  `1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...`
+2. Yuqoridagi funksiyani `while` yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring.
+3. Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
+4. Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
+5. Berilgan oraliqdagi [tub sonlar ](https://uz.wikipedia.org/wiki/Tub_sonlar_ro%CA%BByxati)ro'yxatini qaytaruvchi funksiya yozing (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
+6. Foydalanuvchidan son qabul qilib, shu son miqdoricha [Fibonachchi ketma-ketligidagi ](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d)sonlar ro'yxatni qaytaruvchi funksiya yozing.  ***Ta’rif***: *Har bir hadi o’zidan oldingi ikkita hadning yig’indisiga teng bo’lgan ketma-ketlik Fibonachchi ketma-ketligi deyiladi. Bunda boshlang’ish had ko’pincha 1 deb olinadi.*  `1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...`
 
 ## JAVOBLAR
 
