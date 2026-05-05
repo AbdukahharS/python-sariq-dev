@@ -15,7 +15,7 @@ ism = input("Ismingiz nima? ")
 print(f'Salom, {ism.title()}')
 ```
 
-![Natija](../cirth-assets/e102a9a1-80ff-42c1-8400-16ebef9054d4.png)
+![Natija](../cirth-assets/ea907d32-0611-431d-9765-f0223e842b76.png)
 
 input() finktsiyasi ichidagi matn ingliz tilida prompt, savol deyiladi. Aslida biz savolni ham o'zgaruvchiga yuklab, shaxsiy so'rovnomalar ham yaratishimiz mumkin.
 
@@ -25,7 +25,7 @@ savol = f"Salom, {ism.title()}. Yoshingiz nechida? "
 yosh = input(savol)
 ```
 
-![Natija](../cirth-assets/8dac2f29-628f-4d74-867e-abf2701be41e.png)
+![Natija](../cirth-assets/a870c72d-e968-4cad-acb7-ccca0e7d1db6.png)
 
 Yuqorida birinchi input() bilan foydalanuvchi ismini so'radik va yangi savol matnini yasab oldik.
 
@@ -44,7 +44,7 @@ height = input("Bo'yingiz necha metr? ")
 height = float(height) # bo'yni o'nlik songa o'tkazamiz
 ```
 
-![Natija](../cirth-assets/7942bfe5-8fd4-4eae-be54-9bb372657800.png)
+![Natija](../cirth-assets/d6aebad8-ff37-4cd5-84ae-2bcae5c6ca27.png)
 
 :::info
 Foydalanuvchidan qiymat so'raganingizda input()ichidagi savolni aniq va tushunarli qilib yozing. Masalan: `input("Tug'ilgan yilingizni kiriting: ")`
@@ -71,15 +71,15 @@ Natija: `1 2 3 4 5`
 
 Yuqoridagi kodni tahlil qilamiz:
 
-- avval `son` degan o'zgaruvchi yaratdik va unga `1` qiymatini berdik.
-- 2-qatorda esa toki `son` 5 dan kichik yoki teng ekan 3-4-qatorlarni bajar dedik.
-- 3-qatorda `son` ni konsolga chiqardik
-- 4-qatorda `son` ga `1` qo'shdik.
-- 4-qatordan so'ng kod yana 2-qatorga qaytadi va `son&lt;=5` shartini tekshiradi, agar shart bajarilsa 3-4 qator qayta-qayta bajarilaveradi.
-- 5-qadamdan so'ng `son=5` bo'lganda `while` tsikli to'xtaydi.
+* avval `son` degan o'zgaruvchi yaratdik va unga `1` qiymatini berdik.
+* 2-qatorda esa toki `son` 5 dan kichik yoki teng ekan 3-4-qatorlarni bajar dedik.
+* 3-qatorda `son` ni konsolga chiqardik
+* 4-qatorda `son` ga `1` qo'shdik.
+* 4-qatordan so'ng kod yana 2-qatorga qaytadi va `son&lt;=5` shartini tekshiradi, agar shart bajarilsa 3-4 qator qayta-qayta bajarilaveradi.
+* 5-qadamdan so'ng `son=5` bo'lganda `while` tsikli to'xtaydi.
 
 :::info
-Pythonda += operatori bor. Bu operator o'ng tarafdagi qiymatni chap tarafdagi qiymatga qo'shadi. Misol uchun, yuqorida `son = son + 1` o'rniga `son += 1` deb yozishimiz mumkin.
+Pythonda +\= operatori bor. Bu operator o'ng tarafdagi qiymatni chap tarafdagi qiymatga qo'shadi. Misol uchun, yuqorida `son = son + 1` o'rniga `son += 1` deb yozishimiz mumkin.
 :::
 
 ## `while` va `input()`
@@ -97,13 +97,13 @@ while qiymat != 'exit':
         print(float(qiymat)**2)
 ```
 
-![Natija](../cirth-assets/64c8db8b-c8ff-41b6-a704-5dab2736ddab.png)
+![Natija](../cirth-assets/7fa3d634-b2e1-4e2e-b68d-c53a3529f910.png)
 
 Yuoqridagi dasturimiz toki foydalanuvchi `exit` deb yozguniga qadar takrorlanaveradi.
 
 ### Ishora (flag)
 
-Yuqoridagi dasturda dasturni to'xtatish uchun yagona shartni tekshirdik (qiymat!='exit'), katta dasturlarda bir emas bir nechta shartlarni tekshirish, va ulardan biri bajarilgan taqdirda dasturni to'xtatish talab qilinishi mumkin.
+Yuqoridagi dasturda dasturni to'xtatish uchun yagona shartni tekshirdik (qiymat!\='exit'), katta dasturlarda bir emas bir nechta shartlarni tekshirish, va ulardan biri bajarilgan taqdirda dasturni to'xtatish talab qilinishi mumkin.
 
 Bunday holatlarda biror o'zgaruvchidan ishora (flag) sifatida foydalanishimiz mumkin. Agar dastur bajarilishi davomida dasturni to'xtatish shartlaridan biri bajarilganda ishora o'zgaruvchining qiymatini o'zgartiramiz va dastur o'z-o'zidan to'xtaydi.
 
@@ -147,7 +147,7 @@ for son in sonlar:
     print(f"{son} ning kvadrati {son**2} ga teng")
 ```
 
-![Natija](../cirth-assets/b56c0471-2573-4e49-b242-0d3d899af7af.png)
+![Natija](../cirth-assets/9a6b97eb-9129-4b89-9030-d0e10983aaec.png)
 
 :::info
 `while` tsikli ichida bir nechta `break` operatori ham bo'lishi mumkin.
@@ -165,7 +165,7 @@ for son in sonlar:
     print(f"{son} ning kvadrati {son**2} ga teng")
 ```
 
-![Natija: 5 ning kvadrati qani?](../cirth-assets/22d39cd0-f2df-4501-bce8-7fba7254d03e.png)
+![Natija: 5 ning kvadrati qani?](../cirth-assets/5270f9c4-b0e2-4ef4-ab35-a08f08b847e0.png)
 
 ```python
 son = 0
@@ -230,9 +230,9 @@ Dastur bajarilishini to'xtatish uchun konsolda **Ctrl+C** tugmasini bosing
 ## AMALIYOT
 
 1. Foydalanuvchidan yaxshi ko'rgan kitoblarini kiritishni so'rang. Foydalanuvchi `stop` so'zini yozishi bilan dasturni to'xtating
-1. Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. Foydalanuvchi `exit` yoki `quit` deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
+2. Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. Foydalanuvchi `exit` yoki `quit` deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
    1. Yuqoridagi dasturni turli usullarda yozib ko'ring (break, ishora, yoki shart tekshirish)
-1. Quyidagi dasturda bir nechta mantiqiy xatolar bor. Jumladan, xusisiy holatlarda tsikl abadiy qaytarilib qolmoqda. Xatolarni to'g'rilay olasizmi?
+3. Quyidagi dasturda bir nechta mantiqiy xatolar bor. Jumladan, xusisiy holatlarda tsikl abadiy qaytarilib qolmoqda. Xatolarni to'g'rilay olasizmi?
 
 ```python
 savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
