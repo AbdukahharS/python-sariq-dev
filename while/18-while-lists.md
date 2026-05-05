@@ -25,7 +25,7 @@ while True:
         break
 ```
 
-![Natija](../cirth-assets/5fdda505-67d0-436d-9d8e-f44cf4433199.png)
+![Natija](../cirth-assets/fec3455a-b8d8-402f-a739-473e7abc367e.png)
 
 ```python
 print("Do'stlaringiz ro'yxati:")
@@ -33,7 +33,7 @@ for ism in ismlar:
     print(ism.title())
 ```
 
-![Natija](../cirth-assets/ad577d51-3c18-4e5a-ad5f-5264c0e69d36.png)
+![Natija](../cirth-assets/0ad6fa04-f74c-4389-bedd-812a2a790d2e.png)
 
 ## `WHILE` YORDAMIDA LUG'ATNI TO'LDIRISH
 
@@ -56,7 +56,7 @@ for ism, yosh in dostlar.items():
     print(f"{ism.title()} {yosh} yoshda")
 ```
 
-![Natija](../cirth-assets/7eae5278-2bca-44f7-af85-d0ddad4d1ba5.png)
+![Natija](../cirth-assets/53392905-7f68-4645-9fb5-a2f967ed8a99.png)
 
 ## RO'YXAT ELEMENTLARINI O'CHIRISH
 
@@ -89,15 +89,15 @@ while talabalar:
     baholangan_talabalar[talaba] = baho
 ```
 
-![Natija](../cirth-assets/3eff5e28-6e32-4e69-94c0-6d1ec97e3f3a.png)
+![Natija](../cirth-assets/b3206c19-4e8d-4149-85d1-74a5d3ad5d6e.png)
 
 Yuqorida biz while tsikli yordamida ro'yxat va lug'atlar ustida bajarish mumkin bo'lgan ba'zi misollarni ko'rdik. Albatta dasturlash davomida bundan boshqa holatlar ham uchrashi tabiiy.
 
 ## AMALIYOT
 
 1. Foydalanuvchidan buyurtma qabul qiluvchi dastur yozing. Mahsulotlar nomini birma-bir qabul qilib, yangi ro'yxatga joylang.
-1. e-bozor uchun mahsulotlar va ularning narhlari lug'atini shakllantiruvchi dastur yozing. Foydalanuvchidan lug'atga bir nechta elementlar (mahsulot va uning narhi) kiritishni so'rang.
-1. Yuqoridagi ikki dasturni jamlaymiz. Foydalanuvchi buyurtmasi ro'yxatidagi har bir mahsulotni e-bozordagi mahsulotlar bilan solishitiring (tayyor ro'yxat ishlatishingiz mumkin). Agar mahsuot e-bozorda mavjud bo'lsa mahuslot narhini chiqaring, aks holda "Bizda bu mahsulot yo'q" degan xabarni kor'sating.
+2. e-bozor uchun mahsulotlar va ularning narhlari lug'atini shakllantiruvchi dastur yozing. Foydalanuvchidan lug'atga bir nechta elementlar (mahsulot va uning narhi) kiritishni so'rang.
+3. Yuqoridagi ikki dasturni jamlaymiz. Foydalanuvchi buyurtmasi ro'yxatidagi har bir mahsulotni e-bozordagi mahsulotlar bilan solishitiring (tayyor ro'yxat ishlatishingiz mumkin). Agar mahsuot e-bozorda mavjud bo'lsa mahuslot narhini chiqaring, aks holda "Bizda bu mahsulot yo'q" degan xabarni kor'sating.
 
 ## JAVOBLAR
 
