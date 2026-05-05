@@ -214,7 +214,8 @@
           "type": "page",
           "file": "function/19-function.md",
           "title": "#19 FUNKSIYA",
-          "slug": "19-function"
+          "slug": "19-function",
+          "description": "Pythonda funksiyalar bilan tanishamiz"
         },
         {
           "type": "page",
