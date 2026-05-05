@@ -62,7 +62,7 @@ print(f"{car['model'].title()},\
   {car['yil']}-yil, {car['narh']}$")  
 ```
 
-![Natija](../cirth-assets/e65f8a80-d813-4b4e-a5f0-7b7754c540c1.png)
+![Natija](../cirth-assets/ee6968a7-65e2-45e5-814c-7ce44b34bcaf.png)
 
 Keling, barcha avtolarni bitta ro'yxatga joylaymiz, va for tsikli yordamida birma-bir konsolga chiqaramiz:
 
@@ -74,7 +74,7 @@ for car in cars:
           f"{car['yil']}-yil, {car['narh']}$")
 ```
 
-![Natija](../cirth-assets/2a4baa93-58d3-4abc-bb18-c9123a525888.png)
+![Natija](../cirth-assets/2ba9bafe-7403-4942-be78-97384cd2bd67.png)
 
 E'tibor bering, ishimiz bir muncha yengillashdi, kodimiz ham qisqardi. Natija esa bir hil.
 
@@ -149,7 +149,7 @@ for malibu in malibus:
         malibu['narh']=35000
 ```
 
-![Natija](../cirth-assets/8b1a3304-c654-4148-9f1a-11398990265a.png)
+![Natija](../cirth-assets/2d185c31-e2a8-45de-900b-3242982e65cf.png)
 
 ## LUG'AT ICHIDA RO'YXAT
 
@@ -170,7 +170,7 @@ for ism, tillar in dasturchilar.items():
         print(til.upper())
 ```
 
-![Natija](../cirth-assets/d4000f47-ca76-4971-9119-6a8bc119f7cf.png)
+![Natija](../cirth-assets/a60c57dc-b8c0-4543-a68a-7d502d0e5358.png)
 
 :::info
 Pythondagi `print()` funktsiyasi har bir matndan so'ng yangi qator tashlaydi. Buning oldini olish uchun quyidagi usuldan foydalanish mumkin: `print(string, end = '')`
@@ -183,7 +183,7 @@ for ism, tillar in dasturchilar.items():
         print(f'{til.upper()} ', end='')
 ```
 
-![Natija](../cirth-assets/e8aff524-d4ff-4197-9724-6feb812cbb78.png)
+![Natija](../cirth-assets/4f709110-12d1-48fb-8f1d-228d7c0f2fa4.png)
 
 ## LUG'AT ICHIDA LUG'AT
 
@@ -219,7 +219,7 @@ for ism, info in hamkasblar.items():
         print(til.upper())
 ```
 
-![Natija](../cirth-assets/66b48283-137b-40b4-8746-fd4c12050d06.png)
+![Natija](../cirth-assets/a857785a-6c7c-48ad-915f-e888431f7338.png)
 
 :::info
 Lug'at ichidagi lug'atlar bir hil tuzilishga ega bo'lgani ishingizni ancha yengillashtiradi, aks holda kodingiz murakkablashib ketishi mumkin.
@@ -227,25 +227,25 @@ Lug'at ichidagi lug'atlar bir hil tuzilishga ega bo'lgani ishingizni ancha yengi
 
 ## AMALIYOT
 
-- Adabiyot (ilm-fan, san'at, internet) olamidagi 4 ta mashxur shaxlar haqidagi ma'lumotlarni lug'at ko'rinishida saqlang. Lug'atlarni bitta ro'yxatga joylang, va har bir shaxs haqidagi ma'lumotni konsolga chiqaring.
+* Adabiyot (ilm-fan, san'at, internet) olamidagi 4 ta mashxur shaxlar haqidagi ma'lumotlarni lug'at ko'rinishida saqlang. Lug'atlarni bitta ro'yxatga joylang, va har bir shaxs haqidagi ma'lumotni konsolga chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/b92d95ec-82e2-4d60-b4e5-7f8c1a45df04.png)
+![Kutilgan natijaga misol](../cirth-assets/3272beea-9cd5-4fb4-b2a3-7bd6b13c699c.png)
 
-- Yuqoridagi lug'atlarga har bir shaxsning mashxur asarlari ro'yxatini ham qo'shing. For tsikli yordamida muallifning ismi va uning asarlarini konsolga chiqaring.
+* Yuqoridagi lug'atlarga har bir shaxsning mashxur asarlari ro'yxatini ham qo'shing. For tsikli yordamida muallifning ismi va uning asarlarini konsolga chiqaring.
 
-![Natija](../cirth-assets/98305218-8186-44bd-91f2-b12853b94473.png)
+![Natija](../cirth-assets/6418aaa2-23a0-4b47-9f7c-03719db4ef91.png)
 
-- Oila a'zolaringiz (do'stlaringiz) dan 3 ta sevimli kino-seriali haqida so'rang. Do'stingiz ismi kalit, uning sevimli kinolarini esa ro'yxat ko'rinishida lug'artga saqlang.  Natijani konsolga chiqaring.
+* Oila a'zolaringiz (do'stlaringiz) dan 3 ta sevimli kino-seriali haqida so'rang. Do'stingiz ismi kalit, uning sevimli kinolarini esa ro'yxat ko'rinishida lug'artga saqlang.  Natijani konsolga chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/960844ae-9bd6-4a62-b7e7-c675a53044f8.png)
+![Kutilgan natijaga misol](../cirth-assets/e801fb07-7d65-4792-ae86-56c5eb285e8e.png)
 
-- Davlatlar degan lug'at yarating, lug'at ichida bir nechta davlatlar haqida ma'lumotlarni lug'at ko'rinishida saqlang. Har bir davlat haqida ma'lumotni konsolga chiqaring.
+* Davlatlar degan lug'at yarating, lug'at ichida bir nechta davlatlar haqida ma'lumotlarni lug'at ko'rinishida saqlang. Har bir davlat haqida ma'lumotni konsolga chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/0dcb05a9-60d7-4634-a5ee-fa09ff751faa.png)
+![Kutilgan natijaga misol](../cirth-assets/abdb4f53-6745-4d48-8333-7428ad63c4b4.png)
 
-- Yuqoridagi dasturga o'zgartirish kiriting: konsolga barcha davlatlarni emas, foydalanuvchi so'ragan davlat haqida ma'lumot bering. Agar davlat sizning lug'atingizda mavjud bo'lmasa, "_Bizda bu davlat haqida ma'lumot yo'q_" degan xabarni chiqaring.
+* Yuqoridagi dasturga o'zgartirish kiriting: konsolga barcha davlatlarni emas, foydalanuvchi so'ragan davlat haqida ma'lumot bering. Agar davlat sizning lug'atingizda mavjud bo'lmasa, "*Bizda bu davlat haqida ma'lumot yo'q*" degan xabarni chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/718eed27-0cde-40dd-8461-be16491159fe.png)
+![Kutilgan natijaga misol](../cirth-assets/d324f24d-f9c1-422d-bcde-499097a657ef.png)
 
 ## JAVOBLAR
 
