@@ -249,7 +249,8 @@
           "type": "page",
           "file": "function/24-lambda.md",
           "title": "#24 FUNKSIYALAR. SON'GSO'Z.",
-          "slug": "24-lambda"
+          "slug": "24-lambda",
+          "description": "Funksiyalar mavzusiga yakun yasaymiz."
         }
       ]
     },
