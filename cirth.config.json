@@ -417,7 +417,8 @@
           "type": "page",
           "file": "extras/regex.md",
           "title": "Regex",
-          "slug": "regex"
+          "slug": "regex",
+          "description": "Andoza yordamida matn izlashni oʻrganamiz."
         }
       ]
     }
