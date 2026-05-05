@@ -200,7 +200,8 @@
           "type": "page",
           "file": "while/18-while-lists.md",
           "title": "#18 WHILE, RO'YXATLAR VA LUG'ATLAR",
-          "slug": "18-while-lists"
+          "slug": "18-while-lists",
+          "description": "While tsikli yordamida ro'yxatlar bilan ishlashni o'rganamiz."
         }
       ]
     },
