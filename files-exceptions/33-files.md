@@ -37,10 +37,10 @@ with open('pi.txt') as fayl:
 
 Kodni tahlil qilamiz:
 
-- Birinchi qatorda `open()` funksiyasi yordamida faylni ochayapmiz. Bunda funksiyaga argument sifatida fayl nomini berayapmiz. Bu yerda biz ochayotgan fayl va dasturimiz bir papkada bo'lishi muhim.
-- `open()` funksiyasi faylni obyekt sifatida qaytaradi, `as` operatori yordamida esa biz obyektimizga `fayl` deb nom berayapmiz.
-- Ikkinchi qatorda `.read()` metodi yordamida `fayl` obyektining tarkibidan bizga kerakli matnni olib, yangi, `PI` o'zgaruvchisiga yuklayabmiz.
-- `with` operatorining vazifasi biz fayl bilan ishlab bo'lganimizdan so'ng faylni yopish. Yuqoridagi misolda, 2-qatordan so'ng Python zudlik bilan faylni yopadi.
+* Birinchi qatorda `open()` funksiyasi yordamida faylni ochayapmiz. Bunda funksiyaga argument sifatida fayl nomini berayapmiz. Bu yerda biz ochayotgan fayl va dasturimiz bir papkada bo'lishi muhim.
+* `open()` funksiyasi faylni obyekt sifatida qaytaradi, `as` operatori yordamida esa biz obyektimizga `fayl` deb nom berayapmiz.
+* Ikkinchi qatorda `.read()` metodi yordamida `fayl` obyektining tarkibidan bizga kerakli matnni olib, yangi, `PI` o'zgaruvchisiga yuklayabmiz.
+* `with` operatorining vazifasi biz fayl bilan ishlab bo'lganimizdan so'ng faylni yopish. Yuqoridagi misolda, 2-qatordan so'ng Python zudlik bilan faylni yopadi.
 
 Yuqorida ko'rgan usulimiz fayl bilan ishlashning eng xavfsiz usuli. Aslida biz fayllarni to'g'ridan-to'g'ri `fayl=open('pi.txt')` yordamida ochishimiz, fayl bilan ishlab bo'lgandan so'ng esa `fayl.close()` komandasi yordamida faylni yopishimiz ham mumkin edi:
 
@@ -194,7 +194,7 @@ with open(faylnomi,'w') as fayl:
 
 Fayllar matn formatida yoziladi, va biz ularni istalgan matn muharriri yordamida ochib ko'rishimiz mumkin.
 
-![Faylda saqlangan ma'lumotlar](../cirth-assets/99634055-ab29-4400-b2c9-d175bec6bf85.png)
+![Faylda saqlangan ma'lumotlar](../cirth-assets/39932c24-0dc9-4575-92a3-f6ab9051f839.png)
 
 Afsuski, faylga bir nechta ma'lumot yozganimizda, ma'lumotlar alohida qatordan emas, bir qatorda bir-biriga qo'shib qo'shib yoziladi.
 
@@ -209,7 +209,7 @@ with open(faylnomi,'w') as fayl:
     fayl.write(str(tyil)+'\n')
 ```
 
-![Fayldagi ma'lumotlar yangi qatordan saqlandi](../cirth-assets/0deff863-81d6-426a-a481-0829c5928ed6.png)
+![Fayldagi ma'lumotlar yangi qatordan saqlandi](../cirth-assets/5cc7ce45-3af8-4c5a-9021-2b88cd7b4522.png)
 
 ### FAYLGA MA'LUMOT QO'SHISH
 
@@ -221,7 +221,7 @@ with open(faylnomi,'a') as fayl:
     fayl.write('2000')
 ```
 
-![Faylga yangi ma'lumotlar qo'shildi](../cirth-assets/46aae836-b4c9-4509-a5c8-10c21ed8d2ae.png)
+![Faylga yangi ma'lumotlar qo'shildi](../cirth-assets/0dbbb91f-7553-4bc7-83ab-16e456ee24c2.png)
 
 Agar biz ochayotgan fayl mavjud bo'lmasa, Python yangi fayl yaratadi.
 
@@ -276,14 +276,14 @@ Adashib ketmaslik uchun, alohida o'zgaruvchilarni alohida fayllarga saqlash tavs
 
 ## AMALIYOT
 
-- Bugun o'rgangan narsalaringizni matnga yozing va matnni Python yordamida oching
-- Quyidagi `pi_million_digits.txt` faylini yuklab oling (faylda $$\pi$$  soni nuqtadan so'ng million xona aniqlik bilan yozilgan).
-- Sizning tug'ilgan kuningiz $$\pi$$ soni tarkibida uchraydimi yoki yo'q ekanligini aniqlovchi funksiya yozing. Misol uchun, tug'ilgan sanangiz 25 Fevral, 2000-yil bo'lsa, 25022000 ketma-ketligi yuqoridagi matnda uchraydimi yo'q toping.
-- Fayl ichidagi matnni float ma'lumot turiga o'tkazing va pickle yordamida yangi faylga saqlang.
+* Bugun o'rgangan narsalaringizni matnga yozing va matnni Python yordamida oching
+* Quyidagi `pi_million_digits.txt` faylini yuklab oling (faylda $$\pi$$  soni nuqtadan so'ng million xona aniqlik bilan yozilgan).
+* Sizning tug'ilgan kuningiz $$\pi$$ soni tarkibida uchraydimi yoki yo'q ekanligini aniqlovchi funksiya yozing. Misol uchun, tug'ilgan sanangiz 25 Fevral, 2000-yil bo'lsa, 25022000 ketma-ketligi yuqoridagi matnda uchraydimi yo'q toping.
+* Fayl ichidagi matnni float ma'lumot turiga o'tkazing va pickle yordamida yangi faylga saqlang.
 
 <FileBlock src="https://1283015017-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MGbkqs1tROquIT6oqUs%2F-MTFShfF-96YP2YMtAFf%2F-MTFmSDSeDIeZAOhX9Yk%2Fpi_million_digits.txt?alt=media&token=224f0425-0448-469d-bc93-dff2f6e5c178" />
 
-- Foydalanuvchidan turli hil ma'lumotlarni so'rab, har bir kiritilgan ma'lumotni yangi qatordan faylga yozib boruvchi dastur tuzing. Dastur qayta chaqirilganida yangi ma'lumotlar fayl oxiridan qo'shilib borsin (yangi faylga emas).
+* Foydalanuvchidan turli hil ma'lumotlarni so'rab, har bir kiritilgan ma'lumotni yangi qatordan faylga yozib boruvchi dastur tuzing. Dastur qayta chaqirilganida yangi ma'lumotlar fayl oxiridan qo'shilib borsin (yangi faylga emas).
 
 ## JAVOBLAR
 
