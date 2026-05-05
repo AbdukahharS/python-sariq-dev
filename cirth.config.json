@@ -375,7 +375,8 @@
           "type": "page",
           "file": "testing/37-klass-test.md",
           "title": "#37 KLASSNI TEKSHIRISH",
-          "slug": "37-klass-test"
+          "slug": "37-klass-test",
+          "description": "Klasslarni ham tekshirib turish kerak."
         }
       ]
     },
