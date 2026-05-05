@@ -193,7 +193,8 @@
           "type": "page",
           "file": "while/17-while-loop.md",
           "title": "#17 WHILE TSIKLI",
-          "slug": "17-while-loop"
+          "slug": "17-while-loop",
+          "description": "While tsikli bilan tanishamiz"
         },
         {
           "type": "page",
