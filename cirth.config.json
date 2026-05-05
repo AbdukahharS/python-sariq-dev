@@ -354,7 +354,8 @@
           "type": "page",
           "file": "files-exceptions/35-xatolar.md",
           "title": "#35 XATOLAR BILAN ISHLASH",
-          "slug": "35-xatolar"
+          "slug": "35-xatolar",
+          "description": "Xatolarni jilovlashni o'rganamiz."
         }
       ]
     },
