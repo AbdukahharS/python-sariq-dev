@@ -4,7 +4,10 @@
     "slug": "python-sariq-dev",
     "themeId": "default",
     "siteConfig": {
-      "language": "uz"
+      "language": "uz",
+      "pageTitleFormat": "{page} | {site}",
+      "noIndex": false,
+      "socialLinks": {}
     },
     "themeConfig": {
       "fontFamily": "Inter",
