@@ -25,10 +25,10 @@ def salom_ber():
 Kodni qatroma-qator tahlil qilaylik:
 
 1. Avvalo `def` operatori yordamida Pythonga funksiya yaratayotganimizni bildirdik. `def` dan so'ng esa funksiyamizga nom berdik va qavslarni ochib, yopdik. Bizning funksiyamiz foydalanuvchidan hech qanday qiymat qabul qilmaydi, shuning uchun ham qavs ichi bo'sh. Keyingi misollarda foydalanuvchidan qiymat qabul qiluvchi funksiyalarni ham ko'ramiz.
-1. `def` qatoridan keyin o'ngga surib yozilgan har qanday kod funksiyaning badani hisoblanadi. 2-qatorda biz uchta ketma-ket qo'shtirnoq ichida funksiya haqida ma'lumot berdik. Python mana shu ma'lumotni o'qib, dasturchi funksiya haqida bilmoqchi bo'lganda aynan shu matnni ko'rsatadi.
-1. Oxirgi qatorimizda esa `"Assalomu alaykum!"` matnini konsolga chiqarishni buyurdik. Bizning sodda funksiyamizning asosiy vazifasi ham shu.
+2. `def` qatoridan keyin o'ngga surib yozilgan har qanday kod funksiyaning badani hisoblanadi. 2-qatorda biz uchta ketma-ket qo'shtirnoq ichida funksiya haqida ma'lumot berdik. Python mana shu ma'lumotni o'qib, dasturchi funksiya haqida bilmoqchi bo'lganda aynan shu matnni ko'rsatadi.
+3. Oxirgi qatorimizda esa `"Assalomu alaykum!"` matnini konsolga chiqarishni buyurdik. Bizning sodda funksiyamizning asosiy vazifasi ham shu.
 
-Mana funksiya tayyor. Endi bu funksiyadan foydalanish uchun uni _chaqiramiz_. Buning uchun funksiya nomini yozamiz va qavslarni ochib, yopamiz (esingizda bo'lsa bizning funksiyamiz qiymat qabul qilmaydi, shuning uchun qavslar ichi bo'sh).
+Mana funksiya tayyor. Endi bu funksiyadan foydalanish uchun uni *chaqiramiz*. Buning uchun funksiya nomini yozamiz va qavslarni ochib, yopamiz (esingizda bo'lsa bizning funksiyamiz qiymat qabul qilmaydi, shuning uchun qavslar ichi bo'sh).
 
 ```python
 salom_ber()
@@ -79,7 +79,7 @@ def salom_ber(ism):
 
 Xo'sh, bu ma'lumot qachon va qayerda ko'rsatiladi? Dastur yozish jarayonida funksiya nomini yozishingiz bilan, docstring ko'rsatiladi:
 
-![Docstring - funksiya haqida ma'lumot](../cirth-assets/5fa23e36-80fa-4c56-aaa7-59a5c270d3ea.png)
+![Docstring - funksiya haqida ma'lumot](../cirth-assets/19435690-141d-4cc1-bd0b-b2f193485217.png)
 
 Docstringni konsolga chiqarish uchun **`print(funksiya_nomi.__doc__)`** deb ham yozishimiz mumkin:
 
@@ -87,7 +87,7 @@ Docstringni konsolga chiqarish uchun **`print(funksiya_nomi.__doc__)`** deb ham 
 print(salom_ber.__doc__)
 ```
 
-![Docstring](../cirth-assets/d1551b72-d1a3-4bcd-82f7-59907cfd5528.png)
+![Docstring](../cirth-assets/f1fe921a-2e0f-4927-919b-ddc7b3df7cbf.png)
 
 ### FUNKSIYAGA BIR NECHA BOR MUROJAT QILISH
 
@@ -284,14 +284,14 @@ Natija: `TypeError: toliq_ism() missing 1 required positional argument: 'familiy
 ## AMALIYOT
 
 1. Foydalanuvchi ismi va yoshini so'rab, uning tug'ilgan yilini hisoblaydigan funksiya yozing.
-1. Foydalanuvchidan son olib, uning kvadrati va kubini konsolga chiqaruvchi funksiya yozing.
-1. Foydalanuvchidan son olib, son juft yoki toqligini konsolga chiqaruvchi funksiya yozing.
-1. Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing. Agar sonlar teng bo'lsa "Sonlar teng" degan xabarni chiqaring.
-1. Foydalanuvchidan x va y sonlarini olib, $$x^y$$ni konsolga chiqaruvchi funksiya yozing.
-1. Yuqoridagi funksiyada `y` uchun `2` standart qiymatini bering.
-1. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing. Natijalarni konsolga chiqaring.
+2. Foydalanuvchidan son olib, uning kvadrati va kubini konsolga chiqaruvchi funksiya yozing.
+3. Foydalanuvchidan son olib, son juft yoki toqligini konsolga chiqaruvchi funksiya yozing.
+4. Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing. Agar sonlar teng bo'lsa "Sonlar teng" degan xabarni chiqaring.
+5. Foydalanuvchidan x va y sonlarini olib, $$x^y$$ni konsolga chiqaruvchi funksiya yozing.
+6. Yuqoridagi funksiyada `y` uchun `2` standart qiymatini bering.
+7. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing. Natijalarni konsolga chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/b08ed378-f8b6-4f4f-8f24-41ff9816feb2.png)
+![Kutilgan natijaga misol](../cirth-assets/7887492b-bc93-4577-b3c7-84e6b61edf93.png)
 
 ## JAVOBLAR
 
