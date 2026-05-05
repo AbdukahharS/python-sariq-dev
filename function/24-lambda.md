@@ -131,8 +131,8 @@ Bu funksiya ham argument sifatida ro'yxat va boshqa funskiyani qabul qilib oladi
 Keling bunga ham bir misol ko'ramiz: tasodifiy sonlar ro'yxatidan juft sonalrni ajratib oluvchi dastur yozamiz. Dasturimiz 3 qismdan iborat:
 
 1. Avvalo, `random` modulidagi `sample()` funksiyasi yordamida 0-99 oralig'idagi 10 ta tasodifiy sonlar ro'yxatini tuzib oldik
-1. Berilgan son juft (True) yoki juft emas (False) ekanligini qaytaruvchi funksiya yozdik
-1. filter() fuksiyasiga yangi yaratgan juftmi funksiyasi va tasodifiy sonlar ro'yxatini uzatib, yangi juft\_sonlar ro'yxatini shakllantridik
+2. Berilgan son juft (True) yoki juft emas (False) ekanligini qaytaruvchi funksiya yozdik
+3. filter() fuksiyasiga yangi yaratgan juftmi funksiyasi va tasodifiy sonlar ro'yxatini uzatib, yangi juft\_sonlar ro'yxatini shakllantridik
 
 ```python
 import random as r
@@ -148,7 +148,7 @@ print(sonlar)
 print(juft_sonlar)
 ```
 
-![Natija](../cirth-assets/f1043f7f-9c22-4dc2-9bb5-159befef7a75.png)
+![Natija](../cirth-assets/6da21a80-0d56-45cc-91e6-f8f700928950.png)
 
 Keling endi shu dasturni lambda yordamida yozamiz:
 
@@ -162,7 +162,7 @@ print(sonlar)
 print(juft_sonlar)
 ```
 
-![Natija](../cirth-assets/80f5c6da-7707-46f3-97e3-e137fe05d64a.png)
+![Natija](../cirth-assets/7f6c7dbe-3f65-4401-8241-597bc6123216.png)
 
 Kurib turganingizdek, lambda funksiya yordamida dastur bir muncha qisqaroq chiqadi. Agar `juftmi` funksiyasi kelajakda shart bo'lmasa, alohida funksiya yaratib o'tirmasdan, bir marttalik lambda funksiyasidan foydalangan afzal.
 
