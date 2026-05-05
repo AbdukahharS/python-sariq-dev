@@ -221,7 +221,8 @@
           "type": "page",
           "file": "function/20-qiymat-qaytarish.md",
           "title": "#20 QIYMAT QAYTARUVCHI FUNKSIYA",
-          "slug": "20-qiymat-qaytarish"
+          "slug": "20-qiymat-qaytarish",
+          "description": "Funksiyadan qiymat qaytarishni o'rganamiz"
         },
         {
           "type": "page",
