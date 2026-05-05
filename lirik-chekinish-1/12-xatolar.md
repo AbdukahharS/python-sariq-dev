@@ -8,7 +8,7 @@ Har qanday dasturchi kod yozishda xato qiladi. Ko'p yozgan odam esa ko'p xato qi
 
 ## **SyntaxError** - SINTEKS XATOLIK
 
-Biz _syntax error_ bilan [3-darsimizda ](https://python.sariq.dev/ilk-qadamlar/03-print)tanishgan edik. Bu eng ko'p uchraydigan xato bo'lib, odatda dasturlash tili qoidalariga amal qilmaslik natijasida kelib chiqadi. Aksar dasturlash muhitlari sintaks xatolikni dastur bajarilishidan avvaloq aniqlab, dasturchiga ishora beradi. Sintaks xatolik bor dasturni Python bajarmaydi.
+Biz *syntax error* bilan [3-darsimizda ](https://python.sariq.dev/ilk-qadamlar/03-print)tanishgan edik. Bu eng ko'p uchraydigan xato bo'lib, odatda dasturlash tili qoidalariga amal qilmaslik natijasida kelib chiqadi. Aksar dasturlash muhitlari sintaks xatolikni dastur bajarilishidan avvaloq aniqlab, dasturchiga ishora beradi. Sintaks xatolik bor dasturni Python bajarmaydi.
 
 ```python
 print "Hello World!"
@@ -22,9 +22,9 @@ Odatda dasturlash muhiti xatoning turi bilan birga (SyntaxError), xato haqida qo
 Agar rus tilini bilsangiz, xato matnini rus tilga tarjima qiling. O'zbek tilidagi tarjimalar hali biroz tushunarsiz.
 :::
 
-![Xatoning rus tilidagi tarjimasi](../cirth-assets/35bff98f-c8ea-4980-bd33-3e4fcb7ab1e9.png)
+![Xatoning rus tilidagi tarjimasi](../cirth-assets/9d71000a-a736-4180-9028-03c793f6c260.png)
 
-![Xatoning o'zbek tilidagi tarjimasi](../cirth-assets/e31219ca-80b2-44ee-8a3c-384763ba4cc1.png)
+![Xatoning o'zbek tilidagi tarjimasi](../cirth-assets/56ca896e-48a9-445d-b457-302e9639fafe.png)
 
 ### EOL va EOF xatolik
 
@@ -52,9 +52,9 @@ Python tilida qator boshidan yoki joy tashlab yozish muhim ahamiyatga ega. Qator
 
 Quyidagi kodga e'tibor bering, qator boshida 1 dona bo'sh joy qolgani uchunoq Spyder muhiti xatolikni aniqlab, qizil bilan belgilab qo'ydi.
 
-![Asossiz bo'sh joy qoldirish ham xato](../cirth-assets/aa41ee1c-ea0f-4da9-99f9-80cf3b2f2f25.png)
+![Asossiz bo'sh joy qoldirish ham xato](../cirth-assets/dfa551f0-f86b-48c1-b097-dfef17fb1a02.png)
 
-![IndentationError](../cirth-assets/f0d52dca-44c7-4202-9f25-ae74b05ba590.png)
+![IndentationError](../cirth-assets/607f16d9-2034-41ce-967a-e30a9de4298d.png)
 
 Ba'zi joylarda esa aksincha, bo'sh joy tashlab yozish talab qilinadi. Masalan, `for` tsiklida yoki `if-elif-else` shartlarining ichida va hokazo.
 
@@ -84,7 +84,7 @@ Aslida, hech bo'lmaganda 1 harflik bo'sh joy qoldirish ham bizni IndentationErro
 
 Qoida sifatida kamida 4 ta harflik joy yoki 1 ta TAB (klaviaturadagi tab tugmasi) joy tashlashni odat qilishimiz kerak. Va eng muhimi ikkalasini aralashtirmasligimiz lozim. Ya'ni agar siz joy tashlash uchun Space (probel) ishlatsangiz, oxirigacha shunday qiling, agar Tab ishlatsangiz oxirigacha tab ishlating. Ikkalasini aralashtirmang!
 
-![Joy tashlash uchun yoki 1 tab yoki 4 space ishlating](../cirth-assets/19b6b28e-8c1e-4f25-a9eb-f52bb8f54937.png)
+![Joy tashlash uchun yoki 1 tab yoki 4 space ishlating](../cirth-assets/823da9ff-173a-426a-a36b-dd3c33dfbdbb.png)
 
 ## RUN TIME ERROR - DASTURNI BAJARISHDA XATOLIK
 
@@ -133,7 +133,7 @@ else:
     print("Manfiy son")
 ```
 
-![ValueError](../cirth-assets/0f5bdef0-0ac8-47fd-a672-afcfbc9a24da.png)
+![ValueError](../cirth-assets/304e66b7-8ffe-47a7-9971-e44999657913.png)
 
 Yuqoridagi dasturning 1-qatorida foydalanuvchidan istalgan son kiritishni so'rayabmiz, va foydalanuvchi kiritgan qiymatni `int` ya'ni butun songa o'tkazyabmiz. Kodning o'zida xato yo'q, lekin dastur bajarish jarayonida foydalanuvchi butun son emas, o'nlik son kiritgani uchun ValueError xatosi chiqdi. Sababi int() funktsiyasi faqatgina butun sonlar ko'rinishidagi matn bilan ishlaydi.
 
@@ -185,7 +185,7 @@ print(aylana_yuzi)
 
 Natija: `103.49999999999999`
 
-Yuqoridagi kod bajarildi, va natija ham chiqdi. Lekin natija xato. Nima uchun? Sababi biz $$\pi=4.14$$ deb, xato yozib ketdik.
+Yuqoridagi kod bajarildi, va natija ham chiqdi. Lekin natija xato. Nima uchun? Sababi biz $$\pi\=4.14$$ deb, xato yozib ketdik.
 
 Yana bir misol ko'raylik:
 
@@ -195,7 +195,7 @@ ildiz = son**1/2
 print(f"{son} ning ildizi {ildiz} ga teng")
 ```
 
-![Natija](../cirth-assets/65b5c1ea-5977-4bcc-9e4d-5f2f68a80f3e.png)
+![Natija](../cirth-assets/5bf0a772-df97-486d-a931-8b2f09427c3f.png)
 
 Yuqoridagi natijaga e'tibor bersangiz, 9 sonining ildizi 4.5 deb chiqdi. Sababi, 2-qatorda ildizni hisoblashda foydalanuvchi kiritgan son avval 1-darajaga oshirildi va undan keyin 2 ga bo'lindi. Kodni to'g'rilaymiz:
 
@@ -205,7 +205,7 @@ ildiz = son**(1/2)
 print(f"{son} ning ildizi {ildiz} ga teng")
 ```
 
-![Natija](../cirth-assets/a1ab1105-8c2a-4752-b966-042520e87bb4.png)
+![Natija](../cirth-assets/4b4f6a5e-856c-4775-9bef-68c2914d0971.png)
 
 Noo'rin bo'sh joy qoldirish (yoki qoldirmaslik) ham mantiqiy xatoga olib kelishi mumkin:
 
@@ -216,7 +216,7 @@ for meva in mevalar:
     print("Dastur tugadi")
 ```
 
-![Natija](../cirth-assets/3fde0c6e-71e5-4006-840a-680ee3a7affa.png)
+![Natija](../cirth-assets/c71ba555-22bf-411d-9939-0dae1361c190.png)
 
 Yuqorida "Dastur tugadi" matni bir marta, dastur tugaganidan so'ng chiqishi kerak edi. Lekin o'ngga suriib qolgani uchun bir necha bor qaytarildi.
 
@@ -224,7 +224,7 @@ Bundan boshqa ham mantiqiy xatoliklar juda ko'p uchraydi.
 
 Mantiqiy xatoliklar mutlaqo topilmasdan ham qolib ketishi, va dastur bozorga chiqqanidan so'ng aniqlanishi tabiiy hol. Shuning uchun ham aksar dasturlar tez-tez yangilanib turadi.
 
-![](../cirth-assets/4e82568a-7ea2-48e3-bcd9-b375a57f0ab7.png)
+![](../cirth-assets/7ac65572-2365-4a8e-adcb-b891625634a9.png)
 
 Dastur jarayonida bundan boshqa xatoliklar ham ko'p uchraydi. Biz ulardan ba'zilari bilan tanishdik xolos. Keyingi darslarimizda Runtime xatoliklarni qanday qilib dastur davomida aniqlash, va dastur to'xtab qolishining oldini olishni o'rganamiz.
 
