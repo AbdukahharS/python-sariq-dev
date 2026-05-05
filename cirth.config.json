@@ -312,7 +312,8 @@
           "type": "page",
           "file": "oop/30-vorislik-polimorfizm.md",
           "title": "#30 VORISLIK VA POLIMORFIZM",
-          "slug": "30-vorislik-polimorfizm"
+          "slug": "30-vorislik-polimorfizm",
+          "description": "Klasslardan klass yaratishni o'rganamiz."
         },
         {
           "type": "page",
