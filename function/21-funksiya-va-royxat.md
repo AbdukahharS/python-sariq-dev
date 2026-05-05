@@ -22,7 +22,7 @@ baholar = bahola(talabalar)
 print(baholar)
 ```
 
-![Natija](../cirth-assets/c4b3801b-92df-4619-997a-ab10d3608299.png)
+![Natija](../cirth-assets/f9ae17cc-1816-447e-8dd3-64fe87bbc25e.png)
 
 ## RO'YXATGA O'ZGARTIRISH KIRITISH
 
@@ -38,7 +38,7 @@ Natija: `[]`
 
 Yuqoridagi funksiya unga uzatilgan ro'yxat ichidagi talabalarning ismini `.pop()` yordamida sug'urib olgani uchun bizning asl ro'yxatimiz ham bo'shab qoldi. E'tibor bering, funksiya tashqarisidagi va ichidagi ro'yxatlar ikki hil nomlangan bo'lsada (`talabalar` va `ismlar`), ikkalasi ham xotiradagi bitta ro'yxatga bog'langani sabab ulardan biriga o'zgartirish kiritilishi bilan, ikkinchisi ham o'zgaradi.
 
-![Ikki o'zgaruvchi ham bitta ro'yxatga bog'langan](../cirth-assets/989a7af9-2923-4d48-ab59-b7dcac1d9c47.png)
+![Ikki o'zgaruvchi ham bitta ro'yxatga bog'langan](../cirth-assets/73106617-9ec9-4941-bc00-efba37fb5a19.png)
 
 ## ASL RO'YXATGA O'ZGARTIRISH KIRITISHNING OLDINI OLISH
 
@@ -54,7 +54,7 @@ Natija: `['ali', 'vali', 'hasan', 'husan']`
 
 ## AMALIYOT
 
-- Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya yozing.
+* Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya yozing.
 
 ```python
 ismlar = ['ali', 'vali', 'hasan', 'husan']
@@ -64,7 +64,7 @@ print(ismlar)
 
 Kutilgan natija: `['Ali', 'Vali', 'Hasan', 'Husan']`
 
-- Yuoqirdagi funksiyani asl ro'yxatni o'zgartirmaydigan va yangi ro'yxat qaytaradigan qilib o'zgartiring
+* Yuoqirdagi funksiyani asl ro'yxatni o'zgartirmaydigan va yangi ro'yxat qaytaradigan qilib o'zgartiring
 
 ```python
 ismlar = ['ali', 'vali', 'hasan', 'husan']
@@ -79,7 +79,7 @@ Kutilgan natija:
 
 `['Ali', 'Vali', 'Hasan', 'Husan']`
 
-- Darsimiz davomida yozgan bahola funksiyasini `.pop()` metodidan foydalanmasdan va asl ro'yxatga o'zgartirish kiritmasdan faqat lug'at qaytaradigan qilib yozing.
+* Darsimiz davomida yozgan bahola funksiyasini `.pop()` metodidan foydalanmasdan va asl ro'yxatga o'zgartirish kiritmasdan faqat lug'at qaytaradigan qilib yozing.
 
 ## JAVOBLAR
 
