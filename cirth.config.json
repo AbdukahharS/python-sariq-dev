@@ -340,7 +340,8 @@
           "type": "page",
           "file": "files-exceptions/33-files.md",
           "title": "#33 FAYLLAR BILAN ISHLASH",
-          "slug": "33-files"
+          "slug": "33-files",
+          "description": "Fayl bilan ishlashni o'rganamiz"
         },
         {
           "type": "page",
