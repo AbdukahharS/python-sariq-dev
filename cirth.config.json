@@ -5,6 +5,10 @@
     "themeId": "default",
     "siteConfig": {
       "language": "uz"
+    },
+    "themeConfig": {
+      "fontFamily": "Inter",
+      "darkMode": false
     }
   },
   "navigation": [
