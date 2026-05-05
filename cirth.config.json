@@ -235,7 +235,8 @@
           "type": "page",
           "file": "function/22-flexible-functions.md",
           "title": "#22 MOSLASHUVCHAN FUNKSIYA (*args, **kwargs)",
-          "slug": "22-flexible-functions"
+          "slug": "22-flexible-functions",
+          "description": "*args va **kwargs bilan tanishamiz"
         },
         {
           "type": "page",
