@@ -270,7 +270,8 @@
           "type": "page",
           "file": "amaliyot/26-guess-the-word.md",
           "title": "#26 \"SO'Z TOPISH\" O'YINI",
-          "slug": "26-guess-the-word"
+          "slug": "26-guess-the-word",
+          "description": "Kompyuter so'z o'ylaydi, biz topamiz."
         },
         {
           "type": "page",
