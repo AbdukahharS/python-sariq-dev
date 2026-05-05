@@ -42,12 +42,12 @@ unittest.main()
 
 Dasturni tahlil qilamiz:
 
-- Dastavval unittest modulini chaqiramiz (`import unittest`)
-- Keyingi qatorda `name.py` modulimizdan tekshirmoqchi bo'lgan funksiyamizni ham yuklab olamiz (`get_full_name`).
-- 4-qatorda test klassini yaratamiz, bu klass`unittest.TestCase` klassidan meros oladi. Bu klass berilgan parametrlar uchun funksiyadan qaytgan qiymatlarni tekshirishga mo'ljallangan. Klassimizga o'zimiz istagan, tushunarli nom beramiz (`NameTest`).
-- Klassimiz ichida `test_toliq_ism` metodini yaratdik. Bu metod `get_full_name` funksiyasidan qaytgan qiymatni biz avvaldan bergan qiymatga teng yoki yo'q ekanini tekshiradi. Buning uchun esa maxsus `.assertEqual()` metodidan foydalandik. E'tibor bering, test medotlarning nomi har doim `test` so'zi bilan boshlanishi kerak.
-- `assertEqual()` metodi ikki qiymat qabul qiladi va ularning teng ekanligini tekshiradi (assert ingliz tilidan tasdiqlash deb tarjima qilinadi). Agar `get_full_name('alijon','valiyev')` funksiyamiz to'g'ri ishlasa, funksiyadan `'Alijon Valiyev'` qiymati qaytishi kerak. `assertEqual()` metodi aynan shuni tekshirishga mo'ljallangan.
-- So'nggi qatorda unittest klassinini chaqiramiz, bu esa o'z navbatida biz yuqorida yozgan testni chaqiradi.
+* Dastavval unittest modulini chaqiramiz (`import unittest`)
+* Keyingi qatorda `name.py` modulimizdan tekshirmoqchi bo'lgan funksiyamizni ham yuklab olamiz (`get_full_name`).
+* 4-qatorda test klassini yaratamiz, bu klass`unittest.TestCase` klassidan meros oladi. Bu klass berilgan parametrlar uchun funksiyadan qaytgan qiymatlarni tekshirishga mo'ljallangan. Klassimizga o'zimiz istagan, tushunarli nom beramiz (`NameTest`).
+* Klassimiz ichida `test_toliq_ism` metodini yaratdik. Bu metod `get_full_name` funksiyasidan qaytgan qiymatni biz avvaldan bergan qiymatga teng yoki yo'q ekanini tekshiradi. Buning uchun esa maxsus `.assertEqual()` metodidan foydalandik. E'tibor bering, test medotlarning nomi har doim `test` so'zi bilan boshlanishi kerak.
+* `assertEqual()` metodi ikki qiymat qabul qiladi va ularning teng ekanligini tekshiradi (assert ingliz tilidan tasdiqlash deb tarjima qilinadi). Agar `get_full_name('alijon','valiyev')` funksiyamiz to'g'ri ishlasa, funksiyadan `'Alijon Valiyev'` qiymati qaytishi kerak. `assertEqual()` metodi aynan shuni tekshirishga mo'ljallangan.
+* So'nggi qatorda unittest klassinini chaqiramiz, bu esa o'z navbatida biz yuqorida yozgan testni chaqiradi.
 
 `name_test.py` dasturimizni bajaramiz va quyidagi natijani olamiz:
 
@@ -223,10 +223,10 @@ Test davomida `tubSonmi()` funksiyasini bir nechta tub (`7, 193, 547`) va tub bo
 
 Quyidagi funksiyalarni yarating, va **ularning har biri uchun test dasturlarini yozing**:
 
-- Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya
-- Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya
-- Berilgan sonlar ro'yxatidan juft sonlarni ajratib oluvchi funksiya
-- Berilgan son [Fibonachchi ketma-ketligida](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d) uchraydimi (`True`) yoki yo'q (`False`) qaytaruvchi funksiya yozing.
+* Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya
+* Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini katta harfga o'zgatiruvchi funksiya
+* Berilgan sonlar ro'yxatidan juft sonlarni ajratib oluvchi funksiya
+* Berilgan son [Fibonachchi ketma-ketligida](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d) uchraydimi (`True`) yoki yo'q (`False`) qaytaruvchi funksiya yozing.
 
 ## KODLAR
 
