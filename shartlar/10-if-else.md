@@ -4,7 +4,7 @@
 
 ## TARMOQLANISH
 
-Shu vaqtgacha yozgan dasturlarimizga e'tibor bersangiz, dasturimiz yuqoridan pastga qarab qatorma-qator bajarilib keldi. Bu chiziqli dastur deyiladi. Voqelikda esa aksar dasturlar ma'lum bir shart bajarilishi (yoki bajarilmaganiga) ko'ra kodning bir qismidan boshqa qismiga "sakrab" o'tishi tabiiy hol. Dasturlashda bu ***tarmoqlanish*** deb ataladi.
+Shu vaqtgacha yozgan dasturlarimizga e'tibor bersangiz, dasturimiz yuqoridan pastga qarab qatorma-qator bajarilib keldi. Bu chiziqli dastur deyiladi. Voqelikda esa aksar dasturlar ma'lum bir shart bajarilishi (yoki bajarilmaganiga) ko'ra kodning bir qismidan boshqa qismiga "sakrab" o'tishi tabiiy hol. Dasturlashda bu _**tarmoqlanish**_ deb ataladi.
 
 ![Tarmoqlanishga misol](../cirth-assets/cac4f197-d30a-4b4c-9c2e-54969816d29d.png)
 
@@ -34,11 +34,11 @@ for avto in avtolar: # avtolar ichidadi har bir avto uchun ...
 
 Kodni tahlil qilaylik:
 
-* 1-qatorda biz for tsiklini boshladik: *avto ichidagi har bir avto uchun.*
-* 2-qatorda shart yozdik: *agar avto bmw ga teng bo'lsa* (bu yerda `==` belgisi tenglikni tekshirish belgisi hisoblanadi va **"`avto`** **`bmw` ga tengmi?"** deb o'qiladi).
-* 3-qator yuqoridagi shartning badani hisoblanadi va **faqatgina** shart bajarilgandagina ishga tushadi va avto nomini hamma harflarini katta bilan yozadi (`.upper()` metodi).
-* 4-qatorda yana bir yangi operator, **`else`** bilan tanishamiz. "**Else**" ingliz tilidan "**aks holda**" deb tarjima qilinadi va **`if`** sharti bajarilmaganda **`else`** qismi ichidagi kod bajariladi.
-* 5-qator esa `else` (aks holda, ya'ni 2- qatordagi shart bajarilmaganda) ishga tushadi va avto nomining faqat birinchi harfini katta bilan yozadi (`.title()` metodi)
+- 1-qatorda biz for tsiklini boshladik: _avto ichidagi har bir avto uchun._
+- 2-qatorda shart yozdik: _agar avto bmw ga teng bo'lsa_ (bu yerda `==` belgisi tenglikni tekshirish belgisi hisoblanadi va **"`avto`** **`bmw` ga tengmi?"** deb o'qiladi).
+- 3-qator yuqoridagi shartning badani hisoblanadi va **faqatgina** shart bajarilgandagina ishga tushadi va avto nomini hamma harflarini katta bilan yozadi (`.upper()` metodi).
+- 4-qatorda yana bir yangi operator, **`else`** bilan tanishamiz. "**Else**" ingliz tilidan "**aks holda**" deb tarjima qilinadi va **`if`** sharti bajarilmaganda **`else`** qismi ichidagi kod bajariladi.
+- 5-qator esa `else` (aks holda, ya'ni 2- qatordagi shart bajarilmaganda) ishga tushadi va avto nomining faqat birinchi harfini katta bilan yozadi (`.title()` metodi)
 
 :::danger
 **Diqqat!** Shart "badani" shartdan biroz o'ngga surib yoziladi (huddi `for` tsikli kabi). `if/else` dan keyin kelgan va o'ngga surib yozilgan har bir qator `if/else` shartining badani hisoblanadi.
@@ -61,7 +61,7 @@ Natija:
 
 ## TRUE/FALSE
 
-Yuqorida shartni tekshirish uchun `==` operatoridan foydalandik. Bu operatorni oddiy tilga tarjima qilsak ***"tengmi?"*** degan ma'noni beradi.
+Yuqorida shartni tekshirish uchun `==` operatoridan foydalandik. Bu operatorni oddiy tilga tarjima qilsak _**"tengmi?"**_ degan ma'noni beradi.
 
 Agar shartning ikki tarafidagi qiymatlar teng bo'lsa ifoda **TRUE** qiymatini qaytaradi ("True" so'zi ingliz tilidan "haqiqiq" yoki "to'g'ri" deb tarjima qilinadi).
 
@@ -108,7 +108,7 @@ else:
 
 ![Natija](../cirth-assets/9507156d-a65f-4726-b660-4c9ad5a241e1.png)
 
-Demak yuqoridagi kodning 2-qatorida `ism` ichidagi qiymat `'ali'` ga teng bo'lmasa *"Uzr,* {ism} *biz Alini kutyapmiz"* degan xabarni chiqar dedik. Aks holda (`else`), `"Salom, Ali"` degan xabar chiqadi.
+Demak yuqoridagi kodning 2-qatorida `ism` ichidagi qiymat `'ali'` ga teng bo'lmasa _"Uzr,_ {ism} _biz Alini kutyapmiz"_ degan xabarni chiqar dedik. Aks holda (`else`), `"Salom, Ali"` degan xabar chiqadi.
 
 :::info
 Shartlarda `else` qismi bo'lishi majburiy emas. Bunga keyingi bo'limlarda tushunarliroq misollar ko'ramiz.
@@ -118,10 +118,10 @@ Shartlarda `else` qismi bo'lishi majburiy emas. Bunga keyingi bo'limlarda tushun
 
 Sonlarni solishtirishda yuqoridagi teng (`==`) va teng emas (`!=`) shartlariga qo'shimcha ravishda quyidagi mantiqiy shartlar ham qo'shiladi:
 
-* Kichik: `a<b`
-* Kichik yoki teng: `a&lt;=b`
-* Katta: `a>b`
-* Katta yoki teng: `a>=b`
+- Kichik: `a<b`
+- Kichik yoki teng: `a&lt;=b`
+- Katta: `a>b`
+- Katta yoki teng: `a>=b`
 
 ```python
 javob = float(input("12x6 nechiga teng?>>>"))
@@ -184,15 +184,15 @@ Natija: `x<y`
 
 ## AMALIYOT
 
-* Yangi `cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']` degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
+- Yangi `cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']` degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
 
 ![](../cirth-assets/1814db76-ecb7-48ec-95c7-6c0f52813081.png)
 
-* Yuqoridagi mashqni teng emas (`!=`) operatori yordamida bajaring.
-* Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, *"Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?"* xabarini konsolga chiqaring. Aks holda, *"Xush kelibsiz, `{foydalanuvchi_ismi}!`"*  matnini konsolga chiqaring.
-* Foydalanuvchidan 2 ta son kiritishni so'rang. Agar ikki son bir-biriga teng bo'lsa, "Sonlar teng" ekan degan yozuvni konsolga chiqaring.
-* Foydalanuvchidan istalgan son kiritishni so'rang. Agar son manfiy bo'lsa konsolga "Manfiy son", agar musbat bo'lsa "Musbat son" degan xabarni chiqaring.
-* Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring.
+- Yuqoridagi mashqni teng emas (`!=`) operatori yordamida bajaring.
+- Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, _"Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?"_ xabarini konsolga chiqaring. Aks holda, _"Xush kelibsiz, `{foydalanuvchi_ismi}!`"_  matnini konsolga chiqaring.
+- Foydalanuvchidan 2 ta son kiritishni so'rang. Agar ikki son bir-biriga teng bo'lsa, "Sonlar teng" ekan degan yozuvni konsolga chiqaring.
+- Foydalanuvchidan istalgan son kiritishni so'rang. Agar son manfiy bo'lsa konsolga "Manfiy son", agar musbat bo'lsa "Musbat son" degan xabarni chiqaring.
+- Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring.
 
 ## JAVOBLAR
 

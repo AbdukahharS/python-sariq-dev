@@ -79,7 +79,7 @@ def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
     return avto
 ```
 
-E'tibor bering, `narhi` nomli parametrga `None` standart qiymatini berib ketdik. `None` Pythonda *mavjud emas* ma'nosini beradi, va `if` yordamida tekshirganda `False` mantiqiy qiymatini qaytardi.
+E'tibor bering, `narhi` nomli parametrga `None` standart qiymatini berib ketdik. `None` Pythonda _mavjud emas_ ma'nosini beradi, va `if` yordamida tekshirganda `False` mantiqiy qiymatini qaytardi.
 
 Quyidagi kodni tahlil qilishni sizga vazifa sifatida qoldiramiz:
 
@@ -161,11 +161,11 @@ Yuqoridagi funksiyani Pythonda bajarib kor'ing. Ro'yxatga bir necha qiymatlar qo
 ## AMALIYOT
 
 1. Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida qaytaruvchi funksiya yozing. Lug'atda foydalanuvchu yoshi ham bo'lsin. Ba'zi argumentlarni kiritishni ixtiyoriy qiling (masalan, tel.raqam, el.manzil)
-2. Yuqoridagi funksiyani `while` yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring.
-3. Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
-4. Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
-5. Berilgan oraliqdagi [tub sonlar ](https://uz.wikipedia.org/wiki/Tub_sonlar_ro%CA%BByxati)ro'yxatini qaytaruvchi funksiya yozing (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
-6. Foydalanuvchidan son qabul qilib, shu son miqdoricha [Fibonachchi ketma-ketligidagi ](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d)sonlar ro'yxatni qaytaruvchi funksiya yozing.  ***Ta’rif***: *Har bir hadi o’zidan oldingi ikkita hadning yig’indisiga teng bo’lgan ketma-ketlik Fibonachchi ketma-ketligi deyiladi. Bunda boshlang’ish had ko’pincha 1 deb olinadi.*  `1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...`
+1. Yuqoridagi funksiyani `while` yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring.
+1. Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
+1. Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
+1. Berilgan oraliqdagi [tub sonlar ](https://uz.wikipedia.org/wiki/Tub_sonlar_ro%CA%BByxati)ro'yxatini qaytaruvchi funksiya yozing (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
+1. Foydalanuvchidan son qabul qilib, shu son miqdoricha [Fibonachchi ketma-ketligidagi ](https://medium.com/@qudratxoja.musayev/fibonachchi-sonlari-va-u-haqida-qiziqarli-faktlar-47000a80264d)sonlar ro'yxatni qaytaruvchi funksiya yozing.  _**Ta’rif**_: _Har bir hadi o’zidan oldingi ikkita hadning yig’indisiga teng bo’lgan ketma-ketlik Fibonachchi ketma-ketligi deyiladi. Bunda boshlang’ish had ko’pincha 1 deb olinadi._  `1, 1, 2, 3, 5, 8, 13, 21, 34, 55,...`
 
 ## JAVOBLAR
 

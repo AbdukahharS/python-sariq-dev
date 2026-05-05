@@ -594,13 +594,13 @@ Ushbu bo'limda biz maxsus metodlarning ba'zilari bilan tanishdik. Bu metodlarnin
 
 ## AMALIYOT
 
-* Avvalga darslarda yaratilgan obyektlarga (`Shaxs`, `Talaba`) turli dunder metodlarni qo'shishni mashq qiling.
-  * Obyekt haqida ma'lumot (`__rerp__`)
-  * Talabalarni bosqichi bo'yicha solishtirish (`__lt__`,`__eg__` va hokazo)
-* Fan degan yangi klass yarating. Fan obyetklari tarkibida shu fanga yozilgan talabalarning ro'yxati saqlansin. Buning uchun Fanga add\_student(), `__getitem__`, `__setitem__`, `__len__` kabi metodlarni qo'shing.
-* Fanga qo'shish `+` operatori yordamida talaba qo'shish metodini yozing
-* Minus (`-`) operatori yordamida fandan talaba olib tashlash metodini yozing (bunda talabaning passport raqami yoki ID raqami bo'yicha topib, olib tashlash mumkin)
-* Fan obyektlarini chaqiriladigan qiling (masalan, `fizika()`, yoki `fizika(talaba1)`). Bu metodlarni o'zingiz istagandek talqin qiling.
+- Avvalga darslarda yaratilgan obyektlarga (`Shaxs`, `Talaba`) turli dunder metodlarni qo'shishni mashq qiling.
+  - Obyekt haqida ma'lumot (`__rerp__`)
+  - Talabalarni bosqichi bo'yicha solishtirish (`__lt__`,`__eg__` va hokazo)
+- Fan degan yangi klass yarating. Fan obyetklari tarkibida shu fanga yozilgan talabalarning ro'yxati saqlansin. Buning uchun Fanga add\_student(), `__getitem__`, `__setitem__`, `__len__` kabi metodlarni qo'shing.
+- Fanga qo'shish `+` operatori yordamida talaba qo'shish metodini yozing
+- Minus (`-`) operatori yordamida fandan talaba olib tashlash metodini yozing (bunda talabaning passport raqami yoki ID raqami bo'yicha topib, olib tashlash mumkin)
+- Fan obyektlarini chaqiriladigan qiling (masalan, `fizika()`, yoki `fizika(talaba1)`). Bu metodlarni o'zingiz istagandek talqin qiling.
 
 ## KODLAR
 

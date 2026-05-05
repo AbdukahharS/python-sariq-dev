@@ -56,12 +56,12 @@ Kursni muvaffaqiyatli tamomlagan tinglovchilar, kelajakda dasturlashning tor va 
 
 Darslarimizning **birinchi qismida** siz Python dasturlarini yozish uchun muhim bo'lgan asosiy tushunchalarni o'rganasiz. Ushbu tushunchalar xar qanday dasturlash tillari uchun bir xildir. Jumladan ushbu qism quyidagi mavzularni o'z ichiga oladi:
 
-* Ma'lumotlar turlari va ularni saqlash usullari
-* Ma'lumotlar to'plamini yaratish, ular ustida samarali ishlash usullari
-* ***While, if*** tsikllari yordamida shartlarni tekshirish va kodni tarmoqlash
-* Interaktiv dasturlar yaratish orqali foydalanuvchilar bilan ikki tomonlama "muloqot" o'rnatish, ulardan ma'lumot qabul qilish
-* Kodning ma'lum qismlarini qayta-qayta ishlatish uchun funktsiyalar yozish
-* Yozgan dasturingizni tekshirish uchun testlar yozish, va kelajakdagi xatolarning oldini olish
+- Ma'lumotlar turlari va ularni saqlash usullari
+- Ma'lumotlar to'plamini yaratish, ular ustida samarali ishlash usullari
+- _**While, if**_ tsikllari yordamida shartlarni tekshirish va kodni tarmoqlash
+- Interaktiv dasturlar yaratish orqali foydalanuvchilar bilan ikki tomonlama "muloqot" o'rnatish, ulardan ma'lumot qabul qilish
+- Kodning ma'lum qismlarini qayta-qayta ishlatish uchun funktsiyalar yozish
+- Yozgan dasturingizni tekshirish uchun testlar yozish, va kelajakdagi xatolarning oldini olish
 
 Kursimizning **ikkinchi qismida** esa o'zlashtirgan bilimlaringizni puxtalash uchun bir nechta loyihalar ustida ishlaysiz.
 
@@ -71,13 +71,13 @@ Kursimizning **ikkinchi qismida** esa o'zlashtirgan bilimlaringizni puxtalash uc
 
 ### Python o'rganish uchun 5 sabab:
 
-* Python dasturlash tiliga bo'lgan talab yildan yilga oshib kelmoqda. CodingDojo portalining tadqiqotlariga ko'ra, 2020 yilda aynan Python tilida dasturlovchi mutaxassislarga eng ko'p talab bo'lgan
+- Python dasturlash tiliga bo'lgan talab yildan yilga oshib kelmoqda. CodingDojo portalining tadqiqotlariga ko'ra, 2020 yilda aynan Python tilida dasturlovchi mutaxassislarga eng ko'p talab bo'lgan
 
 ![Manba: https://www.codingdojo.com/blog/top-7-programming-languages](cirth-assets/5f219382-9134-4bed-bbc1-5b42a1842640.png)
 
-* Python Artificial Intelligence (Sun'iy intellekt) va Data Science (Ulkan ma'lumotlar bilan ishlash) sohalarining tili hisoblanadi. Bugungi kunda keng ommalashib borayotgan sun'iy intellekt asosida ishlovchi dasturlarning aksari Pythonda yozilgan. **Bu sohalardagi mutaxassislar bugungi kunda eng noyob va qimmatbaho kadrlar hisoblanadi.**
-* Keng qamrovli va universal til. Python dasturlari deyarli barcha operativ tizimlarda va platformalarda ishlaydi.
-* O'rganish uchun ham, tushunish uchun ham juda qulay va sodda kod. Quyidagi ikki tilda yozilgan kodlargaga e'tibor bering, va ulardan qay biri tushunarliroq ekanini ko'ring (ikkisi ham bir vazifani bajaradi):
+- Python Artificial Intelligence (Sun'iy intellekt) va Data Science (Ulkan ma'lumotlar bilan ishlash) sohalarining tili hisoblanadi. Bugungi kunda keng ommalashib borayotgan sun'iy intellekt asosida ishlovchi dasturlarning aksari Pythonda yozilgan. **Bu sohalardagi mutaxassislar bugungi kunda eng noyob va qimmatbaho kadrlar hisoblanadi.**
+- Keng qamrovli va universal til. Python dasturlari deyarli barcha operativ tizimlarda va platformalarda ishlaydi.
+- O'rganish uchun ham, tushunish uchun ham juda qulay va sodda kod. Quyidagi ikki tilda yozilgan kodlargaga e'tibor bering, va ulardan qay biri tushunarliroq ekanini ko'ring (ikkisi ham bir vazifani bajaradi):
 
 ```java
 // JAVA
@@ -93,7 +93,7 @@ public class Main {
 print("Assalom Alaykum!")
 ```
 
-* Moslashuvchanlik —Python dasturlash tili ma'lum bir masalalarni yechish bilan chegaralanmagan. Bu til dasturchilarga yangi va yangi yo'nalishlarga ki'rish imkonini beradi. Python quyidagi sohalarda qo'llaniladi: Web va Internet dasturlash, kompyuter o'yinlarini yaratish, ma'lumotlar bazasi bilan ishlash (DB), computer vision, foydalanuvchilar uchun grafik interfeys (GUI), juda tez rivojlanayotgan buyumlar interneti (IoT) texnologiyasi va hokazo.
+- Moslashuvchanlik —Python dasturlash tili ma'lum bir masalalarni yechish bilan chegaralanmagan. Bu til dasturchilarga yangi va yangi yo'nalishlarga ki'rish imkonini beradi. Python quyidagi sohalarda qo'llaniladi: Web va Internet dasturlash, kompyuter o'yinlarini yaratish, ma'lumotlar bazasi bilan ishlash (DB), computer vision, foydalanuvchilar uchun grafik interfeys (GUI), juda tez rivojlanayotgan buyumlar interneti (IoT) texnologiyasi va hokazo.
 
 ![Manba: https://data-flair.training/blogs/python-applications/](cirth-assets/afd77dd9-9c04-4a1c-a4fb-f366a6a81b21.png)
 
@@ -101,6 +101,6 @@ print("Assalom Alaykum!")
 
 Ushbu kursni tayyorlashda quyidagi kitoblar va resurslardan foydalanildi:
 
-1. Eric Matthes, ***Python Crash Course. A Hands-On, Project-Based Introduction to Programming***, 2nd edition, No Starch Press, 2019
-2. [www.learnpython.org](https://www.learnpython.org/)
-3. John V. Guttag, ***Introduction to Computation and Programming Using Python, Second EditionWith Application to Understanding Data,*** MIT Press, 2016
+1. Eric Matthes, _**Python Crash Course. A Hands-On, Project-Based Introduction to Programming**_, 2nd edition, No Starch Press, 2019
+1. [www.learnpython.org](https://www.learnpython.org/)
+1. John V. Guttag, _**Introduction to Computation and Programming Using Python, Second EditionWith Application to Understanding Data,**_ MIT Press, 2016

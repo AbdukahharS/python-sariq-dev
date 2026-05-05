@@ -4,7 +4,7 @@
 
 ## `if-elif-else` KETMA-KETLIGI
 
-Dastur davomida bir nechta shartni tekshirish talab qilinishi mumkin. Bunday holatda biz **`if-elif-else`** ketma-ketligidan foydalanamiz. `elif` - *else* va if so'zalrining jamlanmasi bo'lib, *"aks holda, agar"* deb tarjima qilinadi. Bunday `if` bilan boshlangan ketma-ketlik bir nechta `elif` lardan iborat bo'lishi mumkin.
+Dastur davomida bir nechta shartni tekshirish talab qilinishi mumkin. Bunday holatda biz **`if-elif-else`** ketma-ketligidan foydalanamiz. `elif` - _else_ va if so'zalrining jamlanmasi bo'lib, _"aks holda, agar"_ deb tarjima qilinadi. Bunday `if` bilan boshlangan ketma-ketlik bir nechta `elif` lardan iborat bo'lishi mumkin.
 
 Python avval `if` shartini tekshiradi, shart bajarilmasa `elif` ga o'tadi, birinchi `elif` sharti bajarilmasa keyingi `elif` ga o'tadi va hokazo davom etaveradi.
 
@@ -14,9 +14,9 @@ Python avval `if` shartini tekshiradi, shart bajarilmasa `elif` ga o'tadi, birin
 
 Keling bir misol ko'ramiz. Hayvonot bo'giga kirish quyidagicha belgilangan:
 
-* 4 yoshdan kichik bolalarga kirish bepul
-* 4 yoshdan 12 yoshgacha kirish 5000 so'm
-* 12 yoshdan kattalarga 10000 so'm
+- 4 yoshdan kichik bolalarga kirish bepul
+- 4 yoshdan 12 yoshgacha kirish 5000 so'm
+- 12 yoshdan kattalarga 10000 so'm
 
 Foydalanuvchidan yoshini so'rab, hayvonot bog'iga kirish chiptasi narhini chiqaruvchi dastur yozamiz.
 
@@ -32,11 +32,11 @@ else:
 
 Yuqoridagi kod avval foydalanuvchi yoshini so'raydi. 2-qatorda yosh 4 dan kichik ekanligini tekshiradi. Agar bu shart bajarilsa shartlarni tekshirish shu yerdayoq to'xtaydi va keyingi shartlar tashlab o'tib ketiladi.
 
-![if yosh\<\=4 bajarilgandagi natija](../cirth-assets/a240050e-24c4-465d-a871-f1ead25e8568.png)
+![if yosh\&lt;=4 bajarilgandagi natija](../cirth-assets/a240050e-24c4-465d-a871-f1ead25e8568.png)
 
 Agar `yosh&lt;=4` sharti bajarilmasa, keyingi `elif yosh&lt;=12` sharti tekshiriladi, agar shart bajarilsa quyidagi natija chiqadi:
 
-![if yosh\<\=12 uchun natija](../cirth-assets/ba4a042e-9b87-4718-b074-f06356156770.png)
+![if yosh\&lt;=12 uchun natija](../cirth-assets/ba4a042e-9b87-4718-b074-f06356156770.png)
 
 Agar yuoqridagi ikki shart ham bajarilmasa navbat o'z-o'zidan `else` bilan kelgan kod bajariladi:
 
@@ -313,31 +313,31 @@ Demak `if royxat_nomi:` ifodasi agar ro'yxatda bir dona element bo'lsa ham `TRUE
 
 Quyidagi dasturlarni alohida fayllarga yozing va bajaring:
 
-* Foydalanuvchidan juft son kiritishni so'rang. Agar foydalanuvchi juft son kiritsa "Rahmat!", agar toq son kiritsa "Bu son juft emas" degan xabarni chiqaring.
+- Foydalanuvchidan juft son kiritishni so'rang. Agar foydalanuvchi juft son kiritsa "Rahmat!", agar toq son kiritsa "Bu son juft emas" degan xabarni chiqaring.
 
 ![](../cirth-assets/5006653c-b807-4e3b-a1f9-cce482361681.png)
 
-* Foydalanuvchi yoshini so'rang, va muzeyga kirish uchun chipta narhini quyidagicha chiqaring:
-  * Agar foydalanuvchi 4 yoshdan kichkina yoki 60 dan katta bo'lsa bepul
-  * Agar foydalanuvchi 18 dan kichik bo'lsa 10000 so'm
-  * Agar foydalanuvchi 18 dan katta bo'lsa 20000 so'm
-* Foydalanuvchidan ikita son kiritishni so'rang, sonlarni solishtiring va ularning teng yoki katta/kichikligi haqida xabarni chiqaring
+- Foydalanuvchi yoshini so'rang, va muzeyga kirish uchun chipta narhini quyidagicha chiqaring:
+  - Agar foydalanuvchi 4 yoshdan kichkina yoki 60 dan katta bo'lsa bepul
+  - Agar foydalanuvchi 18 dan kichik bo'lsa 10000 so'm
+  - Agar foydalanuvchi 18 dan katta bo'lsa 20000 so'm
+- Foydalanuvchidan ikita son kiritishni so'rang, sonlarni solishtiring va ularning teng yoki katta/kichikligi haqida xabarni chiqaring
 
 ![](../cirth-assets/ba55f2ec-e9ab-431e-aa8f-05b6bbcbeec8.png)
 
-* `mahsulotlar` degan ro'yxat yarating va kamida 10 ta turli mahsulotni kiriting. Yangi, `savat` degan bo'sh ro'yxat yarating va foydalanuvchidan savatga kamida 5 ta mahsulot kiritishni so'rang. Savatdagi elementlarni, `mahsulotlar` ro'yxati bilan solishtiring va qaysi biri ro'yxatda bo'lsa "*Mahsulot* do'konimizda bor" aks holda, "*Mahsulot* do'konimizda yo'q" degan xabarlarni chiqaring.
+- `mahsulotlar` degan ro'yxat yarating va kamida 10 ta turli mahsulotni kiriting. Yangi, `savat` degan bo'sh ro'yxat yarating va foydalanuvchidan savatga kamida 5 ta mahsulot kiritishni so'rang. Savatdagi elementlarni, `mahsulotlar` ro'yxati bilan solishtiring va qaysi biri ro'yxatda bo'lsa "_Mahsulot_ do'konimizda bor" aks holda, "_Mahsulot_ do'konimizda yo'q" degan xabarlarni chiqaring.
 
 ![](../cirth-assets/ea4a900d-5816-4710-8107-8df175581265.png)
 
-* Yuqoridagi dasturni quyidagicha o'zgartiring: foydalanuvchidan 5 ta mahsulot kiritishni so'rang. Foydalanuvchi so'ragan va do'konda bor mahsulotlarni yang, `bor_mahsulotlar` degan ro'yxatga, do'konda yo'q mahsulotlarni esa `mavjud_emas` degan ro'yxatga qo'shing.  Agar mavjud\_emas ro'yxati bo'sh bo'lsa, "Siz so'ragan barcha mahsulotlar do'konimizda bor" degan xabarni, aks holda esa "Quyidagi mahsulotlar do'konimizda yo'q: ....." degan xabarni chiqaring.
+- Yuqoridagi dasturni quyidagicha o'zgartiring: foydalanuvchidan 5 ta mahsulot kiritishni so'rang. Foydalanuvchi so'ragan va do'konda bor mahsulotlarni yang, `bor_mahsulotlar` degan ro'yxatga, do'konda yo'q mahsulotlarni esa `mavjud_emas` degan ro'yxatga qo'shing.  Agar mavjud\_emas ro'yxati bo'sh bo'lsa, "Siz so'ragan barcha mahsulotlar do'konimizda bor" degan xabarni, aks holda esa "Quyidagi mahsulotlar do'konimizda yo'q: ....." degan xabarni chiqaring.
 
 ![](../cirth-assets/54988a45-6e26-4b5b-9b8d-f9c3ad2261b3.png)
 
-* `foydalanuvchilar` degan ro'yxat tuzing, va kamida 5 ta login qo'shing. Foydalanuvchidan yangi login tanlashni so'rang va foydalanuvchi kiritgan loginni foydalanuvchilar degan ro'yxatning tarkibi bilan solishtiring. Agar ro'yxatda bunday login mavjud bo'lsa, "Login band, yangi login tanlang!" aks holda "Xush kelibsiz, *foydalanuvchi*!" xabarini chiqaring.
+- `foydalanuvchilar` degan ro'yxat tuzing, va kamida 5 ta login qo'shing. Foydalanuvchidan yangi login tanlashni so'rang va foydalanuvchi kiritgan loginni foydalanuvchilar degan ro'yxatning tarkibi bilan solishtiring. Agar ro'yxatda bunday login mavjud bo'lsa, "Login band, yangi login tanlang!" aks holda "Xush kelibsiz, _foydalanuvchi_!" xabarini chiqaring.
 
 ![](../cirth-assets/ea712492-573c-469a-9546-562f9b2daef8.png)
 
-* Foydalanuvchidan biror butun son kiritishni so'rang. Foydalanuvchi kiritgan sonni 2 da 10 gacha bo'lgan sonlardan qay biriga qoldiqsiz bo'linishini konsolga chiqaring.
+- Foydalanuvchidan biror butun son kiritishni so'rang. Foydalanuvchi kiritgan sonni 2 da 10 gacha bo'lgan sonlardan qay biriga qoldiqsiz bo'linishini konsolga chiqaring.
 
 ![](../cirth-assets/084a278c-98a5-447f-a4fe-ea632af3c755.png)
 

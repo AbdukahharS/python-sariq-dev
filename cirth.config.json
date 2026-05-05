@@ -1,18 +1,21 @@
 {
+  "site": {
+    "name": "python-sariq-dev",
+    "slug": "python-sariq-dev",
+    "themeId": "default"
+  },
   "navigation": [
     {
       "type": "page",
       "file": "index.md",
       "title": "💻 DASTURLASH ASOSLARI",
-      "slug": "",
-      "description": "Assalom alaykum hurmatli do'stlar. Bu yerda siz dasturlash asoslarini o'rganasiz."
+      "slug": ""
     },
     {
       "type": "page",
       "file": "howto.md",
       "title": "👀 DARSLARNI QANDAY O'ZLASHTIRAMIZ",
-      "slug": "howto",
-      "description": "Darslarga qanday yondoshamiz?"
+      "slug": "howto"
     },
     {
       "type": "page",
@@ -29,22 +32,19 @@
           "type": "page",
           "file": "ilk-qadamlar/01-software.md",
           "title": "#01 KERAKLI DASTURLAR",
-          "slug": "01-software",
-          "description": "Ushbu bo'limda Python tilida kod yozish uchun kerak bo'lgan dasturlarni o'rnatamiz"
+          "slug": "01-software"
         },
         {
           "type": "page",
           "file": "ilk-qadamlar/02-hello-world.md",
           "title": "#02 HELLO WORLD!",
-          "slug": "02-hello-world",
-          "description": "Pythonda birinchi dasturimizni yozamiz."
+          "slug": "02-hello-world"
         },
         {
           "type": "page",
           "file": "ilk-qadamlar/03-print.md",
           "title": "#03 PRINT(), SINTEKS VA ARIFMETIK AMALLAR",
-          "slug": "03-print",
-          "description": "print() funktsiyasi, Python sintaksi va arifmetik amallar"
+          "slug": "03-print"
         }
       ]
     },
@@ -57,43 +57,37 @@
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/04-variables.md",
           "title": "#04 O'ZGARUVCHILAR",
-          "slug": "04-variables",
-          "description": "Pythonda o'zgaruvchilar bilan ishlashni o'rganamiz"
+          "slug": "04-variables"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
           "title": "#05 STRING (MATN)",
-          "slug": "05-string",
-          "description": "STRING ma'lumot turi va uning ustida amallar"
+          "slug": "05-string"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
           "title": "#06 SONLAR",
-          "slug": "06-sonlar",
-          "description": "Pythonda sonlar bilan ishlashni o'rganamiz"
+          "slug": "06-sonlar"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
           "title": "#07 LIST (RO'YXAT)",
-          "slug": "07-lists",
-          "description": "List yordamida bir o'zgaruvchida ko'p qiymatlar saqlashni o'rganamiz."
+          "slug": "07-lists"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
           "title": "#08 RO'YXATLAR BILAN ISHLASH",
-          "slug": "08-list-tuple",
-          "description": "Ro'yxatlarning ustida turli amallar bajarishni o'rganamiz"
+          "slug": "08-list-tuple"
         },
         {
           "type": "page",
           "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
           "title": "#09 FOR TAKRORLASH OPERATORI",
-          "slug": "09-for-loop",
-          "description": "FOR operatori bilan ishlashni o'rganamiz"
+          "slug": "09-for-loop"
         }
       ]
     },
@@ -106,15 +100,13 @@
           "type": "page",
           "file": "shartlar/10-if-else.md",
           "title": "#10 IF-ELSE",
-          "slug": "10-if-else",
-          "description": "Dasturni tarmoqlashni o'rganamiz"
+          "slug": "10-if-else"
         },
         {
           "type": "page",
           "file": "shartlar/11-if-elif-else.md",
           "title": "#11 BIR NECHTA SHARTLARNI TEKSHIRISH",
-          "slug": "11-if-elif-else",
-          "description": "if-elif-else zanjiri, \"and\", \"or\" operatorlari bilan tanishamiz"
+          "slug": "11-if-elif-else"
         }
       ]
     },

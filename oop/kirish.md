@@ -26,18 +26,18 @@ Dasturlash jarayonida bitta funksiyaga o’zgartirish kiritishingiz esa, unga bo
 Chiziqli dasturlarning afzalliklari
 :
 
-* Dasturlashni o’rganish uchun qulay
-* Sodda va tushunarli kod
-* Dastur algoritmini kuzatish oson
-* Dastur xotirada kamroq joy egallaydi
+- Dasturlashni o’rganish uchun qulay
+- Sodda va tushunarli kod
+- Dastur algoritmini kuzatish oson
+- Dastur xotirada kamroq joy egallaydi
 
 Chiziqli dasturlarning kamchiliklari
 :
 
-* Murakkab dasturlarni chziqili usulda yozish qiyin (ilojsiz)
-* Bir dastur uchun yozilgan koddan boshqa dasturda qayta foydalanib bo’lmaydi
-* Dastur ichidagi ma’lumotlar (o’zgaruvchilar) barcha funksiyalar uchun ochiq
-* ZAMONAVIY DASTURLAR CHIZIQLI EMAS
+- Murakkab dasturlarni chziqili usulda yozish qiyin (ilojsiz)
+- Bir dastur uchun yozilgan koddan boshqa dasturda qayta foydalanib bo’lmaydi
+- Dastur ichidagi ma’lumotlar (o’zgaruvchilar) barcha funksiyalar uchun ochiq
+- ZAMONAVIY DASTURLAR CHIZIQLI EMAS
 
 Vaqt o’tib dasturlarga qo’yilgan talablar murakkablashib borgani sababli, chiziqli dasturlash tamoyili zamon talabiga javob bermay qo’ydi va 1970 yillarda object oriented programming tamoyili olg’a surila boshlandi.
 
@@ -116,9 +116,9 @@ Endi biz bu superklassdan boshqa voris klasslarni yaratamiz.
 ![Superklass va voris klasslar](../cirth-assets/d3812900-2570-46d2-b6be-534c7a33ca23.png)
 
 1. Birinchi qahramonimiz Qilichboz va bu qahramon xujum qilganda qilich bilan xujum qiladi.
-2. Ikkinchi qahramonimiz esa Jangchi, va u qurolsiz bo’lgani sababi qo’l va oyoqlari bilan xujum qiladi.
-3. Uchunchi qahramonimiz pistolet bilan,
-4. Oxrigisi esa kamon va yoylar bilan qurollangan.
+1. Ikkinchi qahramonimiz esa Jangchi, va u qurolsiz bo’lgani sababi qo’l va oyoqlari bilan xujum qiladi.
+1. Uchunchi qahramonimiz pistolet bilan,
+1. Oxrigisi esa kamon va yoylar bilan qurollangan.
 
 To’rttala qahramonimiz ham superklassdan **`attack()`** metodini meros oladi, lekin bu metodni biz har bir qahramon uchun turli ko’rinishda yozishimiz va talqin qilishimiz mumkin. Bu esa o’z navbatida bizni turli qahramonlar va turli xujum turlari uchun alohida metodlar yozishdan qutqaradi.
 
@@ -130,15 +130,15 @@ Keling darsimiz yakunida OOPning afzalliklari va kamchiliklariga ham to’xtalib
 
 **Afzalliklari**
 
-* Parallel dasturlash – bir loyihaning turli qismlari bir vaqtda yaratilishi mumkin
-* Vorislik tamoyili klasslardan qayta foydanalish imkonini beradi
-* Polimorfizm tamoyili klasslarni moslashuvchan qiladi
-* Klasslardan boshqa dastur va loyihalarda qayta-qayta foydalanish mumkin
+- Parallel dasturlash – bir loyihaning turli qismlari bir vaqtda yaratilishi mumkin
+- Vorislik tamoyili klasslardan qayta foydanalish imkonini beradi
+- Polimorfizm tamoyili klasslarni moslashuvchan qiladi
+- Klasslardan boshqa dastur va loyihalarda qayta-qayta foydalanish mumkin
 
 **Kamchiliklari**
 
-* Dasturlashga yangi qadam qo’yganlar uchun biroz tushunarsiz
-* Har doim ham samarali emas
-* Ba’zida dasturimizni haddan tashqari murakkablashtirib yuborishi mumkin
+- Dasturlashga yangi qadam qo’yganlar uchun biroz tushunarsiz
+- Har doim ham samarali emas
+- Ba’zida dasturimizni haddan tashqari murakkablashtirib yuborishi mumkin
 
 OOP bilan qisqacha tanishuvimiz shundan iborat edi. Endi esa Python OOP bilan tanishuvni boshlasak ham bo'ladi.

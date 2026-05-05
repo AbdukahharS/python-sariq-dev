@@ -32,7 +32,7 @@ Natija: `400`
 
 ## FLOATS — O'NLIK SONLAR
 
-Pythonda o'nlik sonlar **floating point numbers** yoki qisqa qilib **floats** deyiladi. "*Floating point numbers*" atamasini o'zbek tiliga "*suzuvchi nuqtali sonlar*" deb tarjima qilish mumkin. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun *"floating"* *(suzuvchi)* deyiladi.
+Pythonda o'nlik sonlar **floating point numbers** yoki qisqa qilib **floats** deyiladi. "_Floating point numbers_" atamasini o'zbek tiliga "_suzuvchi nuqtali sonlar_" deb tarjima qilish mumkin. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun _"floating"_ _(suzuvchi)_ deyiladi.
 
 ```python
 pi = 3.14159 # o'nlik son (float)
@@ -93,7 +93,7 @@ Natija: `Yer kurrasida 7594000000 ga yaqin odam yashaydi`
 
 ## KONSTANTA
 
-Aksar dasturlash tillarida konstant qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun$$\pi$$ ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (*ogohlantirish sifatida*). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
+Aksar dasturlash tillarida konstant qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun$$\pi$$ ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (_ogohlantirish sifatida_). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
 
 ```python
 PI = 3.14159
@@ -127,11 +127,11 @@ Afsuski, kutilgan natija o'rniga xatolik chiqdi. Agar xatoni ingliz tilidan tarj
 
 Demak Pythonda matn (string) va son (int, float) turidagi o'zgaruvchilarni jamlab bo'lmas ekan. Xo'sh, bunga yechim bormi? **Albatta**.
 
-Pythonda bir turdagi o'zgaruvchini boshqa turga o'tkazish mumkin, bu ingliz tilida ***typecasting*** detiladi. Buning uchun Pythonda mahsus funktsiyalar bor, keling ular bilan tanishamiz:
+Pythonda bir turdagi o'zgaruvchini boshqa turga o'tkazish mumkin, bu ingliz tilida _**typecasting**_ detiladi. Buning uchun Pythonda mahsus funktsiyalar bor, keling ular bilan tanishamiz:
 
-* `str()`— int yoki float turidagi sonlarni matnga o'zgartiradi.
-* `int()`— matn yoki float ko'rinishidagi qiymatlarni butun songa o'zgartiradi. Bunda matn butun son ko'rinishida bo'lishi kerak.
-* `float()`— matn yoki int ko'rinishidagi qiymatlarni o'nlik songa o'zgartiradi.
+- `str()`— int yoki float turidagi sonlarni matnga o'zgartiradi.
+- `int()`— matn yoki float ko'rinishidagi qiymatlarni butun songa o'zgartiradi. Bunda matn butun son ko'rinishida bo'lishi kerak.
+- `float()`— matn yoki int ko'rinishidagi qiymatlarni o'nlik songa o'zgartiradi.
 
 Demak, yuqoridagi kod to'g'ri ishlashi uchun 3-qatorni quyidagicha o'zgartiramiz:
 
@@ -224,15 +224,15 @@ print("Siz " + str(yosh) + " yoshda ekansiz")
 
 Quyidagi dasturlarning har birini alohida fayl ko'rinishida yozing va bajaring:
 
-* Foydalanuvchi kiritgan sonning kvadrati va kubini konsolga chiqaruvchi dastur
+- Foydalanuvchi kiritgan sonning kvadrati va kubini konsolga chiqaruvchi dastur
 
 ![](../cirth-assets/23e3f88d-8e51-4471-a691-7b79cadc8450.png)
 
-* Foydalanuvchining yoshini so'rab, uning tug'ilgan yilini hisoblab, konsolga chiqaruvchi dastur
+- Foydalanuvchining yoshini so'rab, uning tug'ilgan yilini hisoblab, konsolga chiqaruvchi dastur
 
 ![](../cirth-assets/717634cf-2a1e-4a0e-b174-adc06fdbc21f.png)
 
-* Foydalanuvchidan ikki son kiritshni so'rab, kiritilgan sonlarning yig'indisi, ayirmasi, ko'paytmasi va bo'linmasini chiqaruvchi dastur
+- Foydalanuvchidan ikki son kiritshni so'rab, kiritilgan sonlarning yig'indisi, ayirmasi, ko'paytmasi va bo'linmasini chiqaruvchi dastur
 
 ![](../cirth-assets/835f88f6-ace7-4207-93d7-30fe704ac740.png)
 

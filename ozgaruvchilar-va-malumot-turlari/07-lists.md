@@ -18,7 +18,7 @@ ismlar = [] # bo'sh ro'yxat
 ```
 
 :::tip
-Ro'yxat saqlaydigan o'zgaruvchilarni nomlashda *-lar*  (ko'plik) qo'shimchasini qo'shish maqsadga muvofiq bo'ladi (inlgiz tilida *-s*).
+Ro'yxat saqlaydigan o'zgaruvchilarni nomlashda _-lar_  (ko'plik) qo'shimchasini qo'shish maqsadga muvofiq bo'ladi (inlgiz tilida _-s_).
 
 Misol uchun: `mevalar`, `uylar`, `cars`, `toys`, `books`
 :::
@@ -199,22 +199,22 @@ Agar **`.pop()`** metodida indeks berilmasa, ro'yxatdan o'xirgi qiymat sug'urib 
 
 Quyidagi mashqlarni bajaring:
 
-* `ismlar` degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
-* Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
+- `ismlar` degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
+- Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
 
 ![](../cirth-assets/453724af-779a-4f99-a795-ef5487980133.png)
 
-* `sonlar` deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
-* Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
-* `t_shaxslar`va `z_shaxslar` degan 2 ta ro'yxat yarating va biriga o'zingiz eng ko'p hurmat qilgan tarixiy shaxslarning, ikkinchisiga esa zamonamizdagi tirik bo'lgan shaxslarning ismini kiriting.
-* Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (**`.pop()`**), quyidagi ko'rinishda chiqaring:
+- `sonlar` deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
+- Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
+- `t_shaxslar`va `z_shaxslar` degan 2 ta ro'yxat yarating va biriga o'zingiz eng ko'p hurmat qilgan tarixiy shaxslarning, ikkinchisiga esa zamonamizdagi tirik bo'lgan shaxslarning ismini kiriting.
+- Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (**`.pop()`**), quyidagi ko'rinishda chiqaring:
 
 ![](../cirth-assets/b9e114b5-c916-4d33-8fbd-cb288d9fe490.png)
 
-* `friends`nomli bo'sh ro'yxat tuzing va unga `.append()` yordamida 5-6 ta mehmonga chaqirmoqchi bo'lgan do'stlaringizni kiriting.
-* Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni `.remove()` metodi yordamida o'chrib tashlang.
-* Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
-* Yangi `mehmonlar`deb nomlangan bo'sh ro'yxat yarating. `.pop()` va `.append()` metodlari yordamida mehmonga kelgan do'stlaringizning ismini friends ro'yxatidan sug'urib olib, mehmonlar ro'yxatiga qo'shing.
+- `friends`nomli bo'sh ro'yxat tuzing va unga `.append()` yordamida 5-6 ta mehmonga chaqirmoqchi bo'lgan do'stlaringizni kiriting.
+- Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni `.remove()` metodi yordamida o'chrib tashlang.
+- Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
+- Yangi `mehmonlar`deb nomlangan bo'sh ro'yxat yarating. `.pop()` va `.append()` metodlari yordamida mehmonga kelgan do'stlaringizning ismini friends ro'yxatidan sug'urib olib, mehmonlar ro'yxatiga qo'shing.
 
 ## JAVOBLAR
 

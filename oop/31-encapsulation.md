@@ -92,9 +92,9 @@ class Avto:
 
 Kodni tahlil qilamiz:
 
-* 1-qatroda Avto klassini e'lo qildik
-* 3-qatorda Avto klassiga oid bo'lgan xususiyat `num_avto` yaratdik va unga 0 qiymatini berdik
-* Keyingi qatorlarda `__init__` metodi yordamida klassdan yaratiladigan obyektlarning xususiyatlarini e'lon qildik va har gal bu metdoga murojat qilingandan `num_avto` ning qiymatini `1` ga oshradigan qilib qo'ydik (13-qator).
+- 1-qatroda Avto klassini e'lo qildik
+- 3-qatorda Avto klassiga oid bo'lgan xususiyat `num_avto` yaratdik va unga 0 qiymatini berdik
+- Keyingi qatorlarda `__init__` metodi yordamida klassdan yaratiladigan obyektlarning xususiyatlarini e'lon qildik va har gal bu metdoga murojat qilingandan `num_avto` ning qiymatini `1` ga oshradigan qilib qo'ydik (13-qator).
 
 Yuqoridagi usul bilan endi biz dastur davomida Avto klassidan jami nechta obyektlar yaratilganini kuzatib borishimiz mumkin bo'ladi. Bunda num\_avto o'zgaruvchisiga istalgan obyekt orqali yoki klass nomi orqali murojat qilish mumkin:
 
@@ -133,7 +133,7 @@ class Avto:
 
 ### KLASSGA OID METODLAR
 
-Klasslarning o'ziga xos metodlari ham bo'lishi mumkin. Misol uchun yuqoridagi num\_avto xususiyatini ko'rish uchun alohida metod yozishimiz mumkin. Klassga oid metodlar @classmethod dekoratori bilan boshlanadi va obyektga oid metodlardan farqli ravishda *`self`* emas *`cls`* (class) argumentini qabul qiladi.
+Klasslarning o'ziga xos metodlari ham bo'lishi mumkin. Misol uchun yuqoridagi num\_avto xususiyatini ko'rish uchun alohida metod yozishimiz mumkin. Klassga oid metodlar @classmethod dekoratori bilan boshlanadi va obyektga oid metodlardan farqli ravishda _`self`_ emas _`cls`_ (class) argumentini qabul qiladi.
 
 ```python
 class Avto:
@@ -222,7 +222,7 @@ shaxs = Shaxs("Hasan","Husanov","FB0011223")
 Bu usul 2 sababga ko'ra tavsiya qilinmaydi:
 
 1. Dasturni kelajakda qayta ochganimizda, dastur davomida moduldagi aynan qaysi klasslardan foydalanganimizni bir qarashda bilib bo'lmaydi
-2. Agar modul juda katta bo'lsa, uning ichidagi ba'zi klasslar biz o'zimiz yaratgan klasslar bilan nomi bir hil bo'lib qolish ehtimoli bor. Bu esa o'z navbatida dastrumiz xato ishlashiga olib keladi.
+1. Agar modul juda katta bo'lsa, uning ichidagi ba'zi klasslar biz o'zimiz yaratgan klasslar bilan nomi bir hil bo'lib qolish ehtimoli bor. Bu esa o'z navbatida dastrumiz xato ishlashiga olib keladi.
 
 :::info
 Modul ichiga boshqa modulni ham import qilish mumkin. Masalan modul ichidagi ba'zi klasslar to'g'ri ishlashi uchun boshqa modul talab qilingan vaqtlarda.
@@ -230,6 +230,6 @@ Modul ichiga boshqa modulni ham import qilish mumkin. Masalan modul ichidagi ba'
 
 ## AMALIYOT
 
-* Avvalgi darslarimizda yaratgan `Shaxs` va `Talaba` klasslariga yopiq xususiyatlar qo'shing va ularning qiymatini ko'rsatuvchi va o'zgartiruvchi metodlar yozing.
-* Yuqoridagi klasslarga `talabalar_soni` va `odamlar_soni` degan klassga oid xususiyatlar qo'shing.
-* Klassga oid xususiyatlar bilan ishlash uchun maxsus `@classmethod` lar yozing
+- Avvalgi darslarimizda yaratgan `Shaxs` va `Talaba` klasslariga yopiq xususiyatlar qo'shing va ularning qiymatini ko'rsatuvchi va o'zgartiruvchi metodlar yozing.
+- Yuqoridagi klasslarga `talabalar_soni` va `odamlar_soni` degan klassga oid xususiyatlar qo'shing.
+- Klassga oid xususiyatlar bilan ishlash uchun maxsus `@classmethod` lar yozing

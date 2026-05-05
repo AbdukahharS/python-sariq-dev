@@ -131,8 +131,8 @@ Bu funksiya ham argument sifatida ro'yxat va boshqa funskiyani qabul qilib oladi
 Keling bunga ham bir misol ko'ramiz: tasodifiy sonlar ro'yxatidan juft sonalrni ajratib oluvchi dastur yozamiz. Dasturimiz 3 qismdan iborat:
 
 1. Avvalo, `random` modulidagi `sample()` funksiyasi yordamida 0-99 oralig'idagi 10 ta tasodifiy sonlar ro'yxatini tuzib oldik
-2. Berilgan son juft (True) yoki juft emas (False) ekanligini qaytaruvchi funksiya yozdik
-3. filter() fuksiyasiga yangi yaratgan juftmi funksiyasi va tasodifiy sonlar ro'yxatini uzatib, yangi juft\_sonlar ro'yxatini shakllantridik
+1. Berilgan son juft (True) yoki juft emas (False) ekanligini qaytaruvchi funksiya yozdik
+1. filter() fuksiyasiga yangi yaratgan juftmi funksiyasi va tasodifiy sonlar ro'yxatini uzatib, yangi juft\_sonlar ro'yxatini shakllantridik
 
 ```python
 import random as r
