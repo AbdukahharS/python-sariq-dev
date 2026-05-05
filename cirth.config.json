@@ -319,7 +319,8 @@
           "type": "page",
           "file": "oop/31-encapsulation.md",
           "title": "#31 INKAPSULYATSIA, KLASSNING XUSUSIYAT VA METODLARI",
-          "slug": "31-encapsulation"
+          "slug": "31-encapsulation",
+          "description": "Inkapsulyatsiya yordamida obyektning xususiyatlarini yashirish."
         },
         {
           "type": "page",
