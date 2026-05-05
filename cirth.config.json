@@ -396,7 +396,8 @@
           "type": "page",
           "file": "last-words/39-pip-pypi.md",
           "title": "#39 PIP VA TASHQI KUTUBXONALAR",
-          "slug": "39-pip-pypi"
+          "slug": "39-pip-pypi",
+          "description": "Tashqi kutubxonalar bilan ishlashni o'rganamiz"
         },
         {
           "type": "page",
