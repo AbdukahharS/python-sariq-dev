@@ -242,7 +242,8 @@
           "type": "page",
           "file": "function/23-modules.md",
           "title": "#23 MODULLAR",
-          "slug": "23-modules"
+          "slug": "23-modules",
+          "description": "Dasturni modullarga bo'lishni o'rganamiz"
         },
         {
           "type": "page",
