@@ -326,7 +326,8 @@
           "type": "page",
           "file": "oop/32-dunder-metodlar.md",
           "title": "#32 DUNDER METODLAR",
-          "slug": "32-dunder-metodlar"
+          "slug": "32-dunder-metodlar",
+          "description": "Pythondagi maxsus metodlar bilan tanishamiz."
         }
       ]
     },
