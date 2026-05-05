@@ -291,7 +291,8 @@
           "type": "page",
           "file": "oop/kirish.md",
           "title": "OOP NIMA?",
-          "slug": "kirish"
+          "slug": "kirish",
+          "description": "Object Oriented Dasturash va uning tamoyillari bilan tanishamiz"
         },
         {
           "type": "page",
