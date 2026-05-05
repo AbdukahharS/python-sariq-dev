@@ -83,10 +83,10 @@ class Talaba:
 
 Kodimizni tahlil qilamiz:
 
-- `class Talaba` — `Talaba` nomli klass yaratdik. Klasslarga nom berishda uning birinchi harfini katta harfdan boshlash tavsiya qilinadi. Agar klass nomi 2 va undan ko'p so'zdan iborat bo'lsa har bir so'zni katta harf bilan boshlang.
-- `def __init__(self)` — klassga tegishli xususiyatlarni saqlovchi maxsus metod (funksiya). self kalit so'zi ingliz tilidan "o'zi" deb tarjima qilinadi, va bu klassdan yaratilgan obyektning o'ziga ishora qiladi. Ya'ni keyinchalik biz obyekt ichidagi metodga murojat qilganimizda shu obyektning o'zi birinchi bo'lib funksiyaga argument sifatida uzatiladi, obyket ustida turli amallar bajarish imkonin beradi
-- `def __init__(self,ism,familiya,tyil)` — yaratayotgan klassimizga xos xususiyatlarni `def __init__(self)` funksiyasiga argument sifatida uzatamiz. Bizning Talaba klassimiz ism, familiya va tug'ilgan yilga ega bo'ladi.
-- Keyingi qatorlarda esa `self.xususiyat = argument` komandasi yordamida uzatilgan argumentlarni klassning xususiyatlari bilan bo'glayapmiz. Bu yerda xususiyat nomi uzatilgan argument nomi bilan mos tushishi shart emas, unga istalgan nom berishimiz mumkin (masalan `self.name = ism`)
+* `class Talaba` — `Talaba` nomli klass yaratdik. Klasslarga nom berishda uning birinchi harfini katta harfdan boshlash tavsiya qilinadi. Agar klass nomi 2 va undan ko'p so'zdan iborat bo'lsa har bir so'zni katta harf bilan boshlang.
+* `def __init__(self)` — klassga tegishli xususiyatlarni saqlovchi maxsus metod (funksiya). self kalit so'zi ingliz tilidan "o'zi" deb tarjima qilinadi, va bu klassdan yaratilgan obyektning o'ziga ishora qiladi. Ya'ni keyinchalik biz obyekt ichidagi metodga murojat qilganimizda shu obyektning o'zi birinchi bo'lib funksiyaga argument sifatida uzatiladi, obyket ustida turli amallar bajarish imkonin beradi
+* `def __init__(self,ism,familiya,tyil)` — yaratayotgan klassimizga xos xususiyatlarni `def __init__(self)` funksiyasiga argument sifatida uzatamiz. Bizning Talaba klassimiz ism, familiya va tug'ilgan yilga ega bo'ladi.
+* Keyingi qatorlarda esa `self.xususiyat = argument` komandasi yordamida uzatilgan argumentlarni klassning xususiyatlari bilan bo'glayapmiz. Bu yerda xususiyat nomi uzatilgan argument nomi bilan mos tushishi shart emas, unga istalgan nom berishimiz mumkin (masalan `self.name = ism`)
 
 ## KLASSDAN OBYEKT YARATAMIZ
 
@@ -133,8 +133,8 @@ print(talaba4.familiya)
 
 Natija:
 
-- `Olim`
-- `Akbarov`
+* `Olim`
+* `Akbarov`
 
 ## KLASSGA METODLAR QO'SHAMIZ
 
@@ -268,6 +268,6 @@ Yuqoridagi klassimizda `describe()` va `get_email()` funksiyalar badani hali tay
 
 ## AMALIYOT
 
-- Web sahifangiz uchun foydalanuvchi (user) klassini tuzing. Klassning xususiyatlari sifatida odatda ijtimoiy tarmoqlar talab qiladigan ma'lumotlarni kiriting (ism, foydalanuvchi ismi, email, va hokazo)
-- Klassga bir nechta metodlar qo'shing, jumladan get\_info() metodi foydalanuvchi haqida yig'ilgan ma'lumotlarni chiroyli qilib chiqarsin (masalan: "Foydalanuvchi: alijon1994, ismi: Alijon Valiyev, email: [alijon1994@gmail.com](mailto\:alijon1994@gmail.com)).
-- Klassdan bir nechta obyektlar yarating va uning xususiyatlari va metodlariga murojat qiling.
+* Web sahifangiz uchun foydalanuvchi (user) klassini tuzing. Klassning xususiyatlari sifatida odatda ijtimoiy tarmoqlar talab qiladigan ma'lumotlarni kiriting (ism, foydalanuvchi ismi, email, va hokazo)
+* Klassga bir nechta metodlar qo'shing, jumladan get\_info() metodi foydalanuvchi haqida yig'ilgan ma'lumotlarni chiroyli qilib chiqarsin (masalan: "Foydalanuvchi: alijon1994, ismi: Alijon Valiyev, email: [alijon1994@gmail.com](mailto\:alijon1994@gmail.com)).
+* Klassdan bir nechta obyektlar yarating va uning xususiyatlari va metodlariga murojat qiling.
