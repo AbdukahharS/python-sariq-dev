@@ -32,7 +32,7 @@ for kalit, qiymat in talaba_0.items():
     print(f"Qiymat: {qiymat} \n")
 ```
 
-![Natija](../cirth-assets/350102c9-0d4c-4657-8899-e1dde39a6c5b.png)
+![Natija](../cirth-assets/6b737a5b-a507-4889-9c8c-efdec7f17d89.png)
 
 Yuoqirdagi kodda, `talaba_0` lug'atidagi har bir kalit va qiymat juftligini konslga chiqardik. E'tibor bering, `for` tsiklida biz bir emas ikkita o'zgaruvchi yaratib oldik (`kalit` va `qiymat`).
 
@@ -50,7 +50,7 @@ for k, q in telefonlar.items():
     print(f"{k.title()}ning telefoni {q}")
 ```
 
-![Natija](../cirth-assets/6c24089f-8f4e-42e5-ae60-9669003f47b3.png)
+![Natija](../cirth-assets/bd0e7dcf-7e11-48ac-9bda-31ad4da929ec.png)
 
 ## `.keys()` METODI
 
@@ -76,7 +76,7 @@ for mahsulot in mahsulotlar.keys():
     print(mahsulot.title())
 ```
 
-![Natija](../cirth-assets/fa2235fd-0c96-4a20-b8c5-e4ac2031ba15.png)
+![Natija](../cirth-assets/0ba2fccc-bff9-419b-9af8-23e211f31214.png)
 
 :::info
 Yuqoridagi kodimizda, `for` tsiklida `.keys()` metodini ishlatmasak ham huddi shu natija chiqadi.
@@ -91,7 +91,7 @@ for mahsulot in mahsulotlar:
         print(f"{mahsulot.title()} {mahsulotlar[mahsulot]} so'm")
 ```
 
-![Natija](../cirth-assets/5b706f2e-9e14-4cbc-9cf8-d3368207bb2b.png)
+![Natija](../cirth-assets/bfab0144-4f5c-422a-b917-ec51d92537cd.png)
 
 Yuqordagi kodga e'tibor bering. Biz avval `borolik` degan ro'yxat yaratdik (uyga bozor qilyapmiz), keyin esa `mahsulotlar` lug'atidagi har bir mahsulotni bizdagi `bozorlik` ro'yxati bilan solishtirdik. Agar mahsulot bizning `bozorlik` ro'yxatimizda bo'lsa, uning narhini konsolga chiqardik.
 
@@ -103,7 +103,7 @@ for buyum in bozorlik:
         print(f"Iltimos, do'koningizga {buyum} ham olib keling")
 ```
 
-![Natija](../cirth-assets/8e122e13-c594-4ff6-813c-419ef40601b0.png)
+![Natija](../cirth-assets/9efaec2e-86ad-49eb-a039-098aa7572e97.png)
 
 ### LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
 
@@ -115,7 +115,7 @@ for mahsulot in sorted(mahsulotlar):
     print(mahsulot.title())
 ```
 
-![Natija](../cirth-assets/3428c2b3-78c9-4c0d-bd21-6def7a1258a7.png)
+![Natija](../cirth-assets/4f71e32a-f34e-4541-b2b3-ee1fd003fe30.png)
 
 ## `.values()` METODI
 
@@ -133,7 +133,7 @@ for tel in telefonlar.values():
     print(tel)
 ```
 
-![Natija](../cirth-assets/c94cd851-2202-4b47-a519-06123eeb5d9d.png)
+![Natija](../cirth-assets/040dcfee-43b4-41fa-8cf8-02312fe1cb2c.png)
 
 Yuqoridagi usul bilan qiymatlarni chiqrganimizda, lug'atdagi barcha qiymatlar chiqib keladi. Agar, biror qiymat ko'p marta qaytarilsa, konsolga ham ko'p marta chiqib keladi.
 
@@ -156,7 +156,7 @@ for tel in telefonlar.values():
     print(tel)
 ```
 
-![Natija](../cirth-assets/ced206ff-3691-4bec-99c4-fcf3a670e155.png)
+![Natija](../cirth-assets/045a9b52-4de1-4c9f-9a62-3eacabbf430b.png)
 
 Yuoqirdagi natijaga e'tibor bersanigz, bir nechta foydalanuvchilar **iphone x** va **galaxy s9** telefonidan foydalanishar ekan, va bu modellar qayta-qayta konsolga chiqdi.
 
@@ -168,7 +168,7 @@ for tel in set(telefonlar.values()):
     print(tel)
 ```
 
-![Natija](../cirth-assets/0152c607-dfc3-4cb3-aaa1-c6ae47e6387f.png)
+![Natija](../cirth-assets/83d54573-c5d5-44bc-8189-ec1b309a7939.png)
 
 :::info
 Pythonda `set` yana bir ma'lumot turi bo'lib, ro'yxat va lug'at kabi bir nechta elementlarni saqlashga mo'ljallangan. Lug'at va ro'yxatdan farqli ravishda, set ichidagi elementlar biror tartibda saqlanmaydi, va ularga indeks orqali murojat qilib bo'lmaydi. Shuningdek, set ichida bir hil elementlar bo'lmaydi.
@@ -176,21 +176,21 @@ Pythonda `set` yana bir ma'lumot turi bo'lib, ro'yxat va lug'at kabi bir nechta 
 
 ## AMALIYOT
 
-- Python izohli lug'atini yarating va lug'atga kamida 10 ta so'z qo'shing. Lug'atdagi har bir kalit va qiymatni for tsikli yordamida, alifbo ketma-ketligida chiroyli qilib konsolga chiqaring.
+* Python izohli lug'atini yarating va lug'atga kamida 10 ta so'z qo'shing. Lug'atdagi har bir kalit va qiymatni for tsikli yordamida, alifbo ketma-ketligida chiroyli qilib konsolga chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/110a7ac0-3e71-4af9-953a-f284168586c3.png)
+![Kutilgan natijaga misol](../cirth-assets/dce62170-2981-4aae-9ad7-62a1d2c7a8e3.png)
 
-- Davlatlar va ularning poytaxtlari lug'atini tuzing. Avval lug'atdagi davlatlarni, keyin poytaxtlarni alohida-alohida, alifbo ketma-ketligida konsolga chiqaring.
+* Davlatlar va ularning poytaxtlari lug'atini tuzing. Avval lug'atdagi davlatlarni, keyin poytaxtlarni alohida-alohida, alifbo ketma-ketligida konsolga chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/a31660a3-15ce-4768-a2d7-95125f60be52.png)
+![Kutilgan natijaga misol](../cirth-assets/d4411cc6-7406-4d50-bb64-cc4e4b4a9bf0.png)
 
-- Foydalanuvchidan istalgan davlatni kiritishni so'rang va shu davlatning poytaxtini konsolga chiqaring. Agar foydalanuvchi lug'atda yo'q davlatni kiritsa, "Bizda bunday ma'lumot yo'q" degan xabarni chiqaring.
+* Foydalanuvchidan istalgan davlatni kiritishni so'rang va shu davlatning poytaxtini konsolga chiqaring. Agar foydalanuvchi lug'atda yo'q davlatni kiritsa, "Bizda bunday ma'lumot yo'q" degan xabarni chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/d95db2d5-cb88-4711-b9db-626929bb724f.png)
+![Kutilgan natijaga misol](../cirth-assets/5ac5dac0-4afe-487f-a61d-36e4ddd460ea.png)
 
-- Restoran menusi lug'atini tuzing (kamida 10 ta taom-narh juftligini kiriting). Foydalanuvchidan 3 ta ovqat buyurtma berishni so'rang. Foydalanuvchi kiritgan taomlarni menu bilan solishtiring, agar taom menuda bo'lsa narhini ko'rsating, aks holda "bizda bunday taom yo'q" degan xabarni chiqaring.
+* Restoran menusi lug'atini tuzing (kamida 10 ta taom-narh juftligini kiriting). Foydalanuvchidan 3 ta ovqat buyurtma berishni so'rang. Foydalanuvchi kiritgan taomlarni menu bilan solishtiring, agar taom menuda bo'lsa narhini ko'rsating, aks holda "bizda bunday taom yo'q" degan xabarni chiqaring.
 
-![Kutilgan natijaga misol](../cirth-assets/7dbcd9d0-9cfa-4a3e-a0d8-16df71b22714.png)
+![Kutilgan natijaga misol](../cirth-assets/952256b2-07a7-4728-9e46-dc0c9720d44b.png)
 
 ## JAVOBLAR
 
