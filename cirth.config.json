@@ -1,8 +1,11 @@
 {
   "site": {
-    "name": "python-sariq-dev",
+    "name": "python.sariq.dev",
     "slug": "python-sariq-dev",
-    "themeId": "default"
+    "themeId": "default",
+    "siteConfig": {
+      "language": "en"
+    }
   },
   "navigation": [
     {
@@ -366,5 +369,8 @@
         }
       ]
     }
-  ]
+  ],
+  "content": {
+    "directory": "docs"
+  }
 }
