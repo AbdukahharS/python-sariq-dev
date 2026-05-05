@@ -10,9 +10,9 @@ Lug'at, ma'lumotlarni bizga tushunarliroq ko'rinishda saqlash imkonini beradi. M
 
 Keling, nima uchun bu ma'lumot turi lug'at (dictionary) deyilishini tushunish uchun, oddiy lu'gatga qaraymiz. Odatda, lug'atdagi ma'umotlar ikki qismdan iborat bo'ladi: kalit so'z va izoh (yoki tarjima).
 
-![Izholi Lug'at (savodxon.uz) / English-Uzbek Dictionary (SmartBox) dasturlari](../cirth-assets/d37ca4aa-823f-4833-b772-b397cb89c8d4.png)
+![Izholi Lug'at (savodxon.uz) / English-Uzbek Dictionary (SmartBox) dasturlari](../cirth-assets/df1943ce-3160-4b62-95b9-4b7d596dcda3.png)
 
-Xuddi oddiy lug'atlardagi ka'bi Python lug'atidagi ma'lumotlar ham ikki qismdan iborat bo'ladi: kalit so'z va qiymat (ingliz tilida _key-value pair_ yoki _kalit so'z-qiymat juftligi_ deyiladi).
+Xuddi oddiy lug'atlardagi ka'bi Python lug'atidagi ma'lumotlar ham ikki qismdan iborat bo'ladi: kalit so'z va qiymat (ingliz tilida *key-value pair* yoki *kalit so'z-qiymat juftligi* deyiladi).
 
 :::info
 Dasturlashda ko'p ishlatiladigan atamalarni ingliz tilida yodlab qolish juda muhim! Bu sizga kelajakda yangi ma'lumotlar izlashda, xatolar usitda ishlashda va umuman ish faoliyatingizda ko'p asqotadi. Shuing uchun variable, integer, float, string, list, tuple, dictionary, function, loop, va boshqa so'zlarni yaxshilab o'zlashtirib oling.
@@ -28,7 +28,7 @@ Yuqorida `car_0` degan lug'at yaratdik. Lu'gatda 2 ta ma'lumot bor: mashinaning 
 
 ## LUG'AT BILAN ISHLASH
 
-Demak, Pytonda lug'at _kalit so'z-qiymat_ juftliklarining yi'ginidisi ekan. Lug'atdagi biror qiymatni ko'rish uchun unga kalit so'z orqali murojat qilamiz:
+Demak, Pytonda lug'at *kalit so'z-qiymat* juftliklarining yi'ginidisi ekan. Lug'atdagi biror qiymatni ko'rish uchun unga kalit so'z orqali murojat qilamiz:
 
 ```python
 car_0 = {'model':'ferrari','rang':'qizil'}
@@ -193,16 +193,16 @@ Natija: `None`
 
 ## AMALIYOT
 
-- otam (onam, akam, ukam, va hokazo) degan lug'at yarating va lug'atga shu inson haqida kamida 3 ta m'alumot kiriting (ismi, tu'gilgan yili, shahri, manzili va hokazo). Lug'atdagi ma'lumotni matn shaklida konsolga chiqaring :`Otamning ismi Mavlutdin, 1954-yilda, Samarqand viloyatida tug'ilgan`
-- Oila a'zolaringizning sevimli taomlari lug'atini tuzing. Lug'atda kamida 5 ta ism-taom jufltigi bo'lsin. Kamida uch kishining sevimli taomini konsolga chiqaring: `Alining sevimli taomi osh`
-- Python izohli lu'gati tuzing: Lug'atga shu kunga qadar o'rgangan 10 ta so'z (atamani) kiriting (masalan integer, float, string, if, else va hokazo) va har birining qisqacha tarjimasini yozing.
-- Foydalanuvchidan biror so'z kiritishni so'rang va so'zning tarjimasini yuqoridagi lug'atdan chiqarib bering. Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" degan xabarni chiqaring.
+* otam (onam, akam, ukam, va hokazo) degan lug'at yarating va lug'atga shu inson haqida kamida 3 ta m'alumot kiriting (ismi, tu'gilgan yili, shahri, manzili va hokazo). Lug'atdagi ma'lumotni matn shaklida konsolga chiqaring :`Otamning ismi Mavlutdin, 1954-yilda, Samarqand viloyatida tug'ilgan`
+* Oila a'zolaringizning sevimli taomlari lug'atini tuzing. Lug'atda kamida 5 ta ism-taom jufltigi bo'lsin. Kamida uch kishining sevimli taomini konsolga chiqaring: `Alining sevimli taomi osh`
+* Python izohli lu'gati tuzing: Lug'atga shu kunga qadar o'rgangan 10 ta so'z (atamani) kiriting (masalan integer, float, string, if, else va hokazo) va har birining qisqacha tarjimasini yozing.
+* Foydalanuvchidan biror so'z kiritishni so'rang va so'zning tarjimasini yuqoridagi lug'atdan chiqarib bering. Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" degan xabarni chiqaring.
 
-![](../cirth-assets/14a025fa-0aa1-4e65-ad8e-e2e72225f8f8.png)
+![](../cirth-assets/8dd9039d-5c96-4dc7-8e0d-2f792fa1d5aa.png)
 
-- Yuqoridagi vazifani `if-else` yordamida qiling va natijani ham foydalanuvchiga tushunarli ko'rinishda chiqaring.
+* Yuqoridagi vazifani `if-else` yordamida qiling va natijani ham foydalanuvchiga tushunarli ko'rinishda chiqaring.
 
-![](../cirth-assets/d9186e15-2308-4b97-8f85-6e6c006a4364.png)
+![](../cirth-assets/102026da-0f25-4c80-98ab-f9c620cf5edd.png)
 
 ## JAVOBLAR
 
