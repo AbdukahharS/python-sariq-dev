@@ -13,7 +13,7 @@ Darslarni boshlashdan avval, keling...
 ## TANISHAMIZ
 
 <div align="center">
-  ![](cirth-assets/dc1428aa-9b42-4ada-9875-2569e870f75f.png)
+  ![](cirth-assets/d7052bb3-1ae6-4643-a528-861a9b59ba8e.png)
 </div>
 
 Ismim **Anvar Narzullaev.**
@@ -38,7 +38,7 @@ SariqDev telegram kanali: [https://t.me/sariqdev](https://t.me/sariqdev)
 
 SariqDevYoutube kanali: [https://www.youtube.com/sariqdev](https://www.youtube.com/sariqdev)
 
-![](cirth-assets/6ada9229-8e70-4fce-8ef8-fc48b8eab8de.png)
+![](cirth-assets/c960e304-eb36-4b15-9319-87a1151ca13f.png)
 
 ## DARSLARIMIZ KIM UCHUN?
 
@@ -73,7 +73,7 @@ Kursimizning **ikkinchi qismida** esa o'zlashtirgan bilimlaringizni puxtalash uc
 
 * Python dasturlash tiliga bo'lgan talab yildan yilga oshib kelmoqda. CodingDojo portalining tadqiqotlariga ko'ra, 2020 yilda aynan Python tilida dasturlovchi mutaxassislarga eng ko'p talab bo'lgan
 
-![Manba: https://www.codingdojo.com/blog/top-7-programming-languages](cirth-assets/2d4cac7c-5021-4868-b780-d1e7937f1f16.png)
+![Manba: https://www.codingdojo.com/blog/top-7-programming-languages](cirth-assets/bc2236cc-3f6a-4442-96c8-c9de371e3b1c.png)
 
 * Python Artificial Intelligence (Sun'iy intellekt) va Data Science (Ulkan ma'lumotlar bilan ishlash) sohalarining tili hisoblanadi. Bugungi kunda keng ommalashib borayotgan sun'iy intellekt asosida ishlovchi dasturlarning aksari Pythonda yozilgan. **Bu sohalardagi mutaxassislar bugungi kunda eng noyob va qimmatbaho kadrlar hisoblanadi.**
 * Keng qamrovli va universal til. Python dasturlari deyarli barcha operativ tizimlarda va platformalarda ishlaydi.
@@ -95,7 +95,7 @@ print("Assalom Alaykum!")
 
 * Moslashuvchanlik —Python dasturlash tili ma'lum bir masalalarni yechish bilan chegaralanmagan. Bu til dasturchilarga yangi va yangi yo'nalishlarga ki'rish imkonini beradi. Python quyidagi sohalarda qo'llaniladi: Web va Internet dasturlash, kompyuter o'yinlarini yaratish, ma'lumotlar bazasi bilan ishlash (DB), computer vision, foydalanuvchilar uchun grafik interfeys (GUI), juda tez rivojlanayotgan buyumlar interneti (IoT) texnologiyasi va hokazo.
 
-![Manba: https://data-flair.training/blogs/python-applications/](cirth-assets/60454db9-befb-4e15-b5c2-d877c7ce0811.png)
+![Manba: https://data-flair.training/blogs/python-applications/](cirth-assets/1da71088-d365-4870-a193-7a70c0b33db7.webp)
 
 ## **MANBALAR**
 
