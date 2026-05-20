@@ -4,7 +4,7 @@
     "slug": "test",
     "themeId": "default",
     "themeConfig": {
-      "theme": "bold",
+      "theme": "clean",
       "primaryColor": "#3b82f6",
       "fontFamily": "Inter",
       "darkMode": null,
