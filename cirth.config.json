@@ -5,7 +5,7 @@
     "themeId": "default",
     "themeConfig": {
       "theme": "gradient",
-      "primaryColor": "#f50000",
+      "primaryColor": "#f57600",
       "fontFamily": "Inter",
       "darkMode": null,
       "sidebarStyle": "filled",
