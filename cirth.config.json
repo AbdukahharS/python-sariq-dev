@@ -4,8 +4,15 @@
     "slug": "test",
     "themeId": "default",
     "themeConfig": {
+      "theme": "bold",
+      "primaryColor": "#3b82f6",
       "fontFamily": "Inter",
-      "darkMode": null
+      "darkMode": null,
+      "sidebarStyle": "default",
+      "listStyle": "default",
+      "linkStyle": "default",
+      "cornerStyle": "rounded",
+      "depthStyle": "subtle"
     },
     "logoUrl": "https://pub-d539d05c5c7343988c993eb233b1f7f6.r2.dev/assets/135dab65-7d00-49cd-85f1-e1a82a109727/9bc75df4-deed-406d-9b66-39d66738f03d/3951b164-9769-450f-8a2d-908e753678e6.png"
   },
