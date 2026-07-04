@@ -1,0 +1,632 @@
+{
+  "site": {
+    "name": "python-sariq-dev",
+    "slug": "test",
+    "themeId": "default",
+    "themeConfig": {
+      "theme": "gradient",
+      "primaryColor": "#f57600",
+      "fontFamily": "Inter",
+      "darkMode": null,
+      "sidebarStyle": "filled",
+      "listStyle": "default",
+      "linkStyle": "default",
+      "cornerStyle": "rounded",
+      "depthStyle": "subtle",
+      "gradientAngle": 208
+    },
+    "logoUrl": "https://pub-d539d05c5c7343988c993eb233b1f7f6.r2.dev/assets/135dab65-7d00-49cd-85f1-e1a82a109727/9bc75df4-deed-406d-9b66-39d66738f03d/3951b164-9769-450f-8a2d-908e753678e6.png"
+  },
+  "content": {
+    "directory": "docs"
+  },
+  "sections": [
+    {
+      "slug": "docs",
+      "name": "Documentation",
+      "directory": "docs",
+      "versioned": true,
+      "versions": [
+        {
+          "slug": "latest",
+          "name": "latest",
+          "navigation": [
+            {
+              "type": "group",
+              "title": {
+                "en": "Amaliyot"
+              },
+              "slug": {
+                "en": "amaliyot"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "amaliyot/25-guess-the-number.md",
+                  "title": {
+                    "en": "25 Guess The Number"
+                  },
+                  "slug": {
+                    "en": "25-guess-the-number"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "amaliyot/26-guess-the-word.md",
+                  "title": {
+                    "en": "26 Guess The Word"
+                  },
+                  "slug": {
+                    "en": "26-guess-the-word"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "amaliyot/27-cyr2lat-bot.md",
+                  "title": {
+                    "en": "27 Cyr2lat Bot"
+                  },
+                  "slug": {
+                    "en": "27-cyr2lat-bot"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Dictionary"
+              },
+              "slug": {
+                "en": "dictionary"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "dictionary/14-dictionary.md",
+                  "title": {
+                    "en": "14 Dictionary"
+                  },
+                  "slug": {
+                    "en": "14-dictionary"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "dictionary/15-dictionary-sets.md",
+                  "title": {
+                    "en": "15 Dictionary Sets"
+                  },
+                  "slug": {
+                    "en": "15-dictionary-sets"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "dictionary/16-nesting.md",
+                  "title": {
+                    "en": "16 Nesting"
+                  },
+                  "slug": {
+                    "en": "16-nesting"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Extras"
+              },
+              "slug": {
+                "en": "extras"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "extras/regex.md",
+                  "title": {
+                    "en": "Regex"
+                  },
+                  "slug": {
+                    "en": "regex"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Files Exceptions"
+              },
+              "slug": {
+                "en": "files-exceptions"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "files-exceptions/33-files.md",
+                  "title": {
+                    "en": "33 Files"
+                  },
+                  "slug": {
+                    "en": "33-files"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "files-exceptions/34-json.md",
+                  "title": {
+                    "en": "34 Json"
+                  },
+                  "slug": {
+                    "en": "34-json"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "files-exceptions/35-xatolar.md",
+                  "title": {
+                    "en": "35 Xatolar"
+                  },
+                  "slug": {
+                    "en": "35-xatolar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Function"
+              },
+              "slug": {
+                "en": "function"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "function/19-function.md",
+                  "title": {
+                    "en": "19 Function"
+                  },
+                  "slug": {
+                    "en": "19-function"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "function/20-qiymat-qaytarish.md",
+                  "title": {
+                    "en": "20 Qiymat Qaytarish"
+                  },
+                  "slug": {
+                    "en": "20-qiymat-qaytarish"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "function/21-funksiya-va-royxat.md",
+                  "title": {
+                    "en": "21 Funksiya Va Royxat"
+                  },
+                  "slug": {
+                    "en": "21-funksiya-va-royxat"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "function/22-flexible-functions.md",
+                  "title": {
+                    "en": "22 Flexible Functions"
+                  },
+                  "slug": {
+                    "en": "22-flexible-functions"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "function/23-modules.md",
+                  "title": {
+                    "en": "23 Modules"
+                  },
+                  "slug": {
+                    "en": "23-modules"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "function/24-lambda.md",
+                  "title": {
+                    "en": "24 Lambda"
+                  },
+                  "slug": {
+                    "en": "24-lambda"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "page",
+              "file": "howto.md",
+              "title": {
+                "en": "Howto"
+              },
+              "slug": {
+                "en": "howto"
+              }
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Ilk Qadamlar"
+              },
+              "slug": {
+                "en": "ilk-qadamlar"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "ilk-qadamlar/01-software.md",
+                  "title": {
+                    "en": "01 Software"
+                  },
+                  "slug": {
+                    "en": "01-software"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ilk-qadamlar/02-hello-world.md",
+                  "title": {
+                    "en": "02 Hello World"
+                  },
+                  "slug": {
+                    "en": "02-hello-world"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ilk-qadamlar/03-print.md",
+                  "title": {
+                    "en": "03 Print"
+                  },
+                  "slug": {
+                    "en": "03-print"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "page",
+              "file": "index.md",
+              "title": {
+                "en": "Index"
+              },
+              "slug": {
+                "en": ""
+              }
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Last Words"
+              },
+              "slug": {
+                "en": "last-words"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "last-words/38-python-library.md",
+                  "title": {
+                    "en": "38 Python Library"
+                  },
+                  "slug": {
+                    "en": "38-python-library"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "last-words/40-the-end.md",
+                  "title": {
+                    "en": "40 The End"
+                  },
+                  "slug": {
+                    "en": "40-the-end"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "last-words/39-pip-pypi.md",
+                  "title": {
+                    "en": "39 Pip Pypi"
+                  },
+                  "slug": {
+                    "en": "39-pip-pypi"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Lirik Chekinish 1"
+              },
+              "slug": {
+                "en": "lirik-chekinish-1"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "lirik-chekinish-1/12-xatolar.md",
+                  "title": {
+                    "en": "12 Xatolar"
+                  },
+                  "slug": {
+                    "en": "12-xatolar"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "lirik-chekinish-1/13-github.md",
+                  "title": {
+                    "en": "13 Github"
+                  },
+                  "slug": {
+                    "en": "13-github"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Oop"
+              },
+              "slug": {
+                "en": "oop"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "oop/28-klasslar.md",
+                  "title": {
+                    "en": "28 Klasslar"
+                  },
+                  "slug": {
+                    "en": "28-klasslar"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "oop/29-obyektlar-bilan-ishlash.md",
+                  "title": {
+                    "en": "29 Obyektlar Bilan Ishlash"
+                  },
+                  "slug": {
+                    "en": "29-obyektlar-bilan-ishlash"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "oop/30-vorislik-polimorfizm.md",
+                  "title": {
+                    "en": "30 Vorislik Polimorfizm"
+                  },
+                  "slug": {
+                    "en": "30-vorislik-polimorfizm"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "oop/31-encapsulation.md",
+                  "title": {
+                    "en": "31 Encapsulation"
+                  },
+                  "slug": {
+                    "en": "31-encapsulation"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "oop/32-dunder-metodlar.md",
+                  "title": {
+                    "en": "32 Dunder Metodlar"
+                  },
+                  "slug": {
+                    "en": "32-dunder-metodlar"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "oop/kirish.md",
+                  "title": {
+                    "en": "Kirish"
+                  },
+                  "slug": {
+                    "en": "kirish"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Ozgaruvchilar Va Malumot Turlari"
+              },
+              "slug": {
+                "en": "ozgaruvchilar-va-malumot-turlari"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "ozgaruvchilar-va-malumot-turlari/04-variables.md",
+                  "title": {
+                    "en": "04 Variables"
+                  },
+                  "slug": {
+                    "en": "04-variables"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ozgaruvchilar-va-malumot-turlari/05-string.md",
+                  "title": {
+                    "en": "05 String"
+                  },
+                  "slug": {
+                    "en": "05-string"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ozgaruvchilar-va-malumot-turlari/06-sonlar.md",
+                  "title": {
+                    "en": "06 Sonlar"
+                  },
+                  "slug": {
+                    "en": "06-sonlar"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ozgaruvchilar-va-malumot-turlari/07-lists.md",
+                  "title": {
+                    "en": "07 Lists"
+                  },
+                  "slug": {
+                    "en": "07-lists"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ozgaruvchilar-va-malumot-turlari/08-list-tuple.md",
+                  "title": {
+                    "en": "08 List Tuple"
+                  },
+                  "slug": {
+                    "en": "08-list-tuple"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "ozgaruvchilar-va-malumot-turlari/09-for-loop.md",
+                  "title": {
+                    "en": "09 For Loop"
+                  },
+                  "slug": {
+                    "en": "09-for-loop"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Shartlar"
+              },
+              "slug": {
+                "en": "shartlar"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "shartlar/10-if-else.md",
+                  "title": {
+                    "en": "10 If Else"
+                  },
+                  "slug": {
+                    "en": "10-if-else"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "shartlar/11-if-elif-else.md",
+                  "title": {
+                    "en": "11 If Elif Else"
+                  },
+                  "slug": {
+                    "en": "11-if-elif-else"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "Testing"
+              },
+              "slug": {
+                "en": "testing"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "testing/36-function-test.md",
+                  "title": {
+                    "en": "36 Function Test"
+                  },
+                  "slug": {
+                    "en": "36-function-test"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "testing/37-klass-test.md",
+                  "title": {
+                    "en": "37 Klass Test"
+                  },
+                  "slug": {
+                    "en": "37-klass-test"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": {
+                "en": "While"
+              },
+              "slug": {
+                "en": "while"
+              },
+              "children": [
+                {
+                  "type": "page",
+                  "file": "while/17-while-loop.md",
+                  "title": {
+                    "en": "17 While Loop"
+                  },
+                  "slug": {
+                    "en": "17-while-loop"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "while/18-while-lists.md",
+                  "title": {
+                    "en": "18 While Lists"
+                  },
+                  "slug": {
+                    "en": "18-while-lists"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "page",
+              "file": "yangilik.md",
+              "title": {
+                "en": "Yangilik"
+              },
+              "slug": {
+                "en": "yangilik"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
