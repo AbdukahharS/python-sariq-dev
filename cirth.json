@@ -328,22 +328,22 @@
                 },
                 {
                   "type": "page",
-                  "file": "last-words/40-the-end.md",
-                  "title": {
-                    "en": "40 The End"
-                  },
-                  "slug": {
-                    "en": "40-the-end"
-                  }
-                },
-                {
-                  "type": "page",
                   "file": "last-words/39-pip-pypi.md",
                   "title": {
                     "en": "39 Pip Pypi"
                   },
                   "slug": {
                     "en": "39-pip-pypi"
+                  }
+                },
+                {
+                  "type": "page",
+                  "file": "last-words/40-the-end.md",
+                  "title": {
+                    "en": "40 The End"
+                  },
+                  "slug": {
+                    "en": "40-the-end"
                   }
                 }
               ]
